@@ -72,8 +72,19 @@ svd.device(schemaVersion: '1.1',
         next if seen_instance
 
         registers = mod.xpath('register')
+        seen_registers = []
         x.registers do |x|
           registers.each do |register|
+            if seen_registers.include?(register.get('id'))
+              # This happens in a few places; the intended behavior is probably merging
+              # the register definitions, but since all of those lack bitfields anyway,
+              # we don't care.
+              puts "Ignoring duplicate register #{instance.get('id')}.#{register.get('id')}"
+              next
+            else
+              seen_registers.push(register.get('id'))
+            end
+
             x.register do |x|
               x.name(register.get('id'))
               x.displayName(register.get('acronym'))
