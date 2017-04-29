@@ -10,5 +10,5 @@ clean:
 	rm -f $(DEVICES)
 
 svd/%.xml: targetdb/devices/%.xml
-	ruby ti2svd.rb $< $@
+	ruby dslite2svd.rb $< $@
 	if which xmllint >/dev/null; then xmllint --schema CMSIS-SVD.xsd --noout $@; fi
