@@ -19,6 +19,18 @@ Usage
 The up-to-date SVD files will be placed in the `svd` directory. For convenience,
 they are already provided in this repository.
 
+Limitations
+-----------
+
+The output of ti2svd is checked against the SVD schema using xmllint, if it is installed
+(xmllint is a part of libxml). It should also be robust against unrecognized input,
+but no strong guarantees are made.
+
+Some features are not implemented:
+  * Reset values are ignored and not converted. The TI XML descriptions I looked at
+    do not have them anyway.
+  * The CPU section of the SVD file is not populated.
+
 License (of ti2svd)
 -------------------
 
