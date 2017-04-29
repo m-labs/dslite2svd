@@ -1,0 +1,13 @@
+diff --git a/svd/tm4c129x.xml b/svd/tm4c129x.xml
+index 7571578..6799a9b 100644
+--- a/svd/tm4c129x.xml
++++ b/svd/tm4c129x.xml
+@@ -1,7 +1,7 @@
+ <device schemaVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="CMSIS-SVD.xsd">
+   <vendor>Texas Instruments</vendor>
+   <vendorID>TI</vendorID>
+-  <name>TM4C1294NCPDT</name>
++  <name>TM4C129x</name>
+   <series>Tiva C Series</series>
+   <version>1</version>
+   <description>(no description)</description>
