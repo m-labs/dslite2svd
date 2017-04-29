@@ -12,6 +12,29 @@ def if_not_empty(x)
   yield x unless x.empty?
 end
 
+def common_id_prefix(nodes)
+  if nodes.one?
+    /^$/
+  else
+    prefix = nodes.first.get('id').dup
+    nodes.each do |node|
+      until node.get('id').start_with?(prefix) && node.get('id') != prefix
+        prefix.sub!(/_[^_]+_?$/, '_')
+      end
+    end
+    /^#{Regexp.escape prefix}/
+  end
+end
+
+def strip_id_prefix(node, prefix)
+  id = node.get('id')
+  id = id.sub(prefix, '')
+  if id =~ /^[0-9]/
+    id = "_#{id}"
+  end
+  id
+end
+
 device = ti_doc.xpath('device').first
 svd.device(schemaVersion: '1.1',
            'xmlns:xs': 'http://www.w3.org/2001/XMLSchema-instance',
@@ -72,6 +95,7 @@ svd.device(schemaVersion: '1.1',
         next if seen_instance
 
         registers = mod.xpath('register')
+        register_id_prefix = common_id_prefix(registers)
         seen_registers = []
         x.registers do |x|
           registers.each do |register|
@@ -86,7 +110,7 @@ svd.device(schemaVersion: '1.1',
             end
 
             x.register do |x|
-              x.name(register.get('id'))
+              x.name(strip_id_prefix(register, register_id_prefix))
               x.displayName(register.get('acronym'))
               x.description(register.get('description'))
               if register.get('offset').nil?
@@ -114,10 +138,11 @@ svd.device(schemaVersion: '1.1',
                 next
               end
 
+              bitfield_id_prefix = common_id_prefix(bitfields)
               x.fields do
                 bitfields.each do |bitfield|
                   x.field do |x|
-                    x.name(bitfield.get('id'))
+                    x.name(strip_id_prefix(bitfield, bitfield_id_prefix))
                     x.description(bitfield.get('description'))
                     x.lsb(bitfield.get('end'))
                     x.msb(bitfield.get('begin'))
@@ -129,10 +154,11 @@ svd.device(schemaVersion: '1.1',
                     bitenums = bitfield.xpath('bitenum')
                     next if bitenums.empty?
 
+                    bitenum_id_prefix = common_id_prefix(bitenums)
                     x.enumeratedValues do |x|
                       bitenums.each do |bitenum|
                         x.enumeratedValue do |x|
-                          x.name(bitenum.get('id'))
+                          x.name(strip_id_prefix(bitenum, bitenum_id_prefix))
                           x.description(bitenum.get('description'))
 
                           value = Integer(bitenum.get('value'))
