@@ -134,7 +134,11 @@ svd.device(schemaVersion: '1.1',
                         x.enumeratedValue do |x|
                           x.name(bitenum.get('id'))
                           x.description(bitenum.get('description'))
-                          x.value(bitenum.get('value'))
+
+                          value = Integer(bitenum.get('value'))
+                          value >>= Integer(bitfield.get('end'))
+                          x.value("0x#{value.to_s(16)}")
+
                           if !bitenum.get('token')
                             raise "Unexpected non-empty token in #{bitenum}"
                           end
