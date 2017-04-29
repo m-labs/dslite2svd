@@ -52,6 +52,8 @@ svd.device(schemaVersion: '1.1',
   #TODO x.cpu()
   x.addressUnitBits(8)
   x.width(32)
+  x.resetValue('0x00000000')
+  x.resetMask('0xffffffff')
 
   instances = device.xpath('router//instance')
   seen_instances = {}
@@ -149,6 +151,9 @@ svd.device(schemaVersion: '1.1',
                     x.access(access_map.fetch(bitfield.get('rwaccess')))
                     if !bitfield.get('range').empty?
                       raise "Unexpected non-empty range in #{bitfield}"
+                    end
+                    if !bitfield.get('resetval').empty?
+                      raise "Unexpected non-empty resetval in #{bitfield}"
                     end
 
                     bitenums = bitfield.xpath('bitenum')

@@ -27,8 +27,6 @@ The output of _dslite2svd_ is checked against the SVD schema using xmllint, if i
 but no strong guarantees are made.
 
 Some features are not implemented:
-  * Reset values are ignored and not converted. It seems that the TM4C series initializes
-    all registers (except read-only) to zeroes.
   * The CPU section of the SVD file is not populated.
 
 License (of dslite2svd)
