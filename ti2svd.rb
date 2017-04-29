@@ -108,8 +108,8 @@ svd.device(schemaVersion: '1.1',
                   x.field do |x|
                     x.name(bitfield.get('id'))
                     x.description(bitfield.get('description'))
-                    x.lsb(bitfield.get('begin'))
-                    x.msb(bitfield.get('end'))
+                    x.lsb(bitfield.get('end'))
+                    x.msb(bitfield.get('begin'))
                     x.access(access_map.fetch(bitfield.get('rwaccess')))
                     if !bitfield.get('range').empty?
                       raise "Unexpected non-empty range in #{bitfield}"
