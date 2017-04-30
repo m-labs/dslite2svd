@@ -79,7 +79,7 @@ svd.device(schemaVersion: '1.1',
     instances = device.xpath('router//instance')
     seen_instances = {}
     instances.each do |instance|
-      if %w(cs_dap_0 cortex_m3_0 cortex_m4_0 fpu).include?(instance.get('id').downcase)
+      if %w(cs_dap_0 cortex_m3_0 cortex_m4_0 fpu nvic).include?(instance.get('id').downcase)
         next
       end
 
