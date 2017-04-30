@@ -14,9 +14,9 @@ def if_not_empty(x)
   yield x unless x.empty?
 end
 
-def common_id_prefix(nodes)
+def common_id_prefix(nodes, basename)
   if nodes.one?
-    /^$/
+    /^#{Regexp.escape basename}_/
   else
     prefix = nodes.first.get('id').dup
     nodes.each do |node|
@@ -117,7 +117,7 @@ svd.device(schemaVersion: '1.1',
         next if seen_instance
 
         registers = mod.xpath('register')
-        register_id_prefix = common_id_prefix(registers)
+        register_id_prefix = common_id_prefix(registers, instance.get('id'))
         seen_registers = []
         x.registers do |x|
           registers.each do |register|
@@ -154,7 +154,7 @@ svd.device(schemaVersion: '1.1',
               bitfields = register.xpath('bitfield')
               next if bitfields.empty?
 
-              bitfield_id_prefix = common_id_prefix(bitfields)
+              bitfield_id_prefix = common_id_prefix(bitfields, register.get('id'))
               x.fields do
                 bitfields.each do |bitfield|
                   x.field do |x|
@@ -183,7 +183,7 @@ svd.device(schemaVersion: '1.1',
                     end
                     next if bitenums.empty?
 
-                    bitenum_id_prefix = common_id_prefix(bitenums)
+                    bitenum_id_prefix = common_id_prefix(bitenums, bitfield.get('id'))
                     x.enumeratedValues do |x|
                       bitenums.each do |bitenum|
                         x.enumeratedValue do |x|
