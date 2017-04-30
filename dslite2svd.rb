@@ -2,11 +2,13 @@ require 'bundler/setup'
 require 'oga'
 require 'builder'
 
-input  = ARGV[0]
-output = ARGV[1]
+registers_file  = ARGV[0]
+interrupts_file = ARGV[1]
+output_file     = ARGV[2]
 
-ti_doc = Oga.parse_xml(File.read(input))
-svd = Builder::XmlMarkup.new(target: File.open(output, 'w'), indent: 2)
+registers_doc = Oga.parse_xml(File.read(registers_file))
+interrupts_doc = Oga.parse_xml(File.read(interrupts_file))
+svd = Builder::XmlMarkup.new(target: File.open(output_file, 'w'), indent: 2)
 
 def if_not_empty(x)
   yield x unless x.empty?
@@ -35,7 +37,8 @@ def strip_id_prefix(node, prefix)
   id
 end
 
-device = ti_doc.xpath('device').first
+device = registers_doc.xpath('device').first
+interrupts = interrupts_doc.xpath('interrupts/interrupt')
 svd.device(schemaVersion: '1.1',
            'xmlns:xs': 'http://www.w3.org/2001/XMLSchema-instance',
            'xs:noNamespaceSchemaLocation': 'CMSIS-SVD.xsd') do |x|
@@ -55,15 +58,32 @@ svd.device(schemaVersion: '1.1',
   x.resetValue('0x00000000')
   x.resetMask('0xffffffff')
 
-  instances = device.xpath('router//instance')
-  seen_instances = {}
   x.peripherals do |x|
+    # There's no especially good or even reliable way to assign known interrupts to peripherals
+    # (especially seeing as some of them are shared), so just add a fake peripheral, solely
+    # a container for interrupts.
+    x.comment! interrupts_file
+    x.peripheral do |x|
+      x.name('_INTERRUPTS')
+      x.baseAddress(0)
+
+      interrupts.each do |interrupt|
+        x.interrupt do |x|
+          x.name(interrupt.get('id'))
+          x.description(interrupt.get('description'))
+          x.value(interrupt.get('value'))
+        end
+      end
+    end
+
+    instances = device.xpath('router//instance')
+    seen_instances = {}
     instances.each do |instance|
       if %w(cs_dap_0 cortex_m3_0 cortex_m4_0 fpu).include?(instance.get('id').downcase)
         next
       end
 
-      mod_path = File.join(File.dirname(input), instance.get('href'))
+      mod_path = File.join(File.dirname(registers_file), instance.get('href'))
       mod_doc = Oga.parse_xml(File.read(mod_path))
       mod = mod_doc.xpath('module').first
 

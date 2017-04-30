@@ -1,0 +1,107 @@
+<interrupts>
+  <interrupt id="GPIOA" value="16" description="GPIO Port A"/>
+  <interrupt id="GPIOB" value="17" description="GPIO Port B"/>
+  <interrupt id="GPIOC" value="18" description="GPIO Port C"/>
+  <interrupt id="GPIOD" value="19" description="GPIO Port D"/>
+  <interrupt id="GPIOE" value="20" description="GPIO Port E"/>
+  <interrupt id="UART0" value="21" description="UART0"/>
+  <interrupt id="UART1" value="22" description="UART1"/>
+  <interrupt id="SSI0" value="23" description="SSI0"/>
+  <interrupt id="I2C0" value="24" description="I2C0"/>
+  <interrupt id="PWM0_FAULT" value="25" description="PWM Fault"/>
+  <interrupt id="PWM0_0" value="26" description="PWM Generator 0"/>
+  <interrupt id="PWM0_1" value="27" description="PWM Generator 1"/>
+  <interrupt id="PWM0_2" value="28" description="PWM Generator 2"/>
+  <interrupt id="QEI0" value="29" description="QEI0"/>
+  <interrupt id="ADC0SS0" value="30" description="ADC0 Sequence 0"/>
+  <interrupt id="ADC0SS1" value="31" description="ADC0 Sequence 1"/>
+  <interrupt id="ADC0SS2" value="32" description="ADC0 Sequence 2"/>
+  <interrupt id="ADC0SS3" value="33" description="ADC0 Sequence 3"/>
+  <interrupt id="WATCHDOG" value="34" description="Watchdog Timers 0 and 1"/>
+  <interrupt id="TIMER0A" value="35" description="16/32-Bit Timer 0A"/>
+  <interrupt id="TIMER0B" value="36" description="16/32-Bit Timer 0B"/>
+  <interrupt id="TIMER1A" value="37" description="16/32-Bit Timer 1A"/>
+  <interrupt id="TIMER1B" value="38" description="16/32-Bit Timer 1B"/>
+  <interrupt id="TIMER2A" value="39" description="16/32-Bit Timer 2A"/>
+  <interrupt id="TIMER2B" value="40" description="16/32-Bit Timer 2B"/>
+  <interrupt id="COMP0" value="41" description="Analog Comparator 0"/>
+  <interrupt id="COMP1" value="42" description="Analog Comparator 1"/>
+  <interrupt id="COMP2" value="43" description="Analog Comparator 2"/>
+  <interrupt id="SYSCTL" value="44" description="System Control"/>
+  <interrupt id="FLASH" value="45" description="Flash Memory Control"/>
+  <interrupt id="GPIOF" value="46" description="GPIO Port F"/>
+  <interrupt id="GPIOG" value="47" description="GPIO Port G"/>
+  <interrupt id="GPIOH" value="48" description="GPIO Port H"/>
+  <interrupt id="UART2" value="49" description="UART2"/>
+  <interrupt id="SSI1" value="50" description="SSI1"/>
+  <interrupt id="TIMER3A" value="51" description="16/32-Bit Timer 3A"/>
+  <interrupt id="TIMER3B" value="52" description="16/32-Bit Timer 3B"/>
+  <interrupt id="I2C1" value="53" description="I2C1"/>
+  <interrupt id="CAN0" value="54" description="CAN 0"/>
+  <interrupt id="CAN1" value="55" description="CAN1"/>
+  <interrupt id="EMAC0" value="56" description="Ethernet MAC"/>
+  <interrupt id="HIBERNATE" value="57" description="HIB (Power Island)"/>
+  <interrupt id="USB0" value="58" description="USB MAC"/>
+  <interrupt id="PWM0_3" value="59" description="PWM Generator 3"/>
+  <interrupt id="UDMA" value="60" description="uDMA 0 Software"/>
+  <interrupt id="UDMAERR" value="61" description="uDMA 0 Error"/>
+  <interrupt id="ADC1SS0" value="62" description="ADC1 Sequence 0"/>
+  <interrupt id="ADC1SS1" value="63" description="ADC1 Sequence 1"/>
+  <interrupt id="ADC1SS2" value="64" description="ADC1 Sequence 2"/>
+  <interrupt id="ADC1SS3" value="65" description="ADC1 Sequence 3"/>
+  <interrupt id="EPI0" value="66" description="EPI 0"/>
+  <interrupt id="GPIOJ" value="67" description="GPIO Port J"/>
+  <interrupt id="GPIOK" value="68" description="GPIO Port K"/>
+  <interrupt id="GPIOL" value="69" description="GPIO Port L"/>
+  <interrupt id="SSI2" value="70" description="SSI 2"/>
+  <interrupt id="SSI3" value="71" description="SSI 3"/>
+  <interrupt id="UART3" value="72" description="UART 3"/>
+  <interrupt id="UART4" value="73" description="UART 4"/>
+  <interrupt id="UART5" value="74" description="UART 5"/>
+  <interrupt id="UART6" value="75" description="UART 6"/>
+  <interrupt id="UART7" value="76" description="UART 7"/>
+  <interrupt id="I2C2" value="77" description="I2C 2"/>
+  <interrupt id="I2C3" value="78" description="I2C 3"/>
+  <interrupt id="TIMER4A" value="79" description="Timer 4A"/>
+  <interrupt id="TIMER4B" value="80" description="Timer 4B"/>
+  <interrupt id="TIMER5A" value="81" description="Timer 5A"/>
+  <interrupt id="TIMER5B" value="82" description="Timer 5B"/>
+  <interrupt id="SYSEXC" value="83" description="Floating-Point Exception (imprecise)"/>
+  <interrupt id="I2C4" value="86" description="I2C 4"/>
+  <interrupt id="I2C5" value="87" description="I2C 5"/>
+  <interrupt id="GPIOM" value="88" description="GPIO Port M"/>
+  <interrupt id="GPION" value="89" description="GPIO Port N"/>
+  <interrupt id="TAMPER0" value="91" description="Tamper"/>
+  <interrupt id="GPIOP0" value="92" description="GPIO Port P (Summary or P0)"/>
+  <interrupt id="GPIOP1" value="93" description="GPIO Port P1"/>
+  <interrupt id="GPIOP2" value="94" description="GPIO Port P2"/>
+  <interrupt id="GPIOP3" value="95" description="GPIO Port P3"/>
+  <interrupt id="GPIOP4" value="96" description="GPIO Port P4"/>
+  <interrupt id="GPIOP5" value="97" description="GPIO Port P5"/>
+  <interrupt id="GPIOP6" value="98" description="GPIO Port P6"/>
+  <interrupt id="GPIOP7" value="99" description="GPIO Port P7"/>
+  <interrupt id="GPIOQ0" value="100" description="GPIO Port Q (Summary or Q0)"/>
+  <interrupt id="GPIOQ1" value="101" description="GPIO Port Q1"/>
+  <interrupt id="GPIOQ2" value="102" description="GPIO Port Q2"/>
+  <interrupt id="GPIOQ3" value="103" description="GPIO Port Q3"/>
+  <interrupt id="GPIOQ4" value="104" description="GPIO Port Q4"/>
+  <interrupt id="GPIOQ5" value="105" description="GPIO Port Q5"/>
+  <interrupt id="GPIOQ6" value="106" description="GPIO Port Q6"/>
+  <interrupt id="GPIOQ7" value="107" description="GPIO Port Q7"/>
+  <interrupt id="GPIOR" value="108" description="GPIO Port R"/>
+  <interrupt id="GPIOS" value="109" description="GPIO Port S"/>
+  <interrupt id="SHA0" value="110" description="SHA/MD5"/>
+  <interrupt id="AES0" value="111" description="AES"/>
+  <interrupt id="DES0" value="112" description="DES"/>
+  <interrupt id="LCD0" value="113" description="LCD"/>
+  <interrupt id="TIMER6A" value="114" description="16/32-Bit Timer 6A"/>
+  <interrupt id="TIMER6B" value="115" description="16/32-Bit Timer 6B"/>
+  <interrupt id="TIMER7A" value="116" description="16/32-Bit Timer 7A"/>
+  <interrupt id="TIMER7B" value="117" description="16/32-Bit Timer 7B"/>
+  <interrupt id="I2C6" value="118" description="I2C 6"/>
+  <interrupt id="I2C7" value="119" description="I2C 7"/>
+  <interrupt id="ONEWIRE0" value="121" description="1-Wire"/>
+  <interrupt id="I2C8" value="125" description="I2C 8"/>
+  <interrupt id="I2C9" value="126" description="I2C 9"/>
+  <interrupt id="GPIOT" value="127" description="GPIO T"/>
+</interrupts>

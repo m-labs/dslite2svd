@@ -1,0 +1,80 @@
+<interrupts>
+  <interrupt id="GPIOA" value="16" description="GPIO Port A"/>
+  <interrupt id="GPIOB" value="17" description="GPIO Port B"/>
+  <interrupt id="GPIOC" value="18" description="GPIO Port C"/>
+  <interrupt id="GPIOD" value="19" description="GPIO Port D"/>
+  <interrupt id="GPIOE" value="20" description="GPIO Port E"/>
+  <interrupt id="UART0" value="21" description="UART0"/>
+  <interrupt id="UART1" value="22" description="UART1"/>
+  <interrupt id="SSI0" value="23" description="SSI0"/>
+  <interrupt id="I2C0" value="24" description="I2C0"/>
+  <interrupt id="PWM0_FAULT" value="25" description="PWM0 Fault"/>
+  <interrupt id="PWM0_0" value="26" description="PWM0 Generator 0"/>
+  <interrupt id="PWM0_1" value="27" description="PWM0 Generator 1"/>
+  <interrupt id="PWM0_2" value="28" description="PWM0 Generator 2"/>
+  <interrupt id="QEI0" value="29" description="QEI0"/>
+  <interrupt id="ADC0SS0" value="30" description="ADC0 Sequence 0"/>
+  <interrupt id="ADC0SS1" value="31" description="ADC0 Sequence 1"/>
+  <interrupt id="ADC0SS2" value="32" description="ADC0 Sequence 2"/>
+  <interrupt id="ADC0SS3" value="33" description="ADC0 Sequence 3"/>
+  <interrupt id="WATCHDOG" value="34" description="Watchdog Timers 0 and 1"/>
+  <interrupt id="TIMER0A" value="35" description="16/32-Bit Timer 0A"/>
+  <interrupt id="TIMER0B" value="36" description="16/32-Bit Timer 0B"/>
+  <interrupt id="TIMER1A" value="37" description="16/32-Bit Timer 1A"/>
+  <interrupt id="TIMER1B" value="38" description="16/32-Bit Timer 1B"/>
+  <interrupt id="TIMER2A" value="39" description="16/32-Bit Timer 2A"/>
+  <interrupt id="TIMER2B" value="40" description="16/32-Bit Timer 2B"/>
+  <interrupt id="COMP0" value="41" description="Analog Comparator 0"/>
+  <interrupt id="COMP1" value="42" description="Analog Comparator 1"/>
+  <interrupt id="SYSCTL" value="44" description="System Control"/>
+  <interrupt id="FLASH" value="45" description="Flash Memory Control and EEPROM Control"/>
+  <interrupt id="GPIOF" value="46" description="GPIO Port F"/>
+  <interrupt id="UART2" value="49" description="UART2"/>
+  <interrupt id="SSI1" value="50" description="SSI1"/>
+  <interrupt id="TIMER3A" value="51" description="Timer 3A"/>
+  <interrupt id="TIMER3B" value="52" description="Timer 3B"/>
+  <interrupt id="I2C1" value="53" description="I2C1"/>
+  <interrupt id="QEI1" value="54" description="QEI1"/>
+  <interrupt id="CAN0" value="55" description="CAN0"/>
+  <interrupt id="CAN1" value="56" description="CAN1"/>
+  <interrupt id="HIBERNATE" value="59" description="Hibernation Module"/>
+  <interrupt id="USB0" value="60" description="USB"/>
+  <interrupt id="PWM0_3" value="61" description="PWM Generator 3"/>
+  <interrupt id="UDMA" value="62" description="uDMA Software"/>
+  <interrupt id="UDMAERR" value="63" description="uDMA Error"/>
+  <interrupt id="ADC1SS0" value="64" description="ADC1 Sequence 0"/>
+  <interrupt id="ADC1SS1" value="65" description="ADC1 Sequence 1"/>
+  <interrupt id="ADC1SS2" value="66" description="ADC1 Sequence 2"/>
+  <interrupt id="ADC1SS3" value="67" description="ADC1 Sequence 3"/>
+  <interrupt id="SSI2" value="73" description="SSI2"/>
+  <interrupt id="SSI3" value="74" description="SSI3"/>
+  <interrupt id="UART3" value="75" description="UART3"/>
+  <interrupt id="UART4" value="76" description="UART4"/>
+  <interrupt id="UART5" value="77" description="UART5"/>
+  <interrupt id="UART6" value="78" description="UART6"/>
+  <interrupt id="UART7" value="79" description="UART7"/>
+  <interrupt id="I2C2" value="84" description="I2C2"/>
+  <interrupt id="I2C3" value="85" description="I2C3"/>
+  <interrupt id="TIMER4A" value="86" description="16/32-Bit Timer 4A"/>
+  <interrupt id="TIMER4B" value="87" description="16/32-Bit Timer 4B"/>
+  <interrupt id="TIMER5A" value="108" description="16/32-Bit Timer 5A"/>
+  <interrupt id="TIMER5B" value="109" description="16/32-Bit Timer 5B"/>
+  <interrupt id="WTIMER0A" value="110" description="32/64-Bit Timer 0A"/>
+  <interrupt id="WTIMER0B" value="111" description="32/64-Bit Timer 0B"/>
+  <interrupt id="WTIMER1A" value="112" description="32/64-Bit Timer 1A"/>
+  <interrupt id="WTIMER1B" value="113" description="32/64-Bit Timer 1B"/>
+  <interrupt id="WTIMER2A" value="114" description="32/64-Bit Timer 2A"/>
+  <interrupt id="WTIMER2B" value="115" description="32/64-Bit Timer 2B"/>
+  <interrupt id="WTIMER3A" value="116" description="32/64-Bit Timer 3A"/>
+  <interrupt id="WTIMER3B" value="117" description="32/64-Bit Timer 3B"/>
+  <interrupt id="WTIMER4A" value="118" description="32/64-Bit Timer 4A"/>
+  <interrupt id="WTIMER4B" value="119" description="32/64-Bit Timer 4B"/>
+  <interrupt id="WTIMER5A" value="120" description="32/64-Bit Timer 5A"/>
+  <interrupt id="WTIMER5B" value="121" description="32/64-Bit Timer 5B"/>
+  <interrupt id="SYSEXC" value="122" description="System Exception (imprecise)"/>
+  <interrupt id="PWM1_0" value="150" description="PWM1 Generator 0"/>
+  <interrupt id="PWM1_1" value="151" description="PWM1 Generator 1"/>
+  <interrupt id="PWM1_2" value="152" description="PWM1 Generator 2"/>
+  <interrupt id="PWM1_3" value="153" description="PWM1 Generator 3"/>
+  <interrupt id="PWM1_FAULT" value="154" description="PWM1 Fault"/>
+</interrupts>
