@@ -10,7 +10,7 @@ all: $(patsubst %,crates/%/src/lib.rs,$(DEVICES))
 purge:
 	rm -f $(patsubst %,svd/%-vendor.xml,$(DEVICES))
 	rm -f $(patsubst %,svd/%.xml,$(DEVICES))
-	rm -f $(patsubst %,crates/%/src/lib.rs,$(DEVICES))
+	touch -t 198001010000 $(patsubst %,crates/%/src/lib.rs,$(DEVICES))
 
 svd/%-vendor.xml: data/%.xml overlay/%-interrupts.xml dslite2svd.rb
 	ruby dslite2svd.rb $(filter %.xml,$^) $@
