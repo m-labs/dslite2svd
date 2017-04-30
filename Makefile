@@ -1,23 +1,29 @@
-DEVICES := crates/tm4c123x/src/lib.rs crates/tm4c129x/src/lib.rs
+DEVICES  := tm4c123x tm4c129x
 SVD2RUST ?= svd2rust
 
+.SECONDARY:
+
 .PHONY: all
-all: $(DEVICES)
+all: $(patsubst %,crates/%/src/lib.rs,$(DEVICES))
 
-.PHONY: clean
-clean:
-	rm -f $(DEVICES)
+.PHONY: purge
+purge:
+	rm -f $(patsubst %,svd/%-vendor.xml,$(DEVICES))
+	rm -f $(patsubst %,svd/%.xml,$(DEVICES))
+	rm -f $(patsubst %,crates/%/src/lib.rs,$(DEVICES))
 
-svd/%.xml: overlay/%-interrupts.xml overlay/%.xml.patch dslite2svd.rb Makefile
+svd/%-vendor.xml: data/%.xml overlay/%-interrupts.xml dslite2svd.rb
 	ruby dslite2svd.rb $(filter %.xml,$^) $@
-	patch --backup -p1 <overlay/$(notdir $@).patch
+
+svd/%.xml: overlay/%.patch svd/%-vendor.xml
+	cp svd/$*-vendor.xml $@
+	patch --backup -p1 -i $<
 	@if [ -e $@.orig ]; then \
-		diff -u --label a/$@ $@.orig --label b/$@ $@ >overlay/$(notdir $@).patch.new; \
-		if ! diff -q overlay/$(notdir $@).patch overlay/$(notdir $@).patch.new; then \
-			mv overlay/$(notdir $@).patch.new overlay/$(notdir $@).patch; \
-			echo "updated patch"; \
+		diff -u --label a/svd/$*.xml $@.orig --label b/svd/$*.xml $@ >$<.new; \
+		if ! diff -q $< $<.new; then \
+			mv $<.new $<; \
 		else \
-			rm overlay/$(notdir $@).patch.new; \
+			rm $<.new; \
 		fi; \
 		rm $@.orig; \
 	fi
@@ -29,6 +35,3 @@ crates/%/src/lib.rs: svd/%.xml
 	$(SVD2RUST) -i $< >$@
 	rustfmt $@
 	cargo build --manifest-path crates/$*/Cargo.toml
-
-svd/tm4c123x.xml:: targetdb/devices/tm4c123gh6pm.xml
-svd/tm4c129x.xml:: targetdb/devices/tm4c1294ncpdt.xml
