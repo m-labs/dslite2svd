@@ -1,5 +1,3 @@
-diff --git a/svd/tm4c129x.xml b/svd/tm4c129x.xml
-index 7571578..6799a9b 100644
 --- a/svd/tm4c129x.xml
 +++ b/svd/tm4c129x.xml
 @@ -1,7 +1,7 @@
@@ -11,8 +9,6 @@ index 7571578..6799a9b 100644
    <series>Tiva C Series</series>
    <version>1</version>
    <description>(no description)</description>
---- a/svd/tm4c129x.xml
-+++ b/svd/tm4c129x.xml
 @@ -34525,6 +34525,20 @@
            <description>GPIO Data</description>
            <addressOffset>0x000003FC</addressOffset>
@@ -265,9 +261,7 @@ index 7571578..6799a9b 100644
          </register>
          <register>
            <name>PCTL</name>
---- a/svd/tm4c129x.xml
-+++ b/svd/tm4c129x.xml
-@@ -34957,6 +37066,63 @@
+@@ -34789,6 +34957,63 @@
            <description>GPIO Port Control</description>
            <addressOffset>0x0000052C</addressOffset>
            <size>32</size>

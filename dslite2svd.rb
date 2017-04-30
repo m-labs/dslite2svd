@@ -2,8 +2,8 @@ require 'bundler/setup'
 require 'oga'
 require 'builder'
 
-registers_file  = ARGV[0]
-interrupts_file = ARGV[1]
+interrupts_file = ARGV[0]
+registers_file  = ARGV[1]
 output_file     = ARGV[2]
 
 registers_doc = Oga.parse_xml(File.read(registers_file))

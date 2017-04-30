@@ -7,10 +7,16 @@ all: $(DEVICES)
 clean:
 	rm -f $(DEVICES)
 
-svd/%.xml:
-	ruby dslite2svd.rb $^ $@
-	patch -p1 <overlay/$(notdir $@).patch
-	if which xmllint >/dev/null; then xmllint --schema CMSIS-SVD.xsd --noout $@; fi
+svd/%.xml: overlay/%-interrupts.xml overlay/%.xml.patch dslite2svd.rb
+	ruby dslite2svd.rb $(filter %.xml,$^) $@
+	patch --backup -p1 <overlay/$(notdir $@).patch
+	@if [ -e $@.orig ]; then \
+		diff -u --label a/$@ $@.orig --label b/$@ $@ >overlay/$(notdir $@).patch; \
+		rm $@.orig; \
+	fi
+	@if which xmllint >/dev/null; then \
+		xmllint --schema CMSIS-SVD.xsd --noout $@; \
+	fi
 
-svd/tm4c123x.xml:: targetdb/devices/tm4c123gh6pm.xml  overlay/tm4c123x-interrupts.xml
-svd/tm4c129x.xml:: targetdb/devices/tm4c1294ncpdt.xml overlay/tm4c129x-interrupts.xml
+svd/tm4c123x.xml:: targetdb/devices/tm4c123gh6pm.xml
+svd/tm4c129x.xml:: targetdb/devices/tm4c1294ncpdt.xml
