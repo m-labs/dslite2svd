@@ -558,15 +558,7 @@
           <description>Watchdog Load</description>
           <addressOffset>0x00000000</addressOffset>
           <size>32</size>
-          <fields>
-            <field>
-              <name>WDT_LOAD</name>
-              <description>Watchdog Load Value</description>
-              <lsb>0</lsb>
-              <msb>31</msb>
-              <access>read-write</access>
-            </field>
-          </fields>
+          <access>read-write</access>
         </register>
         <register>
           <name>VALUE</name>
@@ -574,15 +566,7 @@
           <description>Watchdog Value</description>
           <addressOffset>0x00000004</addressOffset>
           <size>32</size>
-          <fields>
-            <field>
-              <name>WDT_VALUE</name>
-              <description>Watchdog Value</description>
-              <lsb>0</lsb>
-              <msb>31</msb>
-              <access>read-only</access>
-            </field>
-          </fields>
+          <access>read-only</access>
         </register>
         <register>
           <name>CTL</name>
@@ -651,15 +635,7 @@
           <description>Watchdog Interrupt Clear</description>
           <addressOffset>0x0000000C</addressOffset>
           <size>32</size>
-          <fields>
-            <field>
-              <name>WDT_ICR</name>
-              <description>Watchdog Interrupt Clear</description>
-              <lsb>0</lsb>
-              <msb>31</msb>
-              <access>write-only</access>
-            </field>
-          </fields>
+          <access>write-only</access>
         </register>
         <register>
           <name>RIS</name>
@@ -13485,15 +13461,7 @@
           <description>QEI Position</description>
           <addressOffset>0x00000008</addressOffset>
           <size>32</size>
-          <fields>
-            <field>
-              <name>QEI_POS</name>
-              <description>Current Position Integrator Value</description>
-              <lsb>0</lsb>
-              <msb>31</msb>
-              <access>read-write</access>
-            </field>
-          </fields>
+          <access>read-write</access>
         </register>
         <register>
           <name>MAXPOS</name>
@@ -13501,15 +13469,7 @@
           <description>QEI Maximum Position</description>
           <addressOffset>0x0000000C</addressOffset>
           <size>32</size>
-          <fields>
-            <field>
-              <name>QEI_MAXPOS</name>
-              <description>Maximum Position Integrator Value</description>
-              <lsb>0</lsb>
-              <msb>31</msb>
-              <access>read-write</access>
-            </field>
-          </fields>
+          <access>read-write</access>
         </register>
         <register>
           <name>LOAD</name>
@@ -13517,15 +13477,7 @@
           <description>QEI Timer Load</description>
           <addressOffset>0x00000010</addressOffset>
           <size>32</size>
-          <fields>
-            <field>
-              <name>QEI_LOAD</name>
-              <description>Velocity Timer Load Value</description>
-              <lsb>0</lsb>
-              <msb>31</msb>
-              <access>read-write</access>
-            </field>
-          </fields>
+          <access>read-write</access>
         </register>
         <register>
           <name>TIME</name>
@@ -13533,15 +13485,7 @@
           <description>QEI Timer</description>
           <addressOffset>0x00000014</addressOffset>
           <size>32</size>
-          <fields>
-            <field>
-              <name>QEI_TIME</name>
-              <description>Velocity Timer Current Value</description>
-              <lsb>0</lsb>
-              <msb>31</msb>
-              <access>read-only</access>
-            </field>
-          </fields>
+          <access>read-only</access>
         </register>
         <register>
           <name>COUNT</name>
@@ -13549,15 +13493,7 @@
           <description>QEI Velocity Counter</description>
           <addressOffset>0x00000018</addressOffset>
           <size>32</size>
-          <fields>
-            <field>
-              <name>QEI_COUNT</name>
-              <description>Velocity Pulse Count</description>
-              <lsb>0</lsb>
-              <msb>31</msb>
-              <access>read-only</access>
-            </field>
-          </fields>
+          <access>read-only</access>
         </register>
         <register>
           <name>SPEED</name>
@@ -13565,15 +13501,7 @@
           <description>QEI Velocity</description>
           <addressOffset>0x0000001C</addressOffset>
           <size>32</size>
-          <fields>
-            <field>
-              <name>QEI_SPEED</name>
-              <description>Velocity</description>
-              <lsb>0</lsb>
-              <msb>31</msb>
-              <access>read-only</access>
-            </field>
-          </fields>
+          <access>read-only</access>
         </register>
         <register>
           <name>INTEN</name>
@@ -15329,15 +15257,7 @@
           <description>GPTM Timer A Interval Load</description>
           <addressOffset>0x00000028</addressOffset>
           <size>32</size>
-          <fields>
-            <field>
-              <name>TIMER_TAILR</name>
-              <description>GPTM Timer A Interval Load Register</description>
-              <lsb>0</lsb>
-              <msb>31</msb>
-              <access>read-write</access>
-            </field>
-          </fields>
+          <access>read-write</access>
         </register>
         <register>
           <name>TBILR</name>
@@ -15345,15 +15265,7 @@
           <description>GPTM Timer B Interval Load</description>
           <addressOffset>0x0000002C</addressOffset>
           <size>32</size>
-          <fields>
-            <field>
-              <name>TIMER_TBILR</name>
-              <description>GPTM Timer B Interval Load Register</description>
-              <lsb>0</lsb>
-              <msb>31</msb>
-              <access>read-write</access>
-            </field>
-          </fields>
+          <access>read-write</access>
         </register>
         <register>
           <name>TAMATCHR</name>
@@ -15457,15 +15369,7 @@
           <description>GPTM Timer A</description>
           <addressOffset>0x00000048</addressOffset>
           <size>32</size>
-          <fields>
-            <field>
-              <name>TIMER_TAR</name>
-              <description>GPTM Timer A Register</description>
-              <lsb>0</lsb>
-              <msb>31</msb>
-              <access>read-only</access>
-            </field>
-          </fields>
+          <access>read-only</access>
         </register>
         <register>
           <name>TBR</name>
@@ -15473,15 +15377,7 @@
           <description>GPTM Timer B</description>
           <addressOffset>0x0000004C</addressOffset>
           <size>32</size>
-          <fields>
-            <field>
-              <name>TIMER_TBR</name>
-              <description>GPTM Timer B Register</description>
-              <lsb>0</lsb>
-              <msb>31</msb>
-              <access>read-only</access>
-            </field>
-          </fields>
+          <access>read-only</access>
         </register>
         <register>
           <name>TAV</name>
@@ -15489,15 +15385,7 @@
           <description>GPTM Timer A Value</description>
           <addressOffset>0x00000050</addressOffset>
           <size>32</size>
-          <fields>
-            <field>
-              <name>TIMER_TAV</name>
-              <description>GPTM Timer A Value</description>
-              <lsb>0</lsb>
-              <msb>31</msb>
-              <access>read-write</access>
-            </field>
-          </fields>
+          <access>read-write</access>
         </register>
         <register>
           <name>TBV</name>
@@ -15505,15 +15393,7 @@
           <description>GPTM Timer B Value</description>
           <addressOffset>0x00000054</addressOffset>
           <size>32</size>
-          <fields>
-            <field>
-              <name>TIMER_TBV</name>
-              <description>GPTM Timer B Value</description>
-              <lsb>0</lsb>
-              <msb>31</msb>
-              <access>read-write</access>
-            </field>
-          </fields>
+          <access>read-write</access>
         </register>
         <register>
           <name>RTCPD</name>
@@ -33287,15 +33167,7 @@
           <description>USB Request Packet Count in Block Transfer Endpoint 1</description>
           <addressOffset>0x00000304</addressOffset>
           <size>16</size>
-          <fields>
-            <field>
-              <name>USB_RQPKTCOUNT1</name>
-              <description>Block Transfer Packet Count</description>
-              <lsb>0</lsb>
-              <msb>15</msb>
-              <access>read-write</access>
-            </field>
-          </fields>
+          <access>read-write</access>
         </register>
         <register>
           <name>RQPKTCOUNT2</name>
@@ -33303,15 +33175,7 @@
           <description>USB Request Packet Count in Block Transfer Endpoint 2</description>
           <addressOffset>0x00000308</addressOffset>
           <size>16</size>
-          <fields>
-            <field>
-              <name>USB_RQPKTCOUNT2</name>
-              <description>Block Transfer Packet Count</description>
-              <lsb>0</lsb>
-              <msb>15</msb>
-              <access>read-write</access>
-            </field>
-          </fields>
+          <access>read-write</access>
         </register>
         <register>
           <name>RQPKTCOUNT3</name>
@@ -33319,15 +33183,7 @@
           <description>USB Request Packet Count in Block Transfer Endpoint 3</description>
           <addressOffset>0x0000030C</addressOffset>
           <size>16</size>
-          <fields>
-            <field>
-              <name>USB_RQPKTCOUNT3</name>
-              <description>Block Transfer Packet Count</description>
-              <lsb>0</lsb>
-              <msb>15</msb>
-              <access>read-write</access>
-            </field>
-          </fields>
+          <access>read-write</access>
         </register>
         <register>
           <name>RQPKTCOUNT4</name>
@@ -41900,15 +41756,7 @@
           <description>Ethernet MAC PPS0 Width</description>
           <addressOffset>0x00000764</addressOffset>
           <size>32</size>
-          <fields>
-            <field>
-              <name>EMAC_PPS0WIDTH</name>
-              <description>EN0PPS Output Signal Width</description>
-              <lsb>0</lsb>
-              <msb>31</msb>
-              <access>read-write</access>
-            </field>
-          </fields>
+          <access>read-write</access>
         </register>
         <register>
           <name>DMABUSMOD</name>
@@ -43921,15 +43769,7 @@
           <description>Hibernation RTC Counter</description>
           <addressOffset>0x00000000</addressOffset>
           <size>32</size>
-          <fields>
-            <field>
-              <name>HIB_RTCC</name>
-              <description>RTC Counter</description>
-              <lsb>0</lsb>
-              <msb>31</msb>
-              <access>read-only</access>
-            </field>
-          </fields>
+          <access>read-only</access>
         </register>
         <register>
           <name>RTCM0</name>
@@ -43937,15 +43777,7 @@
           <description>Hibernation RTC Match 0</description>
           <addressOffset>0x00000004</addressOffset>
           <size>32</size>
-          <fields>
-            <field>
-              <name>HIB_RTCM0</name>
-              <description>RTC Match 0</description>
-              <lsb>0</lsb>
-              <msb>31</msb>
-              <access>read-write</access>
-            </field>
-          </fields>
+          <access>read-write</access>
         </register>
         <register>
           <name>RTCLD</name>
@@ -43953,15 +43785,7 @@
           <description>Hibernation RTC Load</description>
           <addressOffset>0x0000000C</addressOffset>
           <size>32</size>
-          <fields>
-            <field>
-              <name>HIB_RTCLD</name>
-              <description>RTC Load</description>
-              <lsb>0</lsb>
-              <msb>31</msb>
-              <access>read-write</access>
-            </field>
-          </fields>
+          <access>read-write</access>
         </register>
         <register>
           <name>CTL</name>
@@ -56649,15 +56473,7 @@
           <description>DMA Channel Software Request</description>
           <addressOffset>0x00000014</addressOffset>
           <size>32</size>
-          <fields>
-            <field>
-              <name>UDMA_SWREQ</name>
-              <description>Channel [n] Software Request</description>
-              <lsb>0</lsb>
-              <msb>31</msb>
-              <access>write-only</access>
-            </field>
-          </fields>
+          <access>write-only</access>
         </register>
         <register>
           <name>USEBURSTSET</name>

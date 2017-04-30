@@ -152,7 +152,15 @@ svd.device(schemaVersion: '1.1',
               }
 
               bitfields = register.xpath('bitfield')
-              next if bitfields.empty?
+              if bitfields.empty?
+                next
+              elsif bitfields.one? && \
+                      bitfields.first.get('id') == register.get('id') && \
+                      bitfields.first.get('width') == register.get('width') && \
+                      register.xpath('bitfield/bitenum').none?
+                x.access(access_map.fetch(bitfields.first.get('rwaccess')))
+                next
+              end
 
               bitfield_id_prefix = common_id_prefix(bitfields, register.get('id'))
               x.fields do

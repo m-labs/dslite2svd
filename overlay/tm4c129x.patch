@@ -12,7 +12,7 @@
    <addressUnitBits>8</addressUnitBits>
    <width>32</width>
    <resetValue>0x00000000</resetValue>
-@@ -1739,12 +1739,18 @@
+@@ -1715,12 +1715,18 @@
              <field>
                <name>DATA</name>
                <description>Data Transmitted or Received</description>
@@ -31,7 +31,7 @@
                <description>UART Framing Error</description>
                <lsb>8</lsb>
                <msb>8</msb>
-@@ -2026,12 +2032,18 @@
+@@ -2002,12 +2008,18 @@
              <field>
                <name>DIVINT</name>
                <description>Integer Baud-Rate Divisor</description>
@@ -50,7 +50,7 @@
          <register>
            <name>FBRD</name>
            <displayName>UART_FBRD</displayName>
-@@ -2042,12 +2054,18 @@
+@@ -2018,12 +2030,18 @@
              <field>
                <name>DIVFRAC</name>
                <description>Fractional Baud-Rate Divisor</description>
@@ -69,7 +69,7 @@
          <register>
            <name>LCRH</name>
            <displayName>UART_LCRH</displayName>
-@@ -3418,14 +3436,14 @@
+@@ -3394,14 +3412,14 @@
                  <enumeratedValue>
                    <name>SYSCLK</name>
                    <description>System clock (based on clock source and divisor factor)</description>
@@ -86,7 +86,7 @@
              </field>
            </fields>
          </register>
-@@ -7523,12 +7541,18 @@
+@@ -7499,12 +7517,18 @@
              <field>
                <name>PWM_0_LOAD</name>
                <description>Counter Load Value</description>
@@ -105,7 +105,7 @@
          <register>
            <name>_0_COUNT</name>
            <displayName>PWM_0_COUNT</displayName>
-@@ -7555,12 +7579,18 @@
+@@ -7531,12 +7555,18 @@
              <field>
                <name>PWM_0_CMPA</name>
                <description>Comparator A Value</description>
@@ -124,7 +124,7 @@
          <register>
            <name>_0_CMPB</name>
            <displayName>PWM_0_CMPB</displayName>
-@@ -7571,12 +7601,18 @@
+@@ -7547,12 +7577,18 @@
              <field>
                <name>PWM_0_CMPB</name>
                <description>Comparator B Value</description>
@@ -143,7 +143,7 @@
          <register>
            <name>_0_GENA</name>
            <displayName>PWM_0_GENA</displayName>
-@@ -8217,12 +8253,18 @@
+@@ -8193,12 +8229,18 @@
              <field>
                <name>PWM_0_MINFLTPER</name>
                <description>Minimum Fault Period</description>
@@ -162,7 +162,7 @@
          <register>
            <name>_1_CTL</name>
            <displayName>PWM_1_CTL</displayName>
-@@ -8833,12 +8875,18 @@
+@@ -8809,12 +8851,18 @@
              <field>
                <name>LOAD</name>
                <description>Counter Load Value</description>
@@ -181,7 +181,7 @@
          <register>
            <name>_1_COUNT</name>
            <displayName>PWM_1_COUNT</displayName>
-@@ -8865,12 +8913,18 @@
+@@ -8841,12 +8889,18 @@
              <field>
                <name>COMPA</name>
                <description>Comparator A Value</description>
@@ -200,7 +200,7 @@
          <register>
            <name>_1_CMPB</name>
            <displayName>PWM_1_CMPB</displayName>
-@@ -8881,12 +8935,18 @@
+@@ -8857,12 +8911,18 @@
              <field>
                <name>COMPB</name>
                <description>Comparator B Value</description>
@@ -219,7 +219,7 @@
          <register>
            <name>_1_GENA</name>
            <displayName>PWM_1_GENA</displayName>
-@@ -9527,12 +9587,18 @@
+@@ -9503,12 +9563,18 @@
              <field>
                <name>MFP</name>
                <description>Minimum Fault Period</description>
@@ -238,7 +238,7 @@
          <register>
            <name>_2_CTL</name>
            <displayName>PWM_2_CTL</displayName>
-@@ -10143,12 +10209,18 @@
+@@ -10119,12 +10185,18 @@
              <field>
                <name>LOAD</name>
                <description>Counter Load Value</description>
@@ -257,7 +257,7 @@
          <register>
            <name>_2_COUNT</name>
            <displayName>PWM_2_COUNT</displayName>
-@@ -10175,12 +10247,18 @@
+@@ -10151,12 +10223,18 @@
              <field>
                <name>COMPA</name>
                <description>Comparator A Value</description>
@@ -276,7 +276,7 @@
          <register>
            <name>_2_CMPB</name>
            <displayName>PWM_2_CMPB</displayName>
-@@ -10191,12 +10269,18 @@
+@@ -10167,12 +10245,18 @@
              <field>
                <name>COMPB</name>
                <description>Comparator B Value</description>
@@ -295,7 +295,7 @@
          <register>
            <name>_2_GENA</name>
            <displayName>PWM_2_GENA</displayName>
-@@ -10837,12 +10921,18 @@
+@@ -10813,12 +10897,18 @@
              <field>
                <name>MFP</name>
                <description>Minimum Fault Period</description>
@@ -314,7 +314,7 @@
          <register>
            <name>_3_CTL</name>
            <displayName>PWM_3_CTL</displayName>
-@@ -11453,12 +11543,18 @@
+@@ -11429,12 +11519,18 @@
              <field>
                <name>LOAD</name>
                <description>Counter Load Value</description>
@@ -333,7 +333,7 @@
          <register>
            <name>_3_COUNT</name>
            <displayName>PWM_3_COUNT</displayName>
-@@ -11485,12 +11581,18 @@
+@@ -11461,12 +11557,18 @@
              <field>
                <name>COMPA</name>
                <description>Comparator A Value</description>
@@ -352,7 +352,7 @@
          <register>
            <name>_3_CMPB</name>
            <displayName>PWM_3_CMPB</displayName>
-@@ -11501,12 +11603,18 @@
+@@ -11477,12 +11579,18 @@
              <field>
                <name>COMPB</name>
                <description>Comparator B Value</description>
@@ -371,7 +371,7 @@
          <register>
            <name>_3_GENA</name>
            <displayName>PWM_3_GENA</displayName>
-@@ -12147,12 +12255,18 @@
+@@ -12123,12 +12231,18 @@
              <field>
                <name>MFP</name>
                <description>Minimum Fault Period</description>
@@ -390,7 +390,7 @@
          <register>
            <name>_0_FLTSEN</name>
            <displayName>PWM_0_FLTSEN</displayName>
-@@ -34522,19 +34636,47 @@
+@@ -34378,19 +34492,47 @@
          <register>
            <name>DATA</name>
            <displayName>GPIO_DATA</displayName>
@@ -438,7 +438,7 @@
            <displayName>GPIO_IS</displayName>
            <description>GPIO Interrupt Sense</description>
            <addressOffset>0x00000404</addressOffset>
-@@ -34673,68 +34815,194 @@
+@@ -34529,68 +34671,194 @@
          <register>
            <name>AFSEL</name>
            <displayName>GPIO_AFSEL</displayName>
@@ -633,7 +633,7 @@
            <displayName>GPIO_LOCK</displayName>
            <description>GPIO Lock</description>
            <addressOffset>0x00000520</addressOffset>
-@@ -34779,33 +35047,125 @@
+@@ -34635,33 +34903,125 @@
          <register>
            <name>AMSEL</name>
            <displayName>GPIO_AMSEL</displayName>
@@ -759,7 +759,7 @@
            <displayName>GPIO_SI</displayName>
            <description>GPIO Select Interrupt</description>
            <addressOffset>0x00000538</addressOffset>
-@@ -34832,26 +35192,21 @@
+@@ -34688,26 +35048,21 @@
            <description>GPIO 12-mA Drive Select</description>
            <addressOffset>0x0000053C</addressOffset>
            <size>32</size>
