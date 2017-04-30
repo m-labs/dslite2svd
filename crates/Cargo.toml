@@ -1,0 +1,2 @@
+[workspace]
+members = ["tm4c123x", "tm4c129x"]
