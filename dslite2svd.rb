@@ -152,14 +152,6 @@ svd.device(schemaVersion: '1.1',
               }
 
               bitfields = register.xpath('bitfield')
-              if bitfields.empty?
-                x.writeConstraint do |x|
-                  x.range do |x|
-                    x.minimum(0)
-                    x.maximum(2**Integer(register.get('width'))-1)
-                  end
-                end
-              end
               next if bitfields.empty?
 
               bitfield_id_prefix = common_id_prefix(bitfields, register.get('id'))
@@ -179,13 +171,15 @@ svd.device(schemaVersion: '1.1',
                     end
 
                     bitenums = bitfield.xpath('bitenum')
-                    x.writeConstraint do |x|
-                      if bitenums.empty?
+                    if Integer(bitfield.get('width')) == 1
+                      x.writeConstraint do |x|
                         x.range do |x|
                           x.minimum(0)
-                          x.maximum(2**Integer(bitfield.get('width'))-1)
+                          x.maximum(1)
                         end
-                      else
+                      end
+                    elsif bitenums.any?
+                      x.writeConstraint do |x|
                         x.useEnumeratedValues(true)
                       end
                     end
