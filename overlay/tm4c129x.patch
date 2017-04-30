@@ -88,7 +88,7 @@
          </register>
 @@ -7499,12 +7517,18 @@
              <field>
-               <name>PWM_0_LOAD</name>
+               <name>LOAD</name>
                <description>Counter Load Value</description>
                <lsb>0</lsb>
                <msb>15</msb>
@@ -107,7 +107,7 @@
            <displayName>PWM_0_COUNT</displayName>
 @@ -7531,12 +7555,18 @@
              <field>
-               <name>PWM_0_CMPA</name>
+               <name>CMPA</name>
                <description>Comparator A Value</description>
                <lsb>0</lsb>
                <msb>15</msb>
@@ -126,7 +126,7 @@
            <displayName>PWM_0_CMPB</displayName>
 @@ -7547,12 +7577,18 @@
              <field>
-               <name>PWM_0_CMPB</name>
+               <name>CMPB</name>
                <description>Comparator B Value</description>
                <lsb>0</lsb>
                <msb>15</msb>
@@ -145,7 +145,7 @@
            <displayName>PWM_0_GENA</displayName>
 @@ -8193,12 +8229,18 @@
              <field>
-               <name>PWM_0_MINFLTPER</name>
+               <name>MINFLTPER</name>
                <description>Minimum Fault Period</description>
                <lsb>0</lsb>
                <msb>15</msb>

@@ -14,6 +14,13 @@ def if_not_empty(x)
   yield x unless x.empty?
 end
 
+def sanitize_ident(id)
+  if id =~ /^[0-9]/
+    id = "_#{id}"
+  end
+  id
+end
+
 def common_id_prefix(nodes, basename)
   if nodes.one?
     /^#{Regexp.escape basename}_/
@@ -31,9 +38,7 @@ end
 def strip_id_prefix(node, prefix)
   id = node.get('id')
   id = id.sub(prefix, '')
-  if id =~ /^[0-9]/
-    id = "_#{id}"
-  end
+  id = sanitize_ident(id)
   id
 end
 
@@ -166,7 +171,11 @@ svd.device(schemaVersion: '1.1',
               x.fields do
                 bitfields.each do |bitfield|
                   x.field do |x|
-                    x.name(strip_id_prefix(bitfield, bitfield_id_prefix))
+                    if bitfields.one? && bitfield.get('id') == register.get('id')
+                      x.name(sanitize_ident(bitfield.get('id').sub(/^.+_/, '')))
+                    else
+                      x.name(strip_id_prefix(bitfield, bitfield_id_prefix))
+                    end
                     x.description(bitfield.get('description'))
                     x.lsb(bitfield.get('end'))
                     x.msb(bitfield.get('begin'))

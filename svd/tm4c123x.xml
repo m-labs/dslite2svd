@@ -576,7 +576,7 @@
           <size>32</size>
           <fields>
             <field>
-              <name>WDT_LOCK</name>
+              <name>LOCK</name>
               <description>Watchdog Lock</description>
               <lsb>0</lsb>
               <msb>31</msb>
@@ -799,7 +799,7 @@
           <size>32</size>
           <fields>
             <field>
-              <name>GPIO_LOCK</name>
+              <name>LOCK</name>
               <description>GPIO Lock</description>
               <lsb>0</lsb>
               <msb>31</msb>
@@ -5697,7 +5697,7 @@
           <size>32</size>
           <fields>
             <field>
-              <name>PWM_0_LOAD</name>
+              <name>LOAD</name>
               <description>Counter Load Value</description>
               <lsb>0</lsb>
               <msb>15</msb>
@@ -5713,7 +5713,7 @@
           <size>32</size>
           <fields>
             <field>
-              <name>PWM_0_COUNT</name>
+              <name>COUNT</name>
               <description>Counter Value</description>
               <lsb>0</lsb>
               <msb>15</msb>
@@ -5729,7 +5729,7 @@
           <size>32</size>
           <fields>
             <field>
-              <name>PWM_0_CMPA</name>
+              <name>CMPA</name>
               <description>Comparator A Value</description>
               <lsb>0</lsb>
               <msb>15</msb>
@@ -5745,7 +5745,7 @@
           <size>32</size>
           <fields>
             <field>
-              <name>PWM_0_CMPB</name>
+              <name>CMPB</name>
               <description>Comparator B Value</description>
               <lsb>0</lsb>
               <msb>15</msb>
@@ -6365,7 +6365,7 @@
           <size>32</size>
           <fields>
             <field>
-              <name>PWM_0_MINFLTPER</name>
+              <name>MINFLTPER</name>
               <description>Minimum Fault Period</description>
               <lsb>0</lsb>
               <msb>15</msb>
@@ -11484,7 +11484,7 @@
           <size>32</size>
           <fields>
             <field>
-              <name>TIMER_CFG</name>
+              <name>CFG</name>
               <description>GPTM Configuration</description>
               <lsb>0</lsb>
               <msb>2</msb>
@@ -13333,7 +13333,7 @@
           <size>32</size>
           <fields>
             <field>
-              <name>TIMER_CFG</name>
+              <name>CFG</name>
               <description>GPTM Configuration</description>
               <lsb>0</lsb>
               <msb>2</msb>
@@ -22140,7 +22140,7 @@
           <size>8</size>
           <fields>
             <field>
-              <name>USB_FADDR</name>
+              <name>FADDR</name>
               <description>Function Address</description>
               <lsb>0</lsb>
               <msb>6</msb>
@@ -22921,7 +22921,7 @@
           <size>16</size>
           <fields>
             <field>
-              <name>USB_FRAME</name>
+              <name>FRAME</name>
               <description>Frame Number</description>
               <lsb>0</lsb>
               <msb>10</msb>
@@ -44335,7 +44335,7 @@
           <size>32</size>
           <fields>
             <field>
-              <name>UDMA_CHASGN</name>
+              <name>CHASGN</name>
               <description>Channel [n] Assignment Select</description>
               <lsb>0</lsb>
               <msb>31</msb>
