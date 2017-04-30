@@ -34,4 +34,4 @@ svd/%.xml: overlay/%.patch svd/%-vendor.xml
 crates/%/src/lib.rs: svd/%.xml
 	$(SVD2RUST) -i $< >$@
 	rustfmt $@
-	cargo build --manifest-path crates/$*/Cargo.toml
+	cargo check --manifest-path crates/$*/Cargo.toml
