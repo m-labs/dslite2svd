@@ -19,7 +19,7 @@ svd/%.xml: overlay/%.patch svd/%-vendor.xml
 	cp svd/$*-vendor.xml $@
 	patch --backup -p1 -i $<
 	@if [ -e $@.orig ]; then \
-		diff -u --label a/svd/$*.xml $@.orig --label b/svd/$*.xml $@ >$<.new; \
+		diff -U6 --label a/svd/$*.xml $@.orig --label b/svd/$*.xml $@ >$<.new; \
 		if ! diff -q $< $<.new; then \
 			mv $<.new $<; \
 		else \

@@ -1,6 +1,6 @@
 --- a/svd/tm4c123x.xml
 +++ b/svd/tm4c123x.xml
-@@ -1,7 +1,7 @@
+@@ -1,10 +1,10 @@
  <device schemaVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="CMSIS-SVD.xsd">
    <vendor>Texas Instruments</vendor>
    <vendorID>TI</vendorID>
@@ -9,3 +9,6 @@
    <series>Tiva C Series</series>
    <version>1</version>
    <description>(no description)</description>
+   <addressUnitBits>8</addressUnitBits>
+   <width>32</width>
+   <resetValue>0x00000000</resetValue>

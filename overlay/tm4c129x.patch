@@ -1,6 +1,6 @@
 --- a/svd/tm4c129x.xml
 +++ b/svd/tm4c129x.xml
-@@ -1,7 +1,7 @@
+@@ -1,10 +1,10 @@
  <device schemaVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="CMSIS-SVD.xsd">
    <vendor>Texas Instruments</vendor>
    <vendorID>TI</vendorID>
@@ -9,7 +9,32 @@
    <series>Tiva C Series</series>
    <version>1</version>
    <description>(no description)</description>
-@@ -2029,6 +2029,12 @@
+   <addressUnitBits>8</addressUnitBits>
+   <width>32</width>
+   <resetValue>0x00000000</resetValue>
+@@ -1739,12 +1739,18 @@
+             <field>
+               <name>DATA</name>
+               <description>Data Transmitted or Received</description>
+               <lsb>0</lsb>
+               <msb>7</msb>
+               <access>read-write</access>
++              <writeConstraint>
++                <range>
++                  <minimum>0</minimum>
++                  <maximum>255</maximum>
++                </range>
++              </writeConstraint>
+             </field>
+             <field>
+               <name>FE</name>
+               <description>UART Framing Error</description>
+               <lsb>8</lsb>
+               <msb>8</msb>
+@@ -2026,12 +2032,18 @@
+             <field>
+               <name>DIVINT</name>
+               <description>Integer Baud-Rate Divisor</description>
                <lsb>0</lsb>
                <msb>15</msb>
                <access>read-write</access>
@@ -22,7 +47,13 @@
              </field>
            </fields>
          </register>
-@@ -2045,6 +2051,12 @@
+         <register>
+           <name>FBRD</name>
+           <displayName>UART_FBRD</displayName>
+@@ -2042,12 +2054,18 @@
+             <field>
+               <name>DIVFRAC</name>
+               <description>Fractional Baud-Rate Divisor</description>
                <lsb>0</lsb>
                <msb>5</msb>
                <access>read-write</access>
@@ -35,7 +66,13 @@
              </field>
            </fields>
          </register>
-@@ -3421,8 +3433,8 @@
+         <register>
+           <name>LCRH</name>
+           <displayName>UART_LCRH</displayName>
+@@ -3418,14 +3436,14 @@
+                 <enumeratedValue>
+                   <name>SYSCLK</name>
+                   <description>System clock (based on clock source and divisor factor)</description>
                    <value>0x0</value>
                  </enumeratedValue>
                  <enumeratedValue>
@@ -46,7 +83,13 @@
                    <value>0x5</value>
                  </enumeratedValue>
                </enumeratedValues>
-@@ -7526,6 +7538,12 @@
+             </field>
+           </fields>
+         </register>
+@@ -7523,12 +7541,18 @@
+             <field>
+               <name>PWM_0_LOAD</name>
+               <description>Counter Load Value</description>
                <lsb>0</lsb>
                <msb>15</msb>
                <access>read-write</access>
@@ -59,7 +102,13 @@
              </field>
            </fields>
          </register>
-@@ -7558,6 +7576,12 @@
+         <register>
+           <name>_0_COUNT</name>
+           <displayName>PWM_0_COUNT</displayName>
+@@ -7555,12 +7579,18 @@
+             <field>
+               <name>PWM_0_CMPA</name>
+               <description>Comparator A Value</description>
                <lsb>0</lsb>
                <msb>15</msb>
                <access>read-write</access>
@@ -72,7 +121,13 @@
              </field>
            </fields>
          </register>
-@@ -7574,6 +7598,12 @@
+         <register>
+           <name>_0_CMPB</name>
+           <displayName>PWM_0_CMPB</displayName>
+@@ -7571,12 +7601,18 @@
+             <field>
+               <name>PWM_0_CMPB</name>
+               <description>Comparator B Value</description>
                <lsb>0</lsb>
                <msb>15</msb>
                <access>read-write</access>
@@ -85,7 +140,13 @@
              </field>
            </fields>
          </register>
-@@ -8220,6 +8250,12 @@
+         <register>
+           <name>_0_GENA</name>
+           <displayName>PWM_0_GENA</displayName>
+@@ -8217,12 +8253,18 @@
+             <field>
+               <name>PWM_0_MINFLTPER</name>
+               <description>Minimum Fault Period</description>
                <lsb>0</lsb>
                <msb>15</msb>
                <access>read-write</access>
@@ -98,7 +159,13 @@
              </field>
            </fields>
          </register>
-@@ -8836,6 +8872,12 @@
+         <register>
+           <name>_1_CTL</name>
+           <displayName>PWM_1_CTL</displayName>
+@@ -8833,12 +8875,18 @@
+             <field>
+               <name>LOAD</name>
+               <description>Counter Load Value</description>
                <lsb>0</lsb>
                <msb>15</msb>
                <access>read-write</access>
@@ -111,7 +178,13 @@
              </field>
            </fields>
          </register>
-@@ -8868,6 +8910,12 @@
+         <register>
+           <name>_1_COUNT</name>
+           <displayName>PWM_1_COUNT</displayName>
+@@ -8865,12 +8913,18 @@
+             <field>
+               <name>COMPA</name>
+               <description>Comparator A Value</description>
                <lsb>0</lsb>
                <msb>15</msb>
                <access>read-write</access>
@@ -124,7 +197,13 @@
              </field>
            </fields>
          </register>
-@@ -8884,6 +8932,12 @@
+         <register>
+           <name>_1_CMPB</name>
+           <displayName>PWM_1_CMPB</displayName>
+@@ -8881,12 +8935,18 @@
+             <field>
+               <name>COMPB</name>
+               <description>Comparator B Value</description>
                <lsb>0</lsb>
                <msb>15</msb>
                <access>read-write</access>
@@ -137,7 +216,13 @@
              </field>
            </fields>
          </register>
-@@ -9530,6 +9584,12 @@
+         <register>
+           <name>_1_GENA</name>
+           <displayName>PWM_1_GENA</displayName>
+@@ -9527,12 +9587,18 @@
+             <field>
+               <name>MFP</name>
+               <description>Minimum Fault Period</description>
                <lsb>0</lsb>
                <msb>15</msb>
                <access>read-write</access>
@@ -150,7 +235,13 @@
              </field>
            </fields>
          </register>
-@@ -10146,6 +10206,12 @@
+         <register>
+           <name>_2_CTL</name>
+           <displayName>PWM_2_CTL</displayName>
+@@ -10143,12 +10209,18 @@
+             <field>
+               <name>LOAD</name>
+               <description>Counter Load Value</description>
                <lsb>0</lsb>
                <msb>15</msb>
                <access>read-write</access>
@@ -163,7 +254,13 @@
              </field>
            </fields>
          </register>
-@@ -10178,6 +10244,12 @@
+         <register>
+           <name>_2_COUNT</name>
+           <displayName>PWM_2_COUNT</displayName>
+@@ -10175,12 +10247,18 @@
+             <field>
+               <name>COMPA</name>
+               <description>Comparator A Value</description>
                <lsb>0</lsb>
                <msb>15</msb>
                <access>read-write</access>
@@ -176,7 +273,13 @@
              </field>
            </fields>
          </register>
-@@ -10194,6 +10266,12 @@
+         <register>
+           <name>_2_CMPB</name>
+           <displayName>PWM_2_CMPB</displayName>
+@@ -10191,12 +10269,18 @@
+             <field>
+               <name>COMPB</name>
+               <description>Comparator B Value</description>
                <lsb>0</lsb>
                <msb>15</msb>
                <access>read-write</access>
@@ -189,7 +292,13 @@
              </field>
            </fields>
          </register>
-@@ -10840,6 +10918,12 @@
+         <register>
+           <name>_2_GENA</name>
+           <displayName>PWM_2_GENA</displayName>
+@@ -10837,12 +10921,18 @@
+             <field>
+               <name>MFP</name>
+               <description>Minimum Fault Period</description>
                <lsb>0</lsb>
                <msb>15</msb>
                <access>read-write</access>
@@ -202,7 +311,13 @@
              </field>
            </fields>
          </register>
-@@ -11456,6 +11540,12 @@
+         <register>
+           <name>_3_CTL</name>
+           <displayName>PWM_3_CTL</displayName>
+@@ -11453,12 +11543,18 @@
+             <field>
+               <name>LOAD</name>
+               <description>Counter Load Value</description>
                <lsb>0</lsb>
                <msb>15</msb>
                <access>read-write</access>
@@ -215,7 +330,13 @@
              </field>
            </fields>
          </register>
-@@ -11488,6 +11578,12 @@
+         <register>
+           <name>_3_COUNT</name>
+           <displayName>PWM_3_COUNT</displayName>
+@@ -11485,12 +11581,18 @@
+             <field>
+               <name>COMPA</name>
+               <description>Comparator A Value</description>
                <lsb>0</lsb>
                <msb>15</msb>
                <access>read-write</access>
@@ -228,7 +349,13 @@
              </field>
            </fields>
          </register>
-@@ -11504,6 +11600,12 @@
+         <register>
+           <name>_3_CMPB</name>
+           <displayName>PWM_3_CMPB</displayName>
+@@ -11501,12 +11603,18 @@
+             <field>
+               <name>COMPB</name>
+               <description>Comparator B Value</description>
                <lsb>0</lsb>
                <msb>15</msb>
                <access>read-write</access>
@@ -241,7 +368,13 @@
              </field>
            </fields>
          </register>
-@@ -12150,6 +12252,12 @@
+         <register>
+           <name>_3_GENA</name>
+           <displayName>PWM_3_GENA</displayName>
+@@ -12147,12 +12255,18 @@
+             <field>
+               <name>MFP</name>
+               <description>Minimum Fault Period</description>
                <lsb>0</lsb>
                <msb>15</msb>
                <access>read-write</access>
@@ -254,7 +387,13 @@
              </field>
            </fields>
          </register>
-@@ -34525,6 +34633,20 @@
+         <register>
+           <name>_0_FLTSEN</name>
+           <displayName>PWM_0_FLTSEN</displayName>
+@@ -34522,19 +34636,47 @@
+         <register>
+           <name>DATA</name>
+           <displayName>GPIO_DATA</displayName>
            <description>GPIO Data</description>
            <addressOffset>0x000003FC</addressOffset>
            <size>32</size>
@@ -275,7 +414,7 @@
          </register>
          <register>
            <name>DIR</name>
-@@ -34532,6 +34654,20 @@
+           <displayName>GPIO_DIR</displayName>
            <description>GPIO Direction</description>
            <addressOffset>0x00000400</addressOffset>
            <size>32</size>
@@ -296,7 +435,13 @@
          </register>
          <register>
            <name>IS</name>
-@@ -34676,6 +34812,20 @@
+           <displayName>GPIO_IS</displayName>
+           <description>GPIO Interrupt Sense</description>
+           <addressOffset>0x00000404</addressOffset>
+@@ -34673,68 +34815,194 @@
+         <register>
+           <name>AFSEL</name>
+           <displayName>GPIO_AFSEL</displayName>
            <description>GPIO Alternate Function Select</description>
            <addressOffset>0x00000420</addressOffset>
            <size>32</size>
@@ -317,7 +462,7 @@
          </register>
          <register>
            <name>DR2R</name>
-@@ -34683,6 +34833,20 @@
+           <displayName>GPIO_DR2R</displayName>
            <description>GPIO 2-mA Drive Select</description>
            <addressOffset>0x00000500</addressOffset>
            <size>32</size>
@@ -338,7 +483,7 @@
          </register>
          <register>
            <name>DR4R</name>
-@@ -34690,6 +34854,20 @@
+           <displayName>GPIO_DR4R</displayName>
            <description>GPIO 4-mA Drive Select</description>
            <addressOffset>0x00000504</addressOffset>
            <size>32</size>
@@ -359,7 +504,7 @@
          </register>
          <register>
            <name>DR8R</name>
-@@ -34697,6 +34875,20 @@
+           <displayName>GPIO_DR8R</displayName>
            <description>GPIO 8-mA Drive Select</description>
            <addressOffset>0x00000508</addressOffset>
            <size>32</size>
@@ -380,7 +525,7 @@
          </register>
          <register>
            <name>ODR</name>
-@@ -34704,6 +34896,20 @@
+           <displayName>GPIO_ODR</displayName>
            <description>GPIO Open Drain Select</description>
            <addressOffset>0x0000050C</addressOffset>
            <size>32</size>
@@ -401,7 +546,7 @@
          </register>
          <register>
            <name>PUR</name>
-@@ -34711,6 +34917,20 @@
+           <displayName>GPIO_PUR</displayName>
            <description>GPIO Pull-Up Select</description>
            <addressOffset>0x00000510</addressOffset>
            <size>32</size>
@@ -422,7 +567,7 @@
          </register>
          <register>
            <name>PDR</name>
-@@ -34718,6 +34938,20 @@
+           <displayName>GPIO_PDR</displayName>
            <description>GPIO Pull-Down Select</description>
            <addressOffset>0x00000514</addressOffset>
            <size>32</size>
@@ -443,7 +588,7 @@
          </register>
          <register>
            <name>SLR</name>
-@@ -34725,6 +34959,20 @@
+           <displayName>GPIO_SLR</displayName>
            <description>GPIO Slew Rate Control Select</description>
            <addressOffset>0x00000518</addressOffset>
            <size>32</size>
@@ -464,7 +609,7 @@
          </register>
          <register>
            <name>DEN</name>
-@@ -34732,6 +34980,20 @@
+           <displayName>GPIO_DEN</displayName>
            <description>GPIO Digital Enable</description>
            <addressOffset>0x0000051C</addressOffset>
            <size>32</size>
@@ -485,7 +630,13 @@
          </register>
          <register>
            <name>LOCK</name>
-@@ -34782,6 +35044,20 @@
+           <displayName>GPIO_LOCK</displayName>
+           <description>GPIO Lock</description>
+           <addressOffset>0x00000520</addressOffset>
+@@ -34779,33 +35047,125 @@
+         <register>
+           <name>AMSEL</name>
+           <displayName>GPIO_AMSEL</displayName>
            <description>GPIO Analog Mode Select</description>
            <addressOffset>0x00000528</addressOffset>
            <size>32</size>
@@ -506,7 +657,7 @@
          </register>
          <register>
            <name>PCTL</name>
-@@ -34789,6 +35065,56 @@
+           <displayName>GPIO_PCTL</displayName>
            <description>GPIO Port Control</description>
            <addressOffset>0x0000052C</addressOffset>
            <size>32</size>
@@ -563,7 +714,7 @@
          </register>
          <register>
            <name>ADCCTL</name>
-@@ -34796,6 +35122,20 @@
+           <displayName>GPIO_ADCCTL</displayName>
            <description>GPIO ADC Control</description>
            <addressOffset>0x00000530</addressOffset>
            <size>32</size>
@@ -584,7 +735,7 @@
          </register>
          <register>
            <name>DMACTL</name>
-@@ -34803,6 +35143,20 @@
+           <displayName>GPIO_DMACTL</displayName>
            <description>GPIO DMA Control</description>
            <addressOffset>0x00000534</addressOffset>
            <size>32</size>
@@ -605,7 +756,13 @@
          </register>
          <register>
            <name>SI</name>
-@@ -34835,20 +35189,15 @@
+           <displayName>GPIO_SI</displayName>
+           <description>GPIO Select Interrupt</description>
+           <addressOffset>0x00000538</addressOffset>
+@@ -34832,26 +35192,21 @@
+           <description>GPIO 12-mA Drive Select</description>
+           <addressOffset>0x0000053C</addressOffset>
+           <size>32</size>
            <fields>
              <field>
                <name>DRV12</name>
@@ -630,3 +787,6 @@
              </field>
            </fields>
          </register>
+         <register>
+           <name>WAKEPEN</name>
+           <displayName>GPIO_WAKEPEN</displayName>
