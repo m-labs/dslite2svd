@@ -1742,12 +1742,6 @@
               <lsb>0</lsb>
               <msb>7</msb>
               <access>read-write</access>
-              <writeConstraint>
-                <range>
-                  <minimum>0</minimum>
-                  <maximum>255</maximum>
-                </range>
-              </writeConstraint>
             </field>
             <field>
               <name>FE</name>
@@ -7544,6 +7538,12 @@
               <lsb>0</lsb>
               <msb>15</msb>
               <access>read-write</access>
+              <writeConstraint>
+                <range>
+                  <minimum>0</minimum>
+                  <maximum>65535</maximum>
+                </range>
+              </writeConstraint>
             </field>
           </fields>
         </register>
@@ -7576,6 +7576,12 @@
               <lsb>0</lsb>
               <msb>15</msb>
               <access>read-write</access>
+              <writeConstraint>
+                <range>
+                  <minimum>0</minimum>
+                  <maximum>65535</maximum>
+                </range>
+              </writeConstraint>
             </field>
           </fields>
         </register>
@@ -7592,6 +7598,12 @@
               <lsb>0</lsb>
               <msb>15</msb>
               <access>read-write</access>
+              <writeConstraint>
+                <range>
+                  <minimum>0</minimum>
+                  <maximum>65535</maximum>
+                </range>
+              </writeConstraint>
             </field>
           </fields>
         </register>
@@ -8238,6 +8250,12 @@
               <lsb>0</lsb>
               <msb>15</msb>
               <access>read-write</access>
+              <writeConstraint>
+                <range>
+                  <minimum>0</minimum>
+                  <maximum>65535</maximum>
+                </range>
+              </writeConstraint>
             </field>
           </fields>
         </register>
@@ -8854,6 +8872,12 @@
               <lsb>0</lsb>
               <msb>15</msb>
               <access>read-write</access>
+              <writeConstraint>
+                <range>
+                  <minimum>0</minimum>
+                  <maximum>65535</maximum>
+                </range>
+              </writeConstraint>
             </field>
           </fields>
         </register>
@@ -8886,6 +8910,12 @@
               <lsb>0</lsb>
               <msb>15</msb>
               <access>read-write</access>
+              <writeConstraint>
+                <range>
+                  <minimum>0</minimum>
+                  <maximum>65535</maximum>
+                </range>
+              </writeConstraint>
             </field>
           </fields>
         </register>
@@ -8902,6 +8932,12 @@
               <lsb>0</lsb>
               <msb>15</msb>
               <access>read-write</access>
+              <writeConstraint>
+                <range>
+                  <minimum>0</minimum>
+                  <maximum>65535</maximum>
+                </range>
+              </writeConstraint>
             </field>
           </fields>
         </register>
@@ -9548,6 +9584,12 @@
               <lsb>0</lsb>
               <msb>15</msb>
               <access>read-write</access>
+              <writeConstraint>
+                <range>
+                  <minimum>0</minimum>
+                  <maximum>65535</maximum>
+                </range>
+              </writeConstraint>
             </field>
           </fields>
         </register>
@@ -10164,6 +10206,12 @@
               <lsb>0</lsb>
               <msb>15</msb>
               <access>read-write</access>
+              <writeConstraint>
+                <range>
+                  <minimum>0</minimum>
+                  <maximum>65535</maximum>
+                </range>
+              </writeConstraint>
             </field>
           </fields>
         </register>
@@ -10196,6 +10244,12 @@
               <lsb>0</lsb>
               <msb>15</msb>
               <access>read-write</access>
+              <writeConstraint>
+                <range>
+                  <minimum>0</minimum>
+                  <maximum>65535</maximum>
+                </range>
+              </writeConstraint>
             </field>
           </fields>
         </register>
@@ -10212,6 +10266,12 @@
               <lsb>0</lsb>
               <msb>15</msb>
               <access>read-write</access>
+              <writeConstraint>
+                <range>
+                  <minimum>0</minimum>
+                  <maximum>65535</maximum>
+                </range>
+              </writeConstraint>
             </field>
           </fields>
         </register>
@@ -10858,6 +10918,12 @@
               <lsb>0</lsb>
               <msb>15</msb>
               <access>read-write</access>
+              <writeConstraint>
+                <range>
+                  <minimum>0</minimum>
+                  <maximum>65535</maximum>
+                </range>
+              </writeConstraint>
             </field>
           </fields>
         </register>
@@ -11474,6 +11540,12 @@
               <lsb>0</lsb>
               <msb>15</msb>
               <access>read-write</access>
+              <writeConstraint>
+                <range>
+                  <minimum>0</minimum>
+                  <maximum>65535</maximum>
+                </range>
+              </writeConstraint>
             </field>
           </fields>
         </register>
@@ -11506,6 +11578,12 @@
               <lsb>0</lsb>
               <msb>15</msb>
               <access>read-write</access>
+              <writeConstraint>
+                <range>
+                  <minimum>0</minimum>
+                  <maximum>65535</maximum>
+                </range>
+              </writeConstraint>
             </field>
           </fields>
         </register>
@@ -11522,6 +11600,12 @@
               <lsb>0</lsb>
               <msb>15</msb>
               <access>read-write</access>
+              <writeConstraint>
+                <range>
+                  <minimum>0</minimum>
+                  <maximum>65535</maximum>
+                </range>
+              </writeConstraint>
             </field>
           </fields>
         </register>
@@ -12168,6 +12252,12 @@
               <lsb>0</lsb>
               <msb>15</msb>
               <access>read-write</access>
+              <writeConstraint>
+                <range>
+                  <minimum>0</minimum>
+                  <maximum>65535</maximum>
+                </range>
+              </writeConstraint>
             </field>
           </fields>
         </register>
