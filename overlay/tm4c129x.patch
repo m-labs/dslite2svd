@@ -506,7 +506,7 @@
          </register>
          <register>
            <name>PCTL</name>
-@@ -34789,6 +35065,63 @@
+@@ -34789,6 +35065,56 @@
            <description>GPIO Port Control</description>
            <addressOffset>0x0000052C</addressOffset>
            <size>32</size>
@@ -516,13 +516,6 @@
 +              <description>Port Mux Control 0</description>
 +              <lsb>0</lsb>
 +              <msb>3</msb>
-+              <access>read-write</access>
-+              <writeConstraint>
-+                <range>
-+                  <minimum>0</minimum>
-+                  <maximum>15</maximum>
-+                </range>
-+              </writeConstraint>
 +            </field>
 +            <field derivedFrom="PMC0">
 +              <name>PMC1</name>
@@ -570,7 +563,7 @@
          </register>
          <register>
            <name>ADCCTL</name>
-@@ -34796,6 +35129,20 @@
+@@ -34796,6 +35122,20 @@
            <description>GPIO ADC Control</description>
            <addressOffset>0x00000530</addressOffset>
            <size>32</size>
@@ -591,7 +584,7 @@
          </register>
          <register>
            <name>DMACTL</name>
-@@ -34803,6 +35150,20 @@
+@@ -34803,6 +35143,20 @@
            <description>GPIO DMA Control</description>
            <addressOffset>0x00000534</addressOffset>
            <size>32</size>
@@ -612,7 +605,7 @@
          </register>
          <register>
            <name>SI</name>
-@@ -34835,20 +35196,15 @@
+@@ -34835,20 +35189,15 @@
            <fields>
              <field>
                <name>DRV12</name>

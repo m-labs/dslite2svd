@@ -35071,13 +35071,6 @@
               <description>Port Mux Control 0</description>
               <lsb>0</lsb>
               <msb>3</msb>
-              <access>read-write</access>
-              <writeConstraint>
-                <range>
-                  <minimum>0</minimum>
-                  <maximum>15</maximum>
-                </range>
-              </writeConstraint>
             </field>
             <field derivedFrom="PMC0">
               <name>PMC1</name>
