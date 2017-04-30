@@ -1742,6 +1742,12 @@
               <lsb>0</lsb>
               <msb>7</msb>
               <access>read-write</access>
+              <writeConstraint>
+                <range>
+                  <minimum>0</minimum>
+                  <maximum>255</maximum>
+                </range>
+              </writeConstraint>
             </field>
             <field>
               <name>FE</name>
@@ -2029,6 +2035,12 @@
               <lsb>0</lsb>
               <msb>15</msb>
               <access>read-write</access>
+              <writeConstraint>
+                <range>
+                  <minimum>0</minimum>
+                  <maximum>65535</maximum>
+                </range>
+              </writeConstraint>
             </field>
           </fields>
         </register>
@@ -2045,6 +2057,12 @@
               <lsb>0</lsb>
               <msb>5</msb>
               <access>read-write</access>
+              <writeConstraint>
+                <range>
+                  <minimum>0</minimum>
+                  <maximum>63</maximum>
+                </range>
+              </writeConstraint>
             </field>
           </fields>
         </register>
@@ -3421,8 +3439,8 @@
                   <value>0x0</value>
                 </enumeratedValue>
                 <enumeratedValue>
-                  <name>PIOSC</name>
-                  <description>PIOSC</description>
+                  <name>ALTCLK</name>
+                  <description>Alternate clock (as defined in System Control Module)</description>
                   <value>0x5</value>
                 </enumeratedValue>
               </enumeratedValues>

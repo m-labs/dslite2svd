@@ -9,7 +9,44 @@
    <series>Tiva C Series</series>
    <version>1</version>
    <description>(no description)</description>
-@@ -34525,6 +34525,20 @@
+@@ -2029,6 +2029,12 @@
+               <lsb>0</lsb>
+               <msb>15</msb>
+               <access>read-write</access>
++              <writeConstraint>
++                <range>
++                  <minimum>0</minimum>
++                  <maximum>65535</maximum>
++                </range>
++              </writeConstraint>
+             </field>
+           </fields>
+         </register>
+@@ -2045,6 +2051,12 @@
+               <lsb>0</lsb>
+               <msb>5</msb>
+               <access>read-write</access>
++              <writeConstraint>
++                <range>
++                  <minimum>0</minimum>
++                  <maximum>63</maximum>
++                </range>
++              </writeConstraint>
+             </field>
+           </fields>
+         </register>
+@@ -3421,8 +3433,8 @@
+                   <value>0x0</value>
+                 </enumeratedValue>
+                 <enumeratedValue>
+-                  <name>PIOSC</name>
+-                  <description>PIOSC</description>
++                  <name>ALTCLK</name>
++                  <description>Alternate clock (as defined in System Control Module)</description>
+                   <value>0x5</value>
+                 </enumeratedValue>
+               </enumeratedValues>
+@@ -34525,6 +34537,20 @@
            <description>GPIO Data</description>
            <addressOffset>0x000003FC</addressOffset>
            <size>32</size>
@@ -30,7 +67,7 @@
          </register>
          <register>
            <name>DIR</name>
-@@ -34532,6 +34546,20 @@
+@@ -34532,6 +34558,20 @@
            <description>GPIO Direction</description>
            <addressOffset>0x00000400</addressOffset>
            <size>32</size>
@@ -51,7 +88,7 @@
          </register>
          <register>
            <name>IS</name>
-@@ -34676,6 +34704,20 @@
+@@ -34676,6 +34716,20 @@
            <description>GPIO Alternate Function Select</description>
            <addressOffset>0x00000420</addressOffset>
            <size>32</size>
@@ -72,7 +109,7 @@
          </register>
          <register>
            <name>DR2R</name>
-@@ -34683,6 +34725,20 @@
+@@ -34683,6 +34737,20 @@
            <description>GPIO 2-mA Drive Select</description>
            <addressOffset>0x00000500</addressOffset>
            <size>32</size>
@@ -93,7 +130,7 @@
          </register>
          <register>
            <name>DR4R</name>
-@@ -34690,6 +34746,20 @@
+@@ -34690,6 +34758,20 @@
            <description>GPIO 4-mA Drive Select</description>
            <addressOffset>0x00000504</addressOffset>
            <size>32</size>
@@ -114,7 +151,7 @@
          </register>
          <register>
            <name>DR8R</name>
-@@ -34697,6 +34767,20 @@
+@@ -34697,6 +34779,20 @@
            <description>GPIO 8-mA Drive Select</description>
            <addressOffset>0x00000508</addressOffset>
            <size>32</size>
@@ -135,7 +172,7 @@
          </register>
          <register>
            <name>ODR</name>
-@@ -34704,6 +34788,20 @@
+@@ -34704,6 +34800,20 @@
            <description>GPIO Open Drain Select</description>
            <addressOffset>0x0000050C</addressOffset>
            <size>32</size>
@@ -156,7 +193,7 @@
          </register>
          <register>
            <name>PUR</name>
-@@ -34711,6 +34809,20 @@
+@@ -34711,6 +34821,20 @@
            <description>GPIO Pull-Up Select</description>
            <addressOffset>0x00000510</addressOffset>
            <size>32</size>
@@ -177,7 +214,7 @@
          </register>
          <register>
            <name>PDR</name>
-@@ -34718,6 +34830,20 @@
+@@ -34718,6 +34842,20 @@
            <description>GPIO Pull-Down Select</description>
            <addressOffset>0x00000514</addressOffset>
            <size>32</size>
@@ -198,7 +235,7 @@
          </register>
          <register>
            <name>SLR</name>
-@@ -34725,6 +34851,20 @@
+@@ -34725,6 +34863,20 @@
            <description>GPIO Slew Rate Control Select</description>
            <addressOffset>0x00000518</addressOffset>
            <size>32</size>
@@ -219,7 +256,7 @@
          </register>
          <register>
            <name>DEN</name>
-@@ -34732,6 +34872,20 @@
+@@ -34732,6 +34884,20 @@
            <description>GPIO Digital Enable</description>
            <addressOffset>0x0000051C</addressOffset>
            <size>32</size>
@@ -240,7 +277,7 @@
          </register>
          <register>
            <name>LOCK</name>
-@@ -34782,6 +34936,20 @@
+@@ -34782,6 +34948,20 @@
            <description>GPIO Analog Mode Select</description>
            <addressOffset>0x00000528</addressOffset>
            <size>32</size>
@@ -261,7 +298,7 @@
          </register>
          <register>
            <name>PCTL</name>
-@@ -34789,6 +34957,63 @@
+@@ -34789,6 +34969,63 @@
            <description>GPIO Port Control</description>
            <addressOffset>0x0000052C</addressOffset>
            <size>32</size>
@@ -325,7 +362,7 @@
          </register>
          <register>
            <name>ADCCTL</name>
-@@ -34796,6 +35021,20 @@
+@@ -34796,6 +35033,20 @@
            <description>GPIO ADC Control</description>
            <addressOffset>0x00000530</addressOffset>
            <size>32</size>
@@ -346,7 +383,7 @@
          </register>
          <register>
            <name>DMACTL</name>
-@@ -34803,6 +35042,20 @@
+@@ -34803,6 +35054,20 @@
            <description>GPIO DMA Control</description>
            <addressOffset>0x00000534</addressOffset>
            <size>32</size>
@@ -367,7 +404,7 @@
          </register>
          <register>
            <name>SI</name>
-@@ -34835,20 +35088,15 @@
+@@ -34835,20 +35100,15 @@
            <fields>
              <field>
                <name>DRV12</name>
