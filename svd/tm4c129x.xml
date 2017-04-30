@@ -36682,6 +36682,12 @@
           <description>GPIO Data</description>
           <addressOffset>0x000003FC</addressOffset>
           <size>32</size>
+          <writeConstraint>
+            <range>
+              <minimum>0</minimum>
+              <maximum>4294967295</maximum>
+            </range>
+          </writeConstraint>
         </register>
         <register>
           <name>DIR</name>
@@ -36689,6 +36695,12 @@
           <description>GPIO Direction</description>
           <addressOffset>0x00000400</addressOffset>
           <size>32</size>
+          <writeConstraint>
+            <range>
+              <minimum>0</minimum>
+              <maximum>4294967295</maximum>
+            </range>
+          </writeConstraint>
         </register>
         <register>
           <name>IS</name>
@@ -36696,6 +36708,12 @@
           <description>GPIO Interrupt Sense</description>
           <addressOffset>0x00000404</addressOffset>
           <size>32</size>
+          <writeConstraint>
+            <range>
+              <minimum>0</minimum>
+              <maximum>4294967295</maximum>
+            </range>
+          </writeConstraint>
         </register>
         <register>
           <name>IBE</name>
@@ -36703,6 +36721,12 @@
           <description>GPIO Interrupt Both Edges</description>
           <addressOffset>0x00000408</addressOffset>
           <size>32</size>
+          <writeConstraint>
+            <range>
+              <minimum>0</minimum>
+              <maximum>4294967295</maximum>
+            </range>
+          </writeConstraint>
         </register>
         <register>
           <name>IEV</name>
@@ -36710,6 +36734,12 @@
           <description>GPIO Interrupt Event</description>
           <addressOffset>0x0000040C</addressOffset>
           <size>32</size>
+          <writeConstraint>
+            <range>
+              <minimum>0</minimum>
+              <maximum>4294967295</maximum>
+            </range>
+          </writeConstraint>
         </register>
         <register>
           <name>IM</name>
@@ -36857,6 +36887,12 @@
           <description>GPIO Alternate Function Select</description>
           <addressOffset>0x00000420</addressOffset>
           <size>32</size>
+          <writeConstraint>
+            <range>
+              <minimum>0</minimum>
+              <maximum>4294967295</maximum>
+            </range>
+          </writeConstraint>
         </register>
         <register>
           <name>DR2R</name>
@@ -36864,6 +36900,12 @@
           <description>GPIO 2-mA Drive Select</description>
           <addressOffset>0x00000500</addressOffset>
           <size>32</size>
+          <writeConstraint>
+            <range>
+              <minimum>0</minimum>
+              <maximum>4294967295</maximum>
+            </range>
+          </writeConstraint>
         </register>
         <register>
           <name>DR4R</name>
@@ -36871,6 +36913,12 @@
           <description>GPIO 4-mA Drive Select</description>
           <addressOffset>0x00000504</addressOffset>
           <size>32</size>
+          <writeConstraint>
+            <range>
+              <minimum>0</minimum>
+              <maximum>4294967295</maximum>
+            </range>
+          </writeConstraint>
         </register>
         <register>
           <name>DR8R</name>
@@ -36878,6 +36926,12 @@
           <description>GPIO 8-mA Drive Select</description>
           <addressOffset>0x00000508</addressOffset>
           <size>32</size>
+          <writeConstraint>
+            <range>
+              <minimum>0</minimum>
+              <maximum>4294967295</maximum>
+            </range>
+          </writeConstraint>
         </register>
         <register>
           <name>ODR</name>
@@ -36885,6 +36939,12 @@
           <description>GPIO Open Drain Select</description>
           <addressOffset>0x0000050C</addressOffset>
           <size>32</size>
+          <writeConstraint>
+            <range>
+              <minimum>0</minimum>
+              <maximum>4294967295</maximum>
+            </range>
+          </writeConstraint>
         </register>
         <register>
           <name>PUR</name>
@@ -36892,6 +36952,12 @@
           <description>GPIO Pull-Up Select</description>
           <addressOffset>0x00000510</addressOffset>
           <size>32</size>
+          <writeConstraint>
+            <range>
+              <minimum>0</minimum>
+              <maximum>4294967295</maximum>
+            </range>
+          </writeConstraint>
         </register>
         <register>
           <name>PDR</name>
@@ -36899,6 +36965,12 @@
           <description>GPIO Pull-Down Select</description>
           <addressOffset>0x00000514</addressOffset>
           <size>32</size>
+          <writeConstraint>
+            <range>
+              <minimum>0</minimum>
+              <maximum>4294967295</maximum>
+            </range>
+          </writeConstraint>
         </register>
         <register>
           <name>SLR</name>
@@ -36906,6 +36978,12 @@
           <description>GPIO Slew Rate Control Select</description>
           <addressOffset>0x00000518</addressOffset>
           <size>32</size>
+          <writeConstraint>
+            <range>
+              <minimum>0</minimum>
+              <maximum>4294967295</maximum>
+            </range>
+          </writeConstraint>
         </register>
         <register>
           <name>DEN</name>
@@ -36913,6 +36991,12 @@
           <description>GPIO Digital Enable</description>
           <addressOffset>0x0000051C</addressOffset>
           <size>32</size>
+          <writeConstraint>
+            <range>
+              <minimum>0</minimum>
+              <maximum>4294967295</maximum>
+            </range>
+          </writeConstraint>
         </register>
         <register>
           <name>LOCK</name>
@@ -36956,6 +37040,12 @@
           <description>GPIO Commit</description>
           <addressOffset>0x00000524</addressOffset>
           <size>32</size>
+          <writeConstraint>
+            <range>
+              <minimum>0</minimum>
+              <maximum>4294967295</maximum>
+            </range>
+          </writeConstraint>
         </register>
         <register>
           <name>AMSEL</name>
@@ -36963,6 +37053,12 @@
           <description>GPIO Analog Mode Select</description>
           <addressOffset>0x00000528</addressOffset>
           <size>32</size>
+          <writeConstraint>
+            <range>
+              <minimum>0</minimum>
+              <maximum>4294967295</maximum>
+            </range>
+          </writeConstraint>
         </register>
         <register>
           <name>PCTL</name>
@@ -36970,6 +37066,12 @@
           <description>GPIO Port Control</description>
           <addressOffset>0x0000052C</addressOffset>
           <size>32</size>
+          <writeConstraint>
+            <range>
+              <minimum>0</minimum>
+              <maximum>4294967295</maximum>
+            </range>
+          </writeConstraint>
         </register>
         <register>
           <name>ADCCTL</name>
@@ -36977,6 +37079,12 @@
           <description>GPIO ADC Control</description>
           <addressOffset>0x00000530</addressOffset>
           <size>32</size>
+          <writeConstraint>
+            <range>
+              <minimum>0</minimum>
+              <maximum>4294967295</maximum>
+            </range>
+          </writeConstraint>
         </register>
         <register>
           <name>DMACTL</name>
@@ -36984,6 +37092,12 @@
           <description>GPIO DMA Control</description>
           <addressOffset>0x00000534</addressOffset>
           <size>32</size>
+          <writeConstraint>
+            <range>
+              <minimum>0</minimum>
+              <maximum>4294967295</maximum>
+            </range>
+          </writeConstraint>
         </register>
         <register>
           <name>SI</name>
@@ -50156,6 +50270,12 @@
           <description>Flash Memory Protection Read Enable 0</description>
           <addressOffset>0x00001200</addressOffset>
           <size>32</size>
+          <writeConstraint>
+            <range>
+              <minimum>0</minimum>
+              <maximum>4294967295</maximum>
+            </range>
+          </writeConstraint>
         </register>
         <register>
           <name>FMPRE1</name>
@@ -50163,6 +50283,12 @@
           <description>Flash Memory Protection Read Enable 1</description>
           <addressOffset>0x00001204</addressOffset>
           <size>32</size>
+          <writeConstraint>
+            <range>
+              <minimum>0</minimum>
+              <maximum>4294967295</maximum>
+            </range>
+          </writeConstraint>
         </register>
         <register>
           <name>FMPRE2</name>
@@ -50170,6 +50296,12 @@
           <description>Flash Memory Protection Read Enable 2</description>
           <addressOffset>0x00001208</addressOffset>
           <size>32</size>
+          <writeConstraint>
+            <range>
+              <minimum>0</minimum>
+              <maximum>4294967295</maximum>
+            </range>
+          </writeConstraint>
         </register>
         <register>
           <name>FMPRE3</name>
@@ -50177,6 +50309,12 @@
           <description>Flash Memory Protection Read Enable 3</description>
           <addressOffset>0x0000120C</addressOffset>
           <size>32</size>
+          <writeConstraint>
+            <range>
+              <minimum>0</minimum>
+              <maximum>4294967295</maximum>
+            </range>
+          </writeConstraint>
         </register>
         <register>
           <name>FMPRE4</name>
@@ -50184,6 +50322,12 @@
           <description>Flash Memory Protection Read Enable 4</description>
           <addressOffset>0x00001210</addressOffset>
           <size>32</size>
+          <writeConstraint>
+            <range>
+              <minimum>0</minimum>
+              <maximum>4294967295</maximum>
+            </range>
+          </writeConstraint>
         </register>
         <register>
           <name>FMPRE5</name>
@@ -50191,6 +50335,12 @@
           <description>Flash Memory Protection Read Enable 5</description>
           <addressOffset>0x00001214</addressOffset>
           <size>32</size>
+          <writeConstraint>
+            <range>
+              <minimum>0</minimum>
+              <maximum>4294967295</maximum>
+            </range>
+          </writeConstraint>
         </register>
         <register>
           <name>FMPRE6</name>
@@ -50198,6 +50348,12 @@
           <description>Flash Memory Protection Read Enable 6</description>
           <addressOffset>0x00001218</addressOffset>
           <size>32</size>
+          <writeConstraint>
+            <range>
+              <minimum>0</minimum>
+              <maximum>4294967295</maximum>
+            </range>
+          </writeConstraint>
         </register>
         <register>
           <name>FMPRE7</name>
@@ -50205,6 +50361,12 @@
           <description>Flash Memory Protection Read Enable 7</description>
           <addressOffset>0x0000121C</addressOffset>
           <size>32</size>
+          <writeConstraint>
+            <range>
+              <minimum>0</minimum>
+              <maximum>4294967295</maximum>
+            </range>
+          </writeConstraint>
         </register>
         <register>
           <name>FMPRE8</name>
@@ -50388,6 +50550,12 @@
           <description>Flash Memory Protection Program Enable 0</description>
           <addressOffset>0x00001400</addressOffset>
           <size>32</size>
+          <writeConstraint>
+            <range>
+              <minimum>0</minimum>
+              <maximum>4294967295</maximum>
+            </range>
+          </writeConstraint>
         </register>
         <register>
           <name>FMPPE1</name>
@@ -50395,6 +50563,12 @@
           <description>Flash Memory Protection Program Enable 1</description>
           <addressOffset>0x00001404</addressOffset>
           <size>32</size>
+          <writeConstraint>
+            <range>
+              <minimum>0</minimum>
+              <maximum>4294967295</maximum>
+            </range>
+          </writeConstraint>
         </register>
         <register>
           <name>FMPPE2</name>
@@ -50402,6 +50576,12 @@
           <description>Flash Memory Protection Program Enable 2</description>
           <addressOffset>0x00001408</addressOffset>
           <size>32</size>
+          <writeConstraint>
+            <range>
+              <minimum>0</minimum>
+              <maximum>4294967295</maximum>
+            </range>
+          </writeConstraint>
         </register>
         <register>
           <name>FMPPE3</name>
@@ -50409,6 +50589,12 @@
           <description>Flash Memory Protection Program Enable 3</description>
           <addressOffset>0x0000140C</addressOffset>
           <size>32</size>
+          <writeConstraint>
+            <range>
+              <minimum>0</minimum>
+              <maximum>4294967295</maximum>
+            </range>
+          </writeConstraint>
         </register>
         <register>
           <name>FMPPE4</name>
@@ -50416,6 +50602,12 @@
           <description>Flash Memory Protection Program Enable 4</description>
           <addressOffset>0x00001410</addressOffset>
           <size>32</size>
+          <writeConstraint>
+            <range>
+              <minimum>0</minimum>
+              <maximum>4294967295</maximum>
+            </range>
+          </writeConstraint>
         </register>
         <register>
           <name>FMPPE5</name>
@@ -50423,6 +50615,12 @@
           <description>Flash Memory Protection Program Enable 5</description>
           <addressOffset>0x00001414</addressOffset>
           <size>32</size>
+          <writeConstraint>
+            <range>
+              <minimum>0</minimum>
+              <maximum>4294967295</maximum>
+            </range>
+          </writeConstraint>
         </register>
         <register>
           <name>FMPPE6</name>
@@ -50430,6 +50628,12 @@
           <description>Flash Memory Protection Program Enable 6</description>
           <addressOffset>0x00001418</addressOffset>
           <size>32</size>
+          <writeConstraint>
+            <range>
+              <minimum>0</minimum>
+              <maximum>4294967295</maximum>
+            </range>
+          </writeConstraint>
         </register>
         <register>
           <name>FMPPE7</name>
@@ -50437,6 +50641,12 @@
           <description>Flash Memory Protection Program Enable 7</description>
           <addressOffset>0x0000141C</addressOffset>
           <size>32</size>
+          <writeConstraint>
+            <range>
+              <minimum>0</minimum>
+              <maximum>4294967295</maximum>
+            </range>
+          </writeConstraint>
         </register>
         <register>
           <name>FMPPE8</name>
