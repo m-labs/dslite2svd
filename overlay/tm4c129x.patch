@@ -105,9 +105,15 @@
          <register>
            <name>_0_COUNT</name>
            <displayName>PWM_0_COUNT</displayName>
-@@ -7531,12 +7555,18 @@
+@@ -7526,33 +7550,45 @@
+           <displayName>PWM_0_CMPA</displayName>
+           <description>PWM0 Compare A</description>
+           <addressOffset>0x00000058</addressOffset>
+           <size>32</size>
+           <fields>
              <field>
-               <name>CMPA</name>
+-              <name>CMPA</name>
++              <name>COMPA</name>
                <description>Comparator A Value</description>
                <lsb>0</lsb>
                <msb>15</msb>
@@ -124,9 +130,13 @@
          <register>
            <name>_0_CMPB</name>
            <displayName>PWM_0_CMPB</displayName>
-@@ -7547,12 +7577,18 @@
+           <description>PWM0 Compare B</description>
+           <addressOffset>0x0000005C</addressOffset>
+           <size>32</size>
+           <fields>
              <field>
-               <name>CMPB</name>
+-              <name>CMPB</name>
++              <name>COMPB</name>
                <description>Comparator B Value</description>
                <lsb>0</lsb>
                <msb>15</msb>

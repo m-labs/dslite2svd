@@ -7553,7 +7553,7 @@
           <size>32</size>
           <fields>
             <field>
-              <name>CMPA</name>
+              <name>COMPA</name>
               <description>Comparator A Value</description>
               <lsb>0</lsb>
               <msb>15</msb>
@@ -7575,7 +7575,7 @@
           <size>32</size>
           <fields>
             <field>
-              <name>CMPB</name>
+              <name>COMPB</name>
               <description>Comparator B Value</description>
               <lsb>0</lsb>
               <msb>15</msb>
