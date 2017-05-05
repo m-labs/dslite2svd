@@ -18335,6 +18335,43 @@
               <lsb>0</lsb>
               <msb>3</msb>
               <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>_4</name>
+                  <description>N_SH = 4</description>
+                  <value>0x0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_8</name>
+                  <description>N_SH = 8</description>
+                  <value>0x2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_16</name>
+                  <description>N_SH = 16</description>
+                  <value>0x4</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_32</name>
+                  <description>N_SH = 32</description>
+                  <value>0x6</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_64</name>
+                  <description>N_SH = 64</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_128</name>
+                  <description>N_SH = 128</description>
+                  <value>0xa</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_256</name>
+                  <description>N_SH = 256</description>
+                  <value>0xc</value>
+                </enumeratedValue>
+              </enumeratedValues>
             </field>
             <field>
               <name>TSH1</name>
@@ -18342,6 +18379,43 @@
               <lsb>4</lsb>
               <msb>7</msb>
               <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>_4</name>
+                  <description>N_SH = 4</description>
+                  <value>0x0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_8</name>
+                  <description>N_SH = 8</description>
+                  <value>0x2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_16</name>
+                  <description>N_SH = 16</description>
+                  <value>0x4</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_32</name>
+                  <description>N_SH = 32</description>
+                  <value>0x6</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_64</name>
+                  <description>N_SH = 64</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_128</name>
+                  <description>N_SH = 128</description>
+                  <value>0xa</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_256</name>
+                  <description>N_SH = 256</description>
+                  <value>0xc</value>
+                </enumeratedValue>
+              </enumeratedValues>
             </field>
             <field>
               <name>TSH2</name>
@@ -18349,6 +18423,43 @@
               <lsb>8</lsb>
               <msb>11</msb>
               <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>_4</name>
+                  <description>N_SH = 4</description>
+                  <value>0x0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_8</name>
+                  <description>N_SH = 8</description>
+                  <value>0x2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_16</name>
+                  <description>N_SH = 16</description>
+                  <value>0x4</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_32</name>
+                  <description>N_SH = 32</description>
+                  <value>0x6</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_64</name>
+                  <description>N_SH = 64</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_128</name>
+                  <description>N_SH = 128</description>
+                  <value>0xa</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_256</name>
+                  <description>N_SH = 256</description>
+                  <value>0xc</value>
+                </enumeratedValue>
+              </enumeratedValues>
             </field>
             <field>
               <name>TSH3</name>
@@ -18356,6 +18467,43 @@
               <lsb>12</lsb>
               <msb>15</msb>
               <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>_4</name>
+                  <description>N_SH = 4</description>
+                  <value>0x0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_8</name>
+                  <description>N_SH = 8</description>
+                  <value>0x2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_16</name>
+                  <description>N_SH = 16</description>
+                  <value>0x4</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_32</name>
+                  <description>N_SH = 32</description>
+                  <value>0x6</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_64</name>
+                  <description>N_SH = 64</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_128</name>
+                  <description>N_SH = 128</description>
+                  <value>0xa</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_256</name>
+                  <description>N_SH = 256</description>
+                  <value>0xc</value>
+                </enumeratedValue>
+              </enumeratedValues>
             </field>
             <field>
               <name>TSH4</name>
@@ -18363,6 +18511,43 @@
               <lsb>16</lsb>
               <msb>19</msb>
               <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>_4</name>
+                  <description>N_SH = 4</description>
+                  <value>0x0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_8</name>
+                  <description>N_SH = 8</description>
+                  <value>0x2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_16</name>
+                  <description>N_SH = 16</description>
+                  <value>0x4</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_32</name>
+                  <description>N_SH = 32</description>
+                  <value>0x6</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_64</name>
+                  <description>N_SH = 64</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_128</name>
+                  <description>N_SH = 128</description>
+                  <value>0xa</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_256</name>
+                  <description>N_SH = 256</description>
+                  <value>0xc</value>
+                </enumeratedValue>
+              </enumeratedValues>
             </field>
             <field>
               <name>TSH5</name>
@@ -18370,6 +18555,43 @@
               <lsb>20</lsb>
               <msb>23</msb>
               <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>_4</name>
+                  <description>N_SH = 4</description>
+                  <value>0x0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_8</name>
+                  <description>N_SH = 8</description>
+                  <value>0x2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_16</name>
+                  <description>N_SH = 16</description>
+                  <value>0x4</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_32</name>
+                  <description>N_SH = 32</description>
+                  <value>0x6</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_64</name>
+                  <description>N_SH = 64</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_128</name>
+                  <description>N_SH = 128</description>
+                  <value>0xa</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_256</name>
+                  <description>N_SH = 256</description>
+                  <value>0xc</value>
+                </enumeratedValue>
+              </enumeratedValues>
             </field>
             <field>
               <name>TSH6</name>
@@ -18377,6 +18599,43 @@
               <lsb>24</lsb>
               <msb>27</msb>
               <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>_4</name>
+                  <description>N_SH = 4</description>
+                  <value>0x0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_8</name>
+                  <description>N_SH = 8</description>
+                  <value>0x2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_16</name>
+                  <description>N_SH = 16</description>
+                  <value>0x4</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_32</name>
+                  <description>N_SH = 32</description>
+                  <value>0x6</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_64</name>
+                  <description>N_SH = 64</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_128</name>
+                  <description>N_SH = 128</description>
+                  <value>0xa</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_256</name>
+                  <description>N_SH = 256</description>
+                  <value>0xc</value>
+                </enumeratedValue>
+              </enumeratedValues>
             </field>
             <field>
               <name>TSH7</name>
@@ -18384,6 +18643,43 @@
               <lsb>28</lsb>
               <msb>31</msb>
               <access>read-write</access>
+              <enumeratedValues>
+                <enumeratedValue>
+                  <name>_4</name>
+                  <description>N_SH = 4</description>
+                  <value>0x0</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_8</name>
+                  <description>N_SH = 8</description>
+                  <value>0x2</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_16</name>
+                  <description>N_SH = 16</description>
+                  <value>0x4</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_32</name>
+                  <description>N_SH = 32</description>
+                  <value>0x6</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_64</name>
+                  <description>N_SH = 64</description>
+                  <value>0x8</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_128</name>
+                  <description>N_SH = 128</description>
+                  <value>0xa</value>
+                </enumeratedValue>
+                <enumeratedValue>
+                  <name>_256</name>
+                  <description>N_SH = 256</description>
+                  <value>0xc</value>
+                </enumeratedValue>
+              </enumeratedValues>
             </field>
           </fields>
         </register>
