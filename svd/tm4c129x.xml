@@ -17489,6 +17489,12 @@
               <lsb>0</lsb>
               <msb>3</msb>
               <access>read-write</access>
+              <writeConstraint>
+                <range>
+                  <minimum>0</minimum>
+                  <maximum>15</maximum>
+                </range>
+              </writeConstraint>
             </field>
             <field>
               <name>MUX1</name>
@@ -17496,6 +17502,12 @@
               <lsb>4</lsb>
               <msb>7</msb>
               <access>read-write</access>
+              <writeConstraint>
+                <range>
+                  <minimum>0</minimum>
+                  <maximum>15</maximum>
+                </range>
+              </writeConstraint>
             </field>
             <field>
               <name>MUX2</name>
@@ -17503,6 +17515,12 @@
               <lsb>8</lsb>
               <msb>11</msb>
               <access>read-write</access>
+              <writeConstraint>
+                <range>
+                  <minimum>0</minimum>
+                  <maximum>15</maximum>
+                </range>
+              </writeConstraint>
             </field>
             <field>
               <name>MUX3</name>
@@ -17510,6 +17528,12 @@
               <lsb>12</lsb>
               <msb>15</msb>
               <access>read-write</access>
+              <writeConstraint>
+                <range>
+                  <minimum>0</minimum>
+                  <maximum>15</maximum>
+                </range>
+              </writeConstraint>
             </field>
             <field>
               <name>MUX4</name>
@@ -17517,6 +17541,12 @@
               <lsb>16</lsb>
               <msb>19</msb>
               <access>read-write</access>
+              <writeConstraint>
+                <range>
+                  <minimum>0</minimum>
+                  <maximum>15</maximum>
+                </range>
+              </writeConstraint>
             </field>
             <field>
               <name>MUX5</name>
@@ -17524,6 +17554,12 @@
               <lsb>20</lsb>
               <msb>23</msb>
               <access>read-write</access>
+              <writeConstraint>
+                <range>
+                  <minimum>0</minimum>
+                  <maximum>15</maximum>
+                </range>
+              </writeConstraint>
             </field>
             <field>
               <name>MUX6</name>
@@ -17531,6 +17567,12 @@
               <lsb>24</lsb>
               <msb>27</msb>
               <access>read-write</access>
+              <writeConstraint>
+                <range>
+                  <minimum>0</minimum>
+                  <maximum>15</maximum>
+                </range>
+              </writeConstraint>
             </field>
             <field>
               <name>MUX7</name>
@@ -17538,6 +17580,12 @@
               <lsb>28</lsb>
               <msb>31</msb>
               <access>read-write</access>
+              <writeConstraint>
+                <range>
+                  <minimum>0</minimum>
+                  <maximum>15</maximum>
+                </range>
+              </writeConstraint>
             </field>
           </fields>
         </register>

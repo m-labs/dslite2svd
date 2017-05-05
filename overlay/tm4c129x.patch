@@ -400,7 +400,117 @@
          <register>
            <name>_0_FLTSEN</name>
            <displayName>PWM_0_FLTSEN</displayName>
-@@ -18218,61 +18332,357 @@
+@@ -17372,61 +17486,109 @@
+             <field>
+               <name>MUX0</name>
+               <description>1st Sample Input Select</description>
+               <lsb>0</lsb>
+               <msb>3</msb>
+               <access>read-write</access>
++              <writeConstraint>
++                <range>
++                  <minimum>0</minimum>
++                  <maximum>15</maximum>
++                </range>
++              </writeConstraint>
+             </field>
+             <field>
+               <name>MUX1</name>
+               <description>2nd Sample Input Select</description>
+               <lsb>4</lsb>
+               <msb>7</msb>
+               <access>read-write</access>
++              <writeConstraint>
++                <range>
++                  <minimum>0</minimum>
++                  <maximum>15</maximum>
++                </range>
++              </writeConstraint>
+             </field>
+             <field>
+               <name>MUX2</name>
+               <description>3rd Sample Input Select</description>
+               <lsb>8</lsb>
+               <msb>11</msb>
+               <access>read-write</access>
++              <writeConstraint>
++                <range>
++                  <minimum>0</minimum>
++                  <maximum>15</maximum>
++                </range>
++              </writeConstraint>
+             </field>
+             <field>
+               <name>MUX3</name>
+               <description>4th Sample Input Select</description>
+               <lsb>12</lsb>
+               <msb>15</msb>
+               <access>read-write</access>
++              <writeConstraint>
++                <range>
++                  <minimum>0</minimum>
++                  <maximum>15</maximum>
++                </range>
++              </writeConstraint>
+             </field>
+             <field>
+               <name>MUX4</name>
+               <description>5th Sample Input Select</description>
+               <lsb>16</lsb>
+               <msb>19</msb>
+               <access>read-write</access>
++              <writeConstraint>
++                <range>
++                  <minimum>0</minimum>
++                  <maximum>15</maximum>
++                </range>
++              </writeConstraint>
+             </field>
+             <field>
+               <name>MUX5</name>
+               <description>6th Sample Input Select</description>
+               <lsb>20</lsb>
+               <msb>23</msb>
+               <access>read-write</access>
++              <writeConstraint>
++                <range>
++                  <minimum>0</minimum>
++                  <maximum>15</maximum>
++                </range>
++              </writeConstraint>
+             </field>
+             <field>
+               <name>MUX6</name>
+               <description>7th Sample Input Select</description>
+               <lsb>24</lsb>
+               <msb>27</msb>
+               <access>read-write</access>
++              <writeConstraint>
++                <range>
++                  <minimum>0</minimum>
++                  <maximum>15</maximum>
++                </range>
++              </writeConstraint>
+             </field>
+             <field>
+               <name>MUX7</name>
+               <description>8th Sample Input Select</description>
+               <lsb>28</lsb>
+               <msb>31</msb>
+               <access>read-write</access>
++              <writeConstraint>
++                <range>
++                  <minimum>0</minimum>
++                  <maximum>15</maximum>
++                </range>
++              </writeConstraint>
+             </field>
+           </fields>
+         </register>
+         <register>
+           <name>SSCTL0</name>
+           <displayName>ADC_SSCTL0</displayName>
+@@ -18218,61 +18380,357 @@
              <field>
                <name>TSH0</name>
                <description>1st Sample and Hold Period Select</description>
@@ -758,7 +868,7 @@
          <register>
            <name>SSMUX1</name>
            <displayName>ADC_SSMUX1</displayName>
-@@ -34378,19 +34788,47 @@
+@@ -34378,19 +34836,47 @@
          <register>
            <name>DATA</name>
            <displayName>GPIO_DATA</displayName>
@@ -806,7 +916,7 @@
            <displayName>GPIO_IS</displayName>
            <description>GPIO Interrupt Sense</description>
            <addressOffset>0x00000404</addressOffset>
-@@ -34529,68 +34967,194 @@
+@@ -34529,68 +35015,194 @@
          <register>
            <name>AFSEL</name>
            <displayName>GPIO_AFSEL</displayName>
@@ -1001,7 +1111,7 @@
            <displayName>GPIO_LOCK</displayName>
            <description>GPIO Lock</description>
            <addressOffset>0x00000520</addressOffset>
-@@ -34635,33 +35199,125 @@
+@@ -34635,33 +35247,125 @@
          <register>
            <name>AMSEL</name>
            <displayName>GPIO_AMSEL</displayName>
@@ -1127,7 +1237,7 @@
            <displayName>GPIO_SI</displayName>
            <description>GPIO Select Interrupt</description>
            <addressOffset>0x00000538</addressOffset>
-@@ -34688,26 +35344,21 @@
+@@ -34688,26 +35392,21 @@
            <description>GPIO 12-mA Drive Select</description>
            <addressOffset>0x0000053C</addressOffset>
            <size>32</size>
