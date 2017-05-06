@@ -17,392 +17,392 @@
       <interrupt>
         <name>GPIOA</name>
         <description>GPIO Port A</description>
-        <value>16</value>
+        <value>0</value>
       </interrupt>
       <interrupt>
         <name>GPIOB</name>
         <description>GPIO Port B</description>
-        <value>17</value>
+        <value>1</value>
       </interrupt>
       <interrupt>
         <name>GPIOC</name>
         <description>GPIO Port C</description>
-        <value>18</value>
+        <value>2</value>
       </interrupt>
       <interrupt>
         <name>GPIOD</name>
         <description>GPIO Port D</description>
-        <value>19</value>
+        <value>3</value>
       </interrupt>
       <interrupt>
         <name>GPIOE</name>
         <description>GPIO Port E</description>
-        <value>20</value>
+        <value>4</value>
       </interrupt>
       <interrupt>
         <name>UART0</name>
         <description>UART0</description>
-        <value>21</value>
+        <value>5</value>
       </interrupt>
       <interrupt>
         <name>UART1</name>
         <description>UART1</description>
-        <value>22</value>
+        <value>6</value>
       </interrupt>
       <interrupt>
         <name>SSI0</name>
         <description>SSI0</description>
-        <value>23</value>
+        <value>7</value>
       </interrupt>
       <interrupt>
         <name>I2C0</name>
         <description>I2C0</description>
-        <value>24</value>
+        <value>8</value>
       </interrupt>
       <interrupt>
         <name>PWM0_FAULT</name>
         <description>PWM0 Fault</description>
-        <value>25</value>
+        <value>9</value>
       </interrupt>
       <interrupt>
         <name>PWM0_0</name>
         <description>PWM0 Generator 0</description>
-        <value>26</value>
+        <value>10</value>
       </interrupt>
       <interrupt>
         <name>PWM0_1</name>
         <description>PWM0 Generator 1</description>
-        <value>27</value>
+        <value>11</value>
       </interrupt>
       <interrupt>
         <name>PWM0_2</name>
         <description>PWM0 Generator 2</description>
-        <value>28</value>
+        <value>12</value>
       </interrupt>
       <interrupt>
         <name>QEI0</name>
         <description>QEI0</description>
-        <value>29</value>
+        <value>13</value>
       </interrupt>
       <interrupt>
         <name>ADC0SS0</name>
         <description>ADC0 Sequence 0</description>
-        <value>30</value>
+        <value>14</value>
       </interrupt>
       <interrupt>
         <name>ADC0SS1</name>
         <description>ADC0 Sequence 1</description>
-        <value>31</value>
+        <value>15</value>
       </interrupt>
       <interrupt>
         <name>ADC0SS2</name>
         <description>ADC0 Sequence 2</description>
-        <value>32</value>
+        <value>16</value>
       </interrupt>
       <interrupt>
         <name>ADC0SS3</name>
         <description>ADC0 Sequence 3</description>
-        <value>33</value>
+        <value>17</value>
       </interrupt>
       <interrupt>
         <name>WATCHDOG</name>
         <description>Watchdog Timers 0 and 1</description>
-        <value>34</value>
+        <value>18</value>
       </interrupt>
       <interrupt>
         <name>TIMER0A</name>
         <description>16/32-Bit Timer 0A</description>
-        <value>35</value>
+        <value>19</value>
       </interrupt>
       <interrupt>
         <name>TIMER0B</name>
         <description>16/32-Bit Timer 0B</description>
-        <value>36</value>
+        <value>20</value>
       </interrupt>
       <interrupt>
         <name>TIMER1A</name>
         <description>16/32-Bit Timer 1A</description>
-        <value>37</value>
+        <value>21</value>
       </interrupt>
       <interrupt>
         <name>TIMER1B</name>
         <description>16/32-Bit Timer 1B</description>
-        <value>38</value>
+        <value>22</value>
       </interrupt>
       <interrupt>
         <name>TIMER2A</name>
         <description>16/32-Bit Timer 2A</description>
-        <value>39</value>
+        <value>23</value>
       </interrupt>
       <interrupt>
         <name>TIMER2B</name>
         <description>16/32-Bit Timer 2B</description>
-        <value>40</value>
+        <value>24</value>
       </interrupt>
       <interrupt>
         <name>COMP0</name>
         <description>Analog Comparator 0</description>
-        <value>41</value>
+        <value>25</value>
       </interrupt>
       <interrupt>
         <name>COMP1</name>
         <description>Analog Comparator 1</description>
-        <value>42</value>
+        <value>26</value>
       </interrupt>
       <interrupt>
         <name>SYSCTL</name>
         <description>System Control</description>
-        <value>44</value>
+        <value>28</value>
       </interrupt>
       <interrupt>
         <name>FLASH</name>
         <description>Flash Memory Control and EEPROM Control</description>
-        <value>45</value>
+        <value>29</value>
       </interrupt>
       <interrupt>
         <name>GPIOF</name>
         <description>GPIO Port F</description>
-        <value>46</value>
+        <value>30</value>
       </interrupt>
       <interrupt>
         <name>UART2</name>
         <description>UART2</description>
-        <value>49</value>
+        <value>33</value>
       </interrupt>
       <interrupt>
         <name>SSI1</name>
         <description>SSI1</description>
-        <value>50</value>
+        <value>34</value>
       </interrupt>
       <interrupt>
         <name>TIMER3A</name>
         <description>Timer 3A</description>
-        <value>51</value>
+        <value>35</value>
       </interrupt>
       <interrupt>
         <name>TIMER3B</name>
         <description>Timer 3B</description>
-        <value>52</value>
+        <value>36</value>
       </interrupt>
       <interrupt>
         <name>I2C1</name>
         <description>I2C1</description>
-        <value>53</value>
+        <value>37</value>
       </interrupt>
       <interrupt>
         <name>QEI1</name>
         <description>QEI1</description>
-        <value>54</value>
+        <value>38</value>
       </interrupt>
       <interrupt>
         <name>CAN0</name>
         <description>CAN0</description>
-        <value>55</value>
+        <value>39</value>
       </interrupt>
       <interrupt>
         <name>CAN1</name>
         <description>CAN1</description>
-        <value>56</value>
+        <value>40</value>
       </interrupt>
       <interrupt>
         <name>HIBERNATE</name>
         <description>Hibernation Module</description>
-        <value>59</value>
+        <value>43</value>
       </interrupt>
       <interrupt>
         <name>USB0</name>
         <description>USB</description>
-        <value>60</value>
+        <value>44</value>
       </interrupt>
       <interrupt>
         <name>PWM0_3</name>
         <description>PWM Generator 3</description>
-        <value>61</value>
+        <value>45</value>
       </interrupt>
       <interrupt>
         <name>UDMA</name>
         <description>uDMA Software</description>
-        <value>62</value>
+        <value>46</value>
       </interrupt>
       <interrupt>
         <name>UDMAERR</name>
         <description>uDMA Error</description>
-        <value>63</value>
+        <value>47</value>
       </interrupt>
       <interrupt>
         <name>ADC1SS0</name>
         <description>ADC1 Sequence 0</description>
-        <value>64</value>
+        <value>48</value>
       </interrupt>
       <interrupt>
         <name>ADC1SS1</name>
         <description>ADC1 Sequence 1</description>
-        <value>65</value>
+        <value>49</value>
       </interrupt>
       <interrupt>
         <name>ADC1SS2</name>
         <description>ADC1 Sequence 2</description>
-        <value>66</value>
+        <value>50</value>
       </interrupt>
       <interrupt>
         <name>ADC1SS3</name>
         <description>ADC1 Sequence 3</description>
-        <value>67</value>
+        <value>51</value>
       </interrupt>
       <interrupt>
         <name>SSI2</name>
         <description>SSI2</description>
-        <value>73</value>
+        <value>57</value>
       </interrupt>
       <interrupt>
         <name>SSI3</name>
         <description>SSI3</description>
-        <value>74</value>
+        <value>58</value>
       </interrupt>
       <interrupt>
         <name>UART3</name>
         <description>UART3</description>
-        <value>75</value>
+        <value>59</value>
       </interrupt>
       <interrupt>
         <name>UART4</name>
         <description>UART4</description>
-        <value>76</value>
+        <value>60</value>
       </interrupt>
       <interrupt>
         <name>UART5</name>
         <description>UART5</description>
-        <value>77</value>
+        <value>61</value>
       </interrupt>
       <interrupt>
         <name>UART6</name>
         <description>UART6</description>
-        <value>78</value>
+        <value>62</value>
       </interrupt>
       <interrupt>
         <name>UART7</name>
         <description>UART7</description>
-        <value>79</value>
+        <value>63</value>
       </interrupt>
       <interrupt>
         <name>I2C2</name>
         <description>I2C2</description>
-        <value>84</value>
+        <value>68</value>
       </interrupt>
       <interrupt>
         <name>I2C3</name>
         <description>I2C3</description>
-        <value>85</value>
+        <value>69</value>
       </interrupt>
       <interrupt>
         <name>TIMER4A</name>
         <description>16/32-Bit Timer 4A</description>
-        <value>86</value>
+        <value>70</value>
       </interrupt>
       <interrupt>
         <name>TIMER4B</name>
         <description>16/32-Bit Timer 4B</description>
-        <value>87</value>
+        <value>71</value>
       </interrupt>
       <interrupt>
         <name>TIMER5A</name>
         <description>16/32-Bit Timer 5A</description>
-        <value>108</value>
+        <value>92</value>
       </interrupt>
       <interrupt>
         <name>TIMER5B</name>
         <description>16/32-Bit Timer 5B</description>
-        <value>109</value>
+        <value>93</value>
       </interrupt>
       <interrupt>
         <name>WTIMER0A</name>
         <description>32/64-Bit Timer 0A</description>
-        <value>110</value>
+        <value>94</value>
       </interrupt>
       <interrupt>
         <name>WTIMER0B</name>
         <description>32/64-Bit Timer 0B</description>
-        <value>111</value>
+        <value>95</value>
       </interrupt>
       <interrupt>
         <name>WTIMER1A</name>
         <description>32/64-Bit Timer 1A</description>
-        <value>112</value>
+        <value>96</value>
       </interrupt>
       <interrupt>
         <name>WTIMER1B</name>
         <description>32/64-Bit Timer 1B</description>
-        <value>113</value>
+        <value>97</value>
       </interrupt>
       <interrupt>
         <name>WTIMER2A</name>
         <description>32/64-Bit Timer 2A</description>
-        <value>114</value>
+        <value>98</value>
       </interrupt>
       <interrupt>
         <name>WTIMER2B</name>
         <description>32/64-Bit Timer 2B</description>
-        <value>115</value>
+        <value>99</value>
       </interrupt>
       <interrupt>
         <name>WTIMER3A</name>
         <description>32/64-Bit Timer 3A</description>
-        <value>116</value>
+        <value>100</value>
       </interrupt>
       <interrupt>
         <name>WTIMER3B</name>
         <description>32/64-Bit Timer 3B</description>
-        <value>117</value>
+        <value>101</value>
       </interrupt>
       <interrupt>
         <name>WTIMER4A</name>
         <description>32/64-Bit Timer 4A</description>
-        <value>118</value>
+        <value>102</value>
       </interrupt>
       <interrupt>
         <name>WTIMER4B</name>
         <description>32/64-Bit Timer 4B</description>
-        <value>119</value>
+        <value>103</value>
       </interrupt>
       <interrupt>
         <name>WTIMER5A</name>
         <description>32/64-Bit Timer 5A</description>
-        <value>120</value>
+        <value>104</value>
       </interrupt>
       <interrupt>
         <name>WTIMER5B</name>
         <description>32/64-Bit Timer 5B</description>
-        <value>121</value>
+        <value>105</value>
       </interrupt>
       <interrupt>
         <name>SYSEXC</name>
         <description>System Exception (imprecise)</description>
-        <value>122</value>
+        <value>106</value>
       </interrupt>
       <interrupt>
         <name>PWM1_0</name>
         <description>PWM1 Generator 0</description>
-        <value>150</value>
+        <value>134</value>
       </interrupt>
       <interrupt>
         <name>PWM1_1</name>
         <description>PWM1 Generator 1</description>
-        <value>151</value>
+        <value>135</value>
       </interrupt>
       <interrupt>
         <name>PWM1_2</name>
         <description>PWM1 Generator 2</description>
-        <value>152</value>
+        <value>136</value>
       </interrupt>
       <interrupt>
         <name>PWM1_3</name>
         <description>PWM1 Generator 3</description>
-        <value>153</value>
+        <value>137</value>
       </interrupt>
       <interrupt>
         <name>PWM1_FAULT</name>
         <description>PWM1 Fault</description>
-        <value>154</value>
+        <value>138</value>
       </interrupt>
     </peripheral>
     <!-- ../Modules/Tiva_TM4C/sc4cc231e6pm/watchdog.xml -->

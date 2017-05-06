@@ -76,7 +76,7 @@ svd.device(schemaVersion: '1.1',
         x.interrupt do |x|
           x.name(interrupt.get('id'))
           x.description(interrupt.get('description'))
-          x.value(interrupt.get('value'))
+          x.value(Integer(interrupt.get('value')) - 16)
         end
       end
     end
