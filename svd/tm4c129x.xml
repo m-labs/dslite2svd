@@ -21775,6 +21775,12 @@
               <lsb>4</lsb>
               <msb>9</msb>
               <access>read-write</access>
+              <writeConstraint>
+                <range>
+                  <minimum>0</minimum>
+                  <maximum>63</maximum>
+                </range>
+              </writeConstraint>
             </field>
           </fields>
         </register>
@@ -48703,6 +48709,12 @@
               <lsb>0</lsb>
               <msb>9</msb>
               <access>read-write</access>
+              <writeConstraint>
+                <range>
+                  <minimum>0</minimum>
+                  <maximum>1023</maximum>
+                </range>
+              </writeConstraint>
             </field>
             <field>
               <name>OSYSDIV</name>
@@ -48710,6 +48722,12 @@
               <lsb>10</lsb>
               <msb>19</msb>
               <access>read-write</access>
+              <writeConstraint>
+                <range>
+                  <minimum>0</minimum>
+                  <maximum>1023</maximum>
+                </range>
+              </writeConstraint>
             </field>
             <field>
               <name>OSCSRC</name>
@@ -49105,6 +49123,12 @@
               <lsb>0</lsb>
               <msb>7</msb>
               <access>read-write</access>
+              <writeConstraint>
+                <range>
+                  <minimum>0</minimum>
+                  <maximum>255</maximum>
+                </range>
+              </writeConstraint>
             </field>
             <field>
               <name>SRC</name>
@@ -49183,6 +49207,12 @@
               <lsb>0</lsb>
               <msb>6</msb>
               <access>read-write</access>
+              <writeConstraint>
+                <range>
+                  <minimum>0</minimum>
+                  <maximum>127</maximum>
+                </range>
+              </writeConstraint>
             </field>
             <field>
               <name>UPDATE</name>
@@ -49288,6 +49318,12 @@
               <lsb>0</lsb>
               <msb>9</msb>
               <access>read-write</access>
+              <writeConstraint>
+                <range>
+                  <minimum>0</minimum>
+                  <maximum>1023</maximum>
+                </range>
+              </writeConstraint>
             </field>
             <field>
               <name>MFRAC</name>
@@ -49295,6 +49331,12 @@
               <lsb>10</lsb>
               <msb>19</msb>
               <access>read-write</access>
+              <writeConstraint>
+                <range>
+                  <minimum>0</minimum>
+                  <maximum>1023</maximum>
+                </range>
+              </writeConstraint>
             </field>
             <field>
               <name>PLLPWR</name>
@@ -49324,6 +49366,12 @@
               <lsb>0</lsb>
               <msb>4</msb>
               <access>read-write</access>
+              <writeConstraint>
+                <range>
+                  <minimum>0</minimum>
+                  <maximum>31</maximum>
+                </range>
+              </writeConstraint>
             </field>
             <field>
               <name>Q</name>
@@ -49331,6 +49379,12 @@
               <lsb>8</lsb>
               <msb>12</msb>
               <access>read-write</access>
+              <writeConstraint>
+                <range>
+                  <minimum>0</minimum>
+                  <maximum>31</maximum>
+                </range>
+              </writeConstraint>
             </field>
           </fields>
         </register>
