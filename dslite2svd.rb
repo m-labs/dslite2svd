@@ -188,14 +188,7 @@ svd.device(schemaVersion: '1.1',
                     end
 
                     bitenums = bitfield.xpath('bitenum')
-                    if Integer(bitfield.get('width')) == 1
-                      x.writeConstraint do |x|
-                        x.range do |x|
-                          x.minimum(0)
-                          x.maximum(1)
-                        end
-                      end
-                    elsif bitenums.any?
+                    if bitenums.any?
                       x.writeConstraint do |x|
                         x.useEnumeratedValues(true)
                       end
