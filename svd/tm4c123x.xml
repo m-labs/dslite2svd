@@ -24477,7 +24477,14 @@
               <msb>0</msb>
               <access>read-write</access>
             </field>
-          </fields>
+            <field>
+              <name>WRKEY</name>
+              <description>FLASH write key</description>
+              <lsb>17</lsb>
+              <msb>31</msb>
+              <access>read-write</access>
+            </field>
+         </fields>
         </register>
         <register>
           <name>FWBVAL</name>
