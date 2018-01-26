@@ -12,3 +12,25 @@
    <addressUnitBits>8</addressUnitBits>
    <width>32</width>
    <resetValue>0x00000000</resetValue>
+@@ -24474,13 +24474,20 @@
+               <name>WRBUF</name>
+               <description>Buffered Flash Memory Write</description>
+               <lsb>0</lsb>
+               <msb>0</msb>
+               <access>read-write</access>
+             </field>
+-          </fields>
++            <field>
++              <name>WRKEY</name>
++              <description>FLASH write key</description>
++              <lsb>17</lsb>
++              <msb>31</msb>
++              <access>read-write</access>
++            </field>
++         </fields>
+         </register>
+         <register>
+           <name>FWBVAL</name>
+           <displayName>FLASH_FWBVAL</displayName>
+           <description>Flash Write Buffer Valid</description>
+           <addressOffset>0x00000030</addressOffset>
