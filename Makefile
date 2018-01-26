@@ -33,5 +33,5 @@ svd/%.xml: overlay/%.patch svd/%-vendor.xml
 
 crates/%/src/lib.rs: svd/%.xml
 	$(SVD2RUST) -i $< >$@
-	rustfmt $@
+	rustup run nightly rustfmt $@
 	cargo check --manifest-path crates/$*/Cargo.toml
