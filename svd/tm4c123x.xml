@@ -24503,9 +24503,12 @@
           </fields>
         </register>
         <register>
-          <name>FWBN</name>
+          <dim>32</dim>
+          <dimIncrement>4</dimIncrement>
+          <dimIndex>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31</dimIndex>
+          <name>FWBN%s</name>
           <displayName>FLASH_FWBN</displayName>
-          <description>Flash Write Buffer n</description>
+          <description>Flash Write Buffer</description>
           <addressOffset>0x00000100</addressOffset>
           <size>32</size>
           <fields>
