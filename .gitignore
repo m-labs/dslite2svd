@@ -1,2 +1,4 @@
 /targetdb
 /*.xml
+/vendor
+/.bundle
