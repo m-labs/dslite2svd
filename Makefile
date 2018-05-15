@@ -12,6 +12,13 @@ purge:
 	rm -f $(patsubst %,svd/%.xml,$(DEVICES))
 	touch -t 198001010000 $(patsubst %,crates/%/src/lib.rs,$(DEVICES))
 
+.PHONY: rebuild
+rebuild: touch all
+
+.PHONY: touch
+touch:
+	touch ./targetdb/devices/*.xml
+
 svd/%-vendor.xml: data/%.xml overlay/%-interrupts.xml dslite2svd.rb
 	ruby dslite2svd.rb $(filter %.xml,$^) $@
 
@@ -32,6 +39,4 @@ svd/%.xml: overlay/%.patch svd/%-vendor.xml
 	fi
 
 crates/%/src/lib.rs: svd/%.xml
-	$(SVD2RUST) -i $< >$@
-	rustup run nightly rustfmt $@
-	cargo check --manifest-path crates/$*/Cargo.toml
+	cd crates/$* && svd2rust -i ../../$< && rm -rf src && form -i lib.rs -o src/ && rm lib.rs && cargo fmt
