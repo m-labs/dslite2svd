@@ -37,4 +37,4 @@ svd/%.xml: overlay/%.patch svd/%-vendor.xml
 	fi
 
 crates/%/src/lib.rs: svd/%.xml
-	cd crates/$* && $(SVD2RUST) -i ../../$< && rm -rf src && $(FORM) -i lib.rs -o src/ && rm lib.rs && $(CARGO_FMT)
+	cd crates/$* && $(SVD2RUST) -i ../../$< >lib.rs && rm -rf src && $(FORM) -i lib.rs -o src/ && rm lib.rs && $(CARGO_FMT)
