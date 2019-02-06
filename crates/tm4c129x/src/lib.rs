@@ -1747,7 +1747,6 @@ impl Deref for CCM0 {
 }
 #[doc = "EC register offsets"]
 pub mod ccm0;
-#[allow(private_no_mangle_statics)]
 #[no_mangle]
 static mut DEVICE_PERIPHERALS: bool = false;
 #[doc = r" All the peripherals"]

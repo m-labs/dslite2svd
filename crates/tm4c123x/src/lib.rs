@@ -1560,7 +1560,6 @@ impl Deref for UDMA {
 }
 #[doc = "Micro Direct Memory Access register addresses"]
 pub mod udma;
-#[allow(private_no_mangle_statics)]
 #[no_mangle]
 static mut DEVICE_PERIPHERALS: bool = false;
 #[doc = r" All the peripherals"]
