@@ -11,13 +11,18 @@ Usage
 -----
 
 1. Install Ruby >= 2.0. Run `bundle install`.
-2. Install TM4C support package in Energia.
-3. Copy the `targetdb` directory from `energia-*/hardware/tools/DSLite` to the root
-   of this repository.
-4. Modify `Makefile` to include your target if it's not already there. Run `make`.
+2. Install [svd2rust]. Run `cargo install svd2rust`.
+3. Install [form]. Run `cargo install form`.
+4. Install TM4C support package in Energia.
+5. Copy the `targetdb` directory from `energia-*/hardware/tools/DSLite/common`
+   to the root of this repository.
+6. Modify `Makefile` to include your target if it's not already there. Run `make`.
 
 The up-to-date SVD files will be placed in the `svd` directory. For convenience,
 they are already provided in this repository.
+
+[form]: https://github.com/djmcgill/form
+[svd2rust]: https://github.com/rust-embedded/svd2rust
 
 Limitations
 -----------
