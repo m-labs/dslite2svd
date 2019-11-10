@@ -1,6 +1,6 @@
 [package]
 name = "tm4c129x"
-version = "0.8.0"
+version = "0.9.0"
 authors = ["whitequark <whitequark@whitequark.org>"]
 description = "Peripheral access API for TI TM4C129x microcontrollers"
 documentation = "https://docs.rs/tm4c129x"
@@ -11,7 +11,7 @@ license = "0BSD"
 
 [dependencies]
 bare-metal = "0.2.0"
-cortex-m = "0.5.0"
+cortex-m = "0.6"
 vcell = "0.1.0"
 
 [dependencies.cortex-m-rt]
