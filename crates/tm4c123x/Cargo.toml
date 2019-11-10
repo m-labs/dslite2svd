@@ -1,6 +1,6 @@
 [package]
 name = "tm4c123x"
-version = "0.8.1"
+version = "0.9.0"
 authors = ["whitequark <whitequark@whitequark.org>"]
 description = "Peripheral access API for TI TM4C123x microcontrollers"
 documentation = "https://docs.rs/tm4c123x"
