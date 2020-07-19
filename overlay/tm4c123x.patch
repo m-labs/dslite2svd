@@ -9,10 +9,10 @@
    <series>Tiva C Series</series>
    <version>1</version>
    <description>(no description)</description>
-   <addressUnitBits>8</addressUnitBits>
-   <width>32</width>
-   <resetValue>0x00000000</resetValue>
-@@ -24474,13 +24474,20 @@
+   <cpu>
+     <name>CM4</name>
+     <revision>r0p0</revision>
+@@ -24483,13 +24483,20 @@
                <name>WRBUF</name>
                <description>Buffered Flash Memory Write</description>
                <lsb>0</lsb>
@@ -34,7 +34,7 @@
            <displayName>FLASH_FWBVAL</displayName>
            <description>Flash Write Buffer Valid</description>
            <addressOffset>0x00000030</addressOffset>
-@@ -24493,15 +24500,18 @@
+@@ -24502,15 +24509,18 @@
                <msb>31</msb>
                <access>read-write</access>
              </field>
