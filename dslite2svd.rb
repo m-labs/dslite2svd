@@ -42,7 +42,7 @@ def strip_id_prefix(node, prefix)
   id
 end
 
-device = registers_doc.xpath('device').first
+device = registers_doc.at_xpath('device')
 interrupts = interrupts_doc.xpath('interrupts/interrupt')
 svd.device(schemaVersion: '1.1',
            'xmlns:xs': 'http://www.w3.org/2001/XMLSchema-instance',
@@ -50,14 +50,30 @@ svd.device(schemaVersion: '1.1',
   x.vendor('Texas Instruments')
   x.vendorID('TI')
   x.name(device.get('id'))
-  x.series(device.xpath('property[id=FilterString]').first.get('Value'))
+  x.series(device.at_xpath('property[@id="FilterString"]').get('Value'))
   x.version(device.get('HW_revision'))
   if device.get('description').empty?
     x.description('(no description)')
   else
     x.description(device.get('description'))
   end
-  #TODO x.cpu()
+
+  x.cpu do |x|
+    raise "Unsupported CPU" unless device.at_xpath('router/subpath/cpu').get('isa') == "CORTEX_M4"
+
+    nvic_path = File.join(File.dirname(registers_file), device.at_xpath('router//instance[@id="NVIC"]').get('href'))
+    nvic_xml = Oga.parse_xml(File.read(nvic_path))
+    nvic_width = nvic_xml.at_xpath('//bitfield[@id="NVIC_PRI0_INT0"]').get('width')
+
+    x.name("CM4")
+    x.revision('r0p0') # TODO
+    x.endian(device.at_xpath('router//property[@id="Endianness"]').get('Value'))
+    x.mpuPresent(true) # TODO
+    x.fpuPresent(device.at_xpath('router//instance[@id="FPU"]') != nil)
+    x.nvicPrioBits(nvic_width)
+    x.vendorSystickConfig(false) # TODO
+  end
+
   x.addressUnitBits(8)
   x.width(32)
   x.resetValue('0x00000000')
@@ -90,7 +106,7 @@ svd.device(schemaVersion: '1.1',
 
       mod_path = File.join(File.dirname(registers_file), instance.get('href'))
       mod_doc = Oga.parse_xml(File.read(mod_path))
-      mod = mod_doc.xpath('module').first
+      mod = mod_doc.at_xpath('module')
 
       x.comment! instance.get('href')
 

@@ -9,10 +9,10 @@
    <series>Tiva C Series</series>
    <version>1</version>
    <description>(no description)</description>
-   <addressUnitBits>8</addressUnitBits>
-   <width>32</width>
-   <resetValue>0x00000000</resetValue>
-@@ -1403,12 +1403,18 @@
+   <cpu>
+     <name>CM4</name>
+     <revision>r0p0</revision>
+@@ -1412,12 +1412,18 @@
              <field>
                <name>DATA</name>
                <description>Data Transmitted or Received</description>
@@ -31,7 +31,7 @@
                <description>UART Framing Error</description>
                <lsb>8</lsb>
                <msb>8</msb>
-@@ -1588,12 +1594,18 @@
+@@ -1597,12 +1603,18 @@
              <field>
                <name>DIVINT</name>
                <description>Integer Baud-Rate Divisor</description>
@@ -50,7 +50,7 @@
          <register>
            <name>FBRD</name>
            <displayName>UART_FBRD</displayName>
-@@ -1604,12 +1616,18 @@
+@@ -1613,12 +1625,18 @@
              <field>
                <name>DIVFRAC</name>
                <description>Fractional Baud-Rate Divisor</description>
@@ -69,7 +69,7 @@
          <register>
            <name>LCRH</name>
            <displayName>UART_LCRH</displayName>
-@@ -2458,14 +2476,14 @@
+@@ -2467,14 +2485,14 @@
                  <enumeratedValue>
                    <name>SYSCLK</name>
                    <description>System clock (based on clock source and divisor factor)</description>
@@ -86,7 +86,7 @@
              </field>
            </fields>
          </register>
-@@ -5141,12 +5159,18 @@
+@@ -5150,12 +5168,18 @@
              <field>
                <name>LOAD</name>
                <description>Counter Load Value</description>
@@ -105,7 +105,7 @@
          <register>
            <name>_0_COUNT</name>
            <displayName>PWM_0_COUNT</displayName>
-@@ -5168,33 +5192,45 @@
+@@ -5177,33 +5201,45 @@
            <displayName>PWM_0_CMPA</displayName>
            <description>PWM0 Compare A</description>
            <addressOffset>0x00000058</addressOffset>
@@ -153,7 +153,7 @@
          <register>
            <name>_0_GENA</name>
            <displayName>PWM_0_GENA</displayName>
-@@ -5757,12 +5793,18 @@
+@@ -5766,12 +5802,18 @@
              <field>
                <name>MINFLTPER</name>
                <description>Minimum Fault Period</description>
@@ -172,7 +172,7 @@
          <register>
            <name>_1_CTL</name>
            <displayName>PWM_1_CTL</displayName>
-@@ -6175,12 +6217,18 @@
+@@ -6184,12 +6226,18 @@
              <field>
                <name>LOAD</name>
                <description>Counter Load Value</description>
@@ -191,7 +191,7 @@
          <register>
            <name>_1_COUNT</name>
            <displayName>PWM_1_COUNT</displayName>
-@@ -6207,12 +6255,18 @@
+@@ -6216,12 +6264,18 @@
              <field>
                <name>COMPA</name>
                <description>Comparator A Value</description>
@@ -210,7 +210,7 @@
          <register>
            <name>_1_CMPB</name>
            <displayName>PWM_1_CMPB</displayName>
-@@ -6223,12 +6277,18 @@
+@@ -6232,12 +6286,18 @@
              <field>
                <name>COMPB</name>
                <description>Comparator B Value</description>
@@ -229,7 +229,7 @@
          <register>
            <name>_1_GENA</name>
            <displayName>PWM_1_GENA</displayName>
-@@ -6791,12 +6851,18 @@
+@@ -6800,12 +6860,18 @@
              <field>
                <name>MFP</name>
                <description>Minimum Fault Period</description>
@@ -248,7 +248,7 @@
          <register>
            <name>_2_CTL</name>
            <displayName>PWM_2_CTL</displayName>
-@@ -7209,12 +7275,18 @@
+@@ -7218,12 +7284,18 @@
              <field>
                <name>LOAD</name>
                <description>Counter Load Value</description>
@@ -267,7 +267,7 @@
          <register>
            <name>_2_COUNT</name>
            <displayName>PWM_2_COUNT</displayName>
-@@ -7241,12 +7313,18 @@
+@@ -7250,12 +7322,18 @@
              <field>
                <name>COMPA</name>
                <description>Comparator A Value</description>
@@ -286,7 +286,7 @@
          <register>
            <name>_2_CMPB</name>
            <displayName>PWM_2_CMPB</displayName>
-@@ -7257,12 +7335,18 @@
+@@ -7266,12 +7344,18 @@
              <field>
                <name>COMPB</name>
                <description>Comparator B Value</description>
@@ -305,7 +305,7 @@
          <register>
            <name>_2_GENA</name>
            <displayName>PWM_2_GENA</displayName>
-@@ -7825,12 +7909,18 @@
+@@ -7834,12 +7918,18 @@
              <field>
                <name>MFP</name>
                <description>Minimum Fault Period</description>
@@ -324,7 +324,7 @@
          <register>
            <name>_3_CTL</name>
            <displayName>PWM_3_CTL</displayName>
-@@ -8243,12 +8333,18 @@
+@@ -8252,12 +8342,18 @@
              <field>
                <name>LOAD</name>
                <description>Counter Load Value</description>
@@ -343,7 +343,7 @@
          <register>
            <name>_3_COUNT</name>
            <displayName>PWM_3_COUNT</displayName>
-@@ -8275,12 +8371,18 @@
+@@ -8284,12 +8380,18 @@
              <field>
                <name>COMPA</name>
                <description>Comparator A Value</description>
@@ -362,7 +362,7 @@
          <register>
            <name>_3_CMPB</name>
            <displayName>PWM_3_CMPB</displayName>
-@@ -8291,12 +8393,18 @@
+@@ -8300,12 +8402,18 @@
              <field>
                <name>COMPB</name>
                <description>Comparator B Value</description>
@@ -381,7 +381,7 @@
          <register>
            <name>_3_GENA</name>
            <displayName>PWM_3_GENA</displayName>
-@@ -8859,12 +8967,18 @@
+@@ -8868,12 +8976,18 @@
              <field>
                <name>MFP</name>
                <description>Minimum Fault Period</description>
@@ -400,7 +400,7 @@
          <register>
            <name>_0_FLTSEN</name>
            <displayName>PWM_0_FLTSEN</displayName>
-@@ -12581,61 +12695,109 @@
+@@ -12590,61 +12704,109 @@
              <field>
                <name>MUX0</name>
                <description>1st Sample Input Select</description>
@@ -510,7 +510,7 @@
          <register>
            <name>SSCTL0</name>
            <displayName>ADC_SSCTL0</displayName>
-@@ -13127,61 +13289,357 @@
+@@ -13136,61 +13298,357 @@
              <field>
                <name>TSH0</name>
                <description>1st Sample and Hold Period Select</description>
@@ -868,7 +868,7 @@
          <register>
            <name>SSMUX1</name>
            <displayName>ADC_SSMUX1</displayName>
-@@ -15659,12 +16117,18 @@
+@@ -15668,12 +16126,18 @@
              <field>
                <name>CLKDIV</name>
                <description>PLL VCO Clock Divisor</description>
@@ -887,7 +887,7 @@
        </registers>
      </peripheral>
      <!-- ../Modules/Tiva_TM4C/sc4c1290kcpdt/adc.xml -->
-@@ -25345,19 +25809,47 @@
+@@ -25354,19 +25818,47 @@
          <register>
            <name>DATA</name>
            <displayName>GPIO_DATA</displayName>
@@ -935,7 +935,7 @@
            <displayName>GPIO_IS</displayName>
            <description>GPIO Interrupt Sense</description>
            <addressOffset>0x00000404</addressOffset>
-@@ -25472,68 +25964,194 @@
+@@ -25481,68 +25973,194 @@
          <register>
            <name>AFSEL</name>
            <displayName>GPIO_AFSEL</displayName>
@@ -1130,7 +1130,7 @@
            <displayName>GPIO_LOCK</displayName>
            <description>GPIO Lock</description>
            <addressOffset>0x00000520</addressOffset>
-@@ -25578,33 +26196,125 @@
+@@ -25587,33 +26205,125 @@
          <register>
            <name>AMSEL</name>
            <displayName>GPIO_AMSEL</displayName>
@@ -1256,7 +1256,7 @@
            <displayName>GPIO_SI</displayName>
            <description>GPIO Select Interrupt</description>
            <addressOffset>0x00000538</addressOffset>
-@@ -25625,26 +26335,21 @@
+@@ -25634,26 +26344,21 @@
            <description>GPIO 12-mA Drive Select</description>
            <addressOffset>0x0000053C</addressOffset>
            <size>32</size>
@@ -1287,7 +1287,7 @@
          <register>
            <name>WAKEPEN</name>
            <displayName>GPIO_WAKEPEN</displayName>
-@@ -35902,19 +36607,31 @@
+@@ -35911,19 +36616,31 @@
              <field>
                <name>PSYSDIV</name>
                <description>PLL System Clock Divisor</description>
@@ -1319,7 +1319,7 @@
                <description>Oscillator Source</description>
                <lsb>20</lsb>
                <msb>23</msb>
-@@ -36256,12 +36973,18 @@
+@@ -36265,12 +36982,18 @@
              <field>
                <name>DIV</name>
                <description>Divisor Value</description>
@@ -1338,7 +1338,7 @@
                <description>Clock Source</description>
                <lsb>16</lsb>
                <msb>17</msb>
-@@ -36322,12 +37045,18 @@
+@@ -36331,12 +37054,18 @@
              <field>
                <name>UT</name>
                <description>User Trim Value</description>
@@ -1357,7 +1357,7 @@
                <description>Update Trim</description>
                <lsb>8</lsb>
                <msb>8</msb>
-@@ -36409,19 +37138,31 @@
+@@ -36418,19 +37147,31 @@
              <field>
                <name>MINT</name>
                <description>PLL M Integer Value</description>
@@ -1389,7 +1389,7 @@
                <description>PLL Power</description>
                <lsb>23</lsb>
                <msb>23</msb>
-@@ -36439,19 +37180,31 @@
+@@ -36448,19 +37189,31 @@
              <field>
                <name>N</name>
                <description>PLL N Value</description>
