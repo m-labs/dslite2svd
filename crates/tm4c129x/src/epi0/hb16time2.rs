@@ -74,37 +74,29 @@ impl<'a> CAPWIDTH_W<'a> {
 }
 #[doc = "PSRAM Row Size\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum PSRAMSZ_A {
     #[doc = "0: No row size limitation"]
-    _0,
+    _0 = 0,
     #[doc = "1: 128 B"]
-    _128B,
+    _128B = 1,
     #[doc = "2: 256 B"]
-    _256B,
+    _256B = 2,
     #[doc = "3: 512 B"]
-    _512B,
+    _512B = 3,
     #[doc = "4: 1024 B"]
-    _1KB,
+    _1KB = 4,
     #[doc = "5: 2048 B"]
-    _2KB,
+    _2KB = 5,
     #[doc = "6: 4096 B"]
-    _4KB,
+    _4KB = 6,
     #[doc = "7: 8192 B"]
-    _8KB,
+    _8KB = 7,
 }
 impl From<PSRAMSZ_A> for u8 {
     #[inline(always)]
     fn from(variant: PSRAMSZ_A) -> Self {
-        match variant {
-            PSRAMSZ_A::_0 => 0,
-            PSRAMSZ_A::_128B => 1,
-            PSRAMSZ_A::_256B => 2,
-            PSRAMSZ_A::_512B => 3,
-            PSRAMSZ_A::_1KB => 4,
-            PSRAMSZ_A::_2KB => 5,
-            PSRAMSZ_A::_4KB => 6,
-            PSRAMSZ_A::_8KB => 7,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `PSRAMSZ`"]

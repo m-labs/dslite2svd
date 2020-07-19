@@ -84,25 +84,21 @@ impl<'a> LBACK_W<'a> {
 }
 #[doc = "Transmit Control\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum TX_A {
     #[doc = "0: CAN Module Control"]
-    CANCTL,
+    CANCTL = 0,
     #[doc = "1: Sample Point"]
-    SAMPLE,
+    SAMPLE = 1,
     #[doc = "2: Driven Low"]
-    DOMINANT,
+    DOMINANT = 2,
     #[doc = "3: Driven High"]
-    RECESSIVE,
+    RECESSIVE = 3,
 }
 impl From<TX_A> for u8 {
     #[inline(always)]
     fn from(variant: TX_A) -> Self {
-        match variant {
-            TX_A::CANCTL => 0,
-            TX_A::SAMPLE => 1,
-            TX_A::DOMINANT => 2,
-            TX_A::RECESSIVE => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `TX`"]

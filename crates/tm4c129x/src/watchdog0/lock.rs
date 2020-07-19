@@ -12,22 +12,19 @@ impl crate::ResetValue for super::LOCK {
 }
 #[doc = "Watchdog Lock\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u32)]
 pub enum LOCK_A {
     #[doc = "0: Unlocked"]
-    UNLOCKED,
+    UNLOCKED = 0,
     #[doc = "1: Locked"]
-    LOCKED,
+    LOCKED = 1,
     #[doc = "449635665: Unlocks the watchdog timer"]
-    UNLOCK,
+    UNLOCK = 449635665,
 }
 impl From<LOCK_A> for u32 {
     #[inline(always)]
     fn from(variant: LOCK_A) -> Self {
-        match variant {
-            LOCK_A::UNLOCKED => 0,
-            LOCK_A::LOCKED => 1,
-            LOCK_A::UNLOCK => 449635665,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `LOCK`"]

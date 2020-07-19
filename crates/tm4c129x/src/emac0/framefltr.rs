@@ -156,25 +156,21 @@ impl<'a> DBF_W<'a> {
 }
 #[doc = "Pass Control Frames\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum PCF_A {
     #[doc = "0: The MAC filters all control frames from reaching application"]
-    ALL,
+    ALL = 0,
     #[doc = "1: MAC forwards all control frames except PAUSE control frames to application even if they fail the address filter"]
-    PAUSE,
+    PAUSE = 1,
     #[doc = "2: MAC forwards all control frames to application even if they fail the address Filter"]
-    NONE,
+    NONE = 2,
     #[doc = "3: MAC forwards control frames that pass the address Filter"]
-    ADDR,
+    ADDR = 3,
 }
 impl From<PCF_A> for u8 {
     #[inline(always)]
     fn from(variant: PCF_A) -> Self {
-        match variant {
-            PCF_A::ALL => 0,
-            PCF_A::PAUSE => 1,
-            PCF_A::NONE => 2,
-            PCF_A::ADDR => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `PCF`"]

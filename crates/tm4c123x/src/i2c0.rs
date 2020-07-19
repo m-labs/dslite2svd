@@ -52,7 +52,7 @@ pub struct RegisterBlock {
     #[doc = "0xfc4 - I2C Peripheral Configuration"]
     pub pc: PC,
 }
-#[doc = "I2C Master Slave Address\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [msa](msa) module"]
+#[doc = "I2C Master Slave Address\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [msa](msa) module"]
 pub type MSA = crate::Reg<u32, _MSA>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -63,7 +63,7 @@ impl crate::Readable for MSA {}
 impl crate::Writable for MSA {}
 #[doc = "I2C Master Slave Address"]
 pub mod msa;
-#[doc = "I2C Master Control/Status\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [mcs](mcs) module"]
+#[doc = "I2C Master Control/Status\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [mcs](mcs) module"]
 pub type MCS = crate::Reg<u32, _MCS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -74,7 +74,7 @@ impl crate::Readable for MCS {}
 impl crate::Writable for MCS {}
 #[doc = "I2C Master Control/Status"]
 pub mod mcs;
-#[doc = "I2C Master Data\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [mdr](mdr) module"]
+#[doc = "I2C Master Data\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [mdr](mdr) module"]
 pub type MDR = crate::Reg<u32, _MDR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -85,7 +85,7 @@ impl crate::Readable for MDR {}
 impl crate::Writable for MDR {}
 #[doc = "I2C Master Data"]
 pub mod mdr;
-#[doc = "I2C Master Timer Period\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [mtpr](mtpr) module"]
+#[doc = "I2C Master Timer Period\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [mtpr](mtpr) module"]
 pub type MTPR = crate::Reg<u32, _MTPR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -96,7 +96,7 @@ impl crate::Readable for MTPR {}
 impl crate::Writable for MTPR {}
 #[doc = "I2C Master Timer Period"]
 pub mod mtpr;
-#[doc = "I2C Master Interrupt Mask\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [mimr](mimr) module"]
+#[doc = "I2C Master Interrupt Mask\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [mimr](mimr) module"]
 pub type MIMR = crate::Reg<u32, _MIMR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -107,7 +107,7 @@ impl crate::Readable for MIMR {}
 impl crate::Writable for MIMR {}
 #[doc = "I2C Master Interrupt Mask"]
 pub mod mimr;
-#[doc = "I2C Master Raw Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [mris](mris) module"]
+#[doc = "I2C Master Raw Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [mris](mris) module"]
 pub type MRIS = crate::Reg<u32, _MRIS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -116,7 +116,7 @@ pub struct _MRIS;
 impl crate::Readable for MRIS {}
 #[doc = "I2C Master Raw Interrupt Status"]
 pub mod mris;
-#[doc = "I2C Master Masked Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [mmis](mmis) module"]
+#[doc = "I2C Master Masked Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [mmis](mmis) module"]
 pub type MMIS = crate::Reg<u32, _MMIS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -125,7 +125,7 @@ pub struct _MMIS;
 impl crate::Readable for MMIS {}
 #[doc = "I2C Master Masked Interrupt Status"]
 pub mod mmis;
-#[doc = "I2C Master Interrupt Clear\n\nThis register you can [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [micr](micr) module"]
+#[doc = "I2C Master Interrupt Clear\n\nThis register you can [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [micr](micr) module"]
 pub type MICR = crate::Reg<u32, _MICR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -134,7 +134,7 @@ pub struct _MICR;
 impl crate::Writable for MICR {}
 #[doc = "I2C Master Interrupt Clear"]
 pub mod micr;
-#[doc = "I2C Master Configuration\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [mcr](mcr) module"]
+#[doc = "I2C Master Configuration\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [mcr](mcr) module"]
 pub type MCR = crate::Reg<u32, _MCR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -145,7 +145,7 @@ impl crate::Readable for MCR {}
 impl crate::Writable for MCR {}
 #[doc = "I2C Master Configuration"]
 pub mod mcr;
-#[doc = "I2C Master Clock Low Timeout Count\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [mclkocnt](mclkocnt) module"]
+#[doc = "I2C Master Clock Low Timeout Count\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [mclkocnt](mclkocnt) module"]
 pub type MCLKOCNT = crate::Reg<u32, _MCLKOCNT>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -156,7 +156,7 @@ impl crate::Readable for MCLKOCNT {}
 impl crate::Writable for MCLKOCNT {}
 #[doc = "I2C Master Clock Low Timeout Count"]
 pub mod mclkocnt;
-#[doc = "I2C Master Bus Monitor\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [mbmon](mbmon) module"]
+#[doc = "I2C Master Bus Monitor\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [mbmon](mbmon) module"]
 pub type MBMON = crate::Reg<u32, _MBMON>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -165,7 +165,7 @@ pub struct _MBMON;
 impl crate::Readable for MBMON {}
 #[doc = "I2C Master Bus Monitor"]
 pub mod mbmon;
-#[doc = "I2C Master Configuration 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [mcr2](mcr2) module"]
+#[doc = "I2C Master Configuration 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [mcr2](mcr2) module"]
 pub type MCR2 = crate::Reg<u32, _MCR2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -176,7 +176,7 @@ impl crate::Readable for MCR2 {}
 impl crate::Writable for MCR2 {}
 #[doc = "I2C Master Configuration 2"]
 pub mod mcr2;
-#[doc = "I2C Slave Own Address\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [soar](soar) module"]
+#[doc = "I2C Slave Own Address\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [soar](soar) module"]
 pub type SOAR = crate::Reg<u32, _SOAR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -187,7 +187,7 @@ impl crate::Readable for SOAR {}
 impl crate::Writable for SOAR {}
 #[doc = "I2C Slave Own Address"]
 pub mod soar;
-#[doc = "I2C Slave Control/Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [scsr](scsr) module"]
+#[doc = "I2C Slave Control/Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [scsr](scsr) module"]
 pub type SCSR = crate::Reg<u32, _SCSR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -196,7 +196,7 @@ pub struct _SCSR;
 impl crate::Readable for SCSR {}
 #[doc = "I2C Slave Control/Status"]
 pub mod scsr;
-#[doc = "I2C Slave Data\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [sdr](sdr) module"]
+#[doc = "I2C Slave Data\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [sdr](sdr) module"]
 pub type SDR = crate::Reg<u32, _SDR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -207,7 +207,7 @@ impl crate::Readable for SDR {}
 impl crate::Writable for SDR {}
 #[doc = "I2C Slave Data"]
 pub mod sdr;
-#[doc = "I2C Slave Interrupt Mask\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [simr](simr) module"]
+#[doc = "I2C Slave Interrupt Mask\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [simr](simr) module"]
 pub type SIMR = crate::Reg<u32, _SIMR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -218,7 +218,7 @@ impl crate::Readable for SIMR {}
 impl crate::Writable for SIMR {}
 #[doc = "I2C Slave Interrupt Mask"]
 pub mod simr;
-#[doc = "I2C Slave Raw Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [sris](sris) module"]
+#[doc = "I2C Slave Raw Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [sris](sris) module"]
 pub type SRIS = crate::Reg<u32, _SRIS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -227,7 +227,7 @@ pub struct _SRIS;
 impl crate::Readable for SRIS {}
 #[doc = "I2C Slave Raw Interrupt Status"]
 pub mod sris;
-#[doc = "I2C Slave Masked Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [smis](smis) module"]
+#[doc = "I2C Slave Masked Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [smis](smis) module"]
 pub type SMIS = crate::Reg<u32, _SMIS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -236,7 +236,7 @@ pub struct _SMIS;
 impl crate::Readable for SMIS {}
 #[doc = "I2C Slave Masked Interrupt Status"]
 pub mod smis;
-#[doc = "I2C Slave Interrupt Clear\n\nThis register you can [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [sicr](sicr) module"]
+#[doc = "I2C Slave Interrupt Clear\n\nThis register you can [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [sicr](sicr) module"]
 pub type SICR = crate::Reg<u32, _SICR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -245,7 +245,7 @@ pub struct _SICR;
 impl crate::Writable for SICR {}
 #[doc = "I2C Slave Interrupt Clear"]
 pub mod sicr;
-#[doc = "I2C Slave Own Address 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [soar2](soar2) module"]
+#[doc = "I2C Slave Own Address 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [soar2](soar2) module"]
 pub type SOAR2 = crate::Reg<u32, _SOAR2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -256,7 +256,7 @@ impl crate::Readable for SOAR2 {}
 impl crate::Writable for SOAR2 {}
 #[doc = "I2C Slave Own Address 2"]
 pub mod soar2;
-#[doc = "I2C Slave ACK Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [sackctl](sackctl) module"]
+#[doc = "I2C Slave ACK Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [sackctl](sackctl) module"]
 pub type SACKCTL = crate::Reg<u32, _SACKCTL>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -267,7 +267,7 @@ impl crate::Readable for SACKCTL {}
 impl crate::Writable for SACKCTL {}
 #[doc = "I2C Slave ACK Control"]
 pub mod sackctl;
-#[doc = "I2C Peripheral Properties\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [pp](pp) module"]
+#[doc = "I2C Peripheral Properties\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [pp](pp) module"]
 pub type PP = crate::Reg<u32, _PP>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -276,7 +276,7 @@ pub struct _PP;
 impl crate::Readable for PP {}
 #[doc = "I2C Peripheral Properties"]
 pub mod pp;
-#[doc = "I2C Peripheral Configuration\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [pc](pc) module"]
+#[doc = "I2C Peripheral Configuration\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [pc](pc) module"]
 pub type PC = crate::Reg<u32, _PC>;
 #[allow(missing_docs)]
 #[doc(hidden)]

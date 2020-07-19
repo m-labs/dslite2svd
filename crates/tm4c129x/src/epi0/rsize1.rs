@@ -12,22 +12,19 @@ impl crate::ResetValue for super::RSIZE1 {
 }
 #[doc = "Current Size\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum SIZE_A {
     #[doc = "1: Byte (8 bits)"]
-    _8BIT,
+    _8BIT = 1,
     #[doc = "2: Half-word (16 bits)"]
-    _16BIT,
+    _16BIT = 2,
     #[doc = "3: Word (32 bits)"]
-    _32BIT,
+    _32BIT = 3,
 }
 impl From<SIZE_A> for u8 {
     #[inline(always)]
     fn from(variant: SIZE_A) -> Self {
-        match variant {
-            SIZE_A::_8BIT => 1,
-            SIZE_A::_16BIT => 2,
-            SIZE_A::_32BIT => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `SIZE`"]

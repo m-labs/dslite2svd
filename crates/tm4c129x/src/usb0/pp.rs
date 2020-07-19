@@ -2,19 +2,17 @@
 pub type R = crate::R<u32, super::PP>;
 #[doc = "Controller Type\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum TYPE_A {
     #[doc = "0: The first-generation USB controller"]
-    _0,
+    _0 = 0,
     #[doc = "1: Second-generation USB controller.The controller implemented in post Icestorm devices that use the 3.0 version of the Mentor controller"]
-    _1,
+    _1 = 1,
 }
 impl From<TYPE_A> for u8 {
     #[inline(always)]
     fn from(variant: TYPE_A) -> Self {
-        match variant {
-            TYPE_A::_0 => 0,
-            TYPE_A::_1 => 1,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `TYPE`"]
@@ -47,22 +45,19 @@ pub type PHY_R = crate::R<bool, bool>;
 pub type ULPI_R = crate::R<bool, bool>;
 #[doc = "USB Capability\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum USB_A {
     #[doc = "1: DEVICE"]
-    DEVICE,
+    DEVICE = 1,
     #[doc = "2: HOST"]
-    HOSTDEVICE,
+    HOSTDEVICE = 2,
     #[doc = "3: OTG"]
-    OTG,
+    OTG = 3,
 }
 impl From<USB_A> for u8 {
     #[inline(always)]
     fn from(variant: USB_A) -> Self {
-        match variant {
-            USB_A::DEVICE => 1,
-            USB_A::HOSTDEVICE => 2,
-            USB_A::OTG => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `USB`"]

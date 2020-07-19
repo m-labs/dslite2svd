@@ -120,7 +120,7 @@ pub struct RegisterBlock {
     #[doc = "0x143c - Flash Memory Protection Program Enable 15"]
     pub fmppe15: FMPPE15,
 }
-#[doc = "Flash Memory Address\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fma](fma) module"]
+#[doc = "Flash Memory Address\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fma](fma) module"]
 pub type FMA = crate::Reg<u32, _FMA>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -131,7 +131,7 @@ impl crate::Readable for FMA {}
 impl crate::Writable for FMA {}
 #[doc = "Flash Memory Address"]
 pub mod fma;
-#[doc = "Flash Memory Data\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fmd](fmd) module"]
+#[doc = "Flash Memory Data\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fmd](fmd) module"]
 pub type FMD = crate::Reg<u32, _FMD>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -142,7 +142,7 @@ impl crate::Readable for FMD {}
 impl crate::Writable for FMD {}
 #[doc = "Flash Memory Data"]
 pub mod fmd;
-#[doc = "Flash Memory Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fmc](fmc) module"]
+#[doc = "Flash Memory Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fmc](fmc) module"]
 pub type FMC = crate::Reg<u32, _FMC>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -153,7 +153,7 @@ impl crate::Readable for FMC {}
 impl crate::Writable for FMC {}
 #[doc = "Flash Memory Control"]
 pub mod fmc;
-#[doc = "Flash Controller Raw Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fcris](fcris) module"]
+#[doc = "Flash Controller Raw Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fcris](fcris) module"]
 pub type FCRIS = crate::Reg<u32, _FCRIS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -162,7 +162,7 @@ pub struct _FCRIS;
 impl crate::Readable for FCRIS {}
 #[doc = "Flash Controller Raw Interrupt Status"]
 pub mod fcris;
-#[doc = "Flash Controller Interrupt Mask\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fcim](fcim) module"]
+#[doc = "Flash Controller Interrupt Mask\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fcim](fcim) module"]
 pub type FCIM = crate::Reg<u32, _FCIM>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -173,7 +173,7 @@ impl crate::Readable for FCIM {}
 impl crate::Writable for FCIM {}
 #[doc = "Flash Controller Interrupt Mask"]
 pub mod fcim;
-#[doc = "Flash Controller Masked Interrupt Status and Clear\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fcmisc](fcmisc) module"]
+#[doc = "Flash Controller Masked Interrupt Status and Clear\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fcmisc](fcmisc) module"]
 pub type FCMISC = crate::Reg<u32, _FCMISC>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -184,7 +184,7 @@ impl crate::Readable for FCMISC {}
 impl crate::Writable for FCMISC {}
 #[doc = "Flash Controller Masked Interrupt Status and Clear"]
 pub mod fcmisc;
-#[doc = "Flash Memory Control 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fmc2](fmc2) module"]
+#[doc = "Flash Memory Control 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fmc2](fmc2) module"]
 pub type FMC2 = crate::Reg<u32, _FMC2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -195,7 +195,7 @@ impl crate::Readable for FMC2 {}
 impl crate::Writable for FMC2 {}
 #[doc = "Flash Memory Control 2"]
 pub mod fmc2;
-#[doc = "Flash Write Buffer Valid\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fwbval](fwbval) module"]
+#[doc = "Flash Write Buffer Valid\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fwbval](fwbval) module"]
 pub type FWBVAL = crate::Reg<u32, _FWBVAL>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -206,7 +206,7 @@ impl crate::Readable for FWBVAL {}
 impl crate::Writable for FWBVAL {}
 #[doc = "Flash Write Buffer Valid"]
 pub mod fwbval;
-#[doc = "Flash Program/Erase Key\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [flpekey](flpekey) module"]
+#[doc = "Flash Program/Erase Key\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [flpekey](flpekey) module"]
 pub type FLPEKEY = crate::Reg<u32, _FLPEKEY>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -217,7 +217,7 @@ impl crate::Readable for FLPEKEY {}
 impl crate::Writable for FLPEKEY {}
 #[doc = "Flash Program/Erase Key"]
 pub mod flpekey;
-#[doc = "Flash Write Buffer n\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fwbn](fwbn) module"]
+#[doc = "Flash Write Buffer n\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fwbn](fwbn) module"]
 pub type FWBN = crate::Reg<u32, _FWBN>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -228,7 +228,7 @@ impl crate::Readable for FWBN {}
 impl crate::Writable for FWBN {}
 #[doc = "Flash Write Buffer n"]
 pub mod fwbn;
-#[doc = "Flash Peripheral Properties\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [pp](pp) module"]
+#[doc = "Flash Peripheral Properties\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [pp](pp) module"]
 pub type PP = crate::Reg<u32, _PP>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -237,7 +237,7 @@ pub struct _PP;
 impl crate::Readable for PP {}
 #[doc = "Flash Peripheral Properties"]
 pub mod pp;
-#[doc = "SRAM Size\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ssize](ssize) module"]
+#[doc = "SRAM Size\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ssize](ssize) module"]
 pub type SSIZE = crate::Reg<u32, _SSIZE>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -246,7 +246,7 @@ pub struct _SSIZE;
 impl crate::Readable for SSIZE {}
 #[doc = "SRAM Size"]
 pub mod ssize;
-#[doc = "Flash Configuration Register\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [conf](conf) module"]
+#[doc = "Flash Configuration Register\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [conf](conf) module"]
 pub type CONF = crate::Reg<u32, _CONF>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -257,7 +257,7 @@ impl crate::Readable for CONF {}
 impl crate::Writable for CONF {}
 #[doc = "Flash Configuration Register"]
 pub mod conf;
-#[doc = "ROM Software Map\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [romswmap](romswmap) module"]
+#[doc = "ROM Software Map\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [romswmap](romswmap) module"]
 pub type ROMSWMAP = crate::Reg<u32, _ROMSWMAP>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -266,7 +266,7 @@ pub struct _ROMSWMAP;
 impl crate::Readable for ROMSWMAP {}
 #[doc = "ROM Software Map"]
 pub mod romswmap;
-#[doc = "Flash DMA Address Size\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dmasz](dmasz) module"]
+#[doc = "Flash DMA Address Size\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dmasz](dmasz) module"]
 pub type DMASZ = crate::Reg<u32, _DMASZ>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -277,7 +277,7 @@ impl crate::Readable for DMASZ {}
 impl crate::Writable for DMASZ {}
 #[doc = "Flash DMA Address Size"]
 pub mod dmasz;
-#[doc = "Flash DMA Starting Address\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dmast](dmast) module"]
+#[doc = "Flash DMA Starting Address\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dmast](dmast) module"]
 pub type DMAST = crate::Reg<u32, _DMAST>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -288,7 +288,7 @@ impl crate::Readable for DMAST {}
 impl crate::Writable for DMAST {}
 #[doc = "Flash DMA Starting Address"]
 pub mod dmast;
-#[doc = "Reset Vector Pointer\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rvp](rvp) module"]
+#[doc = "Reset Vector Pointer\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rvp](rvp) module"]
 pub type RVP = crate::Reg<u32, _RVP>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -299,7 +299,7 @@ impl crate::Readable for RVP {}
 impl crate::Writable for RVP {}
 #[doc = "Reset Vector Pointer"]
 pub mod rvp;
-#[doc = "Boot Configuration\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [bootcfg](bootcfg) module"]
+#[doc = "Boot Configuration\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [bootcfg](bootcfg) module"]
 pub type BOOTCFG = crate::Reg<u32, _BOOTCFG>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -308,7 +308,7 @@ pub struct _BOOTCFG;
 impl crate::Readable for BOOTCFG {}
 #[doc = "Boot Configuration"]
 pub mod bootcfg;
-#[doc = "User Register 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [userreg0](userreg0) module"]
+#[doc = "User Register 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [userreg0](userreg0) module"]
 pub type USERREG0 = crate::Reg<u32, _USERREG0>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -319,7 +319,7 @@ impl crate::Readable for USERREG0 {}
 impl crate::Writable for USERREG0 {}
 #[doc = "User Register 0"]
 pub mod userreg0;
-#[doc = "User Register 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [userreg1](userreg1) module"]
+#[doc = "User Register 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [userreg1](userreg1) module"]
 pub type USERREG1 = crate::Reg<u32, _USERREG1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -330,7 +330,7 @@ impl crate::Readable for USERREG1 {}
 impl crate::Writable for USERREG1 {}
 #[doc = "User Register 1"]
 pub mod userreg1;
-#[doc = "User Register 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [userreg2](userreg2) module"]
+#[doc = "User Register 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [userreg2](userreg2) module"]
 pub type USERREG2 = crate::Reg<u32, _USERREG2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -341,7 +341,7 @@ impl crate::Readable for USERREG2 {}
 impl crate::Writable for USERREG2 {}
 #[doc = "User Register 2"]
 pub mod userreg2;
-#[doc = "User Register 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [userreg3](userreg3) module"]
+#[doc = "User Register 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [userreg3](userreg3) module"]
 pub type USERREG3 = crate::Reg<u32, _USERREG3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -352,7 +352,7 @@ impl crate::Readable for USERREG3 {}
 impl crate::Writable for USERREG3 {}
 #[doc = "User Register 3"]
 pub mod userreg3;
-#[doc = "Flash Memory Protection Read Enable 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fmpre0](fmpre0) module"]
+#[doc = "Flash Memory Protection Read Enable 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fmpre0](fmpre0) module"]
 pub type FMPRE0 = crate::Reg<u32, _FMPRE0>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -363,7 +363,7 @@ impl crate::Readable for FMPRE0 {}
 impl crate::Writable for FMPRE0 {}
 #[doc = "Flash Memory Protection Read Enable 0"]
 pub mod fmpre0;
-#[doc = "Flash Memory Protection Read Enable 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fmpre1](fmpre1) module"]
+#[doc = "Flash Memory Protection Read Enable 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fmpre1](fmpre1) module"]
 pub type FMPRE1 = crate::Reg<u32, _FMPRE1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -374,7 +374,7 @@ impl crate::Readable for FMPRE1 {}
 impl crate::Writable for FMPRE1 {}
 #[doc = "Flash Memory Protection Read Enable 1"]
 pub mod fmpre1;
-#[doc = "Flash Memory Protection Read Enable 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fmpre2](fmpre2) module"]
+#[doc = "Flash Memory Protection Read Enable 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fmpre2](fmpre2) module"]
 pub type FMPRE2 = crate::Reg<u32, _FMPRE2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -385,7 +385,7 @@ impl crate::Readable for FMPRE2 {}
 impl crate::Writable for FMPRE2 {}
 #[doc = "Flash Memory Protection Read Enable 2"]
 pub mod fmpre2;
-#[doc = "Flash Memory Protection Read Enable 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fmpre3](fmpre3) module"]
+#[doc = "Flash Memory Protection Read Enable 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fmpre3](fmpre3) module"]
 pub type FMPRE3 = crate::Reg<u32, _FMPRE3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -396,7 +396,7 @@ impl crate::Readable for FMPRE3 {}
 impl crate::Writable for FMPRE3 {}
 #[doc = "Flash Memory Protection Read Enable 3"]
 pub mod fmpre3;
-#[doc = "Flash Memory Protection Read Enable 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fmpre4](fmpre4) module"]
+#[doc = "Flash Memory Protection Read Enable 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fmpre4](fmpre4) module"]
 pub type FMPRE4 = crate::Reg<u32, _FMPRE4>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -407,7 +407,7 @@ impl crate::Readable for FMPRE4 {}
 impl crate::Writable for FMPRE4 {}
 #[doc = "Flash Memory Protection Read Enable 4"]
 pub mod fmpre4;
-#[doc = "Flash Memory Protection Read Enable 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fmpre5](fmpre5) module"]
+#[doc = "Flash Memory Protection Read Enable 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fmpre5](fmpre5) module"]
 pub type FMPRE5 = crate::Reg<u32, _FMPRE5>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -418,7 +418,7 @@ impl crate::Readable for FMPRE5 {}
 impl crate::Writable for FMPRE5 {}
 #[doc = "Flash Memory Protection Read Enable 5"]
 pub mod fmpre5;
-#[doc = "Flash Memory Protection Read Enable 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fmpre6](fmpre6) module"]
+#[doc = "Flash Memory Protection Read Enable 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fmpre6](fmpre6) module"]
 pub type FMPRE6 = crate::Reg<u32, _FMPRE6>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -429,7 +429,7 @@ impl crate::Readable for FMPRE6 {}
 impl crate::Writable for FMPRE6 {}
 #[doc = "Flash Memory Protection Read Enable 6"]
 pub mod fmpre6;
-#[doc = "Flash Memory Protection Read Enable 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fmpre7](fmpre7) module"]
+#[doc = "Flash Memory Protection Read Enable 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fmpre7](fmpre7) module"]
 pub type FMPRE7 = crate::Reg<u32, _FMPRE7>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -440,7 +440,7 @@ impl crate::Readable for FMPRE7 {}
 impl crate::Writable for FMPRE7 {}
 #[doc = "Flash Memory Protection Read Enable 7"]
 pub mod fmpre7;
-#[doc = "Flash Memory Protection Read Enable 8\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fmpre8](fmpre8) module"]
+#[doc = "Flash Memory Protection Read Enable 8\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fmpre8](fmpre8) module"]
 pub type FMPRE8 = crate::Reg<u32, _FMPRE8>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -451,7 +451,7 @@ impl crate::Readable for FMPRE8 {}
 impl crate::Writable for FMPRE8 {}
 #[doc = "Flash Memory Protection Read Enable 8"]
 pub mod fmpre8;
-#[doc = "Flash Memory Protection Read Enable 9\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fmpre9](fmpre9) module"]
+#[doc = "Flash Memory Protection Read Enable 9\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fmpre9](fmpre9) module"]
 pub type FMPRE9 = crate::Reg<u32, _FMPRE9>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -462,7 +462,7 @@ impl crate::Readable for FMPRE9 {}
 impl crate::Writable for FMPRE9 {}
 #[doc = "Flash Memory Protection Read Enable 9"]
 pub mod fmpre9;
-#[doc = "Flash Memory Protection Read Enable 10\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fmpre10](fmpre10) module"]
+#[doc = "Flash Memory Protection Read Enable 10\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fmpre10](fmpre10) module"]
 pub type FMPRE10 = crate::Reg<u32, _FMPRE10>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -473,7 +473,7 @@ impl crate::Readable for FMPRE10 {}
 impl crate::Writable for FMPRE10 {}
 #[doc = "Flash Memory Protection Read Enable 10"]
 pub mod fmpre10;
-#[doc = "Flash Memory Protection Read Enable 11\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fmpre11](fmpre11) module"]
+#[doc = "Flash Memory Protection Read Enable 11\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fmpre11](fmpre11) module"]
 pub type FMPRE11 = crate::Reg<u32, _FMPRE11>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -484,7 +484,7 @@ impl crate::Readable for FMPRE11 {}
 impl crate::Writable for FMPRE11 {}
 #[doc = "Flash Memory Protection Read Enable 11"]
 pub mod fmpre11;
-#[doc = "Flash Memory Protection Read Enable 12\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fmpre12](fmpre12) module"]
+#[doc = "Flash Memory Protection Read Enable 12\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fmpre12](fmpre12) module"]
 pub type FMPRE12 = crate::Reg<u32, _FMPRE12>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -495,7 +495,7 @@ impl crate::Readable for FMPRE12 {}
 impl crate::Writable for FMPRE12 {}
 #[doc = "Flash Memory Protection Read Enable 12"]
 pub mod fmpre12;
-#[doc = "Flash Memory Protection Read Enable 13\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fmpre13](fmpre13) module"]
+#[doc = "Flash Memory Protection Read Enable 13\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fmpre13](fmpre13) module"]
 pub type FMPRE13 = crate::Reg<u32, _FMPRE13>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -506,7 +506,7 @@ impl crate::Readable for FMPRE13 {}
 impl crate::Writable for FMPRE13 {}
 #[doc = "Flash Memory Protection Read Enable 13"]
 pub mod fmpre13;
-#[doc = "Flash Memory Protection Read Enable 14\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fmpre14](fmpre14) module"]
+#[doc = "Flash Memory Protection Read Enable 14\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fmpre14](fmpre14) module"]
 pub type FMPRE14 = crate::Reg<u32, _FMPRE14>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -517,7 +517,7 @@ impl crate::Readable for FMPRE14 {}
 impl crate::Writable for FMPRE14 {}
 #[doc = "Flash Memory Protection Read Enable 14"]
 pub mod fmpre14;
-#[doc = "Flash Memory Protection Read Enable 15\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fmpre15](fmpre15) module"]
+#[doc = "Flash Memory Protection Read Enable 15\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fmpre15](fmpre15) module"]
 pub type FMPRE15 = crate::Reg<u32, _FMPRE15>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -528,7 +528,7 @@ impl crate::Readable for FMPRE15 {}
 impl crate::Writable for FMPRE15 {}
 #[doc = "Flash Memory Protection Read Enable 15"]
 pub mod fmpre15;
-#[doc = "Flash Memory Protection Program Enable 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fmppe0](fmppe0) module"]
+#[doc = "Flash Memory Protection Program Enable 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fmppe0](fmppe0) module"]
 pub type FMPPE0 = crate::Reg<u32, _FMPPE0>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -539,7 +539,7 @@ impl crate::Readable for FMPPE0 {}
 impl crate::Writable for FMPPE0 {}
 #[doc = "Flash Memory Protection Program Enable 0"]
 pub mod fmppe0;
-#[doc = "Flash Memory Protection Program Enable 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fmppe1](fmppe1) module"]
+#[doc = "Flash Memory Protection Program Enable 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fmppe1](fmppe1) module"]
 pub type FMPPE1 = crate::Reg<u32, _FMPPE1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -550,7 +550,7 @@ impl crate::Readable for FMPPE1 {}
 impl crate::Writable for FMPPE1 {}
 #[doc = "Flash Memory Protection Program Enable 1"]
 pub mod fmppe1;
-#[doc = "Flash Memory Protection Program Enable 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fmppe2](fmppe2) module"]
+#[doc = "Flash Memory Protection Program Enable 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fmppe2](fmppe2) module"]
 pub type FMPPE2 = crate::Reg<u32, _FMPPE2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -561,7 +561,7 @@ impl crate::Readable for FMPPE2 {}
 impl crate::Writable for FMPPE2 {}
 #[doc = "Flash Memory Protection Program Enable 2"]
 pub mod fmppe2;
-#[doc = "Flash Memory Protection Program Enable 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fmppe3](fmppe3) module"]
+#[doc = "Flash Memory Protection Program Enable 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fmppe3](fmppe3) module"]
 pub type FMPPE3 = crate::Reg<u32, _FMPPE3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -572,7 +572,7 @@ impl crate::Readable for FMPPE3 {}
 impl crate::Writable for FMPPE3 {}
 #[doc = "Flash Memory Protection Program Enable 3"]
 pub mod fmppe3;
-#[doc = "Flash Memory Protection Program Enable 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fmppe4](fmppe4) module"]
+#[doc = "Flash Memory Protection Program Enable 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fmppe4](fmppe4) module"]
 pub type FMPPE4 = crate::Reg<u32, _FMPPE4>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -583,7 +583,7 @@ impl crate::Readable for FMPPE4 {}
 impl crate::Writable for FMPPE4 {}
 #[doc = "Flash Memory Protection Program Enable 4"]
 pub mod fmppe4;
-#[doc = "Flash Memory Protection Program Enable 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fmppe5](fmppe5) module"]
+#[doc = "Flash Memory Protection Program Enable 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fmppe5](fmppe5) module"]
 pub type FMPPE5 = crate::Reg<u32, _FMPPE5>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -594,7 +594,7 @@ impl crate::Readable for FMPPE5 {}
 impl crate::Writable for FMPPE5 {}
 #[doc = "Flash Memory Protection Program Enable 5"]
 pub mod fmppe5;
-#[doc = "Flash Memory Protection Program Enable 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fmppe6](fmppe6) module"]
+#[doc = "Flash Memory Protection Program Enable 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fmppe6](fmppe6) module"]
 pub type FMPPE6 = crate::Reg<u32, _FMPPE6>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -605,7 +605,7 @@ impl crate::Readable for FMPPE6 {}
 impl crate::Writable for FMPPE6 {}
 #[doc = "Flash Memory Protection Program Enable 6"]
 pub mod fmppe6;
-#[doc = "Flash Memory Protection Program Enable 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fmppe7](fmppe7) module"]
+#[doc = "Flash Memory Protection Program Enable 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fmppe7](fmppe7) module"]
 pub type FMPPE7 = crate::Reg<u32, _FMPPE7>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -616,7 +616,7 @@ impl crate::Readable for FMPPE7 {}
 impl crate::Writable for FMPPE7 {}
 #[doc = "Flash Memory Protection Program Enable 7"]
 pub mod fmppe7;
-#[doc = "Flash Memory Protection Program Enable 8\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fmppe8](fmppe8) module"]
+#[doc = "Flash Memory Protection Program Enable 8\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fmppe8](fmppe8) module"]
 pub type FMPPE8 = crate::Reg<u32, _FMPPE8>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -627,7 +627,7 @@ impl crate::Readable for FMPPE8 {}
 impl crate::Writable for FMPPE8 {}
 #[doc = "Flash Memory Protection Program Enable 8"]
 pub mod fmppe8;
-#[doc = "Flash Memory Protection Program Enable 9\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fmppe9](fmppe9) module"]
+#[doc = "Flash Memory Protection Program Enable 9\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fmppe9](fmppe9) module"]
 pub type FMPPE9 = crate::Reg<u32, _FMPPE9>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -638,7 +638,7 @@ impl crate::Readable for FMPPE9 {}
 impl crate::Writable for FMPPE9 {}
 #[doc = "Flash Memory Protection Program Enable 9"]
 pub mod fmppe9;
-#[doc = "Flash Memory Protection Program Enable 10\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fmppe10](fmppe10) module"]
+#[doc = "Flash Memory Protection Program Enable 10\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fmppe10](fmppe10) module"]
 pub type FMPPE10 = crate::Reg<u32, _FMPPE10>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -649,7 +649,7 @@ impl crate::Readable for FMPPE10 {}
 impl crate::Writable for FMPPE10 {}
 #[doc = "Flash Memory Protection Program Enable 10"]
 pub mod fmppe10;
-#[doc = "Flash Memory Protection Program Enable 11\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fmppe11](fmppe11) module"]
+#[doc = "Flash Memory Protection Program Enable 11\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fmppe11](fmppe11) module"]
 pub type FMPPE11 = crate::Reg<u32, _FMPPE11>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -660,7 +660,7 @@ impl crate::Readable for FMPPE11 {}
 impl crate::Writable for FMPPE11 {}
 #[doc = "Flash Memory Protection Program Enable 11"]
 pub mod fmppe11;
-#[doc = "Flash Memory Protection Program Enable 12\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fmppe12](fmppe12) module"]
+#[doc = "Flash Memory Protection Program Enable 12\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fmppe12](fmppe12) module"]
 pub type FMPPE12 = crate::Reg<u32, _FMPPE12>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -671,7 +671,7 @@ impl crate::Readable for FMPPE12 {}
 impl crate::Writable for FMPPE12 {}
 #[doc = "Flash Memory Protection Program Enable 12"]
 pub mod fmppe12;
-#[doc = "Flash Memory Protection Program Enable 13\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fmppe13](fmppe13) module"]
+#[doc = "Flash Memory Protection Program Enable 13\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fmppe13](fmppe13) module"]
 pub type FMPPE13 = crate::Reg<u32, _FMPPE13>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -682,7 +682,7 @@ impl crate::Readable for FMPPE13 {}
 impl crate::Writable for FMPPE13 {}
 #[doc = "Flash Memory Protection Program Enable 13"]
 pub mod fmppe13;
-#[doc = "Flash Memory Protection Program Enable 14\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fmppe14](fmppe14) module"]
+#[doc = "Flash Memory Protection Program Enable 14\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fmppe14](fmppe14) module"]
 pub type FMPPE14 = crate::Reg<u32, _FMPPE14>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -693,7 +693,7 @@ impl crate::Readable for FMPPE14 {}
 impl crate::Writable for FMPPE14 {}
 #[doc = "Flash Memory Protection Program Enable 14"]
 pub mod fmppe14;
-#[doc = "Flash Memory Protection Program Enable 15\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fmppe15](fmppe15) module"]
+#[doc = "Flash Memory Protection Program Enable 15\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fmppe15](fmppe15) module"]
 pub type FMPPE15 = crate::Reg<u32, _FMPPE15>;
 #[allow(missing_docs)]
 #[doc(hidden)]

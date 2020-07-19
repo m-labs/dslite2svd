@@ -84,25 +84,21 @@ impl<'a> HOST_W<'a> {
 }
 #[doc = "VBUS Level (OTG only)\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum VBUS_A {
     #[doc = "0: Below SessionEnd"]
-    NONE,
+    NONE = 0,
     #[doc = "1: Above SessionEnd, below AValid"]
-    SEND,
+    SEND = 1,
     #[doc = "2: Above AValid, below VBUSValid"]
-    AVALID,
+    AVALID = 2,
     #[doc = "3: Above VBUSValid"]
-    VALID,
+    VALID = 3,
 }
 impl From<VBUS_A> for u8 {
     #[inline(always)]
     fn from(variant: VBUS_A) -> Self {
-        match variant {
-            VBUS_A::NONE => 0,
-            VBUS_A::SEND => 1,
-            VBUS_A::AVALID => 2,
-            VBUS_A::VALID => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `VBUS`"]

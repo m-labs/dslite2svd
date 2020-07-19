@@ -12,22 +12,19 @@ impl crate::ResetValue for super::LOCK {
 }
 #[doc = "GPIO Lock\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u32)]
 pub enum LOCK_A {
     #[doc = "0: The GPIOCR register is unlocked and may be modified"]
-    UNLOCKED,
+    UNLOCKED = 0,
     #[doc = "1: The GPIOCR register is locked and may not be modified"]
-    LOCKED,
+    LOCKED = 1,
     #[doc = "1280262987: Unlocks the GPIO_CR register"]
-    KEY,
+    KEY = 1280262987,
 }
 impl From<LOCK_A> for u32 {
     #[inline(always)]
     fn from(variant: LOCK_A) -> Self {
-        match variant {
-            LOCK_A::UNLOCKED => 0,
-            LOCK_A::LOCKED => 1,
-            LOCK_A::KEY => 1280262987,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `LOCK`"]

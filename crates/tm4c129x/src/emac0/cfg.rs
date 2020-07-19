@@ -12,22 +12,19 @@ impl crate::ResetValue for super::CFG {
 }
 #[doc = "Preamble Length for Transmit Frames\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum PRELEN_A {
     #[doc = "0: 7 bytes of preamble"]
-    _7,
+    _7 = 0,
     #[doc = "1: 5 bytes of preamble"]
-    _5,
+    _5 = 1,
     #[doc = "2: 3 bytes of preamble"]
-    _3,
+    _3 = 2,
 }
 impl From<PRELEN_A> for u8 {
     #[inline(always)]
     fn from(variant: PRELEN_A) -> Self {
-        match variant {
-            PRELEN_A::_7 => 0,
-            PRELEN_A::_5 => 1,
-            PRELEN_A::_3 => 2,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `PRELEN`"]
@@ -166,25 +163,21 @@ impl<'a> DC_W<'a> {
 }
 #[doc = "Back-Off Limit\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum BL_A {
     #[doc = "0: k = min (n,10)"]
-    _1024,
+    _1024 = 0,
     #[doc = "1: k = min (n,8)"]
-    _256,
+    _256 = 1,
     #[doc = "2: k = min (n,4)"]
-    _8,
+    _8 = 2,
     #[doc = "3: k = min (n,1)"]
-    _2,
+    _2 = 3,
 }
 impl From<BL_A> for u8 {
     #[inline(always)]
     fn from(variant: BL_A) -> Self {
-        match variant {
-            BL_A::_1024 => 0,
-            BL_A::_256 => 1,
-            BL_A::_8 => 2,
-            BL_A::_2 => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `BL`"]
@@ -479,37 +472,29 @@ impl<'a> DISCRS_W<'a> {
 }
 #[doc = "Inter-Frame Gap (IFG)\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum IFG_A {
     #[doc = "0: 96 bit times"]
-    _96,
+    _96 = 0,
     #[doc = "1: 88 bit times"]
-    _88,
+    _88 = 1,
     #[doc = "2: 80 bit times"]
-    _80,
+    _80 = 2,
     #[doc = "3: 72 bit times"]
-    _72,
+    _72 = 3,
     #[doc = "4: 64 bit times"]
-    _64,
+    _64 = 4,
     #[doc = "5: 56 bit times"]
-    _56,
+    _56 = 5,
     #[doc = "6: 48 bit times"]
-    _48,
+    _48 = 6,
     #[doc = "7: 40 bit times"]
-    _40,
+    _40 = 7,
 }
 impl From<IFG_A> for u8 {
     #[inline(always)]
     fn from(variant: IFG_A) -> Self {
-        match variant {
-            IFG_A::_96 => 0,
-            IFG_A::_88 => 1,
-            IFG_A::_80 => 2,
-            IFG_A::_72 => 3,
-            IFG_A::_64 => 4,
-            IFG_A::_56 => 5,
-            IFG_A::_48 => 6,
-            IFG_A::_40 => 7,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `IFG`"]

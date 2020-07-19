@@ -12,25 +12,21 @@ impl crate::ResetValue for super::ADDRMAP {
 }
 #[doc = "External RAM Address\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum ERADR_A {
     #[doc = "0: Not mapped"]
-    NONE,
+    NONE = 0,
     #[doc = "1: At 0x6000.0000"]
-    _6000,
+    _6000 = 1,
     #[doc = "2: At 0x8000.0000"]
-    _8000,
+    _8000 = 2,
     #[doc = "3: Only to be used with Host Bus quad chip select. In quad chip select mode, CS0n maps to 0x6000.0000 and CS1n maps to 0x8000.0000"]
-    HBQS,
+    HBQS = 3,
 }
 impl From<ERADR_A> for u8 {
     #[inline(always)]
     fn from(variant: ERADR_A) -> Self {
-        match variant {
-            ERADR_A::NONE => 0,
-            ERADR_A::_6000 => 1,
-            ERADR_A::_8000 => 2,
-            ERADR_A::HBQS => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `ERADR`"]
@@ -109,25 +105,21 @@ impl<'a> ERADR_W<'a> {
 }
 #[doc = "External RAM Size\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum ERSZ_A {
     #[doc = "0: 256 bytes; lower address range: 0x00 to 0xFF"]
-    _256B,
+    _256B = 0,
     #[doc = "1: 64 KB; lower address range: 0x0000 to 0xFFFF"]
-    _64KB,
+    _64KB = 1,
     #[doc = "2: 16 MB; lower address range: 0x00.0000 to 0xFF.FFFF"]
-    _16MB,
+    _16MB = 2,
     #[doc = "3: 256 MB; lower address range: 0x000.0000 to 0xFFF.FFFF"]
-    _256MB,
+    _256MB = 3,
 }
 impl From<ERSZ_A> for u8 {
     #[inline(always)]
     fn from(variant: ERSZ_A) -> Self {
-        match variant {
-            ERSZ_A::_256B => 0,
-            ERSZ_A::_64KB => 1,
-            ERSZ_A::_16MB => 2,
-            ERSZ_A::_256MB => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `ERSZ`"]
@@ -206,25 +198,21 @@ impl<'a> ERSZ_W<'a> {
 }
 #[doc = "External Peripheral Address\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum EPADR_A {
     #[doc = "0: Not mapped"]
-    NONE,
+    NONE = 0,
     #[doc = "1: At 0xA000.0000"]
-    A000,
+    A000 = 1,
     #[doc = "2: At 0xC000.0000"]
-    C000,
+    C000 = 2,
     #[doc = "3: Only to be used with Host Bus quad chip select. In quad chip select mode, CS2n maps to 0xA000.0000 and CS3n maps to 0xC000.0000"]
-    HBQS,
+    HBQS = 3,
 }
 impl From<EPADR_A> for u8 {
     #[inline(always)]
     fn from(variant: EPADR_A) -> Self {
-        match variant {
-            EPADR_A::NONE => 0,
-            EPADR_A::A000 => 1,
-            EPADR_A::C000 => 2,
-            EPADR_A::HBQS => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `EPADR`"]
@@ -303,25 +291,21 @@ impl<'a> EPADR_W<'a> {
 }
 #[doc = "External Peripheral Size\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum EPSZ_A {
     #[doc = "0: 256 bytes; lower address range: 0x00 to 0xFF"]
-    _256B,
+    _256B = 0,
     #[doc = "1: 64 KB; lower address range: 0x0000 to 0xFFFF"]
-    _64KB,
+    _64KB = 1,
     #[doc = "2: 16 MB; lower address range: 0x00.0000 to 0xFF.FFFF"]
-    _16MB,
+    _16MB = 2,
     #[doc = "3: 256 MB; lower address range: 0x000.0000 to 0xFFF.FFFF"]
-    _256MB,
+    _256MB = 3,
 }
 impl From<EPSZ_A> for u8 {
     #[inline(always)]
     fn from(variant: EPSZ_A) -> Self {
-        match variant {
-            EPSZ_A::_256B => 0,
-            EPSZ_A::_64KB => 1,
-            EPSZ_A::_16MB => 2,
-            EPSZ_A::_256MB => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `EPSZ`"]
@@ -400,19 +384,17 @@ impl<'a> EPSZ_W<'a> {
 }
 #[doc = "External Code Address\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum ECADR_A {
     #[doc = "0: Not mapped"]
-    NONE,
+    NONE = 0,
     #[doc = "1: At 0x1000.0000"]
-    _1000,
+    _1000 = 1,
 }
 impl From<ECADR_A> for u8 {
     #[inline(always)]
     fn from(variant: ECADR_A) -> Self {
-        match variant {
-            ECADR_A::NONE => 0,
-            ECADR_A::_1000 => 1,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `ECADR`"]
@@ -468,25 +450,21 @@ impl<'a> ECADR_W<'a> {
 }
 #[doc = "External Code Size\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum ECSZ_A {
     #[doc = "0: 256 bytes; lower address range: 0x00 to 0xFF"]
-    _256B,
+    _256B = 0,
     #[doc = "1: 64 KB; lower address range: 0x0000 to 0xFFFF"]
-    _64KB,
+    _64KB = 1,
     #[doc = "2: 16 MB; lower address range: 0x00.0000 to 0xFF.FFFF"]
-    _16MB,
+    _16MB = 2,
     #[doc = "3: 256MB; lower address range: 0x000.0000 to 0x0FFF.FFFF"]
-    _256MB,
+    _256MB = 3,
 }
 impl From<ECSZ_A> for u8 {
     #[inline(always)]
     fn from(variant: ECSZ_A) -> Self {
-        match variant {
-            ECSZ_A::_256B => 0,
-            ECSZ_A::_64KB => 1,
-            ECSZ_A::_16MB => 2,
-            ECSZ_A::_256MB => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `ECSZ`"]

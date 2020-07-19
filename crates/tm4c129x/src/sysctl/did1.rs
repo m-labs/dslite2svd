@@ -2,22 +2,19 @@
 pub type R = crate::R<u32, super::DID1>;
 #[doc = "Qualification Status\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum QUAL_A {
     #[doc = "0: Engineering Sample (unqualified)"]
-    ES,
+    ES = 0,
     #[doc = "1: Pilot Production (unqualified)"]
-    PP,
+    PP = 1,
     #[doc = "2: Fully Qualified"]
-    FQ,
+    FQ = 2,
 }
 impl From<QUAL_A> for u8 {
     #[inline(always)]
     fn from(variant: QUAL_A) -> Self {
-        match variant {
-            QUAL_A::ES => 0,
-            QUAL_A::PP => 1,
-            QUAL_A::FQ => 2,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `QUAL`"]
@@ -54,19 +51,17 @@ impl QUAL_R {
 pub type ROHS_R = crate::R<bool, bool>;
 #[doc = "Package Type\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum PKG_A {
     #[doc = "1: QFP package"]
-    QFP,
+    QFP = 1,
     #[doc = "2: BGA package"]
-    BGA,
+    BGA = 2,
 }
 impl From<PKG_A> for u8 {
     #[inline(always)]
     fn from(variant: PKG_A) -> Self {
-        match variant {
-            PKG_A::QFP => 1,
-            PKG_A::BGA => 2,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `PKG`"]
@@ -95,22 +90,19 @@ impl PKG_R {
 }
 #[doc = "Temperature Range\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum TEMP_A {
     #[doc = "0: Commercial temperature range"]
-    C,
+    C = 0,
     #[doc = "1: Industrial temperature range"]
-    I,
+    I = 1,
     #[doc = "2: Extended temperature range"]
-    E,
+    E = 2,
 }
 impl From<TEMP_A> for u8 {
     #[inline(always)]
     fn from(variant: TEMP_A) -> Self {
-        match variant {
-            TEMP_A::C => 0,
-            TEMP_A::I => 1,
-            TEMP_A::E => 2,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `TEMP`"]
@@ -145,28 +137,23 @@ impl TEMP_R {
 }
 #[doc = "Package Pin Count\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum PINCNT_A {
     #[doc = "2: 100-pin LQFP package"]
-    _100,
+    _100 = 2,
     #[doc = "3: 64-pin LQFP package"]
-    _64,
+    _64 = 3,
     #[doc = "4: 144-pin LQFP package"]
-    _144,
+    _144 = 4,
     #[doc = "5: 157-pin BGA package"]
-    _157,
+    _157 = 5,
     #[doc = "6: 128-pin TQFP package"]
-    _128,
+    _128 = 6,
 }
 impl From<PINCNT_A> for u8 {
     #[inline(always)]
     fn from(variant: PINCNT_A) -> Self {
-        match variant {
-            PINCNT_A::_100 => 2,
-            PINCNT_A::_64 => 3,
-            PINCNT_A::_144 => 4,
-            PINCNT_A::_157 => 5,
-            PINCNT_A::_128 => 6,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `PINCNT`"]

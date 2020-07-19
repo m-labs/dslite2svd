@@ -69,7 +69,7 @@ impl crate::Readable for CFG {}
 impl crate::Writable for CFG {}
 #[doc = "GPTM Configuration"]
 pub mod cfg;
-#[doc = "GPTM Timer A Mode\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [tamr](tamr) module"]
+#[doc = "GPTM Timer A Mode\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [tamr](tamr) module"]
 pub type TAMR = crate::Reg<u32, _TAMR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -80,7 +80,7 @@ impl crate::Readable for TAMR {}
 impl crate::Writable for TAMR {}
 #[doc = "GPTM Timer A Mode"]
 pub mod tamr;
-#[doc = "GPTM Timer B Mode\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [tbmr](tbmr) module"]
+#[doc = "GPTM Timer B Mode\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [tbmr](tbmr) module"]
 pub type TBMR = crate::Reg<u32, _TBMR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -91,7 +91,7 @@ impl crate::Readable for TBMR {}
 impl crate::Writable for TBMR {}
 #[doc = "GPTM Timer B Mode"]
 pub mod tbmr;
-#[doc = "GPTM Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ctl](ctl) module"]
+#[doc = "GPTM Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ctl](ctl) module"]
 pub type CTL = crate::Reg<u32, _CTL>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -102,7 +102,7 @@ impl crate::Readable for CTL {}
 impl crate::Writable for CTL {}
 #[doc = "GPTM Control"]
 pub mod ctl;
-#[doc = "GPTM Synchronize\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [sync](sync) module"]
+#[doc = "GPTM Synchronize\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [sync](sync) module"]
 pub type SYNC = crate::Reg<u32, _SYNC>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -113,7 +113,7 @@ impl crate::Readable for SYNC {}
 impl crate::Writable for SYNC {}
 #[doc = "GPTM Synchronize"]
 pub mod sync;
-#[doc = "GPTM Interrupt Mask\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [imr](imr) module"]
+#[doc = "GPTM Interrupt Mask\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [imr](imr) module"]
 pub type IMR = crate::Reg<u32, _IMR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -124,7 +124,7 @@ impl crate::Readable for IMR {}
 impl crate::Writable for IMR {}
 #[doc = "GPTM Interrupt Mask"]
 pub mod imr;
-#[doc = "GPTM Raw Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ris](ris) module"]
+#[doc = "GPTM Raw Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ris](ris) module"]
 pub type RIS = crate::Reg<u32, _RIS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -133,7 +133,7 @@ pub struct _RIS;
 impl crate::Readable for RIS {}
 #[doc = "GPTM Raw Interrupt Status"]
 pub mod ris;
-#[doc = "GPTM Masked Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [mis](mis) module"]
+#[doc = "GPTM Masked Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [mis](mis) module"]
 pub type MIS = crate::Reg<u32, _MIS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -142,7 +142,7 @@ pub struct _MIS;
 impl crate::Readable for MIS {}
 #[doc = "GPTM Masked Interrupt Status"]
 pub mod mis;
-#[doc = "GPTM Interrupt Clear\n\nThis register you can [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [icr](icr) module"]
+#[doc = "GPTM Interrupt Clear\n\nThis register you can [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [icr](icr) module"]
 pub type ICR = crate::Reg<u32, _ICR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -151,7 +151,7 @@ pub struct _ICR;
 impl crate::Writable for ICR {}
 #[doc = "GPTM Interrupt Clear"]
 pub mod icr;
-#[doc = "GPTM Timer A Interval Load\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [tailr](tailr) module"]
+#[doc = "GPTM Timer A Interval Load\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [tailr](tailr) module"]
 pub type TAILR = crate::Reg<u32, _TAILR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -162,7 +162,7 @@ impl crate::Readable for TAILR {}
 impl crate::Writable for TAILR {}
 #[doc = "GPTM Timer A Interval Load"]
 pub mod tailr;
-#[doc = "GPTM Timer B Interval Load\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [tbilr](tbilr) module"]
+#[doc = "GPTM Timer B Interval Load\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [tbilr](tbilr) module"]
 pub type TBILR = crate::Reg<u32, _TBILR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -173,7 +173,7 @@ impl crate::Readable for TBILR {}
 impl crate::Writable for TBILR {}
 #[doc = "GPTM Timer B Interval Load"]
 pub mod tbilr;
-#[doc = "GPTM Timer A Match\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [tamatchr](tamatchr) module"]
+#[doc = "GPTM Timer A Match\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [tamatchr](tamatchr) module"]
 pub type TAMATCHR = crate::Reg<u32, _TAMATCHR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -184,7 +184,7 @@ impl crate::Readable for TAMATCHR {}
 impl crate::Writable for TAMATCHR {}
 #[doc = "GPTM Timer A Match"]
 pub mod tamatchr;
-#[doc = "GPTM Timer B Match\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [tbmatchr](tbmatchr) module"]
+#[doc = "GPTM Timer B Match\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [tbmatchr](tbmatchr) module"]
 pub type TBMATCHR = crate::Reg<u32, _TBMATCHR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -195,7 +195,7 @@ impl crate::Readable for TBMATCHR {}
 impl crate::Writable for TBMATCHR {}
 #[doc = "GPTM Timer B Match"]
 pub mod tbmatchr;
-#[doc = "GPTM Timer A Prescale\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [tapr](tapr) module"]
+#[doc = "GPTM Timer A Prescale\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [tapr](tapr) module"]
 pub type TAPR = crate::Reg<u32, _TAPR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -206,7 +206,7 @@ impl crate::Readable for TAPR {}
 impl crate::Writable for TAPR {}
 #[doc = "GPTM Timer A Prescale"]
 pub mod tapr;
-#[doc = "GPTM Timer B Prescale\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [tbpr](tbpr) module"]
+#[doc = "GPTM Timer B Prescale\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [tbpr](tbpr) module"]
 pub type TBPR = crate::Reg<u32, _TBPR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -217,7 +217,7 @@ impl crate::Readable for TBPR {}
 impl crate::Writable for TBPR {}
 #[doc = "GPTM Timer B Prescale"]
 pub mod tbpr;
-#[doc = "GPTM TimerA Prescale Match\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [tapmr](tapmr) module"]
+#[doc = "GPTM TimerA Prescale Match\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [tapmr](tapmr) module"]
 pub type TAPMR = crate::Reg<u32, _TAPMR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -228,7 +228,7 @@ impl crate::Readable for TAPMR {}
 impl crate::Writable for TAPMR {}
 #[doc = "GPTM TimerA Prescale Match"]
 pub mod tapmr;
-#[doc = "GPTM TimerB Prescale Match\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [tbpmr](tbpmr) module"]
+#[doc = "GPTM TimerB Prescale Match\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [tbpmr](tbpmr) module"]
 pub type TBPMR = crate::Reg<u32, _TBPMR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -239,7 +239,7 @@ impl crate::Readable for TBPMR {}
 impl crate::Writable for TBPMR {}
 #[doc = "GPTM TimerB Prescale Match"]
 pub mod tbpmr;
-#[doc = "GPTM Timer A\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [tar](tar) module"]
+#[doc = "GPTM Timer A\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [tar](tar) module"]
 pub type TAR = crate::Reg<u32, _TAR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -248,7 +248,7 @@ pub struct _TAR;
 impl crate::Readable for TAR {}
 #[doc = "GPTM Timer A"]
 pub mod tar;
-#[doc = "GPTM Timer B\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [tbr](tbr) module"]
+#[doc = "GPTM Timer B\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [tbr](tbr) module"]
 pub type TBR = crate::Reg<u32, _TBR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -257,7 +257,7 @@ pub struct _TBR;
 impl crate::Readable for TBR {}
 #[doc = "GPTM Timer B"]
 pub mod tbr;
-#[doc = "GPTM Timer A Value\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [tav](tav) module"]
+#[doc = "GPTM Timer A Value\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [tav](tav) module"]
 pub type TAV = crate::Reg<u32, _TAV>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -268,7 +268,7 @@ impl crate::Readable for TAV {}
 impl crate::Writable for TAV {}
 #[doc = "GPTM Timer A Value"]
 pub mod tav;
-#[doc = "GPTM Timer B Value\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [tbv](tbv) module"]
+#[doc = "GPTM Timer B Value\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [tbv](tbv) module"]
 pub type TBV = crate::Reg<u32, _TBV>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -279,7 +279,7 @@ impl crate::Readable for TBV {}
 impl crate::Writable for TBV {}
 #[doc = "GPTM Timer B Value"]
 pub mod tbv;
-#[doc = "GPTM RTC Predivide\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rtcpd](rtcpd) module"]
+#[doc = "GPTM RTC Predivide\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rtcpd](rtcpd) module"]
 pub type RTCPD = crate::Reg<u32, _RTCPD>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -288,7 +288,7 @@ pub struct _RTCPD;
 impl crate::Readable for RTCPD {}
 #[doc = "GPTM RTC Predivide"]
 pub mod rtcpd;
-#[doc = "GPTM Timer A Prescale Snapshot\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [taps](taps) module"]
+#[doc = "GPTM Timer A Prescale Snapshot\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [taps](taps) module"]
 pub type TAPS = crate::Reg<u32, _TAPS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -297,7 +297,7 @@ pub struct _TAPS;
 impl crate::Readable for TAPS {}
 #[doc = "GPTM Timer A Prescale Snapshot"]
 pub mod taps;
-#[doc = "GPTM Timer B Prescale Snapshot\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [tbps](tbps) module"]
+#[doc = "GPTM Timer B Prescale Snapshot\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [tbps](tbps) module"]
 pub type TBPS = crate::Reg<u32, _TBPS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -306,7 +306,7 @@ pub struct _TBPS;
 impl crate::Readable for TBPS {}
 #[doc = "GPTM Timer B Prescale Snapshot"]
 pub mod tbps;
-#[doc = "GPTM Timer A Prescale Value\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [tapv](tapv) module"]
+#[doc = "GPTM Timer A Prescale Value\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [tapv](tapv) module"]
 pub type TAPV = crate::Reg<u32, _TAPV>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -315,7 +315,7 @@ pub struct _TAPV;
 impl crate::Readable for TAPV {}
 #[doc = "GPTM Timer A Prescale Value"]
 pub mod tapv;
-#[doc = "GPTM Timer B Prescale Value\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [tbpv](tbpv) module"]
+#[doc = "GPTM Timer B Prescale Value\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [tbpv](tbpv) module"]
 pub type TBPV = crate::Reg<u32, _TBPV>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -324,7 +324,7 @@ pub struct _TBPV;
 impl crate::Readable for TBPV {}
 #[doc = "GPTM Timer B Prescale Value"]
 pub mod tbpv;
-#[doc = "GPTM Peripheral Properties\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [pp](pp) module"]
+#[doc = "GPTM Peripheral Properties\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [pp](pp) module"]
 pub type PP = crate::Reg<u32, _PP>;
 #[allow(missing_docs)]
 #[doc(hidden)]

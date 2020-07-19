@@ -2,19 +2,17 @@
 pub type R = crate::R<u32, super::PP>;
 #[doc = "Ethernet PHY Type\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum PHYTYPE_A {
     #[doc = "0: No PHY"]
-    NONE,
+    NONE = 0,
     #[doc = "3: Snowflake class PHY"]
-    _1,
+    _1 = 3,
 }
 impl From<PHYTYPE_A> for u8 {
     #[inline(always)]
     fn from(variant: PHYTYPE_A) -> Self {
-        match variant {
-            PHYTYPE_A::NONE => 0,
-            PHYTYPE_A::_1 => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `PHYTYPE`"]

@@ -25,14 +25,16 @@ impl<'a> SET_W<'a> {
     }
 }
 impl R {
-    #[doc = "Bits 0:31 - Channel \\[n\\] Useburst Set"]
+    #[doc = "Bits 0:31 - Channel \\[n\\]
+Useburst Set"]
     #[inline(always)]
     pub fn set(&self) -> SET_R {
         SET_R::new((self.bits & 0xffff_ffff) as u32)
     }
 }
 impl W {
-    #[doc = "Bits 0:31 - Channel \\[n\\] Useburst Set"]
+    #[doc = "Bits 0:31 - Channel \\[n\\]
+Useburst Set"]
     #[inline(always)]
     pub fn set(&mut self) -> SET_W {
         SET_W { w: self }

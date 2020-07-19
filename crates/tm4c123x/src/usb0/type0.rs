@@ -12,19 +12,17 @@ impl crate::ResetValue for super::TYPE0 {
 }
 #[doc = "Operating Speed\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum SPEED_A {
     #[doc = "2: Full"]
-    FULL,
+    FULL = 2,
     #[doc = "3: Low"]
-    LOW,
+    LOW = 3,
 }
 impl From<SPEED_A> for u8 {
     #[inline(always)]
     fn from(variant: SPEED_A) -> Self {
-        match variant {
-            SPEED_A::FULL => 2,
-            SPEED_A::LOW => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `SPEED`"]

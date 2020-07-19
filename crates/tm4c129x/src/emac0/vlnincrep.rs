@@ -26,25 +26,21 @@ impl<'a> VLT_W<'a> {
 }
 #[doc = "VLAN Tag Control in Transmit Frames\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum VLC_A {
     #[doc = "0: No VLAN tag deletion, insertion, or replacement"]
-    NONE,
+    NONE = 0,
     #[doc = "1: VLAN tag deletion"]
-    TAGDEL,
+    TAGDEL = 1,
     #[doc = "2: VLAN tag insertion"]
-    TAGINS,
+    TAGINS = 2,
     #[doc = "3: VLAN tag replacement"]
-    TAGREP,
+    TAGREP = 3,
 }
 impl From<VLC_A> for u8 {
     #[inline(always)]
     fn from(variant: VLC_A) -> Self {
-        match variant {
-            VLC_A::NONE => 0,
-            VLC_A::TAGDEL => 1,
-            VLC_A::TAGINS => 2,
-            VLC_A::TAGREP => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `VLC`"]

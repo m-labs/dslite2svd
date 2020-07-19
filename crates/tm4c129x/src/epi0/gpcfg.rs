@@ -12,25 +12,21 @@ impl crate::ResetValue for super::GPCFG {
 }
 #[doc = "Size of Data Bus\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum DSIZE_A {
     #[doc = "0: 8 Bits Wide (EPI0S0 to EPI0S7)"]
-    _4BIT,
+    _4BIT = 0,
     #[doc = "1: 16 Bits Wide (EPI0S0 to EPI0S15)"]
-    _16BIT,
+    _16BIT = 1,
     #[doc = "2: 24 Bits Wide (EPI0S0 to EPI0S23)"]
-    _24BIT,
+    _24BIT = 2,
     #[doc = "3: 32 Bits Wide (EPI0S0 to EPI0S31)"]
-    _32BIT,
+    _32BIT = 3,
 }
 impl From<DSIZE_A> for u8 {
     #[inline(always)]
     fn from(variant: DSIZE_A) -> Self {
-        match variant {
-            DSIZE_A::_4BIT => 0,
-            DSIZE_A::_16BIT => 1,
-            DSIZE_A::_24BIT => 2,
-            DSIZE_A::_32BIT => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `DSIZE`"]
@@ -109,25 +105,21 @@ impl<'a> DSIZE_W<'a> {
 }
 #[doc = "Address Bus Size\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum ASIZE_A {
     #[doc = "0: No address"]
-    NONE,
+    NONE = 0,
     #[doc = "1: Up to 4 bits wide"]
-    _4BIT,
+    _4BIT = 1,
     #[doc = "2: Up to 12 bits wide. This size cannot be used with 24-bit data"]
-    _12BIT,
+    _12BIT = 2,
     #[doc = "3: Up to 20 bits wide. This size cannot be used with data sizes other than 8"]
-    _20BIT,
+    _20BIT = 3,
 }
 impl From<ASIZE_A> for u8 {
     #[inline(always)]
     fn from(variant: ASIZE_A) -> Self {
-        match variant {
-            ASIZE_A::NONE => 0,
-            ASIZE_A::_4BIT => 1,
-            ASIZE_A::_12BIT => 2,
-            ASIZE_A::_20BIT => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `ASIZE`"]

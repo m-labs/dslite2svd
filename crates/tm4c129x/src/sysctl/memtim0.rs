@@ -50,40 +50,31 @@ impl<'a> FBCE_W<'a> {
 }
 #[doc = "Flash Bank Clock High Time\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum FBCHT_A {
     #[doc = "0: 1/2 system clock period"]
-    _0_5,
+    _0_5 = 0,
     #[doc = "1: 1 system clock period"]
-    _1,
+    _1 = 1,
     #[doc = "2: 1.5 system clock periods"]
-    _1_5,
+    _1_5 = 2,
     #[doc = "3: 2 system clock periods"]
-    _2,
+    _2 = 3,
     #[doc = "4: 2.5 system clock periods"]
-    _2_5,
+    _2_5 = 4,
     #[doc = "5: 3 system clock periods"]
-    _3,
+    _3 = 5,
     #[doc = "6: 3.5 system clock periods"]
-    _3_5,
+    _3_5 = 6,
     #[doc = "7: 4 system clock periods"]
-    _4,
+    _4 = 7,
     #[doc = "8: 4.5 system clock periods"]
-    _4_5,
+    _4_5 = 8,
 }
 impl From<FBCHT_A> for u8 {
     #[inline(always)]
     fn from(variant: FBCHT_A) -> Self {
-        match variant {
-            FBCHT_A::_0_5 => 0,
-            FBCHT_A::_1 => 1,
-            FBCHT_A::_1_5 => 2,
-            FBCHT_A::_2 => 3,
-            FBCHT_A::_2_5 => 4,
-            FBCHT_A::_3 => 5,
-            FBCHT_A::_3_5 => 6,
-            FBCHT_A::_4 => 7,
-            FBCHT_A::_4_5 => 8,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `FBCHT`"]
@@ -254,40 +245,31 @@ impl<'a> EBCE_W<'a> {
 }
 #[doc = "EEPROM Clock High Time\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum EBCHT_A {
     #[doc = "0: 1/2 system clock period"]
-    _0_5,
+    _0_5 = 0,
     #[doc = "1: 1 system clock period"]
-    _1,
+    _1 = 1,
     #[doc = "2: 1.5 system clock periods"]
-    _1_5,
+    _1_5 = 2,
     #[doc = "3: 2 system clock periods"]
-    _2,
+    _2 = 3,
     #[doc = "4: 2.5 system clock periods"]
-    _2_5,
+    _2_5 = 4,
     #[doc = "5: 3 system clock periods"]
-    _3,
+    _3 = 5,
     #[doc = "6: 3.5 system clock periods"]
-    _3_5,
+    _3_5 = 6,
     #[doc = "7: 4 system clock periods"]
-    _4,
+    _4 = 7,
     #[doc = "8: 4.5 system clock periods"]
-    _4_5,
+    _4_5 = 8,
 }
 impl From<EBCHT_A> for u8 {
     #[inline(always)]
     fn from(variant: EBCHT_A) -> Self {
-        match variant {
-            EBCHT_A::_0_5 => 0,
-            EBCHT_A::_1 => 1,
-            EBCHT_A::_1_5 => 2,
-            EBCHT_A::_2 => 3,
-            EBCHT_A::_2_5 => 4,
-            EBCHT_A::_3 => 5,
-            EBCHT_A::_3_5 => 6,
-            EBCHT_A::_4 => 7,
-            EBCHT_A::_4_5 => 8,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `EBCHT`"]

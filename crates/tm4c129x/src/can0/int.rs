@@ -2,19 +2,17 @@
 pub type R = crate::R<u32, super::INT>;
 #[doc = "Interrupt Identifier\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u16)]
 pub enum INTID_A {
     #[doc = "0: No interrupt pending"]
-    NONE,
+    NONE = 0,
     #[doc = "32768: Status Interrupt"]
-    STATUS,
+    STATUS = 32768,
 }
 impl From<INTID_A> for u16 {
     #[inline(always)]
     fn from(variant: INTID_A) -> Self {
-        match variant {
-            INTID_A::NONE => 0,
-            INTID_A::STATUS => 32768,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `INTID`"]

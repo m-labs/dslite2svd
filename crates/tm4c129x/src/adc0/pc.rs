@@ -12,25 +12,21 @@ impl crate::ResetValue for super::PC {
 }
 #[doc = "Conversion Rate\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum MCR_A {
     #[doc = "1: Eighth conversion rate. After a conversion completes, the logic pauses for 112 TADC periods before starting the next conversion"]
-    _1_8,
+    _1_8 = 1,
     #[doc = "3: Quarter conversion rate. After a conversion completes, the logic pauses for 48 TADC periods before starting the next conversion"]
-    _1_4,
+    _1_4 = 3,
     #[doc = "5: Half conversion rate. After a conversion completes, the logic pauses for 16 TADC periods before starting the next conversion"]
-    _1_2,
+    _1_2 = 5,
     #[doc = "7: Full conversion rate (FCONV) as defined by TADC and NSH"]
-    FULL,
+    FULL = 7,
 }
 impl From<MCR_A> for u8 {
     #[inline(always)]
     fn from(variant: MCR_A) -> Self {
-        match variant {
-            MCR_A::_1_8 => 1,
-            MCR_A::_1_4 => 3,
-            MCR_A::_1_2 => 5,
-            MCR_A::FULL => 7,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `MCR`"]

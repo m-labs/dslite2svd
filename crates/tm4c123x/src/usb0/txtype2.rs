@@ -26,25 +26,21 @@ impl<'a> TEP_W<'a> {
 }
 #[doc = "Protocol\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum PROTO_A {
     #[doc = "0: Control"]
-    CTRL,
+    CTRL = 0,
     #[doc = "1: Isochronous"]
-    ISOC,
+    ISOC = 1,
     #[doc = "2: Bulk"]
-    BULK,
+    BULK = 2,
     #[doc = "3: Interrupt"]
-    INT,
+    INT = 3,
 }
 impl From<PROTO_A> for u8 {
     #[inline(always)]
     fn from(variant: PROTO_A) -> Self {
-        match variant {
-            PROTO_A::CTRL => 0,
-            PROTO_A::ISOC => 1,
-            PROTO_A::BULK => 2,
-            PROTO_A::INT => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `PROTO`"]
@@ -123,22 +119,19 @@ impl<'a> PROTO_W<'a> {
 }
 #[doc = "Operating Speed\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum SPEED_A {
     #[doc = "0: Default"]
-    DFLT,
+    DFLT = 0,
     #[doc = "2: Full"]
-    FULL,
+    FULL = 2,
     #[doc = "3: Low"]
-    LOW,
+    LOW = 3,
 }
 impl From<SPEED_A> for u8 {
     #[inline(always)]
     fn from(variant: SPEED_A) -> Self {
-        match variant {
-            SPEED_A::DFLT => 0,
-            SPEED_A::FULL => 2,
-            SPEED_A::LOW => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `SPEED`"]

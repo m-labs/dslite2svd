@@ -82,7 +82,7 @@ pub struct RegisterBlock {
     #[doc = "0x164 - CAN Message 2 Valid"]
     pub msg2val: MSG2VAL,
 }
-#[doc = "CAN Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ctl](ctl) module"]
+#[doc = "CAN Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ctl](ctl) module"]
 pub type CTL = crate::Reg<u32, _CTL>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -93,7 +93,7 @@ impl crate::Readable for CTL {}
 impl crate::Writable for CTL {}
 #[doc = "CAN Control"]
 pub mod ctl;
-#[doc = "CAN Status\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [sts](sts) module"]
+#[doc = "CAN Status\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [sts](sts) module"]
 pub type STS = crate::Reg<u32, _STS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -104,7 +104,7 @@ impl crate::Readable for STS {}
 impl crate::Writable for STS {}
 #[doc = "CAN Status"]
 pub mod sts;
-#[doc = "CAN Error Counter\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [err](err) module"]
+#[doc = "CAN Error Counter\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [err](err) module"]
 pub type ERR = crate::Reg<u32, _ERR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -113,7 +113,7 @@ pub struct _ERR;
 impl crate::Readable for ERR {}
 #[doc = "CAN Error Counter"]
 pub mod err;
-#[doc = "CAN Bit Timing\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [bit_](bit_) module"]
+#[doc = "CAN Bit Timing\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [bit_](bit_) module"]
 pub type BIT = crate::Reg<u32, _BIT>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -124,7 +124,7 @@ impl crate::Readable for BIT {}
 impl crate::Writable for BIT {}
 #[doc = "CAN Bit Timing"]
 pub mod bit_;
-#[doc = "CAN Interrupt\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [int](int) module"]
+#[doc = "CAN Interrupt\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [int](int) module"]
 pub type INT = crate::Reg<u32, _INT>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -133,7 +133,7 @@ pub struct _INT;
 impl crate::Readable for INT {}
 #[doc = "CAN Interrupt"]
 pub mod int;
-#[doc = "CAN Test\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [tst](tst) module"]
+#[doc = "CAN Test\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [tst](tst) module"]
 pub type TST = crate::Reg<u32, _TST>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -144,7 +144,7 @@ impl crate::Readable for TST {}
 impl crate::Writable for TST {}
 #[doc = "CAN Test"]
 pub mod tst;
-#[doc = "CAN Baud Rate Prescaler Extension\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [brpe](brpe) module"]
+#[doc = "CAN Baud Rate Prescaler Extension\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [brpe](brpe) module"]
 pub type BRPE = crate::Reg<u32, _BRPE>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -155,7 +155,7 @@ impl crate::Readable for BRPE {}
 impl crate::Writable for BRPE {}
 #[doc = "CAN Baud Rate Prescaler Extension"]
 pub mod brpe;
-#[doc = "CAN IF1 Command Request\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [if1crq](if1crq) module"]
+#[doc = "CAN IF1 Command Request\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [if1crq](if1crq) module"]
 pub type IF1CRQ = crate::Reg<u32, _IF1CRQ>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -166,7 +166,7 @@ impl crate::Readable for IF1CRQ {}
 impl crate::Writable for IF1CRQ {}
 #[doc = "CAN IF1 Command Request"]
 pub mod if1crq;
-#[doc = "CAN IF1 Command Mask\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [if1cmsk](if1cmsk) module"]
+#[doc = "CAN IF1 Command Mask\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [if1cmsk](if1cmsk) module"]
 pub type IF1CMSK = crate::Reg<u32, _IF1CMSK>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -177,7 +177,7 @@ impl crate::Readable for IF1CMSK {}
 impl crate::Writable for IF1CMSK {}
 #[doc = "CAN IF1 Command Mask"]
 pub mod if1cmsk;
-#[doc = "CAN IF1 Mask 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [if1msk1](if1msk1) module"]
+#[doc = "CAN IF1 Mask 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [if1msk1](if1msk1) module"]
 pub type IF1MSK1 = crate::Reg<u32, _IF1MSK1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -188,7 +188,7 @@ impl crate::Readable for IF1MSK1 {}
 impl crate::Writable for IF1MSK1 {}
 #[doc = "CAN IF1 Mask 1"]
 pub mod if1msk1;
-#[doc = "CAN IF1 Mask 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [if1msk2](if1msk2) module"]
+#[doc = "CAN IF1 Mask 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [if1msk2](if1msk2) module"]
 pub type IF1MSK2 = crate::Reg<u32, _IF1MSK2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -199,7 +199,7 @@ impl crate::Readable for IF1MSK2 {}
 impl crate::Writable for IF1MSK2 {}
 #[doc = "CAN IF1 Mask 2"]
 pub mod if1msk2;
-#[doc = "CAN IF1 Arbitration 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [if1arb1](if1arb1) module"]
+#[doc = "CAN IF1 Arbitration 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [if1arb1](if1arb1) module"]
 pub type IF1ARB1 = crate::Reg<u32, _IF1ARB1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -210,7 +210,7 @@ impl crate::Readable for IF1ARB1 {}
 impl crate::Writable for IF1ARB1 {}
 #[doc = "CAN IF1 Arbitration 1"]
 pub mod if1arb1;
-#[doc = "CAN IF1 Arbitration 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [if1arb2](if1arb2) module"]
+#[doc = "CAN IF1 Arbitration 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [if1arb2](if1arb2) module"]
 pub type IF1ARB2 = crate::Reg<u32, _IF1ARB2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -221,7 +221,7 @@ impl crate::Readable for IF1ARB2 {}
 impl crate::Writable for IF1ARB2 {}
 #[doc = "CAN IF1 Arbitration 2"]
 pub mod if1arb2;
-#[doc = "CAN IF1 Message Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [if1mctl](if1mctl) module"]
+#[doc = "CAN IF1 Message Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [if1mctl](if1mctl) module"]
 pub type IF1MCTL = crate::Reg<u32, _IF1MCTL>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -232,7 +232,7 @@ impl crate::Readable for IF1MCTL {}
 impl crate::Writable for IF1MCTL {}
 #[doc = "CAN IF1 Message Control"]
 pub mod if1mctl;
-#[doc = "CAN IF1 Data A1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [if1da1](if1da1) module"]
+#[doc = "CAN IF1 Data A1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [if1da1](if1da1) module"]
 pub type IF1DA1 = crate::Reg<u32, _IF1DA1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -243,7 +243,7 @@ impl crate::Readable for IF1DA1 {}
 impl crate::Writable for IF1DA1 {}
 #[doc = "CAN IF1 Data A1"]
 pub mod if1da1;
-#[doc = "CAN IF1 Data A2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [if1da2](if1da2) module"]
+#[doc = "CAN IF1 Data A2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [if1da2](if1da2) module"]
 pub type IF1DA2 = crate::Reg<u32, _IF1DA2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -254,7 +254,7 @@ impl crate::Readable for IF1DA2 {}
 impl crate::Writable for IF1DA2 {}
 #[doc = "CAN IF1 Data A2"]
 pub mod if1da2;
-#[doc = "CAN IF1 Data B1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [if1db1](if1db1) module"]
+#[doc = "CAN IF1 Data B1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [if1db1](if1db1) module"]
 pub type IF1DB1 = crate::Reg<u32, _IF1DB1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -265,7 +265,7 @@ impl crate::Readable for IF1DB1 {}
 impl crate::Writable for IF1DB1 {}
 #[doc = "CAN IF1 Data B1"]
 pub mod if1db1;
-#[doc = "CAN IF1 Data B2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [if1db2](if1db2) module"]
+#[doc = "CAN IF1 Data B2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [if1db2](if1db2) module"]
 pub type IF1DB2 = crate::Reg<u32, _IF1DB2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -276,7 +276,7 @@ impl crate::Readable for IF1DB2 {}
 impl crate::Writable for IF1DB2 {}
 #[doc = "CAN IF1 Data B2"]
 pub mod if1db2;
-#[doc = "CAN IF2 Command Request\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [if2crq](if2crq) module"]
+#[doc = "CAN IF2 Command Request\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [if2crq](if2crq) module"]
 pub type IF2CRQ = crate::Reg<u32, _IF2CRQ>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -287,7 +287,7 @@ impl crate::Readable for IF2CRQ {}
 impl crate::Writable for IF2CRQ {}
 #[doc = "CAN IF2 Command Request"]
 pub mod if2crq;
-#[doc = "CAN IF2 Command Mask\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [if2cmsk](if2cmsk) module"]
+#[doc = "CAN IF2 Command Mask\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [if2cmsk](if2cmsk) module"]
 pub type IF2CMSK = crate::Reg<u32, _IF2CMSK>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -298,7 +298,7 @@ impl crate::Readable for IF2CMSK {}
 impl crate::Writable for IF2CMSK {}
 #[doc = "CAN IF2 Command Mask"]
 pub mod if2cmsk;
-#[doc = "CAN IF2 Mask 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [if2msk1](if2msk1) module"]
+#[doc = "CAN IF2 Mask 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [if2msk1](if2msk1) module"]
 pub type IF2MSK1 = crate::Reg<u32, _IF2MSK1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -309,7 +309,7 @@ impl crate::Readable for IF2MSK1 {}
 impl crate::Writable for IF2MSK1 {}
 #[doc = "CAN IF2 Mask 1"]
 pub mod if2msk1;
-#[doc = "CAN IF2 Mask 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [if2msk2](if2msk2) module"]
+#[doc = "CAN IF2 Mask 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [if2msk2](if2msk2) module"]
 pub type IF2MSK2 = crate::Reg<u32, _IF2MSK2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -320,7 +320,7 @@ impl crate::Readable for IF2MSK2 {}
 impl crate::Writable for IF2MSK2 {}
 #[doc = "CAN IF2 Mask 2"]
 pub mod if2msk2;
-#[doc = "CAN IF2 Arbitration 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [if2arb1](if2arb1) module"]
+#[doc = "CAN IF2 Arbitration 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [if2arb1](if2arb1) module"]
 pub type IF2ARB1 = crate::Reg<u32, _IF2ARB1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -331,7 +331,7 @@ impl crate::Readable for IF2ARB1 {}
 impl crate::Writable for IF2ARB1 {}
 #[doc = "CAN IF2 Arbitration 1"]
 pub mod if2arb1;
-#[doc = "CAN IF2 Arbitration 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [if2arb2](if2arb2) module"]
+#[doc = "CAN IF2 Arbitration 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [if2arb2](if2arb2) module"]
 pub type IF2ARB2 = crate::Reg<u32, _IF2ARB2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -342,7 +342,7 @@ impl crate::Readable for IF2ARB2 {}
 impl crate::Writable for IF2ARB2 {}
 #[doc = "CAN IF2 Arbitration 2"]
 pub mod if2arb2;
-#[doc = "CAN IF2 Message Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [if2mctl](if2mctl) module"]
+#[doc = "CAN IF2 Message Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [if2mctl](if2mctl) module"]
 pub type IF2MCTL = crate::Reg<u32, _IF2MCTL>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -353,7 +353,7 @@ impl crate::Readable for IF2MCTL {}
 impl crate::Writable for IF2MCTL {}
 #[doc = "CAN IF2 Message Control"]
 pub mod if2mctl;
-#[doc = "CAN IF2 Data A1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [if2da1](if2da1) module"]
+#[doc = "CAN IF2 Data A1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [if2da1](if2da1) module"]
 pub type IF2DA1 = crate::Reg<u32, _IF2DA1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -364,7 +364,7 @@ impl crate::Readable for IF2DA1 {}
 impl crate::Writable for IF2DA1 {}
 #[doc = "CAN IF2 Data A1"]
 pub mod if2da1;
-#[doc = "CAN IF2 Data A2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [if2da2](if2da2) module"]
+#[doc = "CAN IF2 Data A2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [if2da2](if2da2) module"]
 pub type IF2DA2 = crate::Reg<u32, _IF2DA2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -375,7 +375,7 @@ impl crate::Readable for IF2DA2 {}
 impl crate::Writable for IF2DA2 {}
 #[doc = "CAN IF2 Data A2"]
 pub mod if2da2;
-#[doc = "CAN IF2 Data B1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [if2db1](if2db1) module"]
+#[doc = "CAN IF2 Data B1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [if2db1](if2db1) module"]
 pub type IF2DB1 = crate::Reg<u32, _IF2DB1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -386,7 +386,7 @@ impl crate::Readable for IF2DB1 {}
 impl crate::Writable for IF2DB1 {}
 #[doc = "CAN IF2 Data B1"]
 pub mod if2db1;
-#[doc = "CAN IF2 Data B2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [if2db2](if2db2) module"]
+#[doc = "CAN IF2 Data B2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [if2db2](if2db2) module"]
 pub type IF2DB2 = crate::Reg<u32, _IF2DB2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -397,7 +397,7 @@ impl crate::Readable for IF2DB2 {}
 impl crate::Writable for IF2DB2 {}
 #[doc = "CAN IF2 Data B2"]
 pub mod if2db2;
-#[doc = "CAN Transmission Request 1\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txrq1](txrq1) module"]
+#[doc = "CAN Transmission Request 1\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txrq1](txrq1) module"]
 pub type TXRQ1 = crate::Reg<u32, _TXRQ1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -406,7 +406,7 @@ pub struct _TXRQ1;
 impl crate::Readable for TXRQ1 {}
 #[doc = "CAN Transmission Request 1"]
 pub mod txrq1;
-#[doc = "CAN Transmission Request 2\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txrq2](txrq2) module"]
+#[doc = "CAN Transmission Request 2\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txrq2](txrq2) module"]
 pub type TXRQ2 = crate::Reg<u32, _TXRQ2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -415,7 +415,7 @@ pub struct _TXRQ2;
 impl crate::Readable for TXRQ2 {}
 #[doc = "CAN Transmission Request 2"]
 pub mod txrq2;
-#[doc = "CAN New Data 1\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [nwda1](nwda1) module"]
+#[doc = "CAN New Data 1\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [nwda1](nwda1) module"]
 pub type NWDA1 = crate::Reg<u32, _NWDA1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -424,7 +424,7 @@ pub struct _NWDA1;
 impl crate::Readable for NWDA1 {}
 #[doc = "CAN New Data 1"]
 pub mod nwda1;
-#[doc = "CAN New Data 2\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [nwda2](nwda2) module"]
+#[doc = "CAN New Data 2\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [nwda2](nwda2) module"]
 pub type NWDA2 = crate::Reg<u32, _NWDA2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -433,7 +433,7 @@ pub struct _NWDA2;
 impl crate::Readable for NWDA2 {}
 #[doc = "CAN New Data 2"]
 pub mod nwda2;
-#[doc = "CAN Message 1 Interrupt Pending\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [msg1int](msg1int) module"]
+#[doc = "CAN Message 1 Interrupt Pending\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [msg1int](msg1int) module"]
 pub type MSG1INT = crate::Reg<u32, _MSG1INT>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -442,7 +442,7 @@ pub struct _MSG1INT;
 impl crate::Readable for MSG1INT {}
 #[doc = "CAN Message 1 Interrupt Pending"]
 pub mod msg1int;
-#[doc = "CAN Message 2 Interrupt Pending\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [msg2int](msg2int) module"]
+#[doc = "CAN Message 2 Interrupt Pending\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [msg2int](msg2int) module"]
 pub type MSG2INT = crate::Reg<u32, _MSG2INT>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -451,7 +451,7 @@ pub struct _MSG2INT;
 impl crate::Readable for MSG2INT {}
 #[doc = "CAN Message 2 Interrupt Pending"]
 pub mod msg2int;
-#[doc = "CAN Message 1 Valid\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [msg1val](msg1val) module"]
+#[doc = "CAN Message 1 Valid\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [msg1val](msg1val) module"]
 pub type MSG1VAL = crate::Reg<u32, _MSG1VAL>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -460,7 +460,7 @@ pub struct _MSG1VAL;
 impl crate::Readable for MSG1VAL {}
 #[doc = "CAN Message 1 Valid"]
 pub mod msg1val;
-#[doc = "CAN Message 2 Valid\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [msg2val](msg2val) module"]
+#[doc = "CAN Message 2 Valid\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [msg2val](msg2val) module"]
 pub type MSG2VAL = crate::Reg<u32, _MSG2VAL>;
 #[allow(missing_docs)]
 #[doc(hidden)]

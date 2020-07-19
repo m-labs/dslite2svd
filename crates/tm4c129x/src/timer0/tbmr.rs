@@ -12,22 +12,19 @@ impl crate::ResetValue for super::TBMR {
 }
 #[doc = "GPTM Timer B Mode\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum TBMR_A {
     #[doc = "1: One-Shot Timer mode"]
-    _1_SHOT,
+    _1_SHOT = 1,
     #[doc = "2: Periodic Timer mode"]
-    PERIOD,
+    PERIOD = 2,
     #[doc = "3: Capture mode"]
-    CAP,
+    CAP = 3,
 }
 impl From<TBMR_A> for u8 {
     #[inline(always)]
     fn from(variant: TBMR_A) -> Self {
-        match variant {
-            TBMR_A::_1_SHOT => 1,
-            TBMR_A::PERIOD => 2,
-            TBMR_A::CAP => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `TBMR`"]
@@ -358,37 +355,29 @@ impl<'a> TBCINTD_W<'a> {
 }
 #[doc = "Timer Compare Action Select\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum TCACT_A {
     #[doc = "0: Disable compare operations"]
-    NONE,
+    NONE = 0,
     #[doc = "1: Toggle State on Time-Out"]
-    TOGGLE,
+    TOGGLE = 1,
     #[doc = "2: Clear CCP on Time-Out"]
-    CLRTO,
+    CLRTO = 2,
     #[doc = "3: Set CCP on Time-Out"]
-    SETTO,
+    SETTO = 3,
     #[doc = "4: Set CCP immediately and toggle on Time-Out"]
-    SETTOGTO,
+    SETTOGTO = 4,
     #[doc = "5: Clear CCP immediately and toggle on Time-Out"]
-    CLRTOGTO,
+    CLRTOGTO = 5,
     #[doc = "6: Set CCP immediately and clear on Time-Out"]
-    SETCLRTO,
+    SETCLRTO = 6,
     #[doc = "7: Clear CCP immediately and set on Time-Out"]
-    CLRSETTO,
+    CLRSETTO = 7,
 }
 impl From<TCACT_A> for u8 {
     #[inline(always)]
     fn from(variant: TCACT_A) -> Self {
-        match variant {
-            TCACT_A::NONE => 0,
-            TCACT_A::TOGGLE => 1,
-            TCACT_A::CLRTO => 2,
-            TCACT_A::SETTO => 3,
-            TCACT_A::SETTOGTO => 4,
-            TCACT_A::CLRTOGTO => 5,
-            TCACT_A::SETCLRTO => 6,
-            TCACT_A::CLRSETTO => 7,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `TCACT`"]

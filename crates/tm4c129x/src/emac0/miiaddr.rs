@@ -60,25 +60,21 @@ impl<'a> MIIW_W<'a> {
 }
 #[doc = "Clock Reference Frequency Selection\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum CR_A {
     #[doc = "0: The frequency of the System Clock is 60 to 100 MHz providing a MDIO clock of SYSCLK/42"]
-    _60_100,
+    _60_100 = 0,
     #[doc = "1: The frequency of the System Clock is 100 to 150 MHz providing a MDIO clock of SYSCLK/62"]
-    _100_150,
+    _100_150 = 1,
     #[doc = "2: The frequency of the System Clock is 20-35 MHz providing a MDIO clock of System Clock/16"]
-    _20_35,
+    _20_35 = 2,
     #[doc = "3: The frequency of the System Clock is 35 to 60 MHz providing a MDIO clock of System Clock/26"]
-    _35_60,
+    _35_60 = 3,
 }
 impl From<CR_A> for u8 {
     #[inline(always)]
     fn from(variant: CR_A) -> Self {
-        match variant {
-            CR_A::_60_100 => 0,
-            CR_A::_100_150 => 1,
-            CR_A::_20_35 => 2,
-            CR_A::_35_60 => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `CR`"]

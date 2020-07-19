@@ -12,22 +12,19 @@ impl crate::ResetValue for super::CC {
 }
 #[doc = "ADC Clock Source\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum CS_A {
     #[doc = "0: PLL VCO divided by CLKDIV"]
-    SYSPLL,
+    SYSPLL = 0,
     #[doc = "1: PIOSC"]
-    PIOSC,
+    PIOSC = 1,
     #[doc = "2: MOSC"]
-    MOSC,
+    MOSC = 2,
 }
 impl From<CS_A> for u8 {
     #[inline(always)]
     fn from(variant: CS_A) -> Self {
-        match variant {
-            CS_A::SYSPLL => 0,
-            CS_A::PIOSC => 1,
-            CS_A::MOSC => 2,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `CS`"]

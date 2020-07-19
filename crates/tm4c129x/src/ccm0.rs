@@ -12,7 +12,7 @@ pub struct RegisterBlock {
     #[doc = "0x418 - CRC Post Processing Result"]
     pub crcrsltpp: CRCRSLTPP,
 }
-#[doc = "CRC Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [crcctrl](crcctrl) module"]
+#[doc = "CRC Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [crcctrl](crcctrl) module"]
 pub type CRCCTRL = crate::Reg<u32, _CRCCTRL>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -23,7 +23,7 @@ impl crate::Readable for CRCCTRL {}
 impl crate::Writable for CRCCTRL {}
 #[doc = "CRC Control"]
 pub mod crcctrl;
-#[doc = "CRC SEED/Context\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [crcseed](crcseed) module"]
+#[doc = "CRC SEED/Context\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [crcseed](crcseed) module"]
 pub type CRCSEED = crate::Reg<u32, _CRCSEED>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -34,7 +34,7 @@ impl crate::Readable for CRCSEED {}
 impl crate::Writable for CRCSEED {}
 #[doc = "CRC SEED/Context"]
 pub mod crcseed;
-#[doc = "CRC Data Input\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [crcdin](crcdin) module"]
+#[doc = "CRC Data Input\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [crcdin](crcdin) module"]
 pub type CRCDIN = crate::Reg<u32, _CRCDIN>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -45,7 +45,7 @@ impl crate::Readable for CRCDIN {}
 impl crate::Writable for CRCDIN {}
 #[doc = "CRC Data Input"]
 pub mod crcdin;
-#[doc = "CRC Post Processing Result\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [crcrsltpp](crcrsltpp) module"]
+#[doc = "CRC Post Processing Result\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [crcrsltpp](crcrsltpp) module"]
 pub type CRCRSLTPP = crate::Reg<u32, _CRCRSLTPP>;
 #[allow(missing_docs)]
 #[doc(hidden)]

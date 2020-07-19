@@ -60,22 +60,19 @@ impl<'a> TASTALL_W<'a> {
 }
 #[doc = "GPTM Timer A Event Mode\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum TAEVENT_A {
     #[doc = "0: Positive edge"]
-    POS,
+    POS = 0,
     #[doc = "1: Negative edge"]
-    NEG,
+    NEG = 1,
     #[doc = "3: Both edges"]
-    BOTH,
+    BOTH = 3,
 }
 impl From<TAEVENT_A> for u8 {
     #[inline(always)]
     fn from(variant: TAEVENT_A) -> Self {
-        match variant {
-            TAEVENT_A::POS => 0,
-            TAEVENT_A::NEG => 1,
-            TAEVENT_A::BOTH => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `TAEVENT`"]
@@ -262,22 +259,19 @@ impl<'a> TBSTALL_W<'a> {
 }
 #[doc = "GPTM Timer B Event Mode\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum TBEVENT_A {
     #[doc = "0: Positive edge"]
-    POS,
+    POS = 0,
     #[doc = "1: Negative edge"]
-    NEG,
+    NEG = 1,
     #[doc = "3: Both edges"]
-    BOTH,
+    BOTH = 3,
 }
 impl From<TBEVENT_A> for u8 {
     #[inline(always)]
     fn from(variant: TBEVENT_A) -> Self {
-        match variant {
-            TBEVENT_A::POS => 0,
-            TBEVENT_A::NEG => 1,
-            TBEVENT_A::BOTH => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `TBEVENT`"]

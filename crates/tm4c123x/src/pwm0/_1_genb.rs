@@ -12,25 +12,21 @@ impl crate::ResetValue for super::_1_GENB {
 }
 #[doc = "Action for Counter=0\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum ACTZERO_A {
     #[doc = "0: Do nothing"]
-    NONE,
+    NONE = 0,
     #[doc = "1: Invert pwmB"]
-    INV,
+    INV = 1,
     #[doc = "2: Drive pwmB Low"]
-    ZERO,
+    ZERO = 2,
     #[doc = "3: Drive pwmB High"]
-    ONE,
+    ONE = 3,
 }
 impl From<ACTZERO_A> for u8 {
     #[inline(always)]
     fn from(variant: ACTZERO_A) -> Self {
-        match variant {
-            ACTZERO_A::NONE => 0,
-            ACTZERO_A::INV => 1,
-            ACTZERO_A::ZERO => 2,
-            ACTZERO_A::ONE => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `ACTZERO`"]
@@ -109,25 +105,21 @@ impl<'a> ACTZERO_W<'a> {
 }
 #[doc = "Action for Counter=LOAD\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum ACTLOAD_A {
     #[doc = "0: Do nothing"]
-    NONE,
+    NONE = 0,
     #[doc = "1: Invert pwmB"]
-    INV,
+    INV = 1,
     #[doc = "2: Drive pwmB Low"]
-    ZERO,
+    ZERO = 2,
     #[doc = "3: Drive pwmB High"]
-    ONE,
+    ONE = 3,
 }
 impl From<ACTLOAD_A> for u8 {
     #[inline(always)]
     fn from(variant: ACTLOAD_A) -> Self {
-        match variant {
-            ACTLOAD_A::NONE => 0,
-            ACTLOAD_A::INV => 1,
-            ACTLOAD_A::ZERO => 2,
-            ACTLOAD_A::ONE => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `ACTLOAD`"]
@@ -206,25 +198,21 @@ impl<'a> ACTLOAD_W<'a> {
 }
 #[doc = "Action for Comparator A Up\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum ACTCMPAU_A {
     #[doc = "0: Do nothing"]
-    NONE,
+    NONE = 0,
     #[doc = "1: Invert pwmB"]
-    INV,
+    INV = 1,
     #[doc = "2: Drive pwmB Low"]
-    ZERO,
+    ZERO = 2,
     #[doc = "3: Drive pwmB High"]
-    ONE,
+    ONE = 3,
 }
 impl From<ACTCMPAU_A> for u8 {
     #[inline(always)]
     fn from(variant: ACTCMPAU_A) -> Self {
-        match variant {
-            ACTCMPAU_A::NONE => 0,
-            ACTCMPAU_A::INV => 1,
-            ACTCMPAU_A::ZERO => 2,
-            ACTCMPAU_A::ONE => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `ACTCMPAU`"]
@@ -303,25 +291,21 @@ impl<'a> ACTCMPAU_W<'a> {
 }
 #[doc = "Action for Comparator A Down\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum ACTCMPAD_A {
     #[doc = "0: Do nothing"]
-    NONE,
+    NONE = 0,
     #[doc = "1: Invert pwmB"]
-    INV,
+    INV = 1,
     #[doc = "2: Drive pwmB Low"]
-    ZERO,
+    ZERO = 2,
     #[doc = "3: Drive pwmB High"]
-    ONE,
+    ONE = 3,
 }
 impl From<ACTCMPAD_A> for u8 {
     #[inline(always)]
     fn from(variant: ACTCMPAD_A) -> Self {
-        match variant {
-            ACTCMPAD_A::NONE => 0,
-            ACTCMPAD_A::INV => 1,
-            ACTCMPAD_A::ZERO => 2,
-            ACTCMPAD_A::ONE => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `ACTCMPAD`"]
@@ -400,25 +384,21 @@ impl<'a> ACTCMPAD_W<'a> {
 }
 #[doc = "Action for Comparator B Up\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum ACTCMPBU_A {
     #[doc = "0: Do nothing"]
-    NONE,
+    NONE = 0,
     #[doc = "1: Invert pwmB"]
-    INV,
+    INV = 1,
     #[doc = "2: Drive pwmB Low"]
-    ZERO,
+    ZERO = 2,
     #[doc = "3: Drive pwmB High"]
-    ONE,
+    ONE = 3,
 }
 impl From<ACTCMPBU_A> for u8 {
     #[inline(always)]
     fn from(variant: ACTCMPBU_A) -> Self {
-        match variant {
-            ACTCMPBU_A::NONE => 0,
-            ACTCMPBU_A::INV => 1,
-            ACTCMPBU_A::ZERO => 2,
-            ACTCMPBU_A::ONE => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `ACTCMPBU`"]
@@ -497,25 +477,21 @@ impl<'a> ACTCMPBU_W<'a> {
 }
 #[doc = "Action for Comparator B Down\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum ACTCMPBD_A {
     #[doc = "0: Do nothing"]
-    NONE,
+    NONE = 0,
     #[doc = "1: Invert pwmB"]
-    INV,
+    INV = 1,
     #[doc = "2: Drive pwmB Low"]
-    ZERO,
+    ZERO = 2,
     #[doc = "3: Drive pwmB High"]
-    ONE,
+    ONE = 3,
 }
 impl From<ACTCMPBD_A> for u8 {
     #[inline(always)]
     fn from(variant: ACTCMPBD_A) -> Self {
-        match variant {
-            ACTCMPBD_A::NONE => 0,
-            ACTCMPBD_A::INV => 1,
-            ACTCMPBD_A::ZERO => 2,
-            ACTCMPBD_A::ONE => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `ACTCMPBD`"]

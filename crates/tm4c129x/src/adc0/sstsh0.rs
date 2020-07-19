@@ -12,34 +12,27 @@ impl crate::ResetValue for super::SSTSH0 {
 }
 #[doc = "1st Sample and Hold Period Select\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum TSH0_A {
     #[doc = "0: N_SH = 4"]
-    _4,
+    _4 = 0,
     #[doc = "2: N_SH = 8"]
-    _8,
+    _8 = 2,
     #[doc = "4: N_SH = 16"]
-    _16,
+    _16 = 4,
     #[doc = "6: N_SH = 32"]
-    _32,
+    _32 = 6,
     #[doc = "8: N_SH = 64"]
-    _64,
+    _64 = 8,
     #[doc = "10: N_SH = 128"]
-    _128,
+    _128 = 10,
     #[doc = "12: N_SH = 256"]
-    _256,
+    _256 = 12,
 }
 impl From<TSH0_A> for u8 {
     #[inline(always)]
     fn from(variant: TSH0_A) -> Self {
-        match variant {
-            TSH0_A::_4 => 0,
-            TSH0_A::_8 => 2,
-            TSH0_A::_16 => 4,
-            TSH0_A::_32 => 6,
-            TSH0_A::_64 => 8,
-            TSH0_A::_128 => 10,
-            TSH0_A::_256 => 12,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `TSH0`"]
@@ -150,34 +143,27 @@ impl<'a> TSH0_W<'a> {
 }
 #[doc = "2nd Sample and Hold Period Select\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum TSH1_A {
     #[doc = "0: N_SH = 4"]
-    _4,
+    _4 = 0,
     #[doc = "2: N_SH = 8"]
-    _8,
+    _8 = 2,
     #[doc = "4: N_SH = 16"]
-    _16,
+    _16 = 4,
     #[doc = "6: N_SH = 32"]
-    _32,
+    _32 = 6,
     #[doc = "8: N_SH = 64"]
-    _64,
+    _64 = 8,
     #[doc = "10: N_SH = 128"]
-    _128,
+    _128 = 10,
     #[doc = "12: N_SH = 256"]
-    _256,
+    _256 = 12,
 }
 impl From<TSH1_A> for u8 {
     #[inline(always)]
     fn from(variant: TSH1_A) -> Self {
-        match variant {
-            TSH1_A::_4 => 0,
-            TSH1_A::_8 => 2,
-            TSH1_A::_16 => 4,
-            TSH1_A::_32 => 6,
-            TSH1_A::_64 => 8,
-            TSH1_A::_128 => 10,
-            TSH1_A::_256 => 12,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `TSH1`"]
@@ -288,34 +274,27 @@ impl<'a> TSH1_W<'a> {
 }
 #[doc = "3rd Sample and Hold Period Select\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum TSH2_A {
     #[doc = "0: N_SH = 4"]
-    _4,
+    _4 = 0,
     #[doc = "2: N_SH = 8"]
-    _8,
+    _8 = 2,
     #[doc = "4: N_SH = 16"]
-    _16,
+    _16 = 4,
     #[doc = "6: N_SH = 32"]
-    _32,
+    _32 = 6,
     #[doc = "8: N_SH = 64"]
-    _64,
+    _64 = 8,
     #[doc = "10: N_SH = 128"]
-    _128,
+    _128 = 10,
     #[doc = "12: N_SH = 256"]
-    _256,
+    _256 = 12,
 }
 impl From<TSH2_A> for u8 {
     #[inline(always)]
     fn from(variant: TSH2_A) -> Self {
-        match variant {
-            TSH2_A::_4 => 0,
-            TSH2_A::_8 => 2,
-            TSH2_A::_16 => 4,
-            TSH2_A::_32 => 6,
-            TSH2_A::_64 => 8,
-            TSH2_A::_128 => 10,
-            TSH2_A::_256 => 12,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `TSH2`"]
@@ -426,34 +405,27 @@ impl<'a> TSH2_W<'a> {
 }
 #[doc = "4th Sample and Hold Period Select\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum TSH3_A {
     #[doc = "0: N_SH = 4"]
-    _4,
+    _4 = 0,
     #[doc = "2: N_SH = 8"]
-    _8,
+    _8 = 2,
     #[doc = "4: N_SH = 16"]
-    _16,
+    _16 = 4,
     #[doc = "6: N_SH = 32"]
-    _32,
+    _32 = 6,
     #[doc = "8: N_SH = 64"]
-    _64,
+    _64 = 8,
     #[doc = "10: N_SH = 128"]
-    _128,
+    _128 = 10,
     #[doc = "12: N_SH = 256"]
-    _256,
+    _256 = 12,
 }
 impl From<TSH3_A> for u8 {
     #[inline(always)]
     fn from(variant: TSH3_A) -> Self {
-        match variant {
-            TSH3_A::_4 => 0,
-            TSH3_A::_8 => 2,
-            TSH3_A::_16 => 4,
-            TSH3_A::_32 => 6,
-            TSH3_A::_64 => 8,
-            TSH3_A::_128 => 10,
-            TSH3_A::_256 => 12,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `TSH3`"]
@@ -564,34 +536,27 @@ impl<'a> TSH3_W<'a> {
 }
 #[doc = "5th Sample and Hold Period Select\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum TSH4_A {
     #[doc = "0: N_SH = 4"]
-    _4,
+    _4 = 0,
     #[doc = "2: N_SH = 8"]
-    _8,
+    _8 = 2,
     #[doc = "4: N_SH = 16"]
-    _16,
+    _16 = 4,
     #[doc = "6: N_SH = 32"]
-    _32,
+    _32 = 6,
     #[doc = "8: N_SH = 64"]
-    _64,
+    _64 = 8,
     #[doc = "10: N_SH = 128"]
-    _128,
+    _128 = 10,
     #[doc = "12: N_SH = 256"]
-    _256,
+    _256 = 12,
 }
 impl From<TSH4_A> for u8 {
     #[inline(always)]
     fn from(variant: TSH4_A) -> Self {
-        match variant {
-            TSH4_A::_4 => 0,
-            TSH4_A::_8 => 2,
-            TSH4_A::_16 => 4,
-            TSH4_A::_32 => 6,
-            TSH4_A::_64 => 8,
-            TSH4_A::_128 => 10,
-            TSH4_A::_256 => 12,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `TSH4`"]
@@ -702,34 +667,27 @@ impl<'a> TSH4_W<'a> {
 }
 #[doc = "6th Sample and Hold Period Select\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum TSH5_A {
     #[doc = "0: N_SH = 4"]
-    _4,
+    _4 = 0,
     #[doc = "2: N_SH = 8"]
-    _8,
+    _8 = 2,
     #[doc = "4: N_SH = 16"]
-    _16,
+    _16 = 4,
     #[doc = "6: N_SH = 32"]
-    _32,
+    _32 = 6,
     #[doc = "8: N_SH = 64"]
-    _64,
+    _64 = 8,
     #[doc = "10: N_SH = 128"]
-    _128,
+    _128 = 10,
     #[doc = "12: N_SH = 256"]
-    _256,
+    _256 = 12,
 }
 impl From<TSH5_A> for u8 {
     #[inline(always)]
     fn from(variant: TSH5_A) -> Self {
-        match variant {
-            TSH5_A::_4 => 0,
-            TSH5_A::_8 => 2,
-            TSH5_A::_16 => 4,
-            TSH5_A::_32 => 6,
-            TSH5_A::_64 => 8,
-            TSH5_A::_128 => 10,
-            TSH5_A::_256 => 12,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `TSH5`"]
@@ -840,34 +798,27 @@ impl<'a> TSH5_W<'a> {
 }
 #[doc = "7th Sample and Hold Period Select\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum TSH6_A {
     #[doc = "0: N_SH = 4"]
-    _4,
+    _4 = 0,
     #[doc = "2: N_SH = 8"]
-    _8,
+    _8 = 2,
     #[doc = "4: N_SH = 16"]
-    _16,
+    _16 = 4,
     #[doc = "6: N_SH = 32"]
-    _32,
+    _32 = 6,
     #[doc = "8: N_SH = 64"]
-    _64,
+    _64 = 8,
     #[doc = "10: N_SH = 128"]
-    _128,
+    _128 = 10,
     #[doc = "12: N_SH = 256"]
-    _256,
+    _256 = 12,
 }
 impl From<TSH6_A> for u8 {
     #[inline(always)]
     fn from(variant: TSH6_A) -> Self {
-        match variant {
-            TSH6_A::_4 => 0,
-            TSH6_A::_8 => 2,
-            TSH6_A::_16 => 4,
-            TSH6_A::_32 => 6,
-            TSH6_A::_64 => 8,
-            TSH6_A::_128 => 10,
-            TSH6_A::_256 => 12,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `TSH6`"]
@@ -978,34 +929,27 @@ impl<'a> TSH6_W<'a> {
 }
 #[doc = "8th Sample and Hold Period Select\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum TSH7_A {
     #[doc = "0: N_SH = 4"]
-    _4,
+    _4 = 0,
     #[doc = "2: N_SH = 8"]
-    _8,
+    _8 = 2,
     #[doc = "4: N_SH = 16"]
-    _16,
+    _16 = 4,
     #[doc = "6: N_SH = 32"]
-    _32,
+    _32 = 6,
     #[doc = "8: N_SH = 64"]
-    _64,
+    _64 = 8,
     #[doc = "10: N_SH = 128"]
-    _128,
+    _128 = 10,
     #[doc = "12: N_SH = 256"]
-    _256,
+    _256 = 12,
 }
 impl From<TSH7_A> for u8 {
     #[inline(always)]
     fn from(variant: TSH7_A) -> Self {
-        match variant {
-            TSH7_A::_4 => 0,
-            TSH7_A::_8 => 2,
-            TSH7_A::_16 => 4,
-            TSH7_A::_32 => 6,
-            TSH7_A::_64 => 8,
-            TSH7_A::_128 => 10,
-            TSH7_A::_256 => 12,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `TSH7`"]

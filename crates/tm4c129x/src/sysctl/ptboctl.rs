@@ -12,25 +12,21 @@ impl crate::ResetValue for super::PTBOCTL {
 }
 #[doc = "VDD (VDDS) under BOR Event Action\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum VDD_UBOR_A {
     #[doc = "0: No Action"]
-    NONE,
+    NONE = 0,
     #[doc = "1: System control interrupt"]
-    SYSINT,
+    SYSINT = 1,
     #[doc = "2: NMI"]
-    NMI,
+    NMI = 2,
     #[doc = "3: Reset"]
-    RST,
+    RST = 3,
 }
 impl From<VDD_UBOR_A> for u8 {
     #[inline(always)]
     fn from(variant: VDD_UBOR_A) -> Self {
-        match variant {
-            VDD_UBOR_A::NONE => 0,
-            VDD_UBOR_A::SYSINT => 1,
-            VDD_UBOR_A::NMI => 2,
-            VDD_UBOR_A::RST => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `VDD_UBOR`"]
@@ -109,25 +105,21 @@ impl<'a> VDD_UBOR_W<'a> {
 }
 #[doc = "VDDA under BOR Event Action\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum VDDA_UBOR_A {
     #[doc = "0: No Action"]
-    NONE,
+    NONE = 0,
     #[doc = "1: System control interrupt"]
-    SYSINT,
+    SYSINT = 1,
     #[doc = "2: NMI"]
-    NMI,
+    NMI = 2,
     #[doc = "3: Reset"]
-    RST,
+    RST = 3,
 }
 impl From<VDDA_UBOR_A> for u8 {
     #[inline(always)]
     fn from(variant: VDDA_UBOR_A) -> Self {
-        match variant {
-            VDDA_UBOR_A::NONE => 0,
-            VDDA_UBOR_A::SYSINT => 1,
-            VDDA_UBOR_A::NMI => 2,
-            VDDA_UBOR_A::RST => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `VDDA_UBOR`"]

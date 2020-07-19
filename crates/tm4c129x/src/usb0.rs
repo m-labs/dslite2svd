@@ -503,7 +503,7 @@ pub struct RegisterBlock {
     #[doc = "0xfc8 - USB Clock Configuration"]
     pub cc: CC,
 }
-#[doc = "USB Device Functional Address\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [faddr](faddr) module"]
+#[doc = "USB Device Functional Address\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [faddr](faddr) module"]
 pub type FADDR = crate::Reg<u8, _FADDR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -514,7 +514,7 @@ impl crate::Readable for FADDR {}
 impl crate::Writable for FADDR {}
 #[doc = "USB Device Functional Address"]
 pub mod faddr;
-#[doc = "USB Power\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [power](power) module"]
+#[doc = "USB Power\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [power](power) module"]
 pub type POWER = crate::Reg<u8, _POWER>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -525,7 +525,7 @@ impl crate::Readable for POWER {}
 impl crate::Writable for POWER {}
 #[doc = "USB Power"]
 pub mod power;
-#[doc = "USB Transmit Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txis](txis) module"]
+#[doc = "USB Transmit Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txis](txis) module"]
 pub type TXIS = crate::Reg<u16, _TXIS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -534,7 +534,7 @@ pub struct _TXIS;
 impl crate::Readable for TXIS {}
 #[doc = "USB Transmit Interrupt Status"]
 pub mod txis;
-#[doc = "USB Receive Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxis](rxis) module"]
+#[doc = "USB Receive Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxis](rxis) module"]
 pub type RXIS = crate::Reg<u16, _RXIS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -543,7 +543,7 @@ pub struct _RXIS;
 impl crate::Readable for RXIS {}
 #[doc = "USB Receive Interrupt Status"]
 pub mod rxis;
-#[doc = "USB Transmit Interrupt Enable\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txie](txie) module"]
+#[doc = "USB Transmit Interrupt Enable\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txie](txie) module"]
 pub type TXIE = crate::Reg<u16, _TXIE>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -554,7 +554,7 @@ impl crate::Readable for TXIE {}
 impl crate::Writable for TXIE {}
 #[doc = "USB Transmit Interrupt Enable"]
 pub mod txie;
-#[doc = "USB Receive Interrupt Enable\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxie](rxie) module"]
+#[doc = "USB Receive Interrupt Enable\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxie](rxie) module"]
 pub type RXIE = crate::Reg<u16, _RXIE>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -565,7 +565,7 @@ impl crate::Readable for RXIE {}
 impl crate::Writable for RXIE {}
 #[doc = "USB Receive Interrupt Enable"]
 pub mod rxie;
-#[doc = "USB General Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [is](is) module"]
+#[doc = "USB General Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [is](is) module"]
 pub type IS = crate::Reg<u8, _IS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -574,7 +574,7 @@ pub struct _IS;
 impl crate::Readable for IS {}
 #[doc = "USB General Interrupt Status"]
 pub mod is;
-#[doc = "USB Interrupt Enable\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ie](ie) module"]
+#[doc = "USB Interrupt Enable\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ie](ie) module"]
 pub type IE = crate::Reg<u8, _IE>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -585,7 +585,7 @@ impl crate::Readable for IE {}
 impl crate::Writable for IE {}
 #[doc = "USB Interrupt Enable"]
 pub mod ie;
-#[doc = "USB Frame Value\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [frame](frame) module"]
+#[doc = "USB Frame Value\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [frame](frame) module"]
 pub type FRAME = crate::Reg<u16, _FRAME>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -594,7 +594,7 @@ pub struct _FRAME;
 impl crate::Readable for FRAME {}
 #[doc = "USB Frame Value"]
 pub mod frame;
-#[doc = "USB Endpoint Index\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [epidx](epidx) module"]
+#[doc = "USB Endpoint Index\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [epidx](epidx) module"]
 pub type EPIDX = crate::Reg<u8, _EPIDX>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -605,7 +605,7 @@ impl crate::Readable for EPIDX {}
 impl crate::Writable for EPIDX {}
 #[doc = "USB Endpoint Index"]
 pub mod epidx;
-#[doc = "USB Test Mode\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [test](test) module"]
+#[doc = "USB Test Mode\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [test](test) module"]
 pub type TEST = crate::Reg<u8, _TEST>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -616,7 +616,7 @@ impl crate::Readable for TEST {}
 impl crate::Writable for TEST {}
 #[doc = "USB Test Mode"]
 pub mod test;
-#[doc = "USB FIFO Endpoint 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fifo0](fifo0) module"]
+#[doc = "USB FIFO Endpoint 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fifo0](fifo0) module"]
 pub type FIFO0 = crate::Reg<u32, _FIFO0>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -627,7 +627,7 @@ impl crate::Readable for FIFO0 {}
 impl crate::Writable for FIFO0 {}
 #[doc = "USB FIFO Endpoint 0"]
 pub mod fifo0;
-#[doc = "USB FIFO Endpoint 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fifo1](fifo1) module"]
+#[doc = "USB FIFO Endpoint 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fifo1](fifo1) module"]
 pub type FIFO1 = crate::Reg<u32, _FIFO1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -638,7 +638,7 @@ impl crate::Readable for FIFO1 {}
 impl crate::Writable for FIFO1 {}
 #[doc = "USB FIFO Endpoint 1"]
 pub mod fifo1;
-#[doc = "USB FIFO Endpoint 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fifo2](fifo2) module"]
+#[doc = "USB FIFO Endpoint 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fifo2](fifo2) module"]
 pub type FIFO2 = crate::Reg<u32, _FIFO2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -649,7 +649,7 @@ impl crate::Readable for FIFO2 {}
 impl crate::Writable for FIFO2 {}
 #[doc = "USB FIFO Endpoint 2"]
 pub mod fifo2;
-#[doc = "USB FIFO Endpoint 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fifo3](fifo3) module"]
+#[doc = "USB FIFO Endpoint 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fifo3](fifo3) module"]
 pub type FIFO3 = crate::Reg<u32, _FIFO3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -660,7 +660,7 @@ impl crate::Readable for FIFO3 {}
 impl crate::Writable for FIFO3 {}
 #[doc = "USB FIFO Endpoint 3"]
 pub mod fifo3;
-#[doc = "USB FIFO Endpoint 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fifo4](fifo4) module"]
+#[doc = "USB FIFO Endpoint 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fifo4](fifo4) module"]
 pub type FIFO4 = crate::Reg<u32, _FIFO4>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -671,7 +671,7 @@ impl crate::Readable for FIFO4 {}
 impl crate::Writable for FIFO4 {}
 #[doc = "USB FIFO Endpoint 4"]
 pub mod fifo4;
-#[doc = "USB FIFO Endpoint 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fifo5](fifo5) module"]
+#[doc = "USB FIFO Endpoint 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fifo5](fifo5) module"]
 pub type FIFO5 = crate::Reg<u32, _FIFO5>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -682,7 +682,7 @@ impl crate::Readable for FIFO5 {}
 impl crate::Writable for FIFO5 {}
 #[doc = "USB FIFO Endpoint 5"]
 pub mod fifo5;
-#[doc = "USB FIFO Endpoint 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fifo6](fifo6) module"]
+#[doc = "USB FIFO Endpoint 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fifo6](fifo6) module"]
 pub type FIFO6 = crate::Reg<u32, _FIFO6>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -693,7 +693,7 @@ impl crate::Readable for FIFO6 {}
 impl crate::Writable for FIFO6 {}
 #[doc = "USB FIFO Endpoint 6"]
 pub mod fifo6;
-#[doc = "USB FIFO Endpoint 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fifo7](fifo7) module"]
+#[doc = "USB FIFO Endpoint 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fifo7](fifo7) module"]
 pub type FIFO7 = crate::Reg<u32, _FIFO7>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -704,7 +704,7 @@ impl crate::Readable for FIFO7 {}
 impl crate::Writable for FIFO7 {}
 #[doc = "USB FIFO Endpoint 7"]
 pub mod fifo7;
-#[doc = "USB Device Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [devctl](devctl) module"]
+#[doc = "USB Device Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [devctl](devctl) module"]
 pub type DEVCTL = crate::Reg<u8, _DEVCTL>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -715,7 +715,7 @@ impl crate::Readable for DEVCTL {}
 impl crate::Writable for DEVCTL {}
 #[doc = "USB Device Control"]
 pub mod devctl;
-#[doc = "USB Common Configuration\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [cconf](cconf) module"]
+#[doc = "USB Common Configuration\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [cconf](cconf) module"]
 pub type CCONF = crate::Reg<u8, _CCONF>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -726,7 +726,7 @@ impl crate::Readable for CCONF {}
 impl crate::Writable for CCONF {}
 #[doc = "USB Common Configuration"]
 pub mod cconf;
-#[doc = "USB Transmit Dynamic FIFO Sizing\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txfifosz](txfifosz) module"]
+#[doc = "USB Transmit Dynamic FIFO Sizing\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txfifosz](txfifosz) module"]
 pub type TXFIFOSZ = crate::Reg<u8, _TXFIFOSZ>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -737,7 +737,7 @@ impl crate::Readable for TXFIFOSZ {}
 impl crate::Writable for TXFIFOSZ {}
 #[doc = "USB Transmit Dynamic FIFO Sizing"]
 pub mod txfifosz;
-#[doc = "USB Receive Dynamic FIFO Sizing\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxfifosz](rxfifosz) module"]
+#[doc = "USB Receive Dynamic FIFO Sizing\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxfifosz](rxfifosz) module"]
 pub type RXFIFOSZ = crate::Reg<u8, _RXFIFOSZ>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -748,7 +748,7 @@ impl crate::Readable for RXFIFOSZ {}
 impl crate::Writable for RXFIFOSZ {}
 #[doc = "USB Receive Dynamic FIFO Sizing"]
 pub mod rxfifosz;
-#[doc = "USB Transmit FIFO Start Address\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txfifoadd](txfifoadd) module"]
+#[doc = "USB Transmit FIFO Start Address\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txfifoadd](txfifoadd) module"]
 pub type TXFIFOADD = crate::Reg<u16, _TXFIFOADD>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -759,7 +759,7 @@ impl crate::Readable for TXFIFOADD {}
 impl crate::Writable for TXFIFOADD {}
 #[doc = "USB Transmit FIFO Start Address"]
 pub mod txfifoadd;
-#[doc = "USB Receive FIFO Start Address\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxfifoadd](rxfifoadd) module"]
+#[doc = "USB Receive FIFO Start Address\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxfifoadd](rxfifoadd) module"]
 pub type RXFIFOADD = crate::Reg<u16, _RXFIFOADD>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -770,7 +770,7 @@ impl crate::Readable for RXFIFOADD {}
 impl crate::Writable for RXFIFOADD {}
 #[doc = "USB Receive FIFO Start Address"]
 pub mod rxfifoadd;
-#[doc = "USB ULPI VBUS Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ulpivbusctl](ulpivbusctl) module"]
+#[doc = "USB ULPI VBUS Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ulpivbusctl](ulpivbusctl) module"]
 pub type ULPIVBUSCTL = crate::Reg<u8, _ULPIVBUSCTL>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -781,7 +781,7 @@ impl crate::Readable for ULPIVBUSCTL {}
 impl crate::Writable for ULPIVBUSCTL {}
 #[doc = "USB ULPI VBUS Control"]
 pub mod ulpivbusctl;
-#[doc = "USB ULPI Register Data\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ulpiregdata](ulpiregdata) module"]
+#[doc = "USB ULPI Register Data\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ulpiregdata](ulpiregdata) module"]
 pub type ULPIREGDATA = crate::Reg<u8, _ULPIREGDATA>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -792,7 +792,7 @@ impl crate::Readable for ULPIREGDATA {}
 impl crate::Writable for ULPIREGDATA {}
 #[doc = "USB ULPI Register Data"]
 pub mod ulpiregdata;
-#[doc = "USB ULPI Register Address\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ulpiregaddr](ulpiregaddr) module"]
+#[doc = "USB ULPI Register Address\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ulpiregaddr](ulpiregaddr) module"]
 pub type ULPIREGADDR = crate::Reg<u8, _ULPIREGADDR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -803,7 +803,7 @@ impl crate::Readable for ULPIREGADDR {}
 impl crate::Writable for ULPIREGADDR {}
 #[doc = "USB ULPI Register Address"]
 pub mod ulpiregaddr;
-#[doc = "USB ULPI Register Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ulpiregctl](ulpiregctl) module"]
+#[doc = "USB ULPI Register Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ulpiregctl](ulpiregctl) module"]
 pub type ULPIREGCTL = crate::Reg<u8, _ULPIREGCTL>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -814,7 +814,7 @@ impl crate::Readable for ULPIREGCTL {}
 impl crate::Writable for ULPIREGCTL {}
 #[doc = "USB ULPI Register Control"]
 pub mod ulpiregctl;
-#[doc = "USB Endpoint Information\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [epinfo](epinfo) module"]
+#[doc = "USB Endpoint Information\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [epinfo](epinfo) module"]
 pub type EPINFO = crate::Reg<u8, _EPINFO>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -823,7 +823,7 @@ pub struct _EPINFO;
 impl crate::Readable for EPINFO {}
 #[doc = "USB Endpoint Information"]
 pub mod epinfo;
-#[doc = "USB RAM Information\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [raminfo](raminfo) module"]
+#[doc = "USB RAM Information\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [raminfo](raminfo) module"]
 pub type RAMINFO = crate::Reg<u8, _RAMINFO>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -832,7 +832,7 @@ pub struct _RAMINFO;
 impl crate::Readable for RAMINFO {}
 #[doc = "USB RAM Information"]
 pub mod raminfo;
-#[doc = "USB Connect Timing\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [contim](contim) module"]
+#[doc = "USB Connect Timing\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [contim](contim) module"]
 pub type CONTIM = crate::Reg<u8, _CONTIM>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -843,7 +843,7 @@ impl crate::Readable for CONTIM {}
 impl crate::Writable for CONTIM {}
 #[doc = "USB Connect Timing"]
 pub mod contim;
-#[doc = "USB OTG VBUS Pulse Timing\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [vplen](vplen) module"]
+#[doc = "USB OTG VBUS Pulse Timing\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [vplen](vplen) module"]
 pub type VPLEN = crate::Reg<u8, _VPLEN>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -854,7 +854,7 @@ impl crate::Readable for VPLEN {}
 impl crate::Writable for VPLEN {}
 #[doc = "USB OTG VBUS Pulse Timing"]
 pub mod vplen;
-#[doc = "USB High-Speed Last Transaction to End of Frame Timing\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [hseof](hseof) module"]
+#[doc = "USB High-Speed Last Transaction to End of Frame Timing\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [hseof](hseof) module"]
 pub type HSEOF = crate::Reg<u8, _HSEOF>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -865,7 +865,7 @@ impl crate::Readable for HSEOF {}
 impl crate::Writable for HSEOF {}
 #[doc = "USB High-Speed Last Transaction to End of Frame Timing"]
 pub mod hseof;
-#[doc = "USB Full-Speed Last Transaction to End of Frame Timing\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fseof](fseof) module"]
+#[doc = "USB Full-Speed Last Transaction to End of Frame Timing\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fseof](fseof) module"]
 pub type FSEOF = crate::Reg<u8, _FSEOF>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -876,7 +876,7 @@ impl crate::Readable for FSEOF {}
 impl crate::Writable for FSEOF {}
 #[doc = "USB Full-Speed Last Transaction to End of Frame Timing"]
 pub mod fseof;
-#[doc = "USB Low-Speed Last Transaction to End of Frame Timing\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [lseof](lseof) module"]
+#[doc = "USB Low-Speed Last Transaction to End of Frame Timing\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [lseof](lseof) module"]
 pub type LSEOF = crate::Reg<u8, _LSEOF>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -887,7 +887,7 @@ impl crate::Readable for LSEOF {}
 impl crate::Writable for LSEOF {}
 #[doc = "USB Low-Speed Last Transaction to End of Frame Timing"]
 pub mod lseof;
-#[doc = "USB Transmit Functional Address Endpoint 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txfuncaddr0](txfuncaddr0) module"]
+#[doc = "USB Transmit Functional Address Endpoint 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txfuncaddr0](txfuncaddr0) module"]
 pub type TXFUNCADDR0 = crate::Reg<u8, _TXFUNCADDR0>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -898,7 +898,7 @@ impl crate::Readable for TXFUNCADDR0 {}
 impl crate::Writable for TXFUNCADDR0 {}
 #[doc = "USB Transmit Functional Address Endpoint 0"]
 pub mod txfuncaddr0;
-#[doc = "USB Transmit Hub Address Endpoint 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txhubaddr0](txhubaddr0) module"]
+#[doc = "USB Transmit Hub Address Endpoint 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txhubaddr0](txhubaddr0) module"]
 pub type TXHUBADDR0 = crate::Reg<u8, _TXHUBADDR0>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -909,7 +909,7 @@ impl crate::Readable for TXHUBADDR0 {}
 impl crate::Writable for TXHUBADDR0 {}
 #[doc = "USB Transmit Hub Address Endpoint 0"]
 pub mod txhubaddr0;
-#[doc = "USB Transmit Hub Port Endpoint 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txhubport0](txhubport0) module"]
+#[doc = "USB Transmit Hub Port Endpoint 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txhubport0](txhubport0) module"]
 pub type TXHUBPORT0 = crate::Reg<u8, _TXHUBPORT0>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -920,7 +920,7 @@ impl crate::Readable for TXHUBPORT0 {}
 impl crate::Writable for TXHUBPORT0 {}
 #[doc = "USB Transmit Hub Port Endpoint 0"]
 pub mod txhubport0;
-#[doc = "USB Transmit Functional Address Endpoint 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txfuncaddr1](txfuncaddr1) module"]
+#[doc = "USB Transmit Functional Address Endpoint 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txfuncaddr1](txfuncaddr1) module"]
 pub type TXFUNCADDR1 = crate::Reg<u8, _TXFUNCADDR1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -931,7 +931,7 @@ impl crate::Readable for TXFUNCADDR1 {}
 impl crate::Writable for TXFUNCADDR1 {}
 #[doc = "USB Transmit Functional Address Endpoint 1"]
 pub mod txfuncaddr1;
-#[doc = "USB Transmit Hub Address Endpoint 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txhubaddr1](txhubaddr1) module"]
+#[doc = "USB Transmit Hub Address Endpoint 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txhubaddr1](txhubaddr1) module"]
 pub type TXHUBADDR1 = crate::Reg<u8, _TXHUBADDR1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -942,7 +942,7 @@ impl crate::Readable for TXHUBADDR1 {}
 impl crate::Writable for TXHUBADDR1 {}
 #[doc = "USB Transmit Hub Address Endpoint 1"]
 pub mod txhubaddr1;
-#[doc = "USB Transmit Hub Port Endpoint 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txhubport1](txhubport1) module"]
+#[doc = "USB Transmit Hub Port Endpoint 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txhubport1](txhubport1) module"]
 pub type TXHUBPORT1 = crate::Reg<u8, _TXHUBPORT1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -953,7 +953,7 @@ impl crate::Readable for TXHUBPORT1 {}
 impl crate::Writable for TXHUBPORT1 {}
 #[doc = "USB Transmit Hub Port Endpoint 1"]
 pub mod txhubport1;
-#[doc = "USB Receive Functional Address Endpoint 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxfuncaddr1](rxfuncaddr1) module"]
+#[doc = "USB Receive Functional Address Endpoint 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxfuncaddr1](rxfuncaddr1) module"]
 pub type RXFUNCADDR1 = crate::Reg<u8, _RXFUNCADDR1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -964,7 +964,7 @@ impl crate::Readable for RXFUNCADDR1 {}
 impl crate::Writable for RXFUNCADDR1 {}
 #[doc = "USB Receive Functional Address Endpoint 1"]
 pub mod rxfuncaddr1;
-#[doc = "USB Receive Hub Address Endpoint 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxhubaddr1](rxhubaddr1) module"]
+#[doc = "USB Receive Hub Address Endpoint 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxhubaddr1](rxhubaddr1) module"]
 pub type RXHUBADDR1 = crate::Reg<u8, _RXHUBADDR1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -975,7 +975,7 @@ impl crate::Readable for RXHUBADDR1 {}
 impl crate::Writable for RXHUBADDR1 {}
 #[doc = "USB Receive Hub Address Endpoint 1"]
 pub mod rxhubaddr1;
-#[doc = "USB Receive Hub Port Endpoint 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxhubport1](rxhubport1) module"]
+#[doc = "USB Receive Hub Port Endpoint 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxhubport1](rxhubport1) module"]
 pub type RXHUBPORT1 = crate::Reg<u8, _RXHUBPORT1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -986,7 +986,7 @@ impl crate::Readable for RXHUBPORT1 {}
 impl crate::Writable for RXHUBPORT1 {}
 #[doc = "USB Receive Hub Port Endpoint 1"]
 pub mod rxhubport1;
-#[doc = "USB Transmit Functional Address Endpoint 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txfuncaddr2](txfuncaddr2) module"]
+#[doc = "USB Transmit Functional Address Endpoint 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txfuncaddr2](txfuncaddr2) module"]
 pub type TXFUNCADDR2 = crate::Reg<u8, _TXFUNCADDR2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -997,7 +997,7 @@ impl crate::Readable for TXFUNCADDR2 {}
 impl crate::Writable for TXFUNCADDR2 {}
 #[doc = "USB Transmit Functional Address Endpoint 2"]
 pub mod txfuncaddr2;
-#[doc = "USB Transmit Hub Address Endpoint 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txhubaddr2](txhubaddr2) module"]
+#[doc = "USB Transmit Hub Address Endpoint 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txhubaddr2](txhubaddr2) module"]
 pub type TXHUBADDR2 = crate::Reg<u8, _TXHUBADDR2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1008,7 +1008,7 @@ impl crate::Readable for TXHUBADDR2 {}
 impl crate::Writable for TXHUBADDR2 {}
 #[doc = "USB Transmit Hub Address Endpoint 2"]
 pub mod txhubaddr2;
-#[doc = "USB Transmit Hub Port Endpoint 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txhubport2](txhubport2) module"]
+#[doc = "USB Transmit Hub Port Endpoint 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txhubport2](txhubport2) module"]
 pub type TXHUBPORT2 = crate::Reg<u8, _TXHUBPORT2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1019,7 +1019,7 @@ impl crate::Readable for TXHUBPORT2 {}
 impl crate::Writable for TXHUBPORT2 {}
 #[doc = "USB Transmit Hub Port Endpoint 2"]
 pub mod txhubport2;
-#[doc = "USB Receive Functional Address Endpoint 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxfuncaddr2](rxfuncaddr2) module"]
+#[doc = "USB Receive Functional Address Endpoint 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxfuncaddr2](rxfuncaddr2) module"]
 pub type RXFUNCADDR2 = crate::Reg<u8, _RXFUNCADDR2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1030,7 +1030,7 @@ impl crate::Readable for RXFUNCADDR2 {}
 impl crate::Writable for RXFUNCADDR2 {}
 #[doc = "USB Receive Functional Address Endpoint 2"]
 pub mod rxfuncaddr2;
-#[doc = "USB Receive Hub Address Endpoint 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxhubaddr2](rxhubaddr2) module"]
+#[doc = "USB Receive Hub Address Endpoint 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxhubaddr2](rxhubaddr2) module"]
 pub type RXHUBADDR2 = crate::Reg<u8, _RXHUBADDR2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1041,7 +1041,7 @@ impl crate::Readable for RXHUBADDR2 {}
 impl crate::Writable for RXHUBADDR2 {}
 #[doc = "USB Receive Hub Address Endpoint 2"]
 pub mod rxhubaddr2;
-#[doc = "USB Receive Hub Port Endpoint 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxhubport2](rxhubport2) module"]
+#[doc = "USB Receive Hub Port Endpoint 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxhubport2](rxhubport2) module"]
 pub type RXHUBPORT2 = crate::Reg<u8, _RXHUBPORT2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1052,7 +1052,7 @@ impl crate::Readable for RXHUBPORT2 {}
 impl crate::Writable for RXHUBPORT2 {}
 #[doc = "USB Receive Hub Port Endpoint 2"]
 pub mod rxhubport2;
-#[doc = "USB Transmit Functional Address Endpoint 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txfuncaddr3](txfuncaddr3) module"]
+#[doc = "USB Transmit Functional Address Endpoint 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txfuncaddr3](txfuncaddr3) module"]
 pub type TXFUNCADDR3 = crate::Reg<u8, _TXFUNCADDR3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1063,7 +1063,7 @@ impl crate::Readable for TXFUNCADDR3 {}
 impl crate::Writable for TXFUNCADDR3 {}
 #[doc = "USB Transmit Functional Address Endpoint 3"]
 pub mod txfuncaddr3;
-#[doc = "USB Transmit Hub Address Endpoint 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txhubaddr3](txhubaddr3) module"]
+#[doc = "USB Transmit Hub Address Endpoint 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txhubaddr3](txhubaddr3) module"]
 pub type TXHUBADDR3 = crate::Reg<u8, _TXHUBADDR3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1074,7 +1074,7 @@ impl crate::Readable for TXHUBADDR3 {}
 impl crate::Writable for TXHUBADDR3 {}
 #[doc = "USB Transmit Hub Address Endpoint 3"]
 pub mod txhubaddr3;
-#[doc = "USB Transmit Hub Port Endpoint 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txhubport3](txhubport3) module"]
+#[doc = "USB Transmit Hub Port Endpoint 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txhubport3](txhubport3) module"]
 pub type TXHUBPORT3 = crate::Reg<u8, _TXHUBPORT3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1085,7 +1085,7 @@ impl crate::Readable for TXHUBPORT3 {}
 impl crate::Writable for TXHUBPORT3 {}
 #[doc = "USB Transmit Hub Port Endpoint 3"]
 pub mod txhubport3;
-#[doc = "USB Receive Functional Address Endpoint 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxfuncaddr3](rxfuncaddr3) module"]
+#[doc = "USB Receive Functional Address Endpoint 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxfuncaddr3](rxfuncaddr3) module"]
 pub type RXFUNCADDR3 = crate::Reg<u8, _RXFUNCADDR3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1096,7 +1096,7 @@ impl crate::Readable for RXFUNCADDR3 {}
 impl crate::Writable for RXFUNCADDR3 {}
 #[doc = "USB Receive Functional Address Endpoint 3"]
 pub mod rxfuncaddr3;
-#[doc = "USB Receive Hub Address Endpoint 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxhubaddr3](rxhubaddr3) module"]
+#[doc = "USB Receive Hub Address Endpoint 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxhubaddr3](rxhubaddr3) module"]
 pub type RXHUBADDR3 = crate::Reg<u8, _RXHUBADDR3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1107,7 +1107,7 @@ impl crate::Readable for RXHUBADDR3 {}
 impl crate::Writable for RXHUBADDR3 {}
 #[doc = "USB Receive Hub Address Endpoint 3"]
 pub mod rxhubaddr3;
-#[doc = "USB Receive Hub Port Endpoint 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxhubport3](rxhubport3) module"]
+#[doc = "USB Receive Hub Port Endpoint 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxhubport3](rxhubport3) module"]
 pub type RXHUBPORT3 = crate::Reg<u8, _RXHUBPORT3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1118,7 +1118,7 @@ impl crate::Readable for RXHUBPORT3 {}
 impl crate::Writable for RXHUBPORT3 {}
 #[doc = "USB Receive Hub Port Endpoint 3"]
 pub mod rxhubport3;
-#[doc = "USB Transmit Functional Address Endpoint 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txfuncaddr4](txfuncaddr4) module"]
+#[doc = "USB Transmit Functional Address Endpoint 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txfuncaddr4](txfuncaddr4) module"]
 pub type TXFUNCADDR4 = crate::Reg<u8, _TXFUNCADDR4>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1129,7 +1129,7 @@ impl crate::Readable for TXFUNCADDR4 {}
 impl crate::Writable for TXFUNCADDR4 {}
 #[doc = "USB Transmit Functional Address Endpoint 4"]
 pub mod txfuncaddr4;
-#[doc = "USB Transmit Hub Address Endpoint 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txhubaddr4](txhubaddr4) module"]
+#[doc = "USB Transmit Hub Address Endpoint 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txhubaddr4](txhubaddr4) module"]
 pub type TXHUBADDR4 = crate::Reg<u8, _TXHUBADDR4>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1140,7 +1140,7 @@ impl crate::Readable for TXHUBADDR4 {}
 impl crate::Writable for TXHUBADDR4 {}
 #[doc = "USB Transmit Hub Address Endpoint 4"]
 pub mod txhubaddr4;
-#[doc = "USB Transmit Hub Port Endpoint 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txhubport4](txhubport4) module"]
+#[doc = "USB Transmit Hub Port Endpoint 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txhubport4](txhubport4) module"]
 pub type TXHUBPORT4 = crate::Reg<u8, _TXHUBPORT4>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1151,7 +1151,7 @@ impl crate::Readable for TXHUBPORT4 {}
 impl crate::Writable for TXHUBPORT4 {}
 #[doc = "USB Transmit Hub Port Endpoint 4"]
 pub mod txhubport4;
-#[doc = "USB Receive Functional Address Endpoint 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxfuncaddr4](rxfuncaddr4) module"]
+#[doc = "USB Receive Functional Address Endpoint 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxfuncaddr4](rxfuncaddr4) module"]
 pub type RXFUNCADDR4 = crate::Reg<u8, _RXFUNCADDR4>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1162,7 +1162,7 @@ impl crate::Readable for RXFUNCADDR4 {}
 impl crate::Writable for RXFUNCADDR4 {}
 #[doc = "USB Receive Functional Address Endpoint 4"]
 pub mod rxfuncaddr4;
-#[doc = "USB Receive Hub Address Endpoint 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxhubaddr4](rxhubaddr4) module"]
+#[doc = "USB Receive Hub Address Endpoint 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxhubaddr4](rxhubaddr4) module"]
 pub type RXHUBADDR4 = crate::Reg<u8, _RXHUBADDR4>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1173,7 +1173,7 @@ impl crate::Readable for RXHUBADDR4 {}
 impl crate::Writable for RXHUBADDR4 {}
 #[doc = "USB Receive Hub Address Endpoint 4"]
 pub mod rxhubaddr4;
-#[doc = "USB Receive Hub Port Endpoint 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxhubport4](rxhubport4) module"]
+#[doc = "USB Receive Hub Port Endpoint 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxhubport4](rxhubport4) module"]
 pub type RXHUBPORT4 = crate::Reg<u8, _RXHUBPORT4>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1184,7 +1184,7 @@ impl crate::Readable for RXHUBPORT4 {}
 impl crate::Writable for RXHUBPORT4 {}
 #[doc = "USB Receive Hub Port Endpoint 4"]
 pub mod rxhubport4;
-#[doc = "USB Transmit Functional Address Endpoint 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txfuncaddr5](txfuncaddr5) module"]
+#[doc = "USB Transmit Functional Address Endpoint 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txfuncaddr5](txfuncaddr5) module"]
 pub type TXFUNCADDR5 = crate::Reg<u8, _TXFUNCADDR5>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1195,7 +1195,7 @@ impl crate::Readable for TXFUNCADDR5 {}
 impl crate::Writable for TXFUNCADDR5 {}
 #[doc = "USB Transmit Functional Address Endpoint 5"]
 pub mod txfuncaddr5;
-#[doc = "USB Transmit Hub Address Endpoint 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txhubaddr5](txhubaddr5) module"]
+#[doc = "USB Transmit Hub Address Endpoint 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txhubaddr5](txhubaddr5) module"]
 pub type TXHUBADDR5 = crate::Reg<u8, _TXHUBADDR5>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1206,7 +1206,7 @@ impl crate::Readable for TXHUBADDR5 {}
 impl crate::Writable for TXHUBADDR5 {}
 #[doc = "USB Transmit Hub Address Endpoint 5"]
 pub mod txhubaddr5;
-#[doc = "USB Transmit Hub Port Endpoint 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txhubport5](txhubport5) module"]
+#[doc = "USB Transmit Hub Port Endpoint 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txhubport5](txhubport5) module"]
 pub type TXHUBPORT5 = crate::Reg<u8, _TXHUBPORT5>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1217,7 +1217,7 @@ impl crate::Readable for TXHUBPORT5 {}
 impl crate::Writable for TXHUBPORT5 {}
 #[doc = "USB Transmit Hub Port Endpoint 5"]
 pub mod txhubport5;
-#[doc = "USB Receive Functional Address Endpoint 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxfuncaddr5](rxfuncaddr5) module"]
+#[doc = "USB Receive Functional Address Endpoint 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxfuncaddr5](rxfuncaddr5) module"]
 pub type RXFUNCADDR5 = crate::Reg<u8, _RXFUNCADDR5>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1228,7 +1228,7 @@ impl crate::Readable for RXFUNCADDR5 {}
 impl crate::Writable for RXFUNCADDR5 {}
 #[doc = "USB Receive Functional Address Endpoint 5"]
 pub mod rxfuncaddr5;
-#[doc = "USB Receive Hub Address Endpoint 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxhubaddr5](rxhubaddr5) module"]
+#[doc = "USB Receive Hub Address Endpoint 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxhubaddr5](rxhubaddr5) module"]
 pub type RXHUBADDR5 = crate::Reg<u8, _RXHUBADDR5>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1239,7 +1239,7 @@ impl crate::Readable for RXHUBADDR5 {}
 impl crate::Writable for RXHUBADDR5 {}
 #[doc = "USB Receive Hub Address Endpoint 5"]
 pub mod rxhubaddr5;
-#[doc = "USB Receive Hub Port Endpoint 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxhubport5](rxhubport5) module"]
+#[doc = "USB Receive Hub Port Endpoint 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxhubport5](rxhubport5) module"]
 pub type RXHUBPORT5 = crate::Reg<u8, _RXHUBPORT5>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1250,7 +1250,7 @@ impl crate::Readable for RXHUBPORT5 {}
 impl crate::Writable for RXHUBPORT5 {}
 #[doc = "USB Receive Hub Port Endpoint 5"]
 pub mod rxhubport5;
-#[doc = "USB Transmit Functional Address Endpoint 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txfuncaddr6](txfuncaddr6) module"]
+#[doc = "USB Transmit Functional Address Endpoint 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txfuncaddr6](txfuncaddr6) module"]
 pub type TXFUNCADDR6 = crate::Reg<u8, _TXFUNCADDR6>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1261,7 +1261,7 @@ impl crate::Readable for TXFUNCADDR6 {}
 impl crate::Writable for TXFUNCADDR6 {}
 #[doc = "USB Transmit Functional Address Endpoint 6"]
 pub mod txfuncaddr6;
-#[doc = "USB Transmit Hub Address Endpoint 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txhubaddr6](txhubaddr6) module"]
+#[doc = "USB Transmit Hub Address Endpoint 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txhubaddr6](txhubaddr6) module"]
 pub type TXHUBADDR6 = crate::Reg<u8, _TXHUBADDR6>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1272,7 +1272,7 @@ impl crate::Readable for TXHUBADDR6 {}
 impl crate::Writable for TXHUBADDR6 {}
 #[doc = "USB Transmit Hub Address Endpoint 6"]
 pub mod txhubaddr6;
-#[doc = "USB Transmit Hub Port Endpoint 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txhubport6](txhubport6) module"]
+#[doc = "USB Transmit Hub Port Endpoint 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txhubport6](txhubport6) module"]
 pub type TXHUBPORT6 = crate::Reg<u8, _TXHUBPORT6>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1283,7 +1283,7 @@ impl crate::Readable for TXHUBPORT6 {}
 impl crate::Writable for TXHUBPORT6 {}
 #[doc = "USB Transmit Hub Port Endpoint 6"]
 pub mod txhubport6;
-#[doc = "USB Receive Functional Address Endpoint 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxfuncaddr6](rxfuncaddr6) module"]
+#[doc = "USB Receive Functional Address Endpoint 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxfuncaddr6](rxfuncaddr6) module"]
 pub type RXFUNCADDR6 = crate::Reg<u8, _RXFUNCADDR6>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1294,7 +1294,7 @@ impl crate::Readable for RXFUNCADDR6 {}
 impl crate::Writable for RXFUNCADDR6 {}
 #[doc = "USB Receive Functional Address Endpoint 6"]
 pub mod rxfuncaddr6;
-#[doc = "USB Receive Hub Address Endpoint 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxhubaddr6](rxhubaddr6) module"]
+#[doc = "USB Receive Hub Address Endpoint 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxhubaddr6](rxhubaddr6) module"]
 pub type RXHUBADDR6 = crate::Reg<u8, _RXHUBADDR6>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1305,7 +1305,7 @@ impl crate::Readable for RXHUBADDR6 {}
 impl crate::Writable for RXHUBADDR6 {}
 #[doc = "USB Receive Hub Address Endpoint 6"]
 pub mod rxhubaddr6;
-#[doc = "USB Receive Hub Port Endpoint 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxhubport6](rxhubport6) module"]
+#[doc = "USB Receive Hub Port Endpoint 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxhubport6](rxhubport6) module"]
 pub type RXHUBPORT6 = crate::Reg<u8, _RXHUBPORT6>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1316,7 +1316,7 @@ impl crate::Readable for RXHUBPORT6 {}
 impl crate::Writable for RXHUBPORT6 {}
 #[doc = "USB Receive Hub Port Endpoint 6"]
 pub mod rxhubport6;
-#[doc = "USB Transmit Functional Address Endpoint 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txfuncaddr7](txfuncaddr7) module"]
+#[doc = "USB Transmit Functional Address Endpoint 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txfuncaddr7](txfuncaddr7) module"]
 pub type TXFUNCADDR7 = crate::Reg<u8, _TXFUNCADDR7>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1327,7 +1327,7 @@ impl crate::Readable for TXFUNCADDR7 {}
 impl crate::Writable for TXFUNCADDR7 {}
 #[doc = "USB Transmit Functional Address Endpoint 7"]
 pub mod txfuncaddr7;
-#[doc = "USB Transmit Hub Address Endpoint 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txhubaddr7](txhubaddr7) module"]
+#[doc = "USB Transmit Hub Address Endpoint 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txhubaddr7](txhubaddr7) module"]
 pub type TXHUBADDR7 = crate::Reg<u8, _TXHUBADDR7>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1338,7 +1338,7 @@ impl crate::Readable for TXHUBADDR7 {}
 impl crate::Writable for TXHUBADDR7 {}
 #[doc = "USB Transmit Hub Address Endpoint 7"]
 pub mod txhubaddr7;
-#[doc = "USB Transmit Hub Port Endpoint 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txhubport7](txhubport7) module"]
+#[doc = "USB Transmit Hub Port Endpoint 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txhubport7](txhubport7) module"]
 pub type TXHUBPORT7 = crate::Reg<u8, _TXHUBPORT7>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1349,7 +1349,7 @@ impl crate::Readable for TXHUBPORT7 {}
 impl crate::Writable for TXHUBPORT7 {}
 #[doc = "USB Transmit Hub Port Endpoint 7"]
 pub mod txhubport7;
-#[doc = "USB Receive Functional Address Endpoint 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxfuncaddr7](rxfuncaddr7) module"]
+#[doc = "USB Receive Functional Address Endpoint 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxfuncaddr7](rxfuncaddr7) module"]
 pub type RXFUNCADDR7 = crate::Reg<u8, _RXFUNCADDR7>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1360,7 +1360,7 @@ impl crate::Readable for RXFUNCADDR7 {}
 impl crate::Writable for RXFUNCADDR7 {}
 #[doc = "USB Receive Functional Address Endpoint 7"]
 pub mod rxfuncaddr7;
-#[doc = "USB Receive Hub Address Endpoint 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxhubaddr7](rxhubaddr7) module"]
+#[doc = "USB Receive Hub Address Endpoint 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxhubaddr7](rxhubaddr7) module"]
 pub type RXHUBADDR7 = crate::Reg<u8, _RXHUBADDR7>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1371,7 +1371,7 @@ impl crate::Readable for RXHUBADDR7 {}
 impl crate::Writable for RXHUBADDR7 {}
 #[doc = "USB Receive Hub Address Endpoint 7"]
 pub mod rxhubaddr7;
-#[doc = "USB Receive Hub Port Endpoint 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxhubport7](rxhubport7) module"]
+#[doc = "USB Receive Hub Port Endpoint 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxhubport7](rxhubport7) module"]
 pub type RXHUBPORT7 = crate::Reg<u8, _RXHUBPORT7>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1382,7 +1382,7 @@ impl crate::Readable for RXHUBPORT7 {}
 impl crate::Writable for RXHUBPORT7 {}
 #[doc = "USB Receive Hub Port Endpoint 7"]
 pub mod rxhubport7;
-#[doc = "USB Control and Status Endpoint 0 Low\n\nThis register you can [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [csrl0](csrl0) module"]
+#[doc = "USB Control and Status Endpoint 0 Low\n\nThis register you can [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [csrl0](csrl0) module"]
 pub type CSRL0 = crate::Reg<u8, _CSRL0>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1391,7 +1391,7 @@ pub struct _CSRL0;
 impl crate::Writable for CSRL0 {}
 #[doc = "USB Control and Status Endpoint 0 Low"]
 pub mod csrl0;
-#[doc = "USB Control and Status Endpoint 0 High\n\nThis register you can [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [csrh0](csrh0) module"]
+#[doc = "USB Control and Status Endpoint 0 High\n\nThis register you can [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [csrh0](csrh0) module"]
 pub type CSRH0 = crate::Reg<u8, _CSRH0>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1400,7 +1400,7 @@ pub struct _CSRH0;
 impl crate::Writable for CSRH0 {}
 #[doc = "USB Control and Status Endpoint 0 High"]
 pub mod csrh0;
-#[doc = "USB Receive Byte Count Endpoint 0\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [count0](count0) module"]
+#[doc = "USB Receive Byte Count Endpoint 0\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [count0](count0) module"]
 pub type COUNT0 = crate::Reg<u8, _COUNT0>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1409,7 +1409,7 @@ pub struct _COUNT0;
 impl crate::Readable for COUNT0 {}
 #[doc = "USB Receive Byte Count Endpoint 0"]
 pub mod count0;
-#[doc = "USB Type Endpoint 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [type0](type0) module"]
+#[doc = "USB Type Endpoint 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [type0](type0) module"]
 pub type TYPE0 = crate::Reg<u8, _TYPE0>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1420,7 +1420,7 @@ impl crate::Readable for TYPE0 {}
 impl crate::Writable for TYPE0 {}
 #[doc = "USB Type Endpoint 0"]
 pub mod type0;
-#[doc = "USB NAK Limit\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [naklmt](naklmt) module"]
+#[doc = "USB NAK Limit\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [naklmt](naklmt) module"]
 pub type NAKLMT = crate::Reg<u8, _NAKLMT>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1431,7 +1431,7 @@ impl crate::Readable for NAKLMT {}
 impl crate::Writable for NAKLMT {}
 #[doc = "USB NAK Limit"]
 pub mod naklmt;
-#[doc = "USB Maximum Transmit Data Endpoint 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txmaxp1](txmaxp1) module"]
+#[doc = "USB Maximum Transmit Data Endpoint 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txmaxp1](txmaxp1) module"]
 pub type TXMAXP1 = crate::Reg<u16, _TXMAXP1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1442,7 +1442,7 @@ impl crate::Readable for TXMAXP1 {}
 impl crate::Writable for TXMAXP1 {}
 #[doc = "USB Maximum Transmit Data Endpoint 1"]
 pub mod txmaxp1;
-#[doc = "USB Transmit Control and Status Endpoint 1 Low\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txcsrl1](txcsrl1) module"]
+#[doc = "USB Transmit Control and Status Endpoint 1 Low\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txcsrl1](txcsrl1) module"]
 pub type TXCSRL1 = crate::Reg<u8, _TXCSRL1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1453,7 +1453,7 @@ impl crate::Readable for TXCSRL1 {}
 impl crate::Writable for TXCSRL1 {}
 #[doc = "USB Transmit Control and Status Endpoint 1 Low"]
 pub mod txcsrl1;
-#[doc = "USB Transmit Control and Status Endpoint 1 High\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txcsrh1](txcsrh1) module"]
+#[doc = "USB Transmit Control and Status Endpoint 1 High\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txcsrh1](txcsrh1) module"]
 pub type TXCSRH1 = crate::Reg<u8, _TXCSRH1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1464,7 +1464,7 @@ impl crate::Readable for TXCSRH1 {}
 impl crate::Writable for TXCSRH1 {}
 #[doc = "USB Transmit Control and Status Endpoint 1 High"]
 pub mod txcsrh1;
-#[doc = "USB Maximum Receive Data Endpoint 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxmaxp1](rxmaxp1) module"]
+#[doc = "USB Maximum Receive Data Endpoint 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxmaxp1](rxmaxp1) module"]
 pub type RXMAXP1 = crate::Reg<u16, _RXMAXP1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1475,7 +1475,7 @@ impl crate::Readable for RXMAXP1 {}
 impl crate::Writable for RXMAXP1 {}
 #[doc = "USB Maximum Receive Data Endpoint 1"]
 pub mod rxmaxp1;
-#[doc = "USB Receive Control and Status Endpoint 1 Low\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxcsrl1](rxcsrl1) module"]
+#[doc = "USB Receive Control and Status Endpoint 1 Low\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxcsrl1](rxcsrl1) module"]
 pub type RXCSRL1 = crate::Reg<u8, _RXCSRL1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1486,7 +1486,7 @@ impl crate::Readable for RXCSRL1 {}
 impl crate::Writable for RXCSRL1 {}
 #[doc = "USB Receive Control and Status Endpoint 1 Low"]
 pub mod rxcsrl1;
-#[doc = "USB Receive Control and Status Endpoint 1 High\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxcsrh1](rxcsrh1) module"]
+#[doc = "USB Receive Control and Status Endpoint 1 High\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxcsrh1](rxcsrh1) module"]
 pub type RXCSRH1 = crate::Reg<u8, _RXCSRH1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1497,7 +1497,7 @@ impl crate::Readable for RXCSRH1 {}
 impl crate::Writable for RXCSRH1 {}
 #[doc = "USB Receive Control and Status Endpoint 1 High"]
 pub mod rxcsrh1;
-#[doc = "USB Receive Byte Count Endpoint 1\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxcount1](rxcount1) module"]
+#[doc = "USB Receive Byte Count Endpoint 1\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxcount1](rxcount1) module"]
 pub type RXCOUNT1 = crate::Reg<u16, _RXCOUNT1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1506,7 +1506,7 @@ pub struct _RXCOUNT1;
 impl crate::Readable for RXCOUNT1 {}
 #[doc = "USB Receive Byte Count Endpoint 1"]
 pub mod rxcount1;
-#[doc = "USB Host Transmit Configure Type Endpoint 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txtype1](txtype1) module"]
+#[doc = "USB Host Transmit Configure Type Endpoint 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txtype1](txtype1) module"]
 pub type TXTYPE1 = crate::Reg<u8, _TXTYPE1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1517,7 +1517,7 @@ impl crate::Readable for TXTYPE1 {}
 impl crate::Writable for TXTYPE1 {}
 #[doc = "USB Host Transmit Configure Type Endpoint 1"]
 pub mod txtype1;
-#[doc = "USB Host Transmit Interval Endpoint 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txinterval1](txinterval1) module"]
+#[doc = "USB Host Transmit Interval Endpoint 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txinterval1](txinterval1) module"]
 pub type TXINTERVAL1 = crate::Reg<u8, _TXINTERVAL1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1528,7 +1528,7 @@ impl crate::Readable for TXINTERVAL1 {}
 impl crate::Writable for TXINTERVAL1 {}
 #[doc = "USB Host Transmit Interval Endpoint 1"]
 pub mod txinterval1;
-#[doc = "USB Host Configure Receive Type Endpoint 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxtype1](rxtype1) module"]
+#[doc = "USB Host Configure Receive Type Endpoint 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxtype1](rxtype1) module"]
 pub type RXTYPE1 = crate::Reg<u8, _RXTYPE1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1539,7 +1539,7 @@ impl crate::Readable for RXTYPE1 {}
 impl crate::Writable for RXTYPE1 {}
 #[doc = "USB Host Configure Receive Type Endpoint 1"]
 pub mod rxtype1;
-#[doc = "USB Host Receive Polling Interval Endpoint 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxinterval1](rxinterval1) module"]
+#[doc = "USB Host Receive Polling Interval Endpoint 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxinterval1](rxinterval1) module"]
 pub type RXINTERVAL1 = crate::Reg<u8, _RXINTERVAL1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1550,7 +1550,7 @@ impl crate::Readable for RXINTERVAL1 {}
 impl crate::Writable for RXINTERVAL1 {}
 #[doc = "USB Host Receive Polling Interval Endpoint 1"]
 pub mod rxinterval1;
-#[doc = "USB Maximum Transmit Data Endpoint 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txmaxp2](txmaxp2) module"]
+#[doc = "USB Maximum Transmit Data Endpoint 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txmaxp2](txmaxp2) module"]
 pub type TXMAXP2 = crate::Reg<u16, _TXMAXP2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1561,7 +1561,7 @@ impl crate::Readable for TXMAXP2 {}
 impl crate::Writable for TXMAXP2 {}
 #[doc = "USB Maximum Transmit Data Endpoint 2"]
 pub mod txmaxp2;
-#[doc = "USB Transmit Control and Status Endpoint 2 Low\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txcsrl2](txcsrl2) module"]
+#[doc = "USB Transmit Control and Status Endpoint 2 Low\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txcsrl2](txcsrl2) module"]
 pub type TXCSRL2 = crate::Reg<u8, _TXCSRL2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1572,7 +1572,7 @@ impl crate::Readable for TXCSRL2 {}
 impl crate::Writable for TXCSRL2 {}
 #[doc = "USB Transmit Control and Status Endpoint 2 Low"]
 pub mod txcsrl2;
-#[doc = "USB Transmit Control and Status Endpoint 2 High\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txcsrh2](txcsrh2) module"]
+#[doc = "USB Transmit Control and Status Endpoint 2 High\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txcsrh2](txcsrh2) module"]
 pub type TXCSRH2 = crate::Reg<u8, _TXCSRH2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1583,7 +1583,7 @@ impl crate::Readable for TXCSRH2 {}
 impl crate::Writable for TXCSRH2 {}
 #[doc = "USB Transmit Control and Status Endpoint 2 High"]
 pub mod txcsrh2;
-#[doc = "USB Maximum Receive Data Endpoint 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxmaxp2](rxmaxp2) module"]
+#[doc = "USB Maximum Receive Data Endpoint 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxmaxp2](rxmaxp2) module"]
 pub type RXMAXP2 = crate::Reg<u16, _RXMAXP2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1594,7 +1594,7 @@ impl crate::Readable for RXMAXP2 {}
 impl crate::Writable for RXMAXP2 {}
 #[doc = "USB Maximum Receive Data Endpoint 2"]
 pub mod rxmaxp2;
-#[doc = "USB Receive Control and Status Endpoint 2 Low\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxcsrl2](rxcsrl2) module"]
+#[doc = "USB Receive Control and Status Endpoint 2 Low\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxcsrl2](rxcsrl2) module"]
 pub type RXCSRL2 = crate::Reg<u8, _RXCSRL2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1605,7 +1605,7 @@ impl crate::Readable for RXCSRL2 {}
 impl crate::Writable for RXCSRL2 {}
 #[doc = "USB Receive Control and Status Endpoint 2 Low"]
 pub mod rxcsrl2;
-#[doc = "USB Receive Control and Status Endpoint 2 High\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxcsrh2](rxcsrh2) module"]
+#[doc = "USB Receive Control and Status Endpoint 2 High\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxcsrh2](rxcsrh2) module"]
 pub type RXCSRH2 = crate::Reg<u8, _RXCSRH2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1616,7 +1616,7 @@ impl crate::Readable for RXCSRH2 {}
 impl crate::Writable for RXCSRH2 {}
 #[doc = "USB Receive Control and Status Endpoint 2 High"]
 pub mod rxcsrh2;
-#[doc = "USB Receive Byte Count Endpoint 2\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxcount2](rxcount2) module"]
+#[doc = "USB Receive Byte Count Endpoint 2\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxcount2](rxcount2) module"]
 pub type RXCOUNT2 = crate::Reg<u16, _RXCOUNT2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1625,7 +1625,7 @@ pub struct _RXCOUNT2;
 impl crate::Readable for RXCOUNT2 {}
 #[doc = "USB Receive Byte Count Endpoint 2"]
 pub mod rxcount2;
-#[doc = "USB Host Transmit Configure Type Endpoint 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txtype2](txtype2) module"]
+#[doc = "USB Host Transmit Configure Type Endpoint 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txtype2](txtype2) module"]
 pub type TXTYPE2 = crate::Reg<u8, _TXTYPE2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1636,7 +1636,7 @@ impl crate::Readable for TXTYPE2 {}
 impl crate::Writable for TXTYPE2 {}
 #[doc = "USB Host Transmit Configure Type Endpoint 2"]
 pub mod txtype2;
-#[doc = "USB Host Transmit Interval Endpoint 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txinterval2](txinterval2) module"]
+#[doc = "USB Host Transmit Interval Endpoint 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txinterval2](txinterval2) module"]
 pub type TXINTERVAL2 = crate::Reg<u8, _TXINTERVAL2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1647,7 +1647,7 @@ impl crate::Readable for TXINTERVAL2 {}
 impl crate::Writable for TXINTERVAL2 {}
 #[doc = "USB Host Transmit Interval Endpoint 2"]
 pub mod txinterval2;
-#[doc = "USB Host Configure Receive Type Endpoint 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxtype2](rxtype2) module"]
+#[doc = "USB Host Configure Receive Type Endpoint 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxtype2](rxtype2) module"]
 pub type RXTYPE2 = crate::Reg<u8, _RXTYPE2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1658,7 +1658,7 @@ impl crate::Readable for RXTYPE2 {}
 impl crate::Writable for RXTYPE2 {}
 #[doc = "USB Host Configure Receive Type Endpoint 2"]
 pub mod rxtype2;
-#[doc = "USB Host Receive Polling Interval Endpoint 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxinterval2](rxinterval2) module"]
+#[doc = "USB Host Receive Polling Interval Endpoint 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxinterval2](rxinterval2) module"]
 pub type RXINTERVAL2 = crate::Reg<u8, _RXINTERVAL2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1669,7 +1669,7 @@ impl crate::Readable for RXINTERVAL2 {}
 impl crate::Writable for RXINTERVAL2 {}
 #[doc = "USB Host Receive Polling Interval Endpoint 2"]
 pub mod rxinterval2;
-#[doc = "USB Maximum Transmit Data Endpoint 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txmaxp3](txmaxp3) module"]
+#[doc = "USB Maximum Transmit Data Endpoint 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txmaxp3](txmaxp3) module"]
 pub type TXMAXP3 = crate::Reg<u16, _TXMAXP3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1680,7 +1680,7 @@ impl crate::Readable for TXMAXP3 {}
 impl crate::Writable for TXMAXP3 {}
 #[doc = "USB Maximum Transmit Data Endpoint 3"]
 pub mod txmaxp3;
-#[doc = "USB Transmit Control and Status Endpoint 3 Low\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txcsrl3](txcsrl3) module"]
+#[doc = "USB Transmit Control and Status Endpoint 3 Low\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txcsrl3](txcsrl3) module"]
 pub type TXCSRL3 = crate::Reg<u8, _TXCSRL3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1691,7 +1691,7 @@ impl crate::Readable for TXCSRL3 {}
 impl crate::Writable for TXCSRL3 {}
 #[doc = "USB Transmit Control and Status Endpoint 3 Low"]
 pub mod txcsrl3;
-#[doc = "USB Transmit Control and Status Endpoint 3 High\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txcsrh3](txcsrh3) module"]
+#[doc = "USB Transmit Control and Status Endpoint 3 High\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txcsrh3](txcsrh3) module"]
 pub type TXCSRH3 = crate::Reg<u8, _TXCSRH3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1702,7 +1702,7 @@ impl crate::Readable for TXCSRH3 {}
 impl crate::Writable for TXCSRH3 {}
 #[doc = "USB Transmit Control and Status Endpoint 3 High"]
 pub mod txcsrh3;
-#[doc = "USB Maximum Receive Data Endpoint 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxmaxp3](rxmaxp3) module"]
+#[doc = "USB Maximum Receive Data Endpoint 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxmaxp3](rxmaxp3) module"]
 pub type RXMAXP3 = crate::Reg<u16, _RXMAXP3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1713,7 +1713,7 @@ impl crate::Readable for RXMAXP3 {}
 impl crate::Writable for RXMAXP3 {}
 #[doc = "USB Maximum Receive Data Endpoint 3"]
 pub mod rxmaxp3;
-#[doc = "USB Receive Control and Status Endpoint 3 Low\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxcsrl3](rxcsrl3) module"]
+#[doc = "USB Receive Control and Status Endpoint 3 Low\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxcsrl3](rxcsrl3) module"]
 pub type RXCSRL3 = crate::Reg<u8, _RXCSRL3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1724,7 +1724,7 @@ impl crate::Readable for RXCSRL3 {}
 impl crate::Writable for RXCSRL3 {}
 #[doc = "USB Receive Control and Status Endpoint 3 Low"]
 pub mod rxcsrl3;
-#[doc = "USB Receive Control and Status Endpoint 3 High\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxcsrh3](rxcsrh3) module"]
+#[doc = "USB Receive Control and Status Endpoint 3 High\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxcsrh3](rxcsrh3) module"]
 pub type RXCSRH3 = crate::Reg<u8, _RXCSRH3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1735,7 +1735,7 @@ impl crate::Readable for RXCSRH3 {}
 impl crate::Writable for RXCSRH3 {}
 #[doc = "USB Receive Control and Status Endpoint 3 High"]
 pub mod rxcsrh3;
-#[doc = "USB Receive Byte Count Endpoint 3\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxcount3](rxcount3) module"]
+#[doc = "USB Receive Byte Count Endpoint 3\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxcount3](rxcount3) module"]
 pub type RXCOUNT3 = crate::Reg<u16, _RXCOUNT3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1744,7 +1744,7 @@ pub struct _RXCOUNT3;
 impl crate::Readable for RXCOUNT3 {}
 #[doc = "USB Receive Byte Count Endpoint 3"]
 pub mod rxcount3;
-#[doc = "USB Host Transmit Configure Type Endpoint 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txtype3](txtype3) module"]
+#[doc = "USB Host Transmit Configure Type Endpoint 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txtype3](txtype3) module"]
 pub type TXTYPE3 = crate::Reg<u8, _TXTYPE3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1755,7 +1755,7 @@ impl crate::Readable for TXTYPE3 {}
 impl crate::Writable for TXTYPE3 {}
 #[doc = "USB Host Transmit Configure Type Endpoint 3"]
 pub mod txtype3;
-#[doc = "USB Host Transmit Interval Endpoint 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txinterval3](txinterval3) module"]
+#[doc = "USB Host Transmit Interval Endpoint 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txinterval3](txinterval3) module"]
 pub type TXINTERVAL3 = crate::Reg<u8, _TXINTERVAL3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1766,7 +1766,7 @@ impl crate::Readable for TXINTERVAL3 {}
 impl crate::Writable for TXINTERVAL3 {}
 #[doc = "USB Host Transmit Interval Endpoint 3"]
 pub mod txinterval3;
-#[doc = "USB Host Configure Receive Type Endpoint 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxtype3](rxtype3) module"]
+#[doc = "USB Host Configure Receive Type Endpoint 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxtype3](rxtype3) module"]
 pub type RXTYPE3 = crate::Reg<u8, _RXTYPE3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1777,7 +1777,7 @@ impl crate::Readable for RXTYPE3 {}
 impl crate::Writable for RXTYPE3 {}
 #[doc = "USB Host Configure Receive Type Endpoint 3"]
 pub mod rxtype3;
-#[doc = "USB Host Receive Polling Interval Endpoint 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxinterval3](rxinterval3) module"]
+#[doc = "USB Host Receive Polling Interval Endpoint 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxinterval3](rxinterval3) module"]
 pub type RXINTERVAL3 = crate::Reg<u8, _RXINTERVAL3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1788,7 +1788,7 @@ impl crate::Readable for RXINTERVAL3 {}
 impl crate::Writable for RXINTERVAL3 {}
 #[doc = "USB Host Receive Polling Interval Endpoint 3"]
 pub mod rxinterval3;
-#[doc = "USB Maximum Transmit Data Endpoint 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txmaxp4](txmaxp4) module"]
+#[doc = "USB Maximum Transmit Data Endpoint 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txmaxp4](txmaxp4) module"]
 pub type TXMAXP4 = crate::Reg<u16, _TXMAXP4>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1799,7 +1799,7 @@ impl crate::Readable for TXMAXP4 {}
 impl crate::Writable for TXMAXP4 {}
 #[doc = "USB Maximum Transmit Data Endpoint 4"]
 pub mod txmaxp4;
-#[doc = "USB Transmit Control and Status Endpoint 4 Low\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txcsrl4](txcsrl4) module"]
+#[doc = "USB Transmit Control and Status Endpoint 4 Low\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txcsrl4](txcsrl4) module"]
 pub type TXCSRL4 = crate::Reg<u8, _TXCSRL4>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1810,7 +1810,7 @@ impl crate::Readable for TXCSRL4 {}
 impl crate::Writable for TXCSRL4 {}
 #[doc = "USB Transmit Control and Status Endpoint 4 Low"]
 pub mod txcsrl4;
-#[doc = "USB Transmit Control and Status Endpoint 4 High\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txcsrh4](txcsrh4) module"]
+#[doc = "USB Transmit Control and Status Endpoint 4 High\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txcsrh4](txcsrh4) module"]
 pub type TXCSRH4 = crate::Reg<u8, _TXCSRH4>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1821,7 +1821,7 @@ impl crate::Readable for TXCSRH4 {}
 impl crate::Writable for TXCSRH4 {}
 #[doc = "USB Transmit Control and Status Endpoint 4 High"]
 pub mod txcsrh4;
-#[doc = "USB Maximum Receive Data Endpoint 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxmaxp4](rxmaxp4) module"]
+#[doc = "USB Maximum Receive Data Endpoint 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxmaxp4](rxmaxp4) module"]
 pub type RXMAXP4 = crate::Reg<u16, _RXMAXP4>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1832,7 +1832,7 @@ impl crate::Readable for RXMAXP4 {}
 impl crate::Writable for RXMAXP4 {}
 #[doc = "USB Maximum Receive Data Endpoint 4"]
 pub mod rxmaxp4;
-#[doc = "USB Receive Control and Status Endpoint 4 Low\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxcsrl4](rxcsrl4) module"]
+#[doc = "USB Receive Control and Status Endpoint 4 Low\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxcsrl4](rxcsrl4) module"]
 pub type RXCSRL4 = crate::Reg<u8, _RXCSRL4>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1843,7 +1843,7 @@ impl crate::Readable for RXCSRL4 {}
 impl crate::Writable for RXCSRL4 {}
 #[doc = "USB Receive Control and Status Endpoint 4 Low"]
 pub mod rxcsrl4;
-#[doc = "USB Receive Control and Status Endpoint 4 High\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxcsrh4](rxcsrh4) module"]
+#[doc = "USB Receive Control and Status Endpoint 4 High\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxcsrh4](rxcsrh4) module"]
 pub type RXCSRH4 = crate::Reg<u8, _RXCSRH4>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1854,7 +1854,7 @@ impl crate::Readable for RXCSRH4 {}
 impl crate::Writable for RXCSRH4 {}
 #[doc = "USB Receive Control and Status Endpoint 4 High"]
 pub mod rxcsrh4;
-#[doc = "USB Receive Byte Count Endpoint 4\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxcount4](rxcount4) module"]
+#[doc = "USB Receive Byte Count Endpoint 4\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxcount4](rxcount4) module"]
 pub type RXCOUNT4 = crate::Reg<u16, _RXCOUNT4>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1863,7 +1863,7 @@ pub struct _RXCOUNT4;
 impl crate::Readable for RXCOUNT4 {}
 #[doc = "USB Receive Byte Count Endpoint 4"]
 pub mod rxcount4;
-#[doc = "USB Host Transmit Configure Type Endpoint 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txtype4](txtype4) module"]
+#[doc = "USB Host Transmit Configure Type Endpoint 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txtype4](txtype4) module"]
 pub type TXTYPE4 = crate::Reg<u8, _TXTYPE4>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1874,7 +1874,7 @@ impl crate::Readable for TXTYPE4 {}
 impl crate::Writable for TXTYPE4 {}
 #[doc = "USB Host Transmit Configure Type Endpoint 4"]
 pub mod txtype4;
-#[doc = "USB Host Transmit Interval Endpoint 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txinterval4](txinterval4) module"]
+#[doc = "USB Host Transmit Interval Endpoint 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txinterval4](txinterval4) module"]
 pub type TXINTERVAL4 = crate::Reg<u8, _TXINTERVAL4>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1885,7 +1885,7 @@ impl crate::Readable for TXINTERVAL4 {}
 impl crate::Writable for TXINTERVAL4 {}
 #[doc = "USB Host Transmit Interval Endpoint 4"]
 pub mod txinterval4;
-#[doc = "USB Host Configure Receive Type Endpoint 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxtype4](rxtype4) module"]
+#[doc = "USB Host Configure Receive Type Endpoint 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxtype4](rxtype4) module"]
 pub type RXTYPE4 = crate::Reg<u8, _RXTYPE4>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1896,7 +1896,7 @@ impl crate::Readable for RXTYPE4 {}
 impl crate::Writable for RXTYPE4 {}
 #[doc = "USB Host Configure Receive Type Endpoint 4"]
 pub mod rxtype4;
-#[doc = "USB Host Receive Polling Interval Endpoint 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxinterval4](rxinterval4) module"]
+#[doc = "USB Host Receive Polling Interval Endpoint 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxinterval4](rxinterval4) module"]
 pub type RXINTERVAL4 = crate::Reg<u8, _RXINTERVAL4>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1907,7 +1907,7 @@ impl crate::Readable for RXINTERVAL4 {}
 impl crate::Writable for RXINTERVAL4 {}
 #[doc = "USB Host Receive Polling Interval Endpoint 4"]
 pub mod rxinterval4;
-#[doc = "USB Maximum Transmit Data Endpoint 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txmaxp5](txmaxp5) module"]
+#[doc = "USB Maximum Transmit Data Endpoint 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txmaxp5](txmaxp5) module"]
 pub type TXMAXP5 = crate::Reg<u16, _TXMAXP5>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1918,7 +1918,7 @@ impl crate::Readable for TXMAXP5 {}
 impl crate::Writable for TXMAXP5 {}
 #[doc = "USB Maximum Transmit Data Endpoint 5"]
 pub mod txmaxp5;
-#[doc = "USB Transmit Control and Status Endpoint 5 Low\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txcsrl5](txcsrl5) module"]
+#[doc = "USB Transmit Control and Status Endpoint 5 Low\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txcsrl5](txcsrl5) module"]
 pub type TXCSRL5 = crate::Reg<u8, _TXCSRL5>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1929,7 +1929,7 @@ impl crate::Readable for TXCSRL5 {}
 impl crate::Writable for TXCSRL5 {}
 #[doc = "USB Transmit Control and Status Endpoint 5 Low"]
 pub mod txcsrl5;
-#[doc = "USB Transmit Control and Status Endpoint 5 High\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txcsrh5](txcsrh5) module"]
+#[doc = "USB Transmit Control and Status Endpoint 5 High\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txcsrh5](txcsrh5) module"]
 pub type TXCSRH5 = crate::Reg<u8, _TXCSRH5>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1940,7 +1940,7 @@ impl crate::Readable for TXCSRH5 {}
 impl crate::Writable for TXCSRH5 {}
 #[doc = "USB Transmit Control and Status Endpoint 5 High"]
 pub mod txcsrh5;
-#[doc = "USB Maximum Receive Data Endpoint 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxmaxp5](rxmaxp5) module"]
+#[doc = "USB Maximum Receive Data Endpoint 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxmaxp5](rxmaxp5) module"]
 pub type RXMAXP5 = crate::Reg<u16, _RXMAXP5>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1951,7 +1951,7 @@ impl crate::Readable for RXMAXP5 {}
 impl crate::Writable for RXMAXP5 {}
 #[doc = "USB Maximum Receive Data Endpoint 5"]
 pub mod rxmaxp5;
-#[doc = "USB Receive Control and Status Endpoint 5 Low\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxcsrl5](rxcsrl5) module"]
+#[doc = "USB Receive Control and Status Endpoint 5 Low\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxcsrl5](rxcsrl5) module"]
 pub type RXCSRL5 = crate::Reg<u8, _RXCSRL5>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1962,7 +1962,7 @@ impl crate::Readable for RXCSRL5 {}
 impl crate::Writable for RXCSRL5 {}
 #[doc = "USB Receive Control and Status Endpoint 5 Low"]
 pub mod rxcsrl5;
-#[doc = "USB Receive Control and Status Endpoint 5 High\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxcsrh5](rxcsrh5) module"]
+#[doc = "USB Receive Control and Status Endpoint 5 High\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxcsrh5](rxcsrh5) module"]
 pub type RXCSRH5 = crate::Reg<u8, _RXCSRH5>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1973,7 +1973,7 @@ impl crate::Readable for RXCSRH5 {}
 impl crate::Writable for RXCSRH5 {}
 #[doc = "USB Receive Control and Status Endpoint 5 High"]
 pub mod rxcsrh5;
-#[doc = "USB Receive Byte Count Endpoint 5\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxcount5](rxcount5) module"]
+#[doc = "USB Receive Byte Count Endpoint 5\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxcount5](rxcount5) module"]
 pub type RXCOUNT5 = crate::Reg<u16, _RXCOUNT5>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1982,7 +1982,7 @@ pub struct _RXCOUNT5;
 impl crate::Readable for RXCOUNT5 {}
 #[doc = "USB Receive Byte Count Endpoint 5"]
 pub mod rxcount5;
-#[doc = "USB Host Transmit Configure Type Endpoint 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txtype5](txtype5) module"]
+#[doc = "USB Host Transmit Configure Type Endpoint 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txtype5](txtype5) module"]
 pub type TXTYPE5 = crate::Reg<u8, _TXTYPE5>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -1993,7 +1993,7 @@ impl crate::Readable for TXTYPE5 {}
 impl crate::Writable for TXTYPE5 {}
 #[doc = "USB Host Transmit Configure Type Endpoint 5"]
 pub mod txtype5;
-#[doc = "USB Host Transmit Interval Endpoint 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txinterval5](txinterval5) module"]
+#[doc = "USB Host Transmit Interval Endpoint 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txinterval5](txinterval5) module"]
 pub type TXINTERVAL5 = crate::Reg<u8, _TXINTERVAL5>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2004,7 +2004,7 @@ impl crate::Readable for TXINTERVAL5 {}
 impl crate::Writable for TXINTERVAL5 {}
 #[doc = "USB Host Transmit Interval Endpoint 5"]
 pub mod txinterval5;
-#[doc = "USB Host Configure Receive Type Endpoint 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxtype5](rxtype5) module"]
+#[doc = "USB Host Configure Receive Type Endpoint 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxtype5](rxtype5) module"]
 pub type RXTYPE5 = crate::Reg<u8, _RXTYPE5>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2015,7 +2015,7 @@ impl crate::Readable for RXTYPE5 {}
 impl crate::Writable for RXTYPE5 {}
 #[doc = "USB Host Configure Receive Type Endpoint 5"]
 pub mod rxtype5;
-#[doc = "USB Host Receive Polling Interval Endpoint 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxinterval5](rxinterval5) module"]
+#[doc = "USB Host Receive Polling Interval Endpoint 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxinterval5](rxinterval5) module"]
 pub type RXINTERVAL5 = crate::Reg<u8, _RXINTERVAL5>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2026,7 +2026,7 @@ impl crate::Readable for RXINTERVAL5 {}
 impl crate::Writable for RXINTERVAL5 {}
 #[doc = "USB Host Receive Polling Interval Endpoint 5"]
 pub mod rxinterval5;
-#[doc = "USB Maximum Transmit Data Endpoint 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txmaxp6](txmaxp6) module"]
+#[doc = "USB Maximum Transmit Data Endpoint 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txmaxp6](txmaxp6) module"]
 pub type TXMAXP6 = crate::Reg<u16, _TXMAXP6>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2037,7 +2037,7 @@ impl crate::Readable for TXMAXP6 {}
 impl crate::Writable for TXMAXP6 {}
 #[doc = "USB Maximum Transmit Data Endpoint 6"]
 pub mod txmaxp6;
-#[doc = "USB Transmit Control and Status Endpoint 6 Low\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txcsrl6](txcsrl6) module"]
+#[doc = "USB Transmit Control and Status Endpoint 6 Low\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txcsrl6](txcsrl6) module"]
 pub type TXCSRL6 = crate::Reg<u8, _TXCSRL6>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2048,7 +2048,7 @@ impl crate::Readable for TXCSRL6 {}
 impl crate::Writable for TXCSRL6 {}
 #[doc = "USB Transmit Control and Status Endpoint 6 Low"]
 pub mod txcsrl6;
-#[doc = "USB Transmit Control and Status Endpoint 6 High\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txcsrh6](txcsrh6) module"]
+#[doc = "USB Transmit Control and Status Endpoint 6 High\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txcsrh6](txcsrh6) module"]
 pub type TXCSRH6 = crate::Reg<u8, _TXCSRH6>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2059,7 +2059,7 @@ impl crate::Readable for TXCSRH6 {}
 impl crate::Writable for TXCSRH6 {}
 #[doc = "USB Transmit Control and Status Endpoint 6 High"]
 pub mod txcsrh6;
-#[doc = "USB Maximum Receive Data Endpoint 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxmaxp6](rxmaxp6) module"]
+#[doc = "USB Maximum Receive Data Endpoint 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxmaxp6](rxmaxp6) module"]
 pub type RXMAXP6 = crate::Reg<u16, _RXMAXP6>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2070,7 +2070,7 @@ impl crate::Readable for RXMAXP6 {}
 impl crate::Writable for RXMAXP6 {}
 #[doc = "USB Maximum Receive Data Endpoint 6"]
 pub mod rxmaxp6;
-#[doc = "USB Receive Control and Status Endpoint 6 Low\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxcsrl6](rxcsrl6) module"]
+#[doc = "USB Receive Control and Status Endpoint 6 Low\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxcsrl6](rxcsrl6) module"]
 pub type RXCSRL6 = crate::Reg<u8, _RXCSRL6>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2081,7 +2081,7 @@ impl crate::Readable for RXCSRL6 {}
 impl crate::Writable for RXCSRL6 {}
 #[doc = "USB Receive Control and Status Endpoint 6 Low"]
 pub mod rxcsrl6;
-#[doc = "USB Receive Control and Status Endpoint 6 High\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxcsrh6](rxcsrh6) module"]
+#[doc = "USB Receive Control and Status Endpoint 6 High\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxcsrh6](rxcsrh6) module"]
 pub type RXCSRH6 = crate::Reg<u8, _RXCSRH6>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2092,7 +2092,7 @@ impl crate::Readable for RXCSRH6 {}
 impl crate::Writable for RXCSRH6 {}
 #[doc = "USB Receive Control and Status Endpoint 6 High"]
 pub mod rxcsrh6;
-#[doc = "USB Receive Byte Count Endpoint 6\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxcount6](rxcount6) module"]
+#[doc = "USB Receive Byte Count Endpoint 6\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxcount6](rxcount6) module"]
 pub type RXCOUNT6 = crate::Reg<u16, _RXCOUNT6>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2101,7 +2101,7 @@ pub struct _RXCOUNT6;
 impl crate::Readable for RXCOUNT6 {}
 #[doc = "USB Receive Byte Count Endpoint 6"]
 pub mod rxcount6;
-#[doc = "USB Host Transmit Configure Type Endpoint 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txtype6](txtype6) module"]
+#[doc = "USB Host Transmit Configure Type Endpoint 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txtype6](txtype6) module"]
 pub type TXTYPE6 = crate::Reg<u8, _TXTYPE6>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2112,7 +2112,7 @@ impl crate::Readable for TXTYPE6 {}
 impl crate::Writable for TXTYPE6 {}
 #[doc = "USB Host Transmit Configure Type Endpoint 6"]
 pub mod txtype6;
-#[doc = "USB Host Transmit Interval Endpoint 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txinterval6](txinterval6) module"]
+#[doc = "USB Host Transmit Interval Endpoint 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txinterval6](txinterval6) module"]
 pub type TXINTERVAL6 = crate::Reg<u8, _TXINTERVAL6>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2123,7 +2123,7 @@ impl crate::Readable for TXINTERVAL6 {}
 impl crate::Writable for TXINTERVAL6 {}
 #[doc = "USB Host Transmit Interval Endpoint 6"]
 pub mod txinterval6;
-#[doc = "USB Host Configure Receive Type Endpoint 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxtype6](rxtype6) module"]
+#[doc = "USB Host Configure Receive Type Endpoint 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxtype6](rxtype6) module"]
 pub type RXTYPE6 = crate::Reg<u8, _RXTYPE6>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2134,7 +2134,7 @@ impl crate::Readable for RXTYPE6 {}
 impl crate::Writable for RXTYPE6 {}
 #[doc = "USB Host Configure Receive Type Endpoint 6"]
 pub mod rxtype6;
-#[doc = "USB Host Receive Polling Interval Endpoint 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxinterval6](rxinterval6) module"]
+#[doc = "USB Host Receive Polling Interval Endpoint 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxinterval6](rxinterval6) module"]
 pub type RXINTERVAL6 = crate::Reg<u8, _RXINTERVAL6>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2145,7 +2145,7 @@ impl crate::Readable for RXINTERVAL6 {}
 impl crate::Writable for RXINTERVAL6 {}
 #[doc = "USB Host Receive Polling Interval Endpoint 6"]
 pub mod rxinterval6;
-#[doc = "USB Maximum Transmit Data Endpoint 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txmaxp7](txmaxp7) module"]
+#[doc = "USB Maximum Transmit Data Endpoint 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txmaxp7](txmaxp7) module"]
 pub type TXMAXP7 = crate::Reg<u16, _TXMAXP7>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2156,7 +2156,7 @@ impl crate::Readable for TXMAXP7 {}
 impl crate::Writable for TXMAXP7 {}
 #[doc = "USB Maximum Transmit Data Endpoint 7"]
 pub mod txmaxp7;
-#[doc = "USB Transmit Control and Status Endpoint 7 Low\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txcsrl7](txcsrl7) module"]
+#[doc = "USB Transmit Control and Status Endpoint 7 Low\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txcsrl7](txcsrl7) module"]
 pub type TXCSRL7 = crate::Reg<u8, _TXCSRL7>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2167,7 +2167,7 @@ impl crate::Readable for TXCSRL7 {}
 impl crate::Writable for TXCSRL7 {}
 #[doc = "USB Transmit Control and Status Endpoint 7 Low"]
 pub mod txcsrl7;
-#[doc = "USB Transmit Control and Status Endpoint 7 High\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txcsrh7](txcsrh7) module"]
+#[doc = "USB Transmit Control and Status Endpoint 7 High\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txcsrh7](txcsrh7) module"]
 pub type TXCSRH7 = crate::Reg<u8, _TXCSRH7>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2178,7 +2178,7 @@ impl crate::Readable for TXCSRH7 {}
 impl crate::Writable for TXCSRH7 {}
 #[doc = "USB Transmit Control and Status Endpoint 7 High"]
 pub mod txcsrh7;
-#[doc = "USB Maximum Receive Data Endpoint 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxmaxp7](rxmaxp7) module"]
+#[doc = "USB Maximum Receive Data Endpoint 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxmaxp7](rxmaxp7) module"]
 pub type RXMAXP7 = crate::Reg<u16, _RXMAXP7>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2189,7 +2189,7 @@ impl crate::Readable for RXMAXP7 {}
 impl crate::Writable for RXMAXP7 {}
 #[doc = "USB Maximum Receive Data Endpoint 7"]
 pub mod rxmaxp7;
-#[doc = "USB Receive Control and Status Endpoint 7 Low\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxcsrl7](rxcsrl7) module"]
+#[doc = "USB Receive Control and Status Endpoint 7 Low\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxcsrl7](rxcsrl7) module"]
 pub type RXCSRL7 = crate::Reg<u8, _RXCSRL7>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2200,7 +2200,7 @@ impl crate::Readable for RXCSRL7 {}
 impl crate::Writable for RXCSRL7 {}
 #[doc = "USB Receive Control and Status Endpoint 7 Low"]
 pub mod rxcsrl7;
-#[doc = "USB Receive Control and Status Endpoint 7 High\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxcsrh7](rxcsrh7) module"]
+#[doc = "USB Receive Control and Status Endpoint 7 High\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxcsrh7](rxcsrh7) module"]
 pub type RXCSRH7 = crate::Reg<u8, _RXCSRH7>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2211,7 +2211,7 @@ impl crate::Readable for RXCSRH7 {}
 impl crate::Writable for RXCSRH7 {}
 #[doc = "USB Receive Control and Status Endpoint 7 High"]
 pub mod rxcsrh7;
-#[doc = "USB Receive Byte Count Endpoint 7\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxcount7](rxcount7) module"]
+#[doc = "USB Receive Byte Count Endpoint 7\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxcount7](rxcount7) module"]
 pub type RXCOUNT7 = crate::Reg<u16, _RXCOUNT7>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2220,7 +2220,7 @@ pub struct _RXCOUNT7;
 impl crate::Readable for RXCOUNT7 {}
 #[doc = "USB Receive Byte Count Endpoint 7"]
 pub mod rxcount7;
-#[doc = "USB Host Transmit Configure Type Endpoint 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txtype7](txtype7) module"]
+#[doc = "USB Host Transmit Configure Type Endpoint 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txtype7](txtype7) module"]
 pub type TXTYPE7 = crate::Reg<u8, _TXTYPE7>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2231,7 +2231,7 @@ impl crate::Readable for TXTYPE7 {}
 impl crate::Writable for TXTYPE7 {}
 #[doc = "USB Host Transmit Configure Type Endpoint 7"]
 pub mod txtype7;
-#[doc = "USB Host Transmit Interval Endpoint 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txinterval7](txinterval7) module"]
+#[doc = "USB Host Transmit Interval Endpoint 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txinterval7](txinterval7) module"]
 pub type TXINTERVAL7 = crate::Reg<u8, _TXINTERVAL7>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2242,7 +2242,7 @@ impl crate::Readable for TXINTERVAL7 {}
 impl crate::Writable for TXINTERVAL7 {}
 #[doc = "USB Host Transmit Interval Endpoint 7"]
 pub mod txinterval7;
-#[doc = "USB Host Configure Receive Type Endpoint 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxtype7](rxtype7) module"]
+#[doc = "USB Host Configure Receive Type Endpoint 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxtype7](rxtype7) module"]
 pub type RXTYPE7 = crate::Reg<u8, _RXTYPE7>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2253,7 +2253,7 @@ impl crate::Readable for RXTYPE7 {}
 impl crate::Writable for RXTYPE7 {}
 #[doc = "USB Host Configure Receive Type Endpoint 7"]
 pub mod rxtype7;
-#[doc = "USB Host Receive Polling Interval Endpoint 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxinterval7](rxinterval7) module"]
+#[doc = "USB Host Receive Polling Interval Endpoint 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxinterval7](rxinterval7) module"]
 pub type RXINTERVAL7 = crate::Reg<u8, _RXINTERVAL7>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2264,7 +2264,7 @@ impl crate::Readable for RXINTERVAL7 {}
 impl crate::Writable for RXINTERVAL7 {}
 #[doc = "USB Host Receive Polling Interval Endpoint 7"]
 pub mod rxinterval7;
-#[doc = "USB DMA Interrupt\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dmaintr](dmaintr) module"]
+#[doc = "USB DMA Interrupt\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dmaintr](dmaintr) module"]
 pub type DMAINTR = crate::Reg<u8, _DMAINTR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2275,7 +2275,7 @@ impl crate::Readable for DMAINTR {}
 impl crate::Writable for DMAINTR {}
 #[doc = "USB DMA Interrupt"]
 pub mod dmaintr;
-#[doc = "USB DMA Control 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dmactl0](dmactl0) module"]
+#[doc = "USB DMA Control 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dmactl0](dmactl0) module"]
 pub type DMACTL0 = crate::Reg<u16, _DMACTL0>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2286,7 +2286,7 @@ impl crate::Readable for DMACTL0 {}
 impl crate::Writable for DMACTL0 {}
 #[doc = "USB DMA Control 0"]
 pub mod dmactl0;
-#[doc = "USB DMA Address 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dmaaddr0](dmaaddr0) module"]
+#[doc = "USB DMA Address 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dmaaddr0](dmaaddr0) module"]
 pub type DMAADDR0 = crate::Reg<u32, _DMAADDR0>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2297,7 +2297,7 @@ impl crate::Readable for DMAADDR0 {}
 impl crate::Writable for DMAADDR0 {}
 #[doc = "USB DMA Address 0"]
 pub mod dmaaddr0;
-#[doc = "USB DMA Count 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dmacount0](dmacount0) module"]
+#[doc = "USB DMA Count 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dmacount0](dmacount0) module"]
 pub type DMACOUNT0 = crate::Reg<u32, _DMACOUNT0>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2308,7 +2308,7 @@ impl crate::Readable for DMACOUNT0 {}
 impl crate::Writable for DMACOUNT0 {}
 #[doc = "USB DMA Count 0"]
 pub mod dmacount0;
-#[doc = "USB DMA Control 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dmactl1](dmactl1) module"]
+#[doc = "USB DMA Control 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dmactl1](dmactl1) module"]
 pub type DMACTL1 = crate::Reg<u16, _DMACTL1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2319,7 +2319,7 @@ impl crate::Readable for DMACTL1 {}
 impl crate::Writable for DMACTL1 {}
 #[doc = "USB DMA Control 1"]
 pub mod dmactl1;
-#[doc = "USB DMA Address 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dmaaddr1](dmaaddr1) module"]
+#[doc = "USB DMA Address 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dmaaddr1](dmaaddr1) module"]
 pub type DMAADDR1 = crate::Reg<u32, _DMAADDR1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2330,7 +2330,7 @@ impl crate::Readable for DMAADDR1 {}
 impl crate::Writable for DMAADDR1 {}
 #[doc = "USB DMA Address 1"]
 pub mod dmaaddr1;
-#[doc = "USB DMA Count 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dmacount1](dmacount1) module"]
+#[doc = "USB DMA Count 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dmacount1](dmacount1) module"]
 pub type DMACOUNT1 = crate::Reg<u32, _DMACOUNT1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2341,7 +2341,7 @@ impl crate::Readable for DMACOUNT1 {}
 impl crate::Writable for DMACOUNT1 {}
 #[doc = "USB DMA Count 1"]
 pub mod dmacount1;
-#[doc = "USB DMA Control 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dmactl2](dmactl2) module"]
+#[doc = "USB DMA Control 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dmactl2](dmactl2) module"]
 pub type DMACTL2 = crate::Reg<u16, _DMACTL2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2352,7 +2352,7 @@ impl crate::Readable for DMACTL2 {}
 impl crate::Writable for DMACTL2 {}
 #[doc = "USB DMA Control 2"]
 pub mod dmactl2;
-#[doc = "USB DMA Address 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dmaaddr2](dmaaddr2) module"]
+#[doc = "USB DMA Address 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dmaaddr2](dmaaddr2) module"]
 pub type DMAADDR2 = crate::Reg<u32, _DMAADDR2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2363,7 +2363,7 @@ impl crate::Readable for DMAADDR2 {}
 impl crate::Writable for DMAADDR2 {}
 #[doc = "USB DMA Address 2"]
 pub mod dmaaddr2;
-#[doc = "USB DMA Count 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dmacount2](dmacount2) module"]
+#[doc = "USB DMA Count 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dmacount2](dmacount2) module"]
 pub type DMACOUNT2 = crate::Reg<u32, _DMACOUNT2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2374,7 +2374,7 @@ impl crate::Readable for DMACOUNT2 {}
 impl crate::Writable for DMACOUNT2 {}
 #[doc = "USB DMA Count 2"]
 pub mod dmacount2;
-#[doc = "USB DMA Control 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dmactl3](dmactl3) module"]
+#[doc = "USB DMA Control 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dmactl3](dmactl3) module"]
 pub type DMACTL3 = crate::Reg<u16, _DMACTL3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2385,7 +2385,7 @@ impl crate::Readable for DMACTL3 {}
 impl crate::Writable for DMACTL3 {}
 #[doc = "USB DMA Control 3"]
 pub mod dmactl3;
-#[doc = "USB DMA Address 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dmaaddr3](dmaaddr3) module"]
+#[doc = "USB DMA Address 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dmaaddr3](dmaaddr3) module"]
 pub type DMAADDR3 = crate::Reg<u32, _DMAADDR3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2396,7 +2396,7 @@ impl crate::Readable for DMAADDR3 {}
 impl crate::Writable for DMAADDR3 {}
 #[doc = "USB DMA Address 3"]
 pub mod dmaaddr3;
-#[doc = "USB DMA Count 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dmacount3](dmacount3) module"]
+#[doc = "USB DMA Count 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dmacount3](dmacount3) module"]
 pub type DMACOUNT3 = crate::Reg<u32, _DMACOUNT3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2407,7 +2407,7 @@ impl crate::Readable for DMACOUNT3 {}
 impl crate::Writable for DMACOUNT3 {}
 #[doc = "USB DMA Count 3"]
 pub mod dmacount3;
-#[doc = "USB DMA Control 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dmactl4](dmactl4) module"]
+#[doc = "USB DMA Control 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dmactl4](dmactl4) module"]
 pub type DMACTL4 = crate::Reg<u16, _DMACTL4>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2418,7 +2418,7 @@ impl crate::Readable for DMACTL4 {}
 impl crate::Writable for DMACTL4 {}
 #[doc = "USB DMA Control 4"]
 pub mod dmactl4;
-#[doc = "USB DMA Address 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dmaaddr4](dmaaddr4) module"]
+#[doc = "USB DMA Address 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dmaaddr4](dmaaddr4) module"]
 pub type DMAADDR4 = crate::Reg<u32, _DMAADDR4>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2429,7 +2429,7 @@ impl crate::Readable for DMAADDR4 {}
 impl crate::Writable for DMAADDR4 {}
 #[doc = "USB DMA Address 4"]
 pub mod dmaaddr4;
-#[doc = "USB DMA Count 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dmacount4](dmacount4) module"]
+#[doc = "USB DMA Count 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dmacount4](dmacount4) module"]
 pub type DMACOUNT4 = crate::Reg<u32, _DMACOUNT4>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2440,7 +2440,7 @@ impl crate::Readable for DMACOUNT4 {}
 impl crate::Writable for DMACOUNT4 {}
 #[doc = "USB DMA Count 4"]
 pub mod dmacount4;
-#[doc = "USB DMA Control 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dmactl5](dmactl5) module"]
+#[doc = "USB DMA Control 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dmactl5](dmactl5) module"]
 pub type DMACTL5 = crate::Reg<u16, _DMACTL5>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2451,7 +2451,7 @@ impl crate::Readable for DMACTL5 {}
 impl crate::Writable for DMACTL5 {}
 #[doc = "USB DMA Control 5"]
 pub mod dmactl5;
-#[doc = "USB DMA Address 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dmaaddr5](dmaaddr5) module"]
+#[doc = "USB DMA Address 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dmaaddr5](dmaaddr5) module"]
 pub type DMAADDR5 = crate::Reg<u32, _DMAADDR5>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2462,7 +2462,7 @@ impl crate::Readable for DMAADDR5 {}
 impl crate::Writable for DMAADDR5 {}
 #[doc = "USB DMA Address 5"]
 pub mod dmaaddr5;
-#[doc = "USB DMA Count 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dmacount5](dmacount5) module"]
+#[doc = "USB DMA Count 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dmacount5](dmacount5) module"]
 pub type DMACOUNT5 = crate::Reg<u32, _DMACOUNT5>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2473,7 +2473,7 @@ impl crate::Readable for DMACOUNT5 {}
 impl crate::Writable for DMACOUNT5 {}
 #[doc = "USB DMA Count 5"]
 pub mod dmacount5;
-#[doc = "USB DMA Control 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dmactl6](dmactl6) module"]
+#[doc = "USB DMA Control 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dmactl6](dmactl6) module"]
 pub type DMACTL6 = crate::Reg<u16, _DMACTL6>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2484,7 +2484,7 @@ impl crate::Readable for DMACTL6 {}
 impl crate::Writable for DMACTL6 {}
 #[doc = "USB DMA Control 6"]
 pub mod dmactl6;
-#[doc = "USB DMA Address 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dmaaddr6](dmaaddr6) module"]
+#[doc = "USB DMA Address 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dmaaddr6](dmaaddr6) module"]
 pub type DMAADDR6 = crate::Reg<u32, _DMAADDR6>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2495,7 +2495,7 @@ impl crate::Readable for DMAADDR6 {}
 impl crate::Writable for DMAADDR6 {}
 #[doc = "USB DMA Address 6"]
 pub mod dmaaddr6;
-#[doc = "USB DMA Count 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dmacount6](dmacount6) module"]
+#[doc = "USB DMA Count 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dmacount6](dmacount6) module"]
 pub type DMACOUNT6 = crate::Reg<u32, _DMACOUNT6>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2506,7 +2506,7 @@ impl crate::Readable for DMACOUNT6 {}
 impl crate::Writable for DMACOUNT6 {}
 #[doc = "USB DMA Count 6"]
 pub mod dmacount6;
-#[doc = "USB DMA Control 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dmactl7](dmactl7) module"]
+#[doc = "USB DMA Control 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dmactl7](dmactl7) module"]
 pub type DMACTL7 = crate::Reg<u16, _DMACTL7>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2517,7 +2517,7 @@ impl crate::Readable for DMACTL7 {}
 impl crate::Writable for DMACTL7 {}
 #[doc = "USB DMA Control 7"]
 pub mod dmactl7;
-#[doc = "USB DMA Address 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dmaaddr7](dmaaddr7) module"]
+#[doc = "USB DMA Address 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dmaaddr7](dmaaddr7) module"]
 pub type DMAADDR7 = crate::Reg<u32, _DMAADDR7>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2528,7 +2528,7 @@ impl crate::Readable for DMAADDR7 {}
 impl crate::Writable for DMAADDR7 {}
 #[doc = "USB DMA Address 7"]
 pub mod dmaaddr7;
-#[doc = "USB DMA Count 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dmacount7](dmacount7) module"]
+#[doc = "USB DMA Count 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dmacount7](dmacount7) module"]
 pub type DMACOUNT7 = crate::Reg<u32, _DMACOUNT7>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2539,7 +2539,7 @@ impl crate::Readable for DMACOUNT7 {}
 impl crate::Writable for DMACOUNT7 {}
 #[doc = "USB DMA Count 7"]
 pub mod dmacount7;
-#[doc = "USB Request Packet Count in Block Transfer Endpoint 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rqpktcount1](rqpktcount1) module"]
+#[doc = "USB Request Packet Count in Block Transfer Endpoint 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rqpktcount1](rqpktcount1) module"]
 pub type RQPKTCOUNT1 = crate::Reg<u16, _RQPKTCOUNT1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2550,7 +2550,7 @@ impl crate::Readable for RQPKTCOUNT1 {}
 impl crate::Writable for RQPKTCOUNT1 {}
 #[doc = "USB Request Packet Count in Block Transfer Endpoint 1"]
 pub mod rqpktcount1;
-#[doc = "USB Request Packet Count in Block Transfer Endpoint 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rqpktcount2](rqpktcount2) module"]
+#[doc = "USB Request Packet Count in Block Transfer Endpoint 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rqpktcount2](rqpktcount2) module"]
 pub type RQPKTCOUNT2 = crate::Reg<u16, _RQPKTCOUNT2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2561,7 +2561,7 @@ impl crate::Readable for RQPKTCOUNT2 {}
 impl crate::Writable for RQPKTCOUNT2 {}
 #[doc = "USB Request Packet Count in Block Transfer Endpoint 2"]
 pub mod rqpktcount2;
-#[doc = "USB Request Packet Count in Block Transfer Endpoint 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rqpktcount3](rqpktcount3) module"]
+#[doc = "USB Request Packet Count in Block Transfer Endpoint 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rqpktcount3](rqpktcount3) module"]
 pub type RQPKTCOUNT3 = crate::Reg<u16, _RQPKTCOUNT3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2572,7 +2572,7 @@ impl crate::Readable for RQPKTCOUNT3 {}
 impl crate::Writable for RQPKTCOUNT3 {}
 #[doc = "USB Request Packet Count in Block Transfer Endpoint 3"]
 pub mod rqpktcount3;
-#[doc = "USB Request Packet Count in Block Transfer Endpoint 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rqpktcount4](rqpktcount4) module"]
+#[doc = "USB Request Packet Count in Block Transfer Endpoint 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rqpktcount4](rqpktcount4) module"]
 pub type RQPKTCOUNT4 = crate::Reg<u16, _RQPKTCOUNT4>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2583,7 +2583,7 @@ impl crate::Readable for RQPKTCOUNT4 {}
 impl crate::Writable for RQPKTCOUNT4 {}
 #[doc = "USB Request Packet Count in Block Transfer Endpoint 4"]
 pub mod rqpktcount4;
-#[doc = "USB Request Packet Count in Block Transfer Endpoint 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rqpktcount5](rqpktcount5) module"]
+#[doc = "USB Request Packet Count in Block Transfer Endpoint 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rqpktcount5](rqpktcount5) module"]
 pub type RQPKTCOUNT5 = crate::Reg<u16, _RQPKTCOUNT5>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2594,7 +2594,7 @@ impl crate::Readable for RQPKTCOUNT5 {}
 impl crate::Writable for RQPKTCOUNT5 {}
 #[doc = "USB Request Packet Count in Block Transfer Endpoint 5"]
 pub mod rqpktcount5;
-#[doc = "USB Request Packet Count in Block Transfer Endpoint 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rqpktcount6](rqpktcount6) module"]
+#[doc = "USB Request Packet Count in Block Transfer Endpoint 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rqpktcount6](rqpktcount6) module"]
 pub type RQPKTCOUNT6 = crate::Reg<u16, _RQPKTCOUNT6>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2605,7 +2605,7 @@ impl crate::Readable for RQPKTCOUNT6 {}
 impl crate::Writable for RQPKTCOUNT6 {}
 #[doc = "USB Request Packet Count in Block Transfer Endpoint 6"]
 pub mod rqpktcount6;
-#[doc = "USB Request Packet Count in Block Transfer Endpoint 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rqpktcount7](rqpktcount7) module"]
+#[doc = "USB Request Packet Count in Block Transfer Endpoint 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rqpktcount7](rqpktcount7) module"]
 pub type RQPKTCOUNT7 = crate::Reg<u16, _RQPKTCOUNT7>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2616,7 +2616,7 @@ impl crate::Readable for RQPKTCOUNT7 {}
 impl crate::Writable for RQPKTCOUNT7 {}
 #[doc = "USB Request Packet Count in Block Transfer Endpoint 7"]
 pub mod rqpktcount7;
-#[doc = "USB Receive Double Packet Buffer Disable\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxdpktbufdis](rxdpktbufdis) module"]
+#[doc = "USB Receive Double Packet Buffer Disable\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxdpktbufdis](rxdpktbufdis) module"]
 pub type RXDPKTBUFDIS = crate::Reg<u16, _RXDPKTBUFDIS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2627,7 +2627,7 @@ impl crate::Readable for RXDPKTBUFDIS {}
 impl crate::Writable for RXDPKTBUFDIS {}
 #[doc = "USB Receive Double Packet Buffer Disable"]
 pub mod rxdpktbufdis;
-#[doc = "USB Transmit Double Packet Buffer Disable\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txdpktbufdis](txdpktbufdis) module"]
+#[doc = "USB Transmit Double Packet Buffer Disable\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txdpktbufdis](txdpktbufdis) module"]
 pub type TXDPKTBUFDIS = crate::Reg<u16, _TXDPKTBUFDIS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2638,7 +2638,7 @@ impl crate::Readable for TXDPKTBUFDIS {}
 impl crate::Writable for TXDPKTBUFDIS {}
 #[doc = "USB Transmit Double Packet Buffer Disable"]
 pub mod txdpktbufdis;
-#[doc = "USB Chirp Timeout\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [cto](cto) module"]
+#[doc = "USB Chirp Timeout\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [cto](cto) module"]
 pub type CTO = crate::Reg<u16, _CTO>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2649,7 +2649,7 @@ impl crate::Readable for CTO {}
 impl crate::Writable for CTO {}
 #[doc = "USB Chirp Timeout"]
 pub mod cto;
-#[doc = "USB High Speed to UTM Operating Delay\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [hhsrtn](hhsrtn) module"]
+#[doc = "USB High Speed to UTM Operating Delay\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [hhsrtn](hhsrtn) module"]
 pub type HHSRTN = crate::Reg<u16, _HHSRTN>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2660,7 +2660,7 @@ impl crate::Readable for HHSRTN {}
 impl crate::Writable for HHSRTN {}
 #[doc = "USB High Speed to UTM Operating Delay"]
 pub mod hhsrtn;
-#[doc = "USB High Speed Time-out Adder\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [hsbt](hsbt) module"]
+#[doc = "USB High Speed Time-out Adder\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [hsbt](hsbt) module"]
 pub type HSBT = crate::Reg<u16, _HSBT>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2671,7 +2671,7 @@ impl crate::Readable for HSBT {}
 impl crate::Writable for HSBT {}
 #[doc = "USB High Speed Time-out Adder"]
 pub mod hsbt;
-#[doc = "USB LPM Attributes\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [lpmattr](lpmattr) module"]
+#[doc = "USB LPM Attributes\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [lpmattr](lpmattr) module"]
 pub type LPMATTR = crate::Reg<u16, _LPMATTR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2680,7 +2680,7 @@ pub struct _LPMATTR;
 impl crate::Readable for LPMATTR {}
 #[doc = "USB LPM Attributes"]
 pub mod lpmattr;
-#[doc = "USB LPM Control\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [lpmcntrl](lpmcntrl) module"]
+#[doc = "USB LPM Control\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [lpmcntrl](lpmcntrl) module"]
 pub type LPMCNTRL = crate::Reg<u8, _LPMCNTRL>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2689,7 +2689,7 @@ pub struct _LPMCNTRL;
 impl crate::Readable for LPMCNTRL {}
 #[doc = "USB LPM Control"]
 pub mod lpmcntrl;
-#[doc = "USB LPM Interrupt Mask\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [lpmim](lpmim) module"]
+#[doc = "USB LPM Interrupt Mask\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [lpmim](lpmim) module"]
 pub type LPMIM = crate::Reg<u8, _LPMIM>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2698,7 +2698,7 @@ pub struct _LPMIM;
 impl crate::Readable for LPMIM {}
 #[doc = "USB LPM Interrupt Mask"]
 pub mod lpmim;
-#[doc = "USB LPM Raw Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [lpmris](lpmris) module"]
+#[doc = "USB LPM Raw Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [lpmris](lpmris) module"]
 pub type LPMRIS = crate::Reg<u8, _LPMRIS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2707,7 +2707,7 @@ pub struct _LPMRIS;
 impl crate::Readable for LPMRIS {}
 #[doc = "USB LPM Raw Interrupt Status"]
 pub mod lpmris;
-#[doc = "USB LPM Function Address\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [lpmfaddr](lpmfaddr) module"]
+#[doc = "USB LPM Function Address\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [lpmfaddr](lpmfaddr) module"]
 pub type LPMFADDR = crate::Reg<u8, _LPMFADDR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2718,7 +2718,7 @@ impl crate::Readable for LPMFADDR {}
 impl crate::Writable for LPMFADDR {}
 #[doc = "USB LPM Function Address"]
 pub mod lpmfaddr;
-#[doc = "USB External Power Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [epc](epc) module"]
+#[doc = "USB External Power Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [epc](epc) module"]
 pub type EPC = crate::Reg<u32, _EPC>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2729,7 +2729,7 @@ impl crate::Readable for EPC {}
 impl crate::Writable for EPC {}
 #[doc = "USB External Power Control"]
 pub mod epc;
-#[doc = "USB External Power Control Raw Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [epcris](epcris) module"]
+#[doc = "USB External Power Control Raw Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [epcris](epcris) module"]
 pub type EPCRIS = crate::Reg<u32, _EPCRIS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2738,7 +2738,7 @@ pub struct _EPCRIS;
 impl crate::Readable for EPCRIS {}
 #[doc = "USB External Power Control Raw Interrupt Status"]
 pub mod epcris;
-#[doc = "USB External Power Control Interrupt Mask\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [epcim](epcim) module"]
+#[doc = "USB External Power Control Interrupt Mask\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [epcim](epcim) module"]
 pub type EPCIM = crate::Reg<u32, _EPCIM>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2749,7 +2749,7 @@ impl crate::Readable for EPCIM {}
 impl crate::Writable for EPCIM {}
 #[doc = "USB External Power Control Interrupt Mask"]
 pub mod epcim;
-#[doc = "USB External Power Control Interrupt Status and Clear\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [epcisc](epcisc) module"]
+#[doc = "USB External Power Control Interrupt Status and Clear\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [epcisc](epcisc) module"]
 pub type EPCISC = crate::Reg<u32, _EPCISC>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2760,7 +2760,7 @@ impl crate::Readable for EPCISC {}
 impl crate::Writable for EPCISC {}
 #[doc = "USB External Power Control Interrupt Status and Clear"]
 pub mod epcisc;
-#[doc = "USB Device RESUME Raw Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [drris](drris) module"]
+#[doc = "USB Device RESUME Raw Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [drris](drris) module"]
 pub type DRRIS = crate::Reg<u32, _DRRIS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2769,7 +2769,7 @@ pub struct _DRRIS;
 impl crate::Readable for DRRIS {}
 #[doc = "USB Device RESUME Raw Interrupt Status"]
 pub mod drris;
-#[doc = "USB Device RESUME Interrupt Mask\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [drim](drim) module"]
+#[doc = "USB Device RESUME Interrupt Mask\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [drim](drim) module"]
 pub type DRIM = crate::Reg<u32, _DRIM>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2780,7 +2780,7 @@ impl crate::Readable for DRIM {}
 impl crate::Writable for DRIM {}
 #[doc = "USB Device RESUME Interrupt Mask"]
 pub mod drim;
-#[doc = "USB Device RESUME Interrupt Status and Clear\n\nThis register you can [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [drisc](drisc) module"]
+#[doc = "USB Device RESUME Interrupt Status and Clear\n\nThis register you can [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [drisc](drisc) module"]
 pub type DRISC = crate::Reg<u32, _DRISC>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2789,7 +2789,7 @@ pub struct _DRISC;
 impl crate::Writable for DRISC {}
 #[doc = "USB Device RESUME Interrupt Status and Clear"]
 pub mod drisc;
-#[doc = "USB General-Purpose Control and Status\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [gpcs](gpcs) module"]
+#[doc = "USB General-Purpose Control and Status\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [gpcs](gpcs) module"]
 pub type GPCS = crate::Reg<u32, _GPCS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2800,7 +2800,7 @@ impl crate::Readable for GPCS {}
 impl crate::Writable for GPCS {}
 #[doc = "USB General-Purpose Control and Status"]
 pub mod gpcs;
-#[doc = "USB VBUS Droop Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [vdc](vdc) module"]
+#[doc = "USB VBUS Droop Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [vdc](vdc) module"]
 pub type VDC = crate::Reg<u32, _VDC>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2811,7 +2811,7 @@ impl crate::Readable for VDC {}
 impl crate::Writable for VDC {}
 #[doc = "USB VBUS Droop Control"]
 pub mod vdc;
-#[doc = "USB VBUS Droop Control Raw Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [vdcris](vdcris) module"]
+#[doc = "USB VBUS Droop Control Raw Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [vdcris](vdcris) module"]
 pub type VDCRIS = crate::Reg<u32, _VDCRIS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2820,7 +2820,7 @@ pub struct _VDCRIS;
 impl crate::Readable for VDCRIS {}
 #[doc = "USB VBUS Droop Control Raw Interrupt Status"]
 pub mod vdcris;
-#[doc = "USB VBUS Droop Control Interrupt Mask\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [vdcim](vdcim) module"]
+#[doc = "USB VBUS Droop Control Interrupt Mask\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [vdcim](vdcim) module"]
 pub type VDCIM = crate::Reg<u32, _VDCIM>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2831,7 +2831,7 @@ impl crate::Readable for VDCIM {}
 impl crate::Writable for VDCIM {}
 #[doc = "USB VBUS Droop Control Interrupt Mask"]
 pub mod vdcim;
-#[doc = "USB VBUS Droop Control Interrupt Status and Clear\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [vdcisc](vdcisc) module"]
+#[doc = "USB VBUS Droop Control Interrupt Status and Clear\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [vdcisc](vdcisc) module"]
 pub type VDCISC = crate::Reg<u32, _VDCISC>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2842,7 +2842,7 @@ impl crate::Readable for VDCISC {}
 impl crate::Writable for VDCISC {}
 #[doc = "USB VBUS Droop Control Interrupt Status and Clear"]
 pub mod vdcisc;
-#[doc = "USB Peripheral Properties\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [pp](pp) module"]
+#[doc = "USB Peripheral Properties\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [pp](pp) module"]
 pub type PP = crate::Reg<u32, _PP>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2851,7 +2851,7 @@ pub struct _PP;
 impl crate::Readable for PP {}
 #[doc = "USB Peripheral Properties"]
 pub mod pp;
-#[doc = "USB Peripheral Configuration\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [pc](pc) module"]
+#[doc = "USB Peripheral Configuration\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [pc](pc) module"]
 pub type PC = crate::Reg<u32, _PC>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -2862,7 +2862,7 @@ impl crate::Readable for PC {}
 impl crate::Writable for PC {}
 #[doc = "USB Peripheral Configuration"]
 pub mod pc;
-#[doc = "USB Clock Configuration\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [cc](cc) module"]
+#[doc = "USB Clock Configuration\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [cc](cc) module"]
 pub type CC = crate::Reg<u32, _CC>;
 #[allow(missing_docs)]
 #[doc(hidden)]

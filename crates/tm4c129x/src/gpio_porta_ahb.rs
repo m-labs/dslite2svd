@@ -67,7 +67,7 @@ pub struct RegisterBlock {
     #[doc = "0xfc4 - GPIO Peripheral Configuration"]
     pub pc: PC,
 }
-#[doc = "GPIO Data\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [data](data) module"]
+#[doc = "GPIO Data\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [data](data) module"]
 pub type DATA = crate::Reg<u32, _DATA>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -78,7 +78,7 @@ impl crate::Readable for DATA {}
 impl crate::Writable for DATA {}
 #[doc = "GPIO Data"]
 pub mod data;
-#[doc = "GPIO Direction\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dir](dir) module"]
+#[doc = "GPIO Direction\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dir](dir) module"]
 pub type DIR = crate::Reg<u32, _DIR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -89,7 +89,7 @@ impl crate::Readable for DIR {}
 impl crate::Writable for DIR {}
 #[doc = "GPIO Direction"]
 pub mod dir;
-#[doc = "GPIO Interrupt Sense\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [is](is) module"]
+#[doc = "GPIO Interrupt Sense\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [is](is) module"]
 pub type IS = crate::Reg<u32, _IS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -100,7 +100,7 @@ impl crate::Readable for IS {}
 impl crate::Writable for IS {}
 #[doc = "GPIO Interrupt Sense"]
 pub mod is;
-#[doc = "GPIO Interrupt Both Edges\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ibe](ibe) module"]
+#[doc = "GPIO Interrupt Both Edges\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ibe](ibe) module"]
 pub type IBE = crate::Reg<u32, _IBE>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -111,7 +111,7 @@ impl crate::Readable for IBE {}
 impl crate::Writable for IBE {}
 #[doc = "GPIO Interrupt Both Edges"]
 pub mod ibe;
-#[doc = "GPIO Interrupt Event\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [iev](iev) module"]
+#[doc = "GPIO Interrupt Event\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [iev](iev) module"]
 pub type IEV = crate::Reg<u32, _IEV>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -122,7 +122,7 @@ impl crate::Readable for IEV {}
 impl crate::Writable for IEV {}
 #[doc = "GPIO Interrupt Event"]
 pub mod iev;
-#[doc = "GPIO Interrupt Mask\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [im](im) module"]
+#[doc = "GPIO Interrupt Mask\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [im](im) module"]
 pub type IM = crate::Reg<u32, _IM>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -133,7 +133,7 @@ impl crate::Readable for IM {}
 impl crate::Writable for IM {}
 #[doc = "GPIO Interrupt Mask"]
 pub mod im;
-#[doc = "GPIO Raw Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ris](ris) module"]
+#[doc = "GPIO Raw Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ris](ris) module"]
 pub type RIS = crate::Reg<u32, _RIS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -142,7 +142,7 @@ pub struct _RIS;
 impl crate::Readable for RIS {}
 #[doc = "GPIO Raw Interrupt Status"]
 pub mod ris;
-#[doc = "GPIO Masked Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [mis](mis) module"]
+#[doc = "GPIO Masked Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [mis](mis) module"]
 pub type MIS = crate::Reg<u32, _MIS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -151,7 +151,7 @@ pub struct _MIS;
 impl crate::Readable for MIS {}
 #[doc = "GPIO Masked Interrupt Status"]
 pub mod mis;
-#[doc = "GPIO Interrupt Clear\n\nThis register you can [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [icr](icr) module"]
+#[doc = "GPIO Interrupt Clear\n\nThis register you can [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [icr](icr) module"]
 pub type ICR = crate::Reg<u32, _ICR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -160,7 +160,7 @@ pub struct _ICR;
 impl crate::Writable for ICR {}
 #[doc = "GPIO Interrupt Clear"]
 pub mod icr;
-#[doc = "GPIO Alternate Function Select\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [afsel](afsel) module"]
+#[doc = "GPIO Alternate Function Select\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [afsel](afsel) module"]
 pub type AFSEL = crate::Reg<u32, _AFSEL>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -171,7 +171,7 @@ impl crate::Readable for AFSEL {}
 impl crate::Writable for AFSEL {}
 #[doc = "GPIO Alternate Function Select"]
 pub mod afsel;
-#[doc = "GPIO 2-mA Drive Select\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dr2r](dr2r) module"]
+#[doc = "GPIO 2-mA Drive Select\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dr2r](dr2r) module"]
 pub type DR2R = crate::Reg<u32, _DR2R>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -182,7 +182,7 @@ impl crate::Readable for DR2R {}
 impl crate::Writable for DR2R {}
 #[doc = "GPIO 2-mA Drive Select"]
 pub mod dr2r;
-#[doc = "GPIO 4-mA Drive Select\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dr4r](dr4r) module"]
+#[doc = "GPIO 4-mA Drive Select\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dr4r](dr4r) module"]
 pub type DR4R = crate::Reg<u32, _DR4R>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -193,7 +193,7 @@ impl crate::Readable for DR4R {}
 impl crate::Writable for DR4R {}
 #[doc = "GPIO 4-mA Drive Select"]
 pub mod dr4r;
-#[doc = "GPIO 8-mA Drive Select\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dr8r](dr8r) module"]
+#[doc = "GPIO 8-mA Drive Select\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dr8r](dr8r) module"]
 pub type DR8R = crate::Reg<u32, _DR8R>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -204,7 +204,7 @@ impl crate::Readable for DR8R {}
 impl crate::Writable for DR8R {}
 #[doc = "GPIO 8-mA Drive Select"]
 pub mod dr8r;
-#[doc = "GPIO Open Drain Select\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [odr](odr) module"]
+#[doc = "GPIO Open Drain Select\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [odr](odr) module"]
 pub type ODR = crate::Reg<u32, _ODR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -215,7 +215,7 @@ impl crate::Readable for ODR {}
 impl crate::Writable for ODR {}
 #[doc = "GPIO Open Drain Select"]
 pub mod odr;
-#[doc = "GPIO Pull-Up Select\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [pur](pur) module"]
+#[doc = "GPIO Pull-Up Select\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [pur](pur) module"]
 pub type PUR = crate::Reg<u32, _PUR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -226,7 +226,7 @@ impl crate::Readable for PUR {}
 impl crate::Writable for PUR {}
 #[doc = "GPIO Pull-Up Select"]
 pub mod pur;
-#[doc = "GPIO Pull-Down Select\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [pdr](pdr) module"]
+#[doc = "GPIO Pull-Down Select\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [pdr](pdr) module"]
 pub type PDR = crate::Reg<u32, _PDR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -237,7 +237,7 @@ impl crate::Readable for PDR {}
 impl crate::Writable for PDR {}
 #[doc = "GPIO Pull-Down Select"]
 pub mod pdr;
-#[doc = "GPIO Slew Rate Control Select\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [slr](slr) module"]
+#[doc = "GPIO Slew Rate Control Select\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [slr](slr) module"]
 pub type SLR = crate::Reg<u32, _SLR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -248,7 +248,7 @@ impl crate::Readable for SLR {}
 impl crate::Writable for SLR {}
 #[doc = "GPIO Slew Rate Control Select"]
 pub mod slr;
-#[doc = "GPIO Digital Enable\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [den](den) module"]
+#[doc = "GPIO Digital Enable\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [den](den) module"]
 pub type DEN = crate::Reg<u32, _DEN>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -259,7 +259,7 @@ impl crate::Readable for DEN {}
 impl crate::Writable for DEN {}
 #[doc = "GPIO Digital Enable"]
 pub mod den;
-#[doc = "GPIO Lock\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [lock](lock) module"]
+#[doc = "GPIO Lock\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [lock](lock) module"]
 pub type LOCK = crate::Reg<u32, _LOCK>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -270,7 +270,7 @@ impl crate::Readable for LOCK {}
 impl crate::Writable for LOCK {}
 #[doc = "GPIO Lock"]
 pub mod lock;
-#[doc = "GPIO Commit\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [cr](cr) module"]
+#[doc = "GPIO Commit\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [cr](cr) module"]
 pub type CR = crate::Reg<u32, _CR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -281,7 +281,7 @@ impl crate::Readable for CR {}
 impl crate::Writable for CR {}
 #[doc = "GPIO Commit"]
 pub mod cr;
-#[doc = "GPIO Analog Mode Select\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [amsel](amsel) module"]
+#[doc = "GPIO Analog Mode Select\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [amsel](amsel) module"]
 pub type AMSEL = crate::Reg<u32, _AMSEL>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -292,7 +292,7 @@ impl crate::Readable for AMSEL {}
 impl crate::Writable for AMSEL {}
 #[doc = "GPIO Analog Mode Select"]
 pub mod amsel;
-#[doc = "GPIO Port Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [pctl](pctl) module"]
+#[doc = "GPIO Port Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [pctl](pctl) module"]
 pub type PCTL = crate::Reg<u32, _PCTL>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -303,7 +303,7 @@ impl crate::Readable for PCTL {}
 impl crate::Writable for PCTL {}
 #[doc = "GPIO Port Control"]
 pub mod pctl;
-#[doc = "GPIO ADC Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [adcctl](adcctl) module"]
+#[doc = "GPIO ADC Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [adcctl](adcctl) module"]
 pub type ADCCTL = crate::Reg<u32, _ADCCTL>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -314,7 +314,7 @@ impl crate::Readable for ADCCTL {}
 impl crate::Writable for ADCCTL {}
 #[doc = "GPIO ADC Control"]
 pub mod adcctl;
-#[doc = "GPIO DMA Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dmactl](dmactl) module"]
+#[doc = "GPIO DMA Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dmactl](dmactl) module"]
 pub type DMACTL = crate::Reg<u32, _DMACTL>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -325,7 +325,7 @@ impl crate::Readable for DMACTL {}
 impl crate::Writable for DMACTL {}
 #[doc = "GPIO DMA Control"]
 pub mod dmactl;
-#[doc = "GPIO Select Interrupt\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [si](si) module"]
+#[doc = "GPIO Select Interrupt\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [si](si) module"]
 pub type SI = crate::Reg<u32, _SI>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -336,7 +336,7 @@ impl crate::Readable for SI {}
 impl crate::Writable for SI {}
 #[doc = "GPIO Select Interrupt"]
 pub mod si;
-#[doc = "GPIO 12-mA Drive Select\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dr12r](dr12r) module"]
+#[doc = "GPIO 12-mA Drive Select\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dr12r](dr12r) module"]
 pub type DR12R = crate::Reg<u32, _DR12R>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -347,7 +347,7 @@ impl crate::Readable for DR12R {}
 impl crate::Writable for DR12R {}
 #[doc = "GPIO 12-mA Drive Select"]
 pub mod dr12r;
-#[doc = "GPIO Wake Pin Enable\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [wakepen](wakepen) module"]
+#[doc = "GPIO Wake Pin Enable\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [wakepen](wakepen) module"]
 pub type WAKEPEN = crate::Reg<u32, _WAKEPEN>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -358,7 +358,7 @@ impl crate::Readable for WAKEPEN {}
 impl crate::Writable for WAKEPEN {}
 #[doc = "GPIO Wake Pin Enable"]
 pub mod wakepen;
-#[doc = "GPIO Wake Level\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [wakelvl](wakelvl) module"]
+#[doc = "GPIO Wake Level\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [wakelvl](wakelvl) module"]
 pub type WAKELVL = crate::Reg<u32, _WAKELVL>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -369,7 +369,7 @@ impl crate::Readable for WAKELVL {}
 impl crate::Writable for WAKELVL {}
 #[doc = "GPIO Wake Level"]
 pub mod wakelvl;
-#[doc = "GPIO Wake Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [wakestat](wakestat) module"]
+#[doc = "GPIO Wake Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [wakestat](wakestat) module"]
 pub type WAKESTAT = crate::Reg<u32, _WAKESTAT>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -378,7 +378,7 @@ pub struct _WAKESTAT;
 impl crate::Readable for WAKESTAT {}
 #[doc = "GPIO Wake Status"]
 pub mod wakestat;
-#[doc = "GPIO Peripheral Property\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [pp](pp) module"]
+#[doc = "GPIO Peripheral Property\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [pp](pp) module"]
 pub type PP = crate::Reg<u32, _PP>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -387,7 +387,7 @@ pub struct _PP;
 impl crate::Readable for PP {}
 #[doc = "GPIO Peripheral Property"]
 pub mod pp;
-#[doc = "GPIO Peripheral Configuration\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [pc](pc) module"]
+#[doc = "GPIO Peripheral Configuration\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [pc](pc) module"]
 pub type PC = crate::Reg<u32, _PC>;
 #[allow(missing_docs)]
 #[doc(hidden)]

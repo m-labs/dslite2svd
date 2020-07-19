@@ -40,25 +40,21 @@ impl<'a> OSYSDIV_W<'a> {
 }
 #[doc = "Oscillator Source\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum OSCSRC_A {
     #[doc = "0: PIOSC is oscillator source"]
-    PIOSC,
+    PIOSC = 0,
     #[doc = "2: LFIOSC is oscillator source"]
-    LFIOSC,
+    LFIOSC = 2,
     #[doc = "3: MOSC is oscillator source"]
-    MOSC,
+    MOSC = 3,
     #[doc = "4: Hibernation Module RTC Oscillator (RTCOSC)"]
-    RTC,
+    RTC = 4,
 }
 impl From<OSCSRC_A> for u8 {
     #[inline(always)]
     fn from(variant: OSCSRC_A) -> Self {
-        match variant {
-            OSCSRC_A::PIOSC => 0,
-            OSCSRC_A::LFIOSC => 2,
-            OSCSRC_A::MOSC => 3,
-            OSCSRC_A::RTC => 4,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `OSCSRC`"]
@@ -136,19 +132,17 @@ impl<'a> OSCSRC_W<'a> {
 }
 #[doc = "PLL Source\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum PLLSRC_A {
     #[doc = "0: PIOSC is PLL input clock source"]
-    PIOSC,
+    PIOSC = 0,
     #[doc = "3: MOSC is the PLL input clock source"]
-    MOSC,
+    MOSC = 3,
 }
 impl From<PLLSRC_A> for u8 {
     #[inline(always)]
     fn from(variant: PLLSRC_A) -> Self {
-        match variant {
-            PLLSRC_A::PIOSC => 0,
-            PLLSRC_A::MOSC => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `PLLSRC`"]

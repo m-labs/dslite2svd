@@ -12,16 +12,15 @@ impl crate::ResetValue for super::TSSEL {
 }
 #[doc = "Generator 0 PWM Module Trigger Select\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum PS0_A {
     #[doc = "0: Use Generator 0 (and its trigger) in PWM module 0"]
-    _0,
+    _0 = 0,
 }
 impl From<PS0_A> for u8 {
     #[inline(always)]
     fn from(variant: PS0_A) -> Self {
-        match variant {
-            PS0_A::_0 => 0,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `PS0`"]
@@ -66,16 +65,15 @@ impl<'a> PS0_W<'a> {
 }
 #[doc = "Generator 1 PWM Module Trigger Select\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum PS1_A {
     #[doc = "0: Use Generator 1 (and its trigger) in PWM module 0"]
-    _0,
+    _0 = 0,
 }
 impl From<PS1_A> for u8 {
     #[inline(always)]
     fn from(variant: PS1_A) -> Self {
-        match variant {
-            PS1_A::_0 => 0,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `PS1`"]
@@ -120,16 +118,15 @@ impl<'a> PS1_W<'a> {
 }
 #[doc = "Generator 2 PWM Module Trigger Select\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum PS2_A {
     #[doc = "0: Use Generator 2 (and its trigger) in PWM module 0"]
-    _0,
+    _0 = 0,
 }
 impl From<PS2_A> for u8 {
     #[inline(always)]
     fn from(variant: PS2_A) -> Self {
-        match variant {
-            PS2_A::_0 => 0,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `PS2`"]
@@ -174,16 +171,15 @@ impl<'a> PS2_W<'a> {
 }
 #[doc = "Generator 3 PWM Module Trigger Select\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum PS3_A {
     #[doc = "0: Use Generator 3 (and its trigger) in PWM module 0"]
-    _0,
+    _0 = 0,
 }
 impl From<PS3_A> for u8 {
     #[inline(always)]
     fn from(variant: PS3_A) -> Self {
-        match variant {
-            PS3_A::_0 => 0,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `PS3`"]

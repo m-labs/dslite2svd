@@ -60,25 +60,21 @@ impl<'a> TPCLR_W<'a> {
 }
 #[doc = "HIB Memory Clear on Tamper Event\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum MEMCLR_A {
     #[doc = "0: Do not Clear HIB memory on tamper event"]
-    NONE,
+    NONE = 0,
     #[doc = "1: Clear Lower 32 Bytes of HIB memory on tamper event"]
-    LOW32,
+    LOW32 = 1,
     #[doc = "2: Clear upper 32 Bytes of HIB memory on tamper event"]
-    HIGH32,
+    HIGH32 = 2,
     #[doc = "3: Clear all HIB memory on tamper event"]
-    ALL,
+    ALL = 3,
 }
 impl From<MEMCLR_A> for u8 {
     #[inline(always)]
     fn from(variant: MEMCLR_A) -> Self {
-        match variant {
-            MEMCLR_A::NONE => 0,
-            MEMCLR_A::LOW32 => 1,
-            MEMCLR_A::HIGH32 => 2,
-            MEMCLR_A::ALL => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `MEMCLR`"]

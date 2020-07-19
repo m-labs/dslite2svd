@@ -12,28 +12,23 @@ impl crate::ResetValue for super::CRCCTRL {
 }
 #[doc = "Operation Type\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum TYPE_A {
     #[doc = "0: Polynomial 0x8005"]
-    P8055,
+    P8055 = 0,
     #[doc = "1: Polynomial 0x1021"]
-    P1021,
+    P1021 = 1,
     #[doc = "2: Polynomial 0x4C11DB7"]
-    P4C11DB7,
+    P4C11DB7 = 2,
     #[doc = "3: Polynomial 0x1EDC6F41"]
-    P1EDC6F41,
+    P1EDC6F41 = 3,
     #[doc = "8: TCP checksum"]
-    TCPCHKSUM,
+    TCPCHKSUM = 8,
 }
 impl From<TYPE_A> for u8 {
     #[inline(always)]
     fn from(variant: TYPE_A) -> Self {
-        match variant {
-            TYPE_A::P8055 => 0,
-            TYPE_A::P1021 => 1,
-            TYPE_A::P4C11DB7 => 2,
-            TYPE_A::P1EDC6F41 => 3,
-            TYPE_A::TCPCHKSUM => 8,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `TYPE`"]
@@ -122,25 +117,21 @@ impl<'a> TYPE_W<'a> {
 }
 #[doc = "Endian Control\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum ENDIAN_A {
     #[doc = "0: Configuration unchanged. (B3, B2, B1, B0)"]
-    SBHW,
+    SBHW = 0,
     #[doc = "1: Bytes are swapped in half-words but half-words are not swapped (B2, B3, B0, B1)"]
-    SHW,
+    SHW = 1,
     #[doc = "2: Half-words are swapped but bytes are not swapped in half-word. (B1, B0, B3, B2)"]
-    SHWNB,
+    SHWNB = 2,
     #[doc = "3: Bytes are swapped in half-words and half-words are swapped. (B0, B1, B2, B3)"]
-    SBSW,
+    SBSW = 3,
 }
 impl From<ENDIAN_A> for u8 {
     #[inline(always)]
     fn from(variant: ENDIAN_A) -> Self {
-        match variant {
-            ENDIAN_A::SBHW => 0,
-            ENDIAN_A::SHW => 1,
-            ENDIAN_A::SHWNB => 2,
-            ENDIAN_A::SBSW => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `ENDIAN`"]
@@ -315,22 +306,19 @@ impl<'a> SIZE_W<'a> {
 }
 #[doc = "CRC Initialization\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum INIT_A {
     #[doc = "0: Use the CRCSEED register context as the starting value"]
-    SEED,
+    SEED = 0,
     #[doc = "2: Initialize to all '0s'"]
-    _0,
+    _0 = 2,
     #[doc = "3: Initialize to all '1s'"]
-    _1,
+    _1 = 3,
 }
 impl From<INIT_A> for u8 {
     #[inline(always)]
     fn from(variant: INIT_A) -> Self {
-        match variant {
-            INIT_A::SEED => 0,
-            INIT_A::_0 => 2,
-            INIT_A::_1 => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `INIT`"]

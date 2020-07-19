@@ -12,19 +12,17 @@ impl crate::ResetValue for super::RESBEHAVCTL {
 }
 #[doc = "External RST Pin Operation\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum EXTRES_A {
     #[doc = "2: External RST assertion issues a system reset. The application starts within 10 us"]
-    SYSRST,
+    SYSRST = 2,
     #[doc = "3: External RST assertion issues a simulated POR sequence. Application starts less than 500 us after deassertion (Default)"]
-    POR,
+    POR = 3,
 }
 impl From<EXTRES_A> for u8 {
     #[inline(always)]
     fn from(variant: EXTRES_A) -> Self {
-        match variant {
-            EXTRES_A::SYSRST => 2,
-            EXTRES_A::POR => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `EXTRES`"]
@@ -80,19 +78,17 @@ impl<'a> EXTRES_W<'a> {
 }
 #[doc = "BOR Reset operation\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum BOR_A {
     #[doc = "2: Brown Out Reset issues system reset. The application starts within 10 us"]
-    SYSRST,
+    SYSRST = 2,
     #[doc = "3: Brown Out Reset issues a simulated POR sequence. The application starts less than 500 us after deassertion (Default)"]
-    POR,
+    POR = 3,
 }
 impl From<BOR_A> for u8 {
     #[inline(always)]
     fn from(variant: BOR_A) -> Self {
-        match variant {
-            BOR_A::SYSRST => 2,
-            BOR_A::POR => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `BOR`"]
@@ -148,19 +144,17 @@ impl<'a> BOR_W<'a> {
 }
 #[doc = "Watchdog 0 Reset Operation\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum WDOG0_A {
     #[doc = "2: Watchdog 0 issues a system reset. The application starts within 10 us"]
-    SYSRST,
+    SYSRST = 2,
     #[doc = "3: Watchdog 0 issues a simulated POR sequence. Application starts less than 500 us after deassertion (Default)"]
-    POR,
+    POR = 3,
 }
 impl From<WDOG0_A> for u8 {
     #[inline(always)]
     fn from(variant: WDOG0_A) -> Self {
-        match variant {
-            WDOG0_A::SYSRST => 2,
-            WDOG0_A::POR => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `WDOG0`"]
@@ -216,19 +210,17 @@ impl<'a> WDOG0_W<'a> {
 }
 #[doc = "Watchdog 1 Reset Operation\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum WDOG1_A {
     #[doc = "2: Watchdog 1 issues a system reset. The application starts within 10 us"]
-    SYSRST,
+    SYSRST = 2,
     #[doc = "3: Watchdog 1 issues a simulated POR sequence. Application starts less than 500 us after deassertion (Default)"]
-    POR,
+    POR = 3,
 }
 impl From<WDOG1_A> for u8 {
     #[inline(always)]
     fn from(variant: WDOG1_A) -> Self {
-        match variant {
-            WDOG1_A::SYSRST => 2,
-            WDOG1_A::POR => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `WDOG1`"]

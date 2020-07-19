@@ -2,16 +2,15 @@
 pub type R = crate::R<u32, super::SSIZE>;
 #[doc = "SRAM Size\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u16)]
 pub enum SIZE_A {
     #[doc = "127: 32 KB of SRAM"]
-    _32KB,
+    _32KB = 127,
 }
 impl From<SIZE_A> for u16 {
     #[inline(always)]
     fn from(variant: SIZE_A) -> Self {
-        match variant {
-            SIZE_A::_32KB => 127,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `SIZE`"]

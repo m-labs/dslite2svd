@@ -21,7 +21,8 @@ impl<'a> CLR_W<'a> {
     }
 }
 impl W {
-    #[doc = "Bits 0:31 - Channel \\[n\\] Request Mask Clear"]
+    #[doc = "Bits 0:31 - Channel \\[n\\]
+Request Mask Clear"]
     #[inline(always)]
     pub fn clr(&mut self) -> CLR_W {
         CLR_W { w: self }

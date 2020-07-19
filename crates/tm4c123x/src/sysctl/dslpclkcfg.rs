@@ -36,25 +36,21 @@ impl<'a> PIOSCPD_W<'a> {
 }
 #[doc = "Clock Source\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum O_A {
     #[doc = "0: MOSC"]
-    IGN,
+    IGN = 0,
     #[doc = "1: PIOSC"]
-    IO,
+    IO = 1,
     #[doc = "3: LFIOSC"]
-    _30,
+    _30 = 3,
     #[doc = "7: 32.768 kHz"]
-    _32,
+    _32 = 7,
 }
 impl From<O_A> for u8 {
     #[inline(always)]
     fn from(variant: O_A) -> Self {
-        match variant {
-            O_A::IGN => 0,
-            O_A::IO => 1,
-            O_A::_30 => 3,
-            O_A::_32 => 7,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `O`"]

@@ -12,22 +12,19 @@ impl crate::ResetValue for super::SLPPWRCFG {
 }
 #[doc = "SRAM Power Modes\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum SRAMPM_A {
     #[doc = "0: Active Mode"]
-    NRM,
+    NRM = 0,
     #[doc = "1: Standby Mode"]
-    SBY,
+    SBY = 1,
     #[doc = "3: Low Power Mode"]
-    LP,
+    LP = 3,
 }
 impl From<SRAMPM_A> for u8 {
     #[inline(always)]
     fn from(variant: SRAMPM_A) -> Self {
-        match variant {
-            SRAMPM_A::NRM => 0,
-            SRAMPM_A::SBY => 1,
-            SRAMPM_A::LP => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `SRAMPM`"]
@@ -94,19 +91,17 @@ impl<'a> SRAMPM_W<'a> {
 }
 #[doc = "Flash Power Modes\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum FLASHPM_A {
     #[doc = "0: Active Mode"]
-    NRM,
+    NRM = 0,
     #[doc = "2: Low Power Mode"]
-    SLP,
+    SLP = 2,
 }
 impl From<FLASHPM_A> for u8 {
     #[inline(always)]
     fn from(variant: FLASHPM_A) -> Self {
-        match variant {
-            FLASHPM_A::NRM => 0,
-            FLASHPM_A::SLP => 2,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `FLASHPM`"]

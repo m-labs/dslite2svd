@@ -12,22 +12,19 @@ impl crate::ResetValue for super::CFG {
 }
 #[doc = "GPTM Configuration\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum CFG_A {
     #[doc = "0: For a 16/32-bit timer, this value selects the 32-bit timer configuration"]
-    _32_BIT_TIMER,
+    _32_BIT_TIMER = 0,
     #[doc = "1: For a 16/32-bit timer, this value selects the 32-bit real-time clock (RTC) counter configuration"]
-    _32_BIT_RTC,
+    _32_BIT_RTC = 1,
     #[doc = "4: For a 16/32-bit timer, this value selects the 16-bit timer configuration"]
-    _16_BIT,
+    _16_BIT = 4,
 }
 impl From<CFG_A> for u8 {
     #[inline(always)]
     fn from(variant: CFG_A) -> Self {
-        match variant {
-            CFG_A::_32_BIT_TIMER => 0,
-            CFG_A::_32_BIT_RTC => 1,
-            CFG_A::_16_BIT => 4,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `CFG`"]

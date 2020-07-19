@@ -2,25 +2,21 @@
 pub type R = crate::R<u32, super::PP>;
 #[doc = "Maximum ADC Sample Rate\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum MSR_A {
     #[doc = "1: 125 ksps"]
-    _125K,
+    _125K = 1,
     #[doc = "3: 250 ksps"]
-    _250K,
+    _250K = 3,
     #[doc = "5: 500 ksps"]
-    _500K,
+    _500K = 5,
     #[doc = "7: 1 Msps"]
-    _1M,
+    _1M = 7,
 }
 impl From<MSR_A> for u8 {
     #[inline(always)]
     fn from(variant: MSR_A) -> Self {
-        match variant {
-            MSR_A::_125K => 1,
-            MSR_A::_250K => 3,
-            MSR_A::_500K => 5,
-            MSR_A::_1M => 7,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `MSR`"]
@@ -65,16 +61,15 @@ pub type CH_R = crate::R<u8, u8>;
 pub type DC_R = crate::R<u8, u8>;
 #[doc = "ADC Architecture\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum TYPE_A {
     #[doc = "0: SAR"]
-    SAR,
+    SAR = 0,
 }
 impl From<TYPE_A> for u8 {
     #[inline(always)]
     fn from(variant: TYPE_A) -> Self {
-        match variant {
-            TYPE_A::SAR => 0,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `TYPE`"]

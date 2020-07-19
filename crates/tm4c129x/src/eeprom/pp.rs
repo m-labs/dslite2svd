@@ -2,43 +2,33 @@
 pub type R = crate::R<u32, super::PP>;
 #[doc = "EEPROM Size\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u16)]
 pub enum SIZE_A {
     #[doc = "0: 64 bytes of EEPROM"]
-    _64,
+    _64 = 0,
     #[doc = "1: 128 bytes of EEPROM"]
-    _128,
+    _128 = 1,
     #[doc = "3: 256 bytes of EEPROM"]
-    _256,
+    _256 = 3,
     #[doc = "7: 512 bytes of EEPROM"]
-    _512,
+    _512 = 7,
     #[doc = "15: 1 KB of EEPROM"]
-    _1K,
+    _1K = 15,
     #[doc = "31: 2 KB of EEPROM"]
-    _2K,
+    _2K = 31,
     #[doc = "63: 3 KB of EEPROM"]
-    _3K,
+    _3K = 63,
     #[doc = "127: 4 KB of EEPROM"]
-    _4K,
+    _4K = 127,
     #[doc = "255: 5 KB of EEPROM"]
-    _5K,
+    _5K = 255,
     #[doc = "511: 6 KB of EEPROM"]
-    _6K,
+    _6K = 511,
 }
 impl From<SIZE_A> for u16 {
     #[inline(always)]
     fn from(variant: SIZE_A) -> Self {
-        match variant {
-            SIZE_A::_64 => 0,
-            SIZE_A::_128 => 1,
-            SIZE_A::_256 => 3,
-            SIZE_A::_512 => 7,
-            SIZE_A::_1K => 15,
-            SIZE_A::_2K => 31,
-            SIZE_A::_3K => 63,
-            SIZE_A::_4K => 127,
-            SIZE_A::_5K => 255,
-            SIZE_A::_6K => 511,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `SIZE`"]

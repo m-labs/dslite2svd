@@ -60,25 +60,21 @@ impl<'a> OSF_W<'a> {
 }
 #[doc = "Receive Threshold Control\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum RTC_A {
     #[doc = "0: 64 bytes"]
-    _64,
+    _64 = 0,
     #[doc = "1: 32 bytes"]
-    _32,
+    _32 = 1,
     #[doc = "2: 96 bytes"]
-    _96,
+    _96 = 2,
     #[doc = "3: 128 bytes"]
-    _128,
+    _128 = 3,
 }
 impl From<RTC_A> for u8 {
     #[inline(always)]
     fn from(variant: RTC_A) -> Self {
-        match variant {
-            RTC_A::_64 => 0,
-            RTC_A::_32 => 1,
-            RTC_A::_96 => 2,
-            RTC_A::_128 => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `RTC`"]
@@ -253,37 +249,29 @@ impl<'a> ST_W<'a> {
 }
 #[doc = "Transmit Threshold Control\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum TTC_A {
     #[doc = "0: 64 bytes"]
-    _64,
+    _64 = 0,
     #[doc = "1: 128 bytes"]
-    _128,
+    _128 = 1,
     #[doc = "2: 192 bytes"]
-    _192,
+    _192 = 2,
     #[doc = "3: 256 bytes"]
-    _256,
+    _256 = 3,
     #[doc = "4: 40 bytes"]
-    _40,
+    _40 = 4,
     #[doc = "5: 32 bytes"]
-    _32,
+    _32 = 5,
     #[doc = "6: 24 bytes"]
-    _24,
+    _24 = 6,
     #[doc = "7: 16 bytes"]
-    _16,
+    _16 = 7,
 }
 impl From<TTC_A> for u8 {
     #[inline(always)]
     fn from(variant: TTC_A) -> Self {
-        match variant {
-            TTC_A::_64 => 0,
-            TTC_A::_128 => 1,
-            TTC_A::_192 => 2,
-            TTC_A::_256 => 3,
-            TTC_A::_40 => 4,
-            TTC_A::_32 => 5,
-            TTC_A::_24 => 6,
-            TTC_A::_16 => 7,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `TTC`"]

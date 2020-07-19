@@ -6,25 +6,21 @@ pub type WDT0_R = crate::R<bool, bool>;
 pub type HIB_R = crate::R<bool, bool>;
 #[doc = "ADC0 Sample Speed\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum ADC0SPD_A {
     #[doc = "0: 125K samples/second"]
-    _125K,
+    _125K = 0,
     #[doc = "1: 250K samples/second"]
-    _250K,
+    _250K = 1,
     #[doc = "2: 500K samples/second"]
-    _500K,
+    _500K = 2,
     #[doc = "3: 1M samples/second"]
-    _1M,
+    _1M = 3,
 }
 impl From<ADC0SPD_A> for u8 {
     #[inline(always)]
     fn from(variant: ADC0SPD_A) -> Self {
-        match variant {
-            ADC0SPD_A::_125K => 0,
-            ADC0SPD_A::_250K => 1,
-            ADC0SPD_A::_500K => 2,
-            ADC0SPD_A::_1M => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `ADC0SPD`"]
@@ -64,25 +60,21 @@ impl ADC0SPD_R {
 }
 #[doc = "ADC1 Sample Speed\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum ADC1SPD_A {
     #[doc = "0: 125K samples/second"]
-    _125K,
+    _125K = 0,
     #[doc = "1: 250K samples/second"]
-    _250K,
+    _250K = 1,
     #[doc = "2: 500K samples/second"]
-    _500K,
+    _500K = 2,
     #[doc = "3: 1M samples/second"]
-    _1M,
+    _1M = 3,
 }
 impl From<ADC1SPD_A> for u8 {
     #[inline(always)]
     fn from(variant: ADC1SPD_A) -> Self {
-        match variant {
-            ADC1SPD_A::_125K => 0,
-            ADC1SPD_A::_250K => 1,
-            ADC1SPD_A::_500K => 2,
-            ADC1SPD_A::_1M => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `ADC1SPD`"]

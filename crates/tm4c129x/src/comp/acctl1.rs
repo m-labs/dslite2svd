@@ -36,25 +36,21 @@ impl<'a> CINV_W<'a> {
 }
 #[doc = "Interrupt Sense\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum ISEN_A {
     #[doc = "0: Level sense, see ISLVAL"]
-    LEVEL,
+    LEVEL = 0,
     #[doc = "1: Falling edge"]
-    FALL,
+    FALL = 1,
     #[doc = "2: Rising edge"]
-    RISE,
+    RISE = 2,
     #[doc = "3: Either edge"]
-    BOTH,
+    BOTH = 3,
 }
 impl From<ISEN_A> for u8 {
     #[inline(always)]
     fn from(variant: ISEN_A) -> Self {
-        match variant {
-            ISEN_A::LEVEL => 0,
-            ISEN_A::FALL => 1,
-            ISEN_A::RISE => 2,
-            ISEN_A::BOTH => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `ISEN`"]
@@ -157,25 +153,21 @@ impl<'a> ISLVAL_W<'a> {
 }
 #[doc = "Trigger Sense\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum TSEN_A {
     #[doc = "0: Level sense, see TSLVAL"]
-    LEVEL,
+    LEVEL = 0,
     #[doc = "1: Falling edge"]
-    FALL,
+    FALL = 1,
     #[doc = "2: Rising edge"]
-    RISE,
+    RISE = 2,
     #[doc = "3: Either edge"]
-    BOTH,
+    BOTH = 3,
 }
 impl From<TSEN_A> for u8 {
     #[inline(always)]
     fn from(variant: TSEN_A) -> Self {
-        match variant {
-            TSEN_A::LEVEL => 0,
-            TSEN_A::FALL => 1,
-            TSEN_A::RISE => 2,
-            TSEN_A::BOTH => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `TSEN`"]
@@ -278,22 +270,19 @@ impl<'a> TSLVAL_W<'a> {
 }
 #[doc = "Analog Source Positive\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum ASRCP_A {
     #[doc = "0: Pin value of Cn+"]
-    PIN,
+    PIN = 0,
     #[doc = "1: Pin value of C0+"]
-    PIN0,
+    PIN0 = 1,
     #[doc = "2: Internal voltage reference"]
-    REF,
+    REF = 2,
 }
 impl From<ASRCP_A> for u8 {
     #[inline(always)]
     fn from(variant: ASRCP_A) -> Self {
-        match variant {
-            ASRCP_A::PIN => 0,
-            ASRCP_A::PIN0 => 1,
-            ASRCP_A::REF => 2,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `ASRCP`"]

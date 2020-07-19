@@ -12,19 +12,17 @@ impl crate::ResetValue for super::HB8CFG4 {
 }
 #[doc = "CS3n Host Bus Sub-Mode\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum MODE_A {
     #[doc = "0: ADMUX - AD\\[7:0\\]"]
-    ADMUX,
+    ADMUX = 0,
     #[doc = "1: ADNONMUX - D\\[7:0\\]"]
-    AD,
+    AD = 1,
 }
 impl From<MODE_A> for u8 {
     #[inline(always)]
     fn from(variant: MODE_A) -> Self {
-        match variant {
-            MODE_A::ADMUX => 0,
-            MODE_A::AD => 1,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `MODE`"]
@@ -80,25 +78,21 @@ impl<'a> MODE_W<'a> {
 }
 #[doc = "CS3n Read Wait States\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum RDWS_A {
     #[doc = "0: Active RDn is 2 EPI clocks"]
-    _2,
+    _2 = 0,
     #[doc = "1: Active RDn is 4 EPI clocks"]
-    _4,
+    _4 = 1,
     #[doc = "2: Active RDn is 6 EPI clocks"]
-    _6,
+    _6 = 2,
     #[doc = "3: Active RDn is 8 EPI clocks"]
-    _8,
+    _8 = 3,
 }
 impl From<RDWS_A> for u8 {
     #[inline(always)]
     fn from(variant: RDWS_A) -> Self {
-        match variant {
-            RDWS_A::_2 => 0,
-            RDWS_A::_4 => 1,
-            RDWS_A::_6 => 2,
-            RDWS_A::_8 => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `RDWS`"]
@@ -177,25 +171,21 @@ impl<'a> RDWS_W<'a> {
 }
 #[doc = "CS3n Write Wait States\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum WRWS_A {
     #[doc = "0: Active WRn is 2 EPI clocks"]
-    _2,
+    _2 = 0,
     #[doc = "1: Active WRn is 4 EPI clocks"]
-    _4,
+    _4 = 1,
     #[doc = "2: Active WRn is 6 EPI clocks"]
-    _6,
+    _6 = 2,
     #[doc = "3: Active WRn is 8 EPI clocks"]
-    _8,
+    _8 = 3,
 }
 impl From<WRWS_A> for u8 {
     #[inline(always)]
     fn from(variant: WRWS_A) -> Self {
-        match variant {
-            WRWS_A::_2 => 0,
-            WRWS_A::_4 => 1,
-            WRWS_A::_6 => 2,
-            WRWS_A::_8 => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `WRWS`"]

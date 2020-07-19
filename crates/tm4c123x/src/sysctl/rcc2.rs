@@ -12,28 +12,23 @@ impl crate::ResetValue for super::RCC2 {
 }
 #[doc = "Oscillator Source 2\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum OSCSRC2_A {
     #[doc = "0: MOSC"]
-    MO,
+    MO = 0,
     #[doc = "1: PIOSC"]
-    IO,
+    IO = 1,
     #[doc = "2: PIOSC/4"]
-    IO4,
+    IO4 = 2,
     #[doc = "3: LFIOSC"]
-    _30,
+    _30 = 3,
     #[doc = "7: 32.768 kHz"]
-    _32,
+    _32 = 7,
 }
 impl From<OSCSRC2_A> for u8 {
     #[inline(always)]
     fn from(variant: OSCSRC2_A) -> Self {
-        match variant {
-            OSCSRC2_A::MO => 0,
-            OSCSRC2_A::IO => 1,
-            OSCSRC2_A::IO4 => 2,
-            OSCSRC2_A::_30 => 3,
-            OSCSRC2_A::_32 => 7,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `OSCSRC2`"]

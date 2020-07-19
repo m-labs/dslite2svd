@@ -12,25 +12,21 @@ impl crate::ResetValue for super::EPC {
 }
 #[doc = "External Power Supply Enable Configuration\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum EPEN_A {
     #[doc = "0: Power Enable Active Low"]
-    LOW,
+    LOW = 0,
     #[doc = "1: Power Enable Active High"]
-    HIGH,
+    HIGH = 1,
     #[doc = "2: Power Enable High if VBUS Low (OTG only)"]
-    VBLOW,
+    VBLOW = 2,
     #[doc = "3: Power Enable High if VBUS High (OTG only)"]
-    VBHIGH,
+    VBHIGH = 3,
 }
 impl From<EPEN_A> for u8 {
     #[inline(always)]
     fn from(variant: EPEN_A) -> Self {
-        match variant {
-            EPEN_A::LOW => 0,
-            EPEN_A::HIGH => 1,
-            EPEN_A::VBLOW => 2,
-            EPEN_A::VBHIGH => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `EPEN`"]
@@ -205,25 +201,21 @@ impl<'a> PFLTAEN_W<'a> {
 }
 #[doc = "Power Fault Action\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum PFLTACT_A {
     #[doc = "0: Unchanged"]
-    UNCHG,
+    UNCHG = 0,
     #[doc = "1: Tristate"]
-    TRIS,
+    TRIS = 1,
     #[doc = "2: Low"]
-    LOW,
+    LOW = 2,
     #[doc = "3: High"]
-    HIGH,
+    HIGH = 3,
 }
 impl From<PFLTACT_A> for u8 {
     #[inline(always)]
     fn from(variant: PFLTACT_A) -> Self {
-        match variant {
-            PFLTACT_A::UNCHG => 0,
-            PFLTACT_A::TRIS => 1,
-            PFLTACT_A::LOW => 2,
-            PFLTACT_A::HIGH => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `PFLTACT`"]

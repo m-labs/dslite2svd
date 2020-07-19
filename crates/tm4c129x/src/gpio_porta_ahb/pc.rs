@@ -12,22 +12,19 @@ impl crate::ResetValue for super::PC {
 }
 #[doc = "Extended Drive Mode Bit 0\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum EDM0_A {
     #[doc = "0: Drive values of 2, 4 and 8 mA are maintained. GPIO n Drive Select (GPIODRnR) registers function as normal"]
-    DISABLE,
+    DISABLE = 0,
     #[doc = "1: An additional 6 mA option is provided"]
-    _6MA,
+    _6MA = 1,
     #[doc = "3: A 2 mA driver is always enabled; setting the corresponding GPIODR4R register bit adds 2 mA and setting the corresponding GPIODR8R of GPIODR12R register bit adds an additional 4 mA"]
-    PLUS2MA,
+    PLUS2MA = 3,
 }
 impl From<EDM0_A> for u8 {
     #[inline(always)]
     fn from(variant: EDM0_A) -> Self {
-        match variant {
-            EDM0_A::DISABLE => 0,
-            EDM0_A::_6MA => 1,
-            EDM0_A::PLUS2MA => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `EDM0`"]

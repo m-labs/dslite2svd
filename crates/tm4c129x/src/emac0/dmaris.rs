@@ -372,34 +372,27 @@ impl<'a> NIS_W<'a> {
 }
 #[doc = "Received Process State\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum RS_A {
     #[doc = "0: Stopped: Reset or stop receive command issued"]
-    STOP,
+    STOP = 0,
     #[doc = "1: Running: Fetching receive transfer descriptor"]
-    RUNRXTD,
+    RUNRXTD = 1,
     #[doc = "3: Running: Waiting for receive packet"]
-    RUNRXD,
+    RUNRXD = 3,
     #[doc = "4: Suspended: Receive descriptor unavailable"]
-    SUSPEND,
+    SUSPEND = 4,
     #[doc = "5: Running: Closing receive descriptor"]
-    RUNCRD,
+    RUNCRD = 5,
     #[doc = "6: Writing Timestamp"]
-    TSWS,
+    TSWS = 6,
     #[doc = "7: Running: Transferring the receive packet data from receive buffer to host memory"]
-    RUNTXD,
+    RUNTXD = 7,
 }
 impl From<RS_A> for u8 {
     #[inline(always)]
     fn from(variant: RS_A) -> Self {
-        match variant {
-            RS_A::STOP => 0,
-            RS_A::RUNRXTD => 1,
-            RS_A::RUNRXD => 3,
-            RS_A::SUSPEND => 4,
-            RS_A::RUNCRD => 5,
-            RS_A::TSWS => 6,
-            RS_A::RUNTXD => 7,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `RS`"]
@@ -510,34 +503,27 @@ impl<'a> RS_W<'a> {
 }
 #[doc = "Transmit Process State\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum TS_A {
     #[doc = "0: Stopped; Reset or Stop transmit command processed"]
-    STOP,
+    STOP = 0,
     #[doc = "1: Running; Fetching transmit transfer descriptor"]
-    RUNTXTD,
+    RUNTXTD = 1,
     #[doc = "2: Running; Waiting for status"]
-    STATUS,
+    STATUS = 2,
     #[doc = "3: Running; Reading data from host memory buffer and queuing it to transmit buffer (TX FIFO)"]
-    RUNTX,
+    RUNTX = 3,
     #[doc = "4: Writing Timestamp"]
-    TSTAMP,
+    TSTAMP = 4,
     #[doc = "6: Suspended; Transmit descriptor unavailable or transmit buffer underflow"]
-    SUSPEND,
+    SUSPEND = 6,
     #[doc = "7: Running; Closing transmit descriptor"]
-    RUNCTD,
+    RUNCTD = 7,
 }
 impl From<TS_A> for u8 {
     #[inline(always)]
     fn from(variant: TS_A) -> Self {
-        match variant {
-            TS_A::STOP => 0,
-            TS_A::RUNTXTD => 1,
-            TS_A::STATUS => 2,
-            TS_A::RUNTX => 3,
-            TS_A::TSTAMP => 4,
-            TS_A::SUSPEND => 6,
-            TS_A::RUNCTD => 7,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `TS`"]
@@ -648,31 +634,25 @@ impl<'a> TS_W<'a> {
 }
 #[doc = "Access Error\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum AE_A {
     #[doc = "0: Error during RX DMA Write Data Transfer"]
-    RXDMAWD,
+    RXDMAWD = 0,
     #[doc = "3: Error during TX DMA Read Data Transfer"]
-    TXDMARD,
+    TXDMARD = 3,
     #[doc = "4: Error during RX DMA Descriptor Write Access"]
-    RXDMADW,
+    RXDMADW = 4,
     #[doc = "5: Error during TX DMA Descriptor Write Access"]
-    TXDMADW,
+    TXDMADW = 5,
     #[doc = "6: Error during RX DMA Descriptor Read Access"]
-    RXDMADR,
+    RXDMADR = 6,
     #[doc = "7: Error during TX DMA Descriptor Read Access"]
-    TXDMADR,
+    TXDMADR = 7,
 }
 impl From<AE_A> for u8 {
     #[inline(always)]
     fn from(variant: AE_A) -> Self {
-        match variant {
-            AE_A::RXDMAWD => 0,
-            AE_A::TXDMARD => 3,
-            AE_A::RXDMADW => 4,
-            AE_A::TXDMADW => 5,
-            AE_A::RXDMADR => 6,
-            AE_A::TXDMADR => 7,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `AE`"]

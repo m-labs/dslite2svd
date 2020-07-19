@@ -36,25 +36,21 @@ impl<'a> MOSCDIS_W<'a> {
 }
 #[doc = "Oscillator Source\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum OSCSRC_A {
     #[doc = "0: MOSC"]
-    MAIN,
+    MAIN = 0,
     #[doc = "1: IOSC"]
-    INT,
+    INT = 1,
     #[doc = "2: IOSC/4"]
-    INT4,
+    INT4 = 2,
     #[doc = "3: LFIOSC"]
-    _30,
+    _30 = 3,
 }
 impl From<OSCSRC_A> for u8 {
     #[inline(always)]
     fn from(variant: OSCSRC_A) -> Self {
-        match variant {
-            OSCSRC_A::MAIN => 0,
-            OSCSRC_A::INT => 1,
-            OSCSRC_A::INT4 => 2,
-            OSCSRC_A::_30 => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `OSCSRC`"]
@@ -133,76 +129,55 @@ impl<'a> OSCSRC_W<'a> {
 }
 #[doc = "Crystal Value\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum XTAL_A {
     #[doc = "6: 4 MHz"]
-    _4MHZ,
+    _4MHZ = 6,
     #[doc = "7: 4.096 MHz"]
-    _4_09MHZ,
+    _4_09MHZ = 7,
     #[doc = "8: 4.9152 MHz"]
-    _4_91MHZ,
+    _4_91MHZ = 8,
     #[doc = "9: 5 MHz"]
-    _5MHZ,
+    _5MHZ = 9,
     #[doc = "10: 5.12 MHz"]
-    _5_12MHZ,
+    _5_12MHZ = 10,
     #[doc = "11: 6 MHz"]
-    _6MHZ,
+    _6MHZ = 11,
     #[doc = "12: 6.144 MHz"]
-    _6_14MHZ,
+    _6_14MHZ = 12,
     #[doc = "13: 7.3728 MHz"]
-    _7_37MHZ,
+    _7_37MHZ = 13,
     #[doc = "14: 8 MHz"]
-    _8MHZ,
+    _8MHZ = 14,
     #[doc = "15: 8.192 MHz"]
-    _8_19MHZ,
+    _8_19MHZ = 15,
     #[doc = "16: 10 MHz"]
-    _10MHZ,
+    _10MHZ = 16,
     #[doc = "17: 12 MHz"]
-    _12MHZ,
+    _12MHZ = 17,
     #[doc = "18: 12.288 MHz"]
-    _12_2MHZ,
+    _12_2MHZ = 18,
     #[doc = "19: 13.56 MHz"]
-    _13_5MHZ,
+    _13_5MHZ = 19,
     #[doc = "20: 14.31818 MHz"]
-    _14_3MHZ,
+    _14_3MHZ = 20,
     #[doc = "21: 16 MHz"]
-    _16MHZ,
+    _16MHZ = 21,
     #[doc = "22: 16.384 MHz"]
-    _16_3MHZ,
+    _16_3MHZ = 22,
     #[doc = "23: 18.0 MHz (USB)"]
-    _18MHZ,
+    _18MHZ = 23,
     #[doc = "24: 20.0 MHz (USB)"]
-    _20MHZ,
+    _20MHZ = 24,
     #[doc = "25: 24.0 MHz (USB)"]
-    _24MHZ,
+    _24MHZ = 25,
     #[doc = "26: 25.0 MHz (USB)"]
-    _25MHZ,
+    _25MHZ = 26,
 }
 impl From<XTAL_A> for u8 {
     #[inline(always)]
     fn from(variant: XTAL_A) -> Self {
-        match variant {
-            XTAL_A::_4MHZ => 6,
-            XTAL_A::_4_09MHZ => 7,
-            XTAL_A::_4_91MHZ => 8,
-            XTAL_A::_5MHZ => 9,
-            XTAL_A::_5_12MHZ => 10,
-            XTAL_A::_6MHZ => 11,
-            XTAL_A::_6_14MHZ => 12,
-            XTAL_A::_7_37MHZ => 13,
-            XTAL_A::_8MHZ => 14,
-            XTAL_A::_8_19MHZ => 15,
-            XTAL_A::_10MHZ => 16,
-            XTAL_A::_12MHZ => 17,
-            XTAL_A::_12_2MHZ => 18,
-            XTAL_A::_13_5MHZ => 19,
-            XTAL_A::_14_3MHZ => 20,
-            XTAL_A::_16MHZ => 21,
-            XTAL_A::_16_3MHZ => 22,
-            XTAL_A::_18MHZ => 23,
-            XTAL_A::_20MHZ => 24,
-            XTAL_A::_24MHZ => 25,
-            XTAL_A::_25MHZ => 26,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `XTAL`"]
@@ -515,31 +490,25 @@ impl<'a> PWRDN_W<'a> {
 }
 #[doc = "PWM Unit Clock Divisor\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum PWMDIV_A {
     #[doc = "0: PWM clock /2"]
-    _2,
+    _2 = 0,
     #[doc = "1: PWM clock /4"]
-    _4,
+    _4 = 1,
     #[doc = "2: PWM clock /8"]
-    _8,
+    _8 = 2,
     #[doc = "3: PWM clock /16"]
-    _16,
+    _16 = 3,
     #[doc = "4: PWM clock /32"]
-    _32,
+    _32 = 4,
     #[doc = "5: PWM clock /64"]
-    _64,
+    _64 = 5,
 }
 impl From<PWMDIV_A> for u8 {
     #[inline(always)]
     fn from(variant: PWMDIV_A) -> Self {
-        match variant {
-            PWMDIV_A::_2 => 0,
-            PWMDIV_A::_4 => 1,
-            PWMDIV_A::_8 => 2,
-            PWMDIV_A::_16 => 3,
-            PWMDIV_A::_32 => 4,
-            PWMDIV_A::_64 => 5,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `PWMDIV`"]

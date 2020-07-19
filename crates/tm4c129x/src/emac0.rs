@@ -172,7 +172,7 @@ impl crate::Readable for CFG {}
 impl crate::Writable for CFG {}
 #[doc = "Ethernet MAC Configuration"]
 pub mod cfg;
-#[doc = "Ethernet MAC Frame Filter\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [framefltr](framefltr) module"]
+#[doc = "Ethernet MAC Frame Filter\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [framefltr](framefltr) module"]
 pub type FRAMEFLTR = crate::Reg<u32, _FRAMEFLTR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -183,7 +183,7 @@ impl crate::Readable for FRAMEFLTR {}
 impl crate::Writable for FRAMEFLTR {}
 #[doc = "Ethernet MAC Frame Filter"]
 pub mod framefltr;
-#[doc = "Ethernet MAC Hash Table High\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [hashtblh](hashtblh) module"]
+#[doc = "Ethernet MAC Hash Table High\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [hashtblh](hashtblh) module"]
 pub type HASHTBLH = crate::Reg<u32, _HASHTBLH>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -194,7 +194,7 @@ impl crate::Readable for HASHTBLH {}
 impl crate::Writable for HASHTBLH {}
 #[doc = "Ethernet MAC Hash Table High"]
 pub mod hashtblh;
-#[doc = "Ethernet MAC Hash Table Low\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [hashtbll](hashtbll) module"]
+#[doc = "Ethernet MAC Hash Table Low\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [hashtbll](hashtbll) module"]
 pub type HASHTBLL = crate::Reg<u32, _HASHTBLL>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -205,7 +205,7 @@ impl crate::Readable for HASHTBLL {}
 impl crate::Writable for HASHTBLL {}
 #[doc = "Ethernet MAC Hash Table Low"]
 pub mod hashtbll;
-#[doc = "Ethernet MAC MII Address\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [miiaddr](miiaddr) module"]
+#[doc = "Ethernet MAC MII Address\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [miiaddr](miiaddr) module"]
 pub type MIIADDR = crate::Reg<u32, _MIIADDR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -216,7 +216,7 @@ impl crate::Readable for MIIADDR {}
 impl crate::Writable for MIIADDR {}
 #[doc = "Ethernet MAC MII Address"]
 pub mod miiaddr;
-#[doc = "Ethernet MAC MII Data Register\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [miidata](miidata) module"]
+#[doc = "Ethernet MAC MII Data Register\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [miidata](miidata) module"]
 pub type MIIDATA = crate::Reg<u32, _MIIDATA>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -227,7 +227,7 @@ impl crate::Readable for MIIDATA {}
 impl crate::Writable for MIIDATA {}
 #[doc = "Ethernet MAC MII Data Register"]
 pub mod miidata;
-#[doc = "Ethernet MAC Flow Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [flowctl](flowctl) module"]
+#[doc = "Ethernet MAC Flow Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [flowctl](flowctl) module"]
 pub type FLOWCTL = crate::Reg<u32, _FLOWCTL>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -238,7 +238,7 @@ impl crate::Readable for FLOWCTL {}
 impl crate::Writable for FLOWCTL {}
 #[doc = "Ethernet MAC Flow Control"]
 pub mod flowctl;
-#[doc = "Ethernet MAC VLAN Tag\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [vlantg](vlantg) module"]
+#[doc = "Ethernet MAC VLAN Tag\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [vlantg](vlantg) module"]
 pub type VLANTG = crate::Reg<u32, _VLANTG>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -249,7 +249,7 @@ impl crate::Readable for VLANTG {}
 impl crate::Writable for VLANTG {}
 #[doc = "Ethernet MAC VLAN Tag"]
 pub mod vlantg;
-#[doc = "Ethernet MAC Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [status](status) module"]
+#[doc = "Ethernet MAC Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [status](status) module"]
 pub type STATUS = crate::Reg<u32, _STATUS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -258,7 +258,7 @@ pub struct _STATUS;
 impl crate::Readable for STATUS {}
 #[doc = "Ethernet MAC Status"]
 pub mod status;
-#[doc = "Ethernet MAC Remote Wake-Up Frame Filter\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rwuff](rwuff) module"]
+#[doc = "Ethernet MAC Remote Wake-Up Frame Filter\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rwuff](rwuff) module"]
 pub type RWUFF = crate::Reg<u32, _RWUFF>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -269,7 +269,7 @@ impl crate::Readable for RWUFF {}
 impl crate::Writable for RWUFF {}
 #[doc = "Ethernet MAC Remote Wake-Up Frame Filter"]
 pub mod rwuff;
-#[doc = "Ethernet MAC PMT Control and Status Register\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [pmtctlstat](pmtctlstat) module"]
+#[doc = "Ethernet MAC PMT Control and Status Register\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [pmtctlstat](pmtctlstat) module"]
 pub type PMTCTLSTAT = crate::Reg<u32, _PMTCTLSTAT>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -280,7 +280,7 @@ impl crate::Readable for PMTCTLSTAT {}
 impl crate::Writable for PMTCTLSTAT {}
 #[doc = "Ethernet MAC PMT Control and Status Register"]
 pub mod pmtctlstat;
-#[doc = "Ethernet MAC Raw Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ris](ris) module"]
+#[doc = "Ethernet MAC Raw Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ris](ris) module"]
 pub type RIS = crate::Reg<u32, _RIS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -289,7 +289,7 @@ pub struct _RIS;
 impl crate::Readable for RIS {}
 #[doc = "Ethernet MAC Raw Interrupt Status"]
 pub mod ris;
-#[doc = "Ethernet MAC Interrupt Mask\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [im](im) module"]
+#[doc = "Ethernet MAC Interrupt Mask\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [im](im) module"]
 pub type IM = crate::Reg<u32, _IM>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -300,7 +300,7 @@ impl crate::Readable for IM {}
 impl crate::Writable for IM {}
 #[doc = "Ethernet MAC Interrupt Mask"]
 pub mod im;
-#[doc = "Ethernet MAC Address 0 High\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [addr0h](addr0h) module"]
+#[doc = "Ethernet MAC Address 0 High\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [addr0h](addr0h) module"]
 pub type ADDR0H = crate::Reg<u32, _ADDR0H>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -311,7 +311,7 @@ impl crate::Readable for ADDR0H {}
 impl crate::Writable for ADDR0H {}
 #[doc = "Ethernet MAC Address 0 High"]
 pub mod addr0h;
-#[doc = "Ethernet MAC Address 0 Low Register\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [addr0l](addr0l) module"]
+#[doc = "Ethernet MAC Address 0 Low Register\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [addr0l](addr0l) module"]
 pub type ADDR0L = crate::Reg<u32, _ADDR0L>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -322,7 +322,7 @@ impl crate::Readable for ADDR0L {}
 impl crate::Writable for ADDR0L {}
 #[doc = "Ethernet MAC Address 0 Low Register"]
 pub mod addr0l;
-#[doc = "Ethernet MAC Address 1 High\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [addr1h](addr1h) module"]
+#[doc = "Ethernet MAC Address 1 High\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [addr1h](addr1h) module"]
 pub type ADDR1H = crate::Reg<u32, _ADDR1H>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -333,7 +333,7 @@ impl crate::Readable for ADDR1H {}
 impl crate::Writable for ADDR1H {}
 #[doc = "Ethernet MAC Address 1 High"]
 pub mod addr1h;
-#[doc = "Ethernet MAC Address 1 Low\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [addr1l](addr1l) module"]
+#[doc = "Ethernet MAC Address 1 Low\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [addr1l](addr1l) module"]
 pub type ADDR1L = crate::Reg<u32, _ADDR1L>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -344,7 +344,7 @@ impl crate::Readable for ADDR1L {}
 impl crate::Writable for ADDR1L {}
 #[doc = "Ethernet MAC Address 1 Low"]
 pub mod addr1l;
-#[doc = "Ethernet MAC Address 2 High\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [addr2h](addr2h) module"]
+#[doc = "Ethernet MAC Address 2 High\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [addr2h](addr2h) module"]
 pub type ADDR2H = crate::Reg<u32, _ADDR2H>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -355,7 +355,7 @@ impl crate::Readable for ADDR2H {}
 impl crate::Writable for ADDR2H {}
 #[doc = "Ethernet MAC Address 2 High"]
 pub mod addr2h;
-#[doc = "Ethernet MAC Address 2 Low\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [addr2l](addr2l) module"]
+#[doc = "Ethernet MAC Address 2 Low\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [addr2l](addr2l) module"]
 pub type ADDR2L = crate::Reg<u32, _ADDR2L>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -366,7 +366,7 @@ impl crate::Readable for ADDR2L {}
 impl crate::Writable for ADDR2L {}
 #[doc = "Ethernet MAC Address 2 Low"]
 pub mod addr2l;
-#[doc = "Ethernet MAC Address 3 High\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [addr3h](addr3h) module"]
+#[doc = "Ethernet MAC Address 3 High\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [addr3h](addr3h) module"]
 pub type ADDR3H = crate::Reg<u32, _ADDR3H>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -377,7 +377,7 @@ impl crate::Readable for ADDR3H {}
 impl crate::Writable for ADDR3H {}
 #[doc = "Ethernet MAC Address 3 High"]
 pub mod addr3h;
-#[doc = "Ethernet MAC Address 3 Low\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [addr3l](addr3l) module"]
+#[doc = "Ethernet MAC Address 3 Low\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [addr3l](addr3l) module"]
 pub type ADDR3L = crate::Reg<u32, _ADDR3L>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -388,7 +388,7 @@ impl crate::Readable for ADDR3L {}
 impl crate::Writable for ADDR3L {}
 #[doc = "Ethernet MAC Address 3 Low"]
 pub mod addr3l;
-#[doc = "Ethernet MAC Watchdog Timeout\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [wdogto](wdogto) module"]
+#[doc = "Ethernet MAC Watchdog Timeout\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [wdogto](wdogto) module"]
 pub type WDOGTO = crate::Reg<u32, _WDOGTO>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -399,7 +399,7 @@ impl crate::Readable for WDOGTO {}
 impl crate::Writable for WDOGTO {}
 #[doc = "Ethernet MAC Watchdog Timeout"]
 pub mod wdogto;
-#[doc = "Ethernet MAC MMC Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [mmcctrl](mmcctrl) module"]
+#[doc = "Ethernet MAC MMC Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [mmcctrl](mmcctrl) module"]
 pub type MMCCTRL = crate::Reg<u32, _MMCCTRL>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -410,7 +410,7 @@ impl crate::Readable for MMCCTRL {}
 impl crate::Writable for MMCCTRL {}
 #[doc = "Ethernet MAC MMC Control"]
 pub mod mmcctrl;
-#[doc = "Ethernet MAC MMC Receive Raw Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [mmcrxris](mmcrxris) module"]
+#[doc = "Ethernet MAC MMC Receive Raw Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [mmcrxris](mmcrxris) module"]
 pub type MMCRXRIS = crate::Reg<u32, _MMCRXRIS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -419,7 +419,7 @@ pub struct _MMCRXRIS;
 impl crate::Readable for MMCRXRIS {}
 #[doc = "Ethernet MAC MMC Receive Raw Interrupt Status"]
 pub mod mmcrxris;
-#[doc = "Ethernet MAC MMC Transmit Raw Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [mmctxris](mmctxris) module"]
+#[doc = "Ethernet MAC MMC Transmit Raw Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [mmctxris](mmctxris) module"]
 pub type MMCTXRIS = crate::Reg<u32, _MMCTXRIS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -428,7 +428,7 @@ pub struct _MMCTXRIS;
 impl crate::Readable for MMCTXRIS {}
 #[doc = "Ethernet MAC MMC Transmit Raw Interrupt Status"]
 pub mod mmctxris;
-#[doc = "Ethernet MAC MMC Receive Interrupt Mask\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [mmcrxim](mmcrxim) module"]
+#[doc = "Ethernet MAC MMC Receive Interrupt Mask\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [mmcrxim](mmcrxim) module"]
 pub type MMCRXIM = crate::Reg<u32, _MMCRXIM>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -439,7 +439,7 @@ impl crate::Readable for MMCRXIM {}
 impl crate::Writable for MMCRXIM {}
 #[doc = "Ethernet MAC MMC Receive Interrupt Mask"]
 pub mod mmcrxim;
-#[doc = "Ethernet MAC MMC Transmit Interrupt Mask\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [mmctxim](mmctxim) module"]
+#[doc = "Ethernet MAC MMC Transmit Interrupt Mask\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [mmctxim](mmctxim) module"]
 pub type MMCTXIM = crate::Reg<u32, _MMCTXIM>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -450,7 +450,7 @@ impl crate::Readable for MMCTXIM {}
 impl crate::Writable for MMCTXIM {}
 #[doc = "Ethernet MAC MMC Transmit Interrupt Mask"]
 pub mod mmctxim;
-#[doc = "Ethernet MAC Transmit Frame Count for Good and Bad Frames\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txcntgb](txcntgb) module"]
+#[doc = "Ethernet MAC Transmit Frame Count for Good and Bad Frames\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txcntgb](txcntgb) module"]
 pub type TXCNTGB = crate::Reg<u32, _TXCNTGB>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -459,7 +459,7 @@ pub struct _TXCNTGB;
 impl crate::Readable for TXCNTGB {}
 #[doc = "Ethernet MAC Transmit Frame Count for Good and Bad Frames"]
 pub mod txcntgb;
-#[doc = "Ethernet MAC Transmit Frame Count for Frames Transmitted after Single Collision\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txcntscol](txcntscol) module"]
+#[doc = "Ethernet MAC Transmit Frame Count for Frames Transmitted after Single Collision\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txcntscol](txcntscol) module"]
 pub type TXCNTSCOL = crate::Reg<u32, _TXCNTSCOL>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -468,7 +468,7 @@ pub struct _TXCNTSCOL;
 impl crate::Readable for TXCNTSCOL {}
 #[doc = "Ethernet MAC Transmit Frame Count for Frames Transmitted after Single Collision"]
 pub mod txcntscol;
-#[doc = "Ethernet MAC Transmit Frame Count for Frames Transmitted after Multiple Collisions\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txcntmcol](txcntmcol) module"]
+#[doc = "Ethernet MAC Transmit Frame Count for Frames Transmitted after Multiple Collisions\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txcntmcol](txcntmcol) module"]
 pub type TXCNTMCOL = crate::Reg<u32, _TXCNTMCOL>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -477,7 +477,7 @@ pub struct _TXCNTMCOL;
 impl crate::Readable for TXCNTMCOL {}
 #[doc = "Ethernet MAC Transmit Frame Count for Frames Transmitted after Multiple Collisions"]
 pub mod txcntmcol;
-#[doc = "Ethernet MAC Transmit Octet Count Good\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txoctcntg](txoctcntg) module"]
+#[doc = "Ethernet MAC Transmit Octet Count Good\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txoctcntg](txoctcntg) module"]
 pub type TXOCTCNTG = crate::Reg<u32, _TXOCTCNTG>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -486,7 +486,7 @@ pub struct _TXOCTCNTG;
 impl crate::Readable for TXOCTCNTG {}
 #[doc = "Ethernet MAC Transmit Octet Count Good"]
 pub mod txoctcntg;
-#[doc = "Ethernet MAC Receive Frame Count for Good and Bad Frames\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxcntgb](rxcntgb) module"]
+#[doc = "Ethernet MAC Receive Frame Count for Good and Bad Frames\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxcntgb](rxcntgb) module"]
 pub type RXCNTGB = crate::Reg<u32, _RXCNTGB>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -495,7 +495,7 @@ pub struct _RXCNTGB;
 impl crate::Readable for RXCNTGB {}
 #[doc = "Ethernet MAC Receive Frame Count for Good and Bad Frames"]
 pub mod rxcntgb;
-#[doc = "Ethernet MAC Receive Frame Count for CRC Error Frames\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxcntcrcerr](rxcntcrcerr) module"]
+#[doc = "Ethernet MAC Receive Frame Count for CRC Error Frames\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxcntcrcerr](rxcntcrcerr) module"]
 pub type RXCNTCRCERR = crate::Reg<u32, _RXCNTCRCERR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -504,7 +504,7 @@ pub struct _RXCNTCRCERR;
 impl crate::Readable for RXCNTCRCERR {}
 #[doc = "Ethernet MAC Receive Frame Count for CRC Error Frames"]
 pub mod rxcntcrcerr;
-#[doc = "Ethernet MAC Receive Frame Count for Alignment Error Frames\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxcntalgnerr](rxcntalgnerr) module"]
+#[doc = "Ethernet MAC Receive Frame Count for Alignment Error Frames\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxcntalgnerr](rxcntalgnerr) module"]
 pub type RXCNTALGNERR = crate::Reg<u32, _RXCNTALGNERR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -513,7 +513,7 @@ pub struct _RXCNTALGNERR;
 impl crate::Readable for RXCNTALGNERR {}
 #[doc = "Ethernet MAC Receive Frame Count for Alignment Error Frames"]
 pub mod rxcntalgnerr;
-#[doc = "Ethernet MAC Receive Frame Count for Good Unicast Frames\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxcntguni](rxcntguni) module"]
+#[doc = "Ethernet MAC Receive Frame Count for Good Unicast Frames\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxcntguni](rxcntguni) module"]
 pub type RXCNTGUNI = crate::Reg<u32, _RXCNTGUNI>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -522,7 +522,7 @@ pub struct _RXCNTGUNI;
 impl crate::Readable for RXCNTGUNI {}
 #[doc = "Ethernet MAC Receive Frame Count for Good Unicast Frames"]
 pub mod rxcntguni;
-#[doc = "Ethernet MAC VLAN Tag Inclusion or Replacement\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [vlnincrep](vlnincrep) module"]
+#[doc = "Ethernet MAC VLAN Tag Inclusion or Replacement\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [vlnincrep](vlnincrep) module"]
 pub type VLNINCREP = crate::Reg<u32, _VLNINCREP>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -533,7 +533,7 @@ impl crate::Readable for VLNINCREP {}
 impl crate::Writable for VLNINCREP {}
 #[doc = "Ethernet MAC VLAN Tag Inclusion or Replacement"]
 pub mod vlnincrep;
-#[doc = "Ethernet MAC VLAN Hash Table\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [vlanhash](vlanhash) module"]
+#[doc = "Ethernet MAC VLAN Hash Table\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [vlanhash](vlanhash) module"]
 pub type VLANHASH = crate::Reg<u32, _VLANHASH>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -544,7 +544,7 @@ impl crate::Readable for VLANHASH {}
 impl crate::Writable for VLANHASH {}
 #[doc = "Ethernet MAC VLAN Hash Table"]
 pub mod vlanhash;
-#[doc = "Ethernet MAC Timestamp Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [timstctrl](timstctrl) module"]
+#[doc = "Ethernet MAC Timestamp Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [timstctrl](timstctrl) module"]
 pub type TIMSTCTRL = crate::Reg<u32, _TIMSTCTRL>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -555,7 +555,7 @@ impl crate::Readable for TIMSTCTRL {}
 impl crate::Writable for TIMSTCTRL {}
 #[doc = "Ethernet MAC Timestamp Control"]
 pub mod timstctrl;
-#[doc = "Ethernet MAC Sub-Second Increment\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [subsecinc](subsecinc) module"]
+#[doc = "Ethernet MAC Sub-Second Increment\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [subsecinc](subsecinc) module"]
 pub type SUBSECINC = crate::Reg<u32, _SUBSECINC>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -566,7 +566,7 @@ impl crate::Readable for SUBSECINC {}
 impl crate::Writable for SUBSECINC {}
 #[doc = "Ethernet MAC Sub-Second Increment"]
 pub mod subsecinc;
-#[doc = "Ethernet MAC System Time - Seconds\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [timsec](timsec) module"]
+#[doc = "Ethernet MAC System Time - Seconds\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [timsec](timsec) module"]
 pub type TIMSEC = crate::Reg<u32, _TIMSEC>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -575,7 +575,7 @@ pub struct _TIMSEC;
 impl crate::Readable for TIMSEC {}
 #[doc = "Ethernet MAC System Time - Seconds"]
 pub mod timsec;
-#[doc = "Ethernet MAC System Time - Nanoseconds\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [timnano](timnano) module"]
+#[doc = "Ethernet MAC System Time - Nanoseconds\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [timnano](timnano) module"]
 pub type TIMNANO = crate::Reg<u32, _TIMNANO>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -584,7 +584,7 @@ pub struct _TIMNANO;
 impl crate::Readable for TIMNANO {}
 #[doc = "Ethernet MAC System Time - Nanoseconds"]
 pub mod timnano;
-#[doc = "Ethernet MAC System Time - Seconds Update\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [timsecu](timsecu) module"]
+#[doc = "Ethernet MAC System Time - Seconds Update\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [timsecu](timsecu) module"]
 pub type TIMSECU = crate::Reg<u32, _TIMSECU>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -595,7 +595,7 @@ impl crate::Readable for TIMSECU {}
 impl crate::Writable for TIMSECU {}
 #[doc = "Ethernet MAC System Time - Seconds Update"]
 pub mod timsecu;
-#[doc = "Ethernet MAC System Time - Nanoseconds Update\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [timnanou](timnanou) module"]
+#[doc = "Ethernet MAC System Time - Nanoseconds Update\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [timnanou](timnanou) module"]
 pub type TIMNANOU = crate::Reg<u32, _TIMNANOU>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -606,7 +606,7 @@ impl crate::Readable for TIMNANOU {}
 impl crate::Writable for TIMNANOU {}
 #[doc = "Ethernet MAC System Time - Nanoseconds Update"]
 pub mod timnanou;
-#[doc = "Ethernet MAC Timestamp Addend\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [timadd](timadd) module"]
+#[doc = "Ethernet MAC Timestamp Addend\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [timadd](timadd) module"]
 pub type TIMADD = crate::Reg<u32, _TIMADD>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -617,7 +617,7 @@ impl crate::Readable for TIMADD {}
 impl crate::Writable for TIMADD {}
 #[doc = "Ethernet MAC Timestamp Addend"]
 pub mod timadd;
-#[doc = "Ethernet MAC Target Time Seconds\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [targsec](targsec) module"]
+#[doc = "Ethernet MAC Target Time Seconds\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [targsec](targsec) module"]
 pub type TARGSEC = crate::Reg<u32, _TARGSEC>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -628,7 +628,7 @@ impl crate::Readable for TARGSEC {}
 impl crate::Writable for TARGSEC {}
 #[doc = "Ethernet MAC Target Time Seconds"]
 pub mod targsec;
-#[doc = "Ethernet MAC Target Time Nanoseconds\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [targnano](targnano) module"]
+#[doc = "Ethernet MAC Target Time Nanoseconds\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [targnano](targnano) module"]
 pub type TARGNANO = crate::Reg<u32, _TARGNANO>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -639,7 +639,7 @@ impl crate::Readable for TARGNANO {}
 impl crate::Writable for TARGNANO {}
 #[doc = "Ethernet MAC Target Time Nanoseconds"]
 pub mod targnano;
-#[doc = "Ethernet MAC System Time-Higher Word Seconds\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [hwordsec](hwordsec) module"]
+#[doc = "Ethernet MAC System Time-Higher Word Seconds\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [hwordsec](hwordsec) module"]
 pub type HWORDSEC = crate::Reg<u32, _HWORDSEC>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -650,7 +650,7 @@ impl crate::Readable for HWORDSEC {}
 impl crate::Writable for HWORDSEC {}
 #[doc = "Ethernet MAC System Time-Higher Word Seconds"]
 pub mod hwordsec;
-#[doc = "Ethernet MAC Timestamp Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [timstat](timstat) module"]
+#[doc = "Ethernet MAC Timestamp Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [timstat](timstat) module"]
 pub type TIMSTAT = crate::Reg<u32, _TIMSTAT>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -659,7 +659,7 @@ pub struct _TIMSTAT;
 impl crate::Readable for TIMSTAT {}
 #[doc = "Ethernet MAC Timestamp Status"]
 pub mod timstat;
-#[doc = "Ethernet MAC PPS Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ppsctrl](ppsctrl) module"]
+#[doc = "Ethernet MAC PPS Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ppsctrl](ppsctrl) module"]
 pub type PPSCTRL = crate::Reg<u32, _PPSCTRL>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -670,7 +670,7 @@ impl crate::Readable for PPSCTRL {}
 impl crate::Writable for PPSCTRL {}
 #[doc = "Ethernet MAC PPS Control"]
 pub mod ppsctrl;
-#[doc = "Ethernet MAC PPS0 Interval\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [pps0intvl](pps0intvl) module"]
+#[doc = "Ethernet MAC PPS0 Interval\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [pps0intvl](pps0intvl) module"]
 pub type PPS0INTVL = crate::Reg<u32, _PPS0INTVL>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -681,7 +681,7 @@ impl crate::Readable for PPS0INTVL {}
 impl crate::Writable for PPS0INTVL {}
 #[doc = "Ethernet MAC PPS0 Interval"]
 pub mod pps0intvl;
-#[doc = "Ethernet MAC PPS0 Width\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [pps0width](pps0width) module"]
+#[doc = "Ethernet MAC PPS0 Width\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [pps0width](pps0width) module"]
 pub type PPS0WIDTH = crate::Reg<u32, _PPS0WIDTH>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -692,7 +692,7 @@ impl crate::Readable for PPS0WIDTH {}
 impl crate::Writable for PPS0WIDTH {}
 #[doc = "Ethernet MAC PPS0 Width"]
 pub mod pps0width;
-#[doc = "Ethernet MAC DMA Bus Mode\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dmabusmod](dmabusmod) module"]
+#[doc = "Ethernet MAC DMA Bus Mode\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dmabusmod](dmabusmod) module"]
 pub type DMABUSMOD = crate::Reg<u32, _DMABUSMOD>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -703,7 +703,7 @@ impl crate::Readable for DMABUSMOD {}
 impl crate::Writable for DMABUSMOD {}
 #[doc = "Ethernet MAC DMA Bus Mode"]
 pub mod dmabusmod;
-#[doc = "Ethernet MAC Transmit Poll Demand\n\nThis register you can [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txpolld](txpolld) module"]
+#[doc = "Ethernet MAC Transmit Poll Demand\n\nThis register you can [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txpolld](txpolld) module"]
 pub type TXPOLLD = crate::Reg<u32, _TXPOLLD>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -712,7 +712,7 @@ pub struct _TXPOLLD;
 impl crate::Writable for TXPOLLD {}
 #[doc = "Ethernet MAC Transmit Poll Demand"]
 pub mod txpolld;
-#[doc = "Ethernet MAC Receive Poll Demand\n\nThis register you can [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxpolld](rxpolld) module"]
+#[doc = "Ethernet MAC Receive Poll Demand\n\nThis register you can [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxpolld](rxpolld) module"]
 pub type RXPOLLD = crate::Reg<u32, _RXPOLLD>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -721,7 +721,7 @@ pub struct _RXPOLLD;
 impl crate::Writable for RXPOLLD {}
 #[doc = "Ethernet MAC Receive Poll Demand"]
 pub mod rxpolld;
-#[doc = "Ethernet MAC Receive Descriptor List Address\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxdladdr](rxdladdr) module"]
+#[doc = "Ethernet MAC Receive Descriptor List Address\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxdladdr](rxdladdr) module"]
 pub type RXDLADDR = crate::Reg<u32, _RXDLADDR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -732,7 +732,7 @@ impl crate::Readable for RXDLADDR {}
 impl crate::Writable for RXDLADDR {}
 #[doc = "Ethernet MAC Receive Descriptor List Address"]
 pub mod rxdladdr;
-#[doc = "Ethernet MAC Transmit Descriptor List Address\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [txdladdr](txdladdr) module"]
+#[doc = "Ethernet MAC Transmit Descriptor List Address\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [txdladdr](txdladdr) module"]
 pub type TXDLADDR = crate::Reg<u32, _TXDLADDR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -743,7 +743,7 @@ impl crate::Readable for TXDLADDR {}
 impl crate::Writable for TXDLADDR {}
 #[doc = "Ethernet MAC Transmit Descriptor List Address"]
 pub mod txdladdr;
-#[doc = "Ethernet MAC DMA Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dmaris](dmaris) module"]
+#[doc = "Ethernet MAC DMA Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dmaris](dmaris) module"]
 pub type DMARIS = crate::Reg<u32, _DMARIS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -754,7 +754,7 @@ impl crate::Readable for DMARIS {}
 impl crate::Writable for DMARIS {}
 #[doc = "Ethernet MAC DMA Interrupt Status"]
 pub mod dmaris;
-#[doc = "Ethernet MAC DMA Operation Mode\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dmaopmode](dmaopmode) module"]
+#[doc = "Ethernet MAC DMA Operation Mode\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dmaopmode](dmaopmode) module"]
 pub type DMAOPMODE = crate::Reg<u32, _DMAOPMODE>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -765,7 +765,7 @@ impl crate::Readable for DMAOPMODE {}
 impl crate::Writable for DMAOPMODE {}
 #[doc = "Ethernet MAC DMA Operation Mode"]
 pub mod dmaopmode;
-#[doc = "Ethernet MAC DMA Interrupt Mask Register\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dmaim](dmaim) module"]
+#[doc = "Ethernet MAC DMA Interrupt Mask Register\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dmaim](dmaim) module"]
 pub type DMAIM = crate::Reg<u32, _DMAIM>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -776,7 +776,7 @@ impl crate::Readable for DMAIM {}
 impl crate::Writable for DMAIM {}
 #[doc = "Ethernet MAC DMA Interrupt Mask Register"]
 pub mod dmaim;
-#[doc = "Ethernet MAC Missed Frame and Buffer Overflow Counter\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [mfboc](mfboc) module"]
+#[doc = "Ethernet MAC Missed Frame and Buffer Overflow Counter\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [mfboc](mfboc) module"]
 pub type MFBOC = crate::Reg<u32, _MFBOC>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -785,7 +785,7 @@ pub struct _MFBOC;
 impl crate::Readable for MFBOC {}
 #[doc = "Ethernet MAC Missed Frame and Buffer Overflow Counter"]
 pub mod mfboc;
-#[doc = "Ethernet MAC Receive Interrupt Watchdog Timer\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rxintwdt](rxintwdt) module"]
+#[doc = "Ethernet MAC Receive Interrupt Watchdog Timer\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rxintwdt](rxintwdt) module"]
 pub type RXINTWDT = crate::Reg<u32, _RXINTWDT>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -796,7 +796,7 @@ impl crate::Readable for RXINTWDT {}
 impl crate::Writable for RXINTWDT {}
 #[doc = "Ethernet MAC Receive Interrupt Watchdog Timer"]
 pub mod rxintwdt;
-#[doc = "Ethernet MAC Current Host Transmit Descriptor\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [hostxdesc](hostxdesc) module"]
+#[doc = "Ethernet MAC Current Host Transmit Descriptor\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [hostxdesc](hostxdesc) module"]
 pub type HOSTXDESC = crate::Reg<u32, _HOSTXDESC>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -805,7 +805,7 @@ pub struct _HOSTXDESC;
 impl crate::Readable for HOSTXDESC {}
 #[doc = "Ethernet MAC Current Host Transmit Descriptor"]
 pub mod hostxdesc;
-#[doc = "Ethernet MAC Current Host Receive Descriptor\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [hosrxdesc](hosrxdesc) module"]
+#[doc = "Ethernet MAC Current Host Receive Descriptor\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [hosrxdesc](hosrxdesc) module"]
 pub type HOSRXDESC = crate::Reg<u32, _HOSRXDESC>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -814,7 +814,7 @@ pub struct _HOSRXDESC;
 impl crate::Readable for HOSRXDESC {}
 #[doc = "Ethernet MAC Current Host Receive Descriptor"]
 pub mod hosrxdesc;
-#[doc = "Ethernet MAC Current Host Transmit Buffer Address\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [hostxba](hostxba) module"]
+#[doc = "Ethernet MAC Current Host Transmit Buffer Address\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [hostxba](hostxba) module"]
 pub type HOSTXBA = crate::Reg<u32, _HOSTXBA>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -823,7 +823,7 @@ pub struct _HOSTXBA;
 impl crate::Readable for HOSTXBA {}
 #[doc = "Ethernet MAC Current Host Transmit Buffer Address"]
 pub mod hostxba;
-#[doc = "Ethernet MAC Current Host Receive Buffer Address\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [hosrxba](hosrxba) module"]
+#[doc = "Ethernet MAC Current Host Receive Buffer Address\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [hosrxba](hosrxba) module"]
 pub type HOSRXBA = crate::Reg<u32, _HOSRXBA>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -832,7 +832,7 @@ pub struct _HOSRXBA;
 impl crate::Readable for HOSRXBA {}
 #[doc = "Ethernet MAC Current Host Receive Buffer Address"]
 pub mod hosrxba;
-#[doc = "Ethernet MAC Peripheral Property Register\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [pp](pp) module"]
+#[doc = "Ethernet MAC Peripheral Property Register\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [pp](pp) module"]
 pub type PP = crate::Reg<u32, _PP>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -841,7 +841,7 @@ pub struct _PP;
 impl crate::Readable for PP {}
 #[doc = "Ethernet MAC Peripheral Property Register"]
 pub mod pp;
-#[doc = "Ethernet MAC Peripheral Configuration Register\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [pc](pc) module"]
+#[doc = "Ethernet MAC Peripheral Configuration Register\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [pc](pc) module"]
 pub type PC = crate::Reg<u32, _PC>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -852,7 +852,7 @@ impl crate::Readable for PC {}
 impl crate::Writable for PC {}
 #[doc = "Ethernet MAC Peripheral Configuration Register"]
 pub mod pc;
-#[doc = "Ethernet MAC Clock Configuration Register\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [cc](cc) module"]
+#[doc = "Ethernet MAC Clock Configuration Register\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [cc](cc) module"]
 pub type CC = crate::Reg<u32, _CC>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -861,7 +861,7 @@ pub struct _CC;
 impl crate::Readable for CC {}
 #[doc = "Ethernet MAC Clock Configuration Register"]
 pub mod cc;
-#[doc = "Ethernet PHY Raw Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ephyris](ephyris) module"]
+#[doc = "Ethernet PHY Raw Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ephyris](ephyris) module"]
 pub type EPHYRIS = crate::Reg<u32, _EPHYRIS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -870,7 +870,7 @@ pub struct _EPHYRIS;
 impl crate::Readable for EPHYRIS {}
 #[doc = "Ethernet PHY Raw Interrupt Status"]
 pub mod ephyris;
-#[doc = "Ethernet PHY Interrupt Mask\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ephyim](ephyim) module"]
+#[doc = "Ethernet PHY Interrupt Mask\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ephyim](ephyim) module"]
 pub type EPHYIM = crate::Reg<u32, _EPHYIM>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -881,7 +881,7 @@ impl crate::Readable for EPHYIM {}
 impl crate::Writable for EPHYIM {}
 #[doc = "Ethernet PHY Interrupt Mask"]
 pub mod ephyim;
-#[doc = "Ethernet PHY Masked Interrupt Status and Clear\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ephymisc](ephymisc) module"]
+#[doc = "Ethernet PHY Masked Interrupt Status and Clear\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ephymisc](ephymisc) module"]
 pub type EPHYMISC = crate::Reg<u32, _EPHYMISC>;
 #[allow(missing_docs)]
 #[doc(hidden)]

@@ -12,25 +12,21 @@ impl crate::ResetValue for super::SDRAMCFG {
 }
 #[doc = "Size of SDRAM\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum SIZE_A {
     #[doc = "0: 64 megabits (8MB)"]
-    _8MB,
+    _8MB = 0,
     #[doc = "1: 128 megabits (16MB)"]
-    _16MB,
+    _16MB = 1,
     #[doc = "2: 256 megabits (32MB)"]
-    _32MB,
+    _32MB = 2,
     #[doc = "3: 512 megabits (64MB)"]
-    _64MB,
+    _64MB = 3,
 }
 impl From<SIZE_A> for u8 {
     #[inline(always)]
     fn from(variant: SIZE_A) -> Self {
-        match variant {
-            SIZE_A::_8MB => 0,
-            SIZE_A::_16MB => 1,
-            SIZE_A::_32MB => 2,
-            SIZE_A::_64MB => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `SIZE`"]
@@ -147,22 +143,19 @@ impl<'a> RFSH_W<'a> {
 }
 #[doc = "EPI Frequency Range\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum FREQ_A {
     #[doc = "0: 0 - 15 MHz"]
-    NONE,
+    NONE = 0,
     #[doc = "1: 15 - 30 MHz"]
-    _15MHZ,
+    _15MHZ = 1,
     #[doc = "2: 30 - 50 MHz"]
-    _30MHZ,
+    _30MHZ = 2,
 }
 impl From<FREQ_A> for u8 {
     #[inline(always)]
     fn from(variant: FREQ_A) -> Self {
-        match variant {
-            FREQ_A::NONE => 0,
-            FREQ_A::_15MHZ => 1,
-            FREQ_A::_30MHZ => 2,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `FREQ`"]

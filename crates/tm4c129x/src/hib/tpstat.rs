@@ -60,22 +60,19 @@ impl<'a> XOSCST_W<'a> {
 }
 #[doc = "Tamper Module Status\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum STATE_A {
     #[doc = "0: Tamper disabled"]
-    DISABLED,
+    DISABLED = 0,
     #[doc = "1: Tamper configured"]
-    CONFIGED,
+    CONFIGED = 1,
     #[doc = "2: Tamper pin event occurred"]
-    ERROR,
+    ERROR = 2,
 }
 impl From<STATE_A> for u8 {
     #[inline(always)]
     fn from(variant: STATE_A) -> Self {
-        match variant {
-            STATE_A::DISABLED => 0,
-            STATE_A::CONFIGED => 1,
-            STATE_A::ERROR => 2,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `STATE`"]

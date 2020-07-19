@@ -26,25 +26,21 @@ impl<'a> DSSYSDIV_W<'a> {
 }
 #[doc = "Deep Sleep Oscillator Source\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum DSOSCSRC_A {
     #[doc = "0: PIOSC"]
-    PIOSC,
+    PIOSC = 0,
     #[doc = "2: LFIOSC"]
-    LFIOSC,
+    LFIOSC = 2,
     #[doc = "3: MOSC"]
-    MOSC,
+    MOSC = 3,
     #[doc = "4: Hibernation Module RTCOSC"]
-    RTC,
+    RTC = 4,
 }
 impl From<DSOSCSRC_A> for u8 {
     #[inline(always)]
     fn from(variant: DSOSCSRC_A) -> Self {
-        match variant {
-            DSOSCSRC_A::PIOSC => 0,
-            DSOSCSRC_A::LFIOSC => 2,
-            DSOSCSRC_A::MOSC => 3,
-            DSOSCSRC_A::RTC => 4,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `DSOSCSRC`"]
