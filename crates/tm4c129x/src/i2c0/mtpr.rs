@@ -50,37 +50,29 @@ impl<'a> HS_W<'a> {
 }
 #[doc = "Glitch Suppression Pulse Width\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum PULSEL_A {
     #[doc = "0: Bypass"]
-    BYPASS,
+    BYPASS = 0,
     #[doc = "1: 1 clock"]
-    _1,
+    _1 = 1,
     #[doc = "2: 2 clocks"]
-    _2,
+    _2 = 2,
     #[doc = "3: 3 clocks"]
-    _3,
+    _3 = 3,
     #[doc = "4: 4 clocks"]
-    _4,
+    _4 = 4,
     #[doc = "5: 8 clocks"]
-    _8,
+    _8 = 5,
     #[doc = "6: 16 clocks"]
-    _16,
+    _16 = 6,
     #[doc = "7: 31 clocks"]
-    _31,
+    _31 = 7,
 }
 impl From<PULSEL_A> for u8 {
     #[inline(always)]
     fn from(variant: PULSEL_A) -> Self {
-        match variant {
-            PULSEL_A::BYPASS => 0,
-            PULSEL_A::_1 => 1,
-            PULSEL_A::_2 => 2,
-            PULSEL_A::_3 => 3,
-            PULSEL_A::_4 => 4,
-            PULSEL_A::_8 => 5,
-            PULSEL_A::_16 => 6,
-            PULSEL_A::_31 => 7,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `PULSEL`"]

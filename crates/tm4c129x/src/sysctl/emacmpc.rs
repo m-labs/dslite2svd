@@ -12,19 +12,17 @@ impl crate::ResetValue for super::EMACMPC {
 }
 #[doc = "Memory Array Power Control\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum PWRCTL_A {
     #[doc = "0: Array OFF"]
-    OFF,
+    OFF = 0,
     #[doc = "3: Array On"]
-    ON,
+    ON = 3,
 }
 impl From<PWRCTL_A> for u8 {
     #[inline(always)]
     fn from(variant: PWRCTL_A) -> Self {
-        match variant {
-            PWRCTL_A::OFF => 0,
-            PWRCTL_A::ON => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `PWRCTL`"]

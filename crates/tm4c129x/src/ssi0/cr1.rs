@@ -108,25 +108,21 @@ impl<'a> EOT_W<'a> {
 }
 #[doc = "SSI Mode\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum MODE_A {
     #[doc = "0: Legacy SSI mode"]
-    LEGACY,
+    LEGACY = 0,
     #[doc = "1: Bi-SSI mode"]
-    BI,
+    BI = 1,
     #[doc = "2: Quad-SSI Mode"]
-    QUAD,
+    QUAD = 2,
     #[doc = "3: Advanced SSI Mode with 8-bit packet size"]
-    ADVANCED,
+    ADVANCED = 3,
 }
 impl From<MODE_A> for u8 {
     #[inline(always)]
     fn from(variant: MODE_A) -> Self {
-        match variant {
-            MODE_A::LEGACY => 0,
-            MODE_A::BI => 1,
-            MODE_A::QUAD => 2,
-            MODE_A::ADVANCED => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `MODE`"]

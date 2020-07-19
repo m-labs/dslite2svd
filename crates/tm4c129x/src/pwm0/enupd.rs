@@ -12,22 +12,19 @@ impl crate::ResetValue for super::ENUPD {
 }
 #[doc = "MnPWM0 Enable Update Mode\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum ENUPD0_A {
     #[doc = "0: Immediate"]
-    IMM,
+    IMM = 0,
     #[doc = "2: Locally Synchronized"]
-    LSYNC,
+    LSYNC = 2,
     #[doc = "3: Globally Synchronized"]
-    GSYNC,
+    GSYNC = 3,
 }
 impl From<ENUPD0_A> for u8 {
     #[inline(always)]
     fn from(variant: ENUPD0_A) -> Self {
-        match variant {
-            ENUPD0_A::IMM => 0,
-            ENUPD0_A::LSYNC => 2,
-            ENUPD0_A::GSYNC => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `ENUPD0`"]
@@ -94,22 +91,19 @@ impl<'a> ENUPD0_W<'a> {
 }
 #[doc = "MnPWM1 Enable Update Mode\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum ENUPD1_A {
     #[doc = "0: Immediate"]
-    IMM,
+    IMM = 0,
     #[doc = "2: Locally Synchronized"]
-    LSYNC,
+    LSYNC = 2,
     #[doc = "3: Globally Synchronized"]
-    GSYNC,
+    GSYNC = 3,
 }
 impl From<ENUPD1_A> for u8 {
     #[inline(always)]
     fn from(variant: ENUPD1_A) -> Self {
-        match variant {
-            ENUPD1_A::IMM => 0,
-            ENUPD1_A::LSYNC => 2,
-            ENUPD1_A::GSYNC => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `ENUPD1`"]
@@ -176,22 +170,19 @@ impl<'a> ENUPD1_W<'a> {
 }
 #[doc = "MnPWM2 Enable Update Mode\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum ENUPD2_A {
     #[doc = "0: Immediate"]
-    IMM,
+    IMM = 0,
     #[doc = "2: Locally Synchronized"]
-    LSYNC,
+    LSYNC = 2,
     #[doc = "3: Globally Synchronized"]
-    GSYNC,
+    GSYNC = 3,
 }
 impl From<ENUPD2_A> for u8 {
     #[inline(always)]
     fn from(variant: ENUPD2_A) -> Self {
-        match variant {
-            ENUPD2_A::IMM => 0,
-            ENUPD2_A::LSYNC => 2,
-            ENUPD2_A::GSYNC => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `ENUPD2`"]
@@ -258,22 +249,19 @@ impl<'a> ENUPD2_W<'a> {
 }
 #[doc = "MnPWM3 Enable Update Mode\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum ENUPD3_A {
     #[doc = "0: Immediate"]
-    IMM,
+    IMM = 0,
     #[doc = "2: Locally Synchronized"]
-    LSYNC,
+    LSYNC = 2,
     #[doc = "3: Globally Synchronized"]
-    GSYNC,
+    GSYNC = 3,
 }
 impl From<ENUPD3_A> for u8 {
     #[inline(always)]
     fn from(variant: ENUPD3_A) -> Self {
-        match variant {
-            ENUPD3_A::IMM => 0,
-            ENUPD3_A::LSYNC => 2,
-            ENUPD3_A::GSYNC => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `ENUPD3`"]
@@ -340,22 +328,19 @@ impl<'a> ENUPD3_W<'a> {
 }
 #[doc = "MnPWM4 Enable Update Mode\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum ENUPD4_A {
     #[doc = "0: Immediate"]
-    IMM,
+    IMM = 0,
     #[doc = "2: Locally Synchronized"]
-    LSYNC,
+    LSYNC = 2,
     #[doc = "3: Globally Synchronized"]
-    GSYNC,
+    GSYNC = 3,
 }
 impl From<ENUPD4_A> for u8 {
     #[inline(always)]
     fn from(variant: ENUPD4_A) -> Self {
-        match variant {
-            ENUPD4_A::IMM => 0,
-            ENUPD4_A::LSYNC => 2,
-            ENUPD4_A::GSYNC => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `ENUPD4`"]
@@ -422,22 +407,19 @@ impl<'a> ENUPD4_W<'a> {
 }
 #[doc = "MnPWM5 Enable Update Mode\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum ENUPD5_A {
     #[doc = "0: Immediate"]
-    IMM,
+    IMM = 0,
     #[doc = "2: Locally Synchronized"]
-    LSYNC,
+    LSYNC = 2,
     #[doc = "3: Globally Synchronized"]
-    GSYNC,
+    GSYNC = 3,
 }
 impl From<ENUPD5_A> for u8 {
     #[inline(always)]
     fn from(variant: ENUPD5_A) -> Self {
-        match variant {
-            ENUPD5_A::IMM => 0,
-            ENUPD5_A::LSYNC => 2,
-            ENUPD5_A::GSYNC => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `ENUPD5`"]
@@ -504,22 +486,19 @@ impl<'a> ENUPD5_W<'a> {
 }
 #[doc = "MnPWM6 Enable Update Mode\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum ENUPD6_A {
     #[doc = "0: Immediate"]
-    IMM,
+    IMM = 0,
     #[doc = "2: Locally Synchronized"]
-    LSYNC,
+    LSYNC = 2,
     #[doc = "3: Globally Synchronized"]
-    GSYNC,
+    GSYNC = 3,
 }
 impl From<ENUPD6_A> for u8 {
     #[inline(always)]
     fn from(variant: ENUPD6_A) -> Self {
-        match variant {
-            ENUPD6_A::IMM => 0,
-            ENUPD6_A::LSYNC => 2,
-            ENUPD6_A::GSYNC => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `ENUPD6`"]
@@ -586,22 +565,19 @@ impl<'a> ENUPD6_W<'a> {
 }
 #[doc = "MnPWM7 Enable Update Mode\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum ENUPD7_A {
     #[doc = "0: Immediate"]
-    IMM,
+    IMM = 0,
     #[doc = "2: Locally Synchronized"]
-    LSYNC,
+    LSYNC = 2,
     #[doc = "3: Globally Synchronized"]
-    GSYNC,
+    GSYNC = 3,
 }
 impl From<ENUPD7_A> for u8 {
     #[inline(always)]
     fn from(variant: ENUPD7_A) -> Self {
-        match variant {
-            ENUPD7_A::IMM => 0,
-            ENUPD7_A::LSYNC => 2,
-            ENUPD7_A::GSYNC => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `ENUPD7`"]

@@ -14,17 +14,14 @@ impl crate::ResetValue for super::CTL {
 #[derive(Clone, Copy, Debug, PartialEq)]
 pub enum VREF_A {
     #[doc = "0: VDDA and GNDA are the voltage references"]
-    INTERNAL,
+    INTERNAL = 0,
     #[doc = "1: The external VREFA+ and VREFA- inputs are the voltage references"]
-    EXT_3V,
+    EXT_3V = 1,
 }
 impl From<VREF_A> for bool {
     #[inline(always)]
     fn from(variant: VREF_A) -> Self {
-        match variant {
-            VREF_A::INTERNAL => false,
-            VREF_A::EXT_3V => true,
-        }
+        variant as u8 != 0
     }
 }
 #[doc = "Reader of field `VREF`"]

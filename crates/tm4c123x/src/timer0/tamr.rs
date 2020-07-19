@@ -12,22 +12,19 @@ impl crate::ResetValue for super::TAMR {
 }
 #[doc = "GPTM Timer A Mode\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum TAMR_A {
     #[doc = "1: One-Shot Timer mode"]
-    _1_SHOT,
+    _1_SHOT = 1,
     #[doc = "2: Periodic Timer mode"]
-    PERIOD,
+    PERIOD = 2,
     #[doc = "3: Capture mode"]
-    CAP,
+    CAP = 3,
 }
 impl From<TAMR_A> for u8 {
     #[inline(always)]
     fn from(variant: TAMR_A) -> Self {
-        match variant {
-            TAMR_A::_1_SHOT => 1,
-            TAMR_A::PERIOD => 2,
-            TAMR_A::CAP => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `TAMR`"]

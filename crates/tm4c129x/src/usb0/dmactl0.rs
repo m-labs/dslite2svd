@@ -146,25 +146,21 @@ impl<'a> ERR_W<'a> {
 }
 #[doc = "Burst Mode\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum BRSTM_A {
     #[doc = "0: Bursts of unspecified length"]
-    ANY,
+    ANY = 0,
     #[doc = "1: INCR4 or unspecified length"]
-    INC4,
+    INC4 = 1,
     #[doc = "2: INCR8, INCR4 or unspecified length"]
-    INC8,
+    INC8 = 2,
     #[doc = "3: INCR16, INCR8, INCR4 or unspecified length"]
-    INC16,
+    INC16 = 3,
 }
 impl From<BRSTM_A> for u8 {
     #[inline(always)]
     fn from(variant: BRSTM_A) -> Self {
-        match variant {
-            BRSTM_A::ANY => 0,
-            BRSTM_A::INC4 => 1,
-            BRSTM_A::INC8 => 2,
-            BRSTM_A::INC16 => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `BRSTM`"]

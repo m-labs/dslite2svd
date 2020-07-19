@@ -156,37 +156,29 @@ impl<'a> VELEN_W<'a> {
 }
 #[doc = "Predivide Velocity\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum VELDIV_A {
     #[doc = "0: QEI clock /1"]
-    _1,
+    _1 = 0,
     #[doc = "1: QEI clock /2"]
-    _2,
+    _2 = 1,
     #[doc = "2: QEI clock /4"]
-    _4,
+    _4 = 2,
     #[doc = "3: QEI clock /8"]
-    _8,
+    _8 = 3,
     #[doc = "4: QEI clock /16"]
-    _16,
+    _16 = 4,
     #[doc = "5: QEI clock /32"]
-    _32,
+    _32 = 5,
     #[doc = "6: QEI clock /64"]
-    _64,
+    _64 = 6,
     #[doc = "7: QEI clock /128"]
-    _128,
+    _128 = 7,
 }
 impl From<VELDIV_A> for u8 {
     #[inline(always)]
     fn from(variant: VELDIV_A) -> Self {
-        match variant {
-            VELDIV_A::_1 => 0,
-            VELDIV_A::_2 => 1,
-            VELDIV_A::_4 => 2,
-            VELDIV_A::_8 => 3,
-            VELDIV_A::_16 => 4,
-            VELDIV_A::_32 => 5,
-            VELDIV_A::_64 => 6,
-            VELDIV_A::_128 => 7,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `VELDIV`"]

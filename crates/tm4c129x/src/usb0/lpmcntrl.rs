@@ -6,22 +6,19 @@ pub type TXLPM_R = crate::R<bool, bool>;
 pub type RES_R = crate::R<bool, bool>;
 #[doc = "LPM Enable\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum EN_A {
     #[doc = "0: LPM and Extended transactions are not supported. In this case, the USB does not respond to LPM transactions and LPM transactions cause a timeout"]
-    NONE,
+    NONE = 0,
     #[doc = "1: LPM is not supported but extended transactions are supported. In this case, the USB does respond to an LPM transaction with a STALL"]
-    EXT,
+    EXT = 1,
     #[doc = "3: The USB supports LPM extended transactions. In this case, the USB responds with a NYET or an ACK as determined by the value of TXLPM and other conditions"]
-    LPMEXT,
+    LPMEXT = 3,
 }
 impl From<EN_A> for u8 {
     #[inline(always)]
     fn from(variant: EN_A) -> Self {
-        match variant {
-            EN_A::NONE => 0,
-            EN_A::EXT => 1,
-            EN_A::LPMEXT => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `EN`"]

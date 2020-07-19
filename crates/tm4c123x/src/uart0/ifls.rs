@@ -12,28 +12,23 @@ impl crate::ResetValue for super::IFLS {
 }
 #[doc = "UART Transmit Interrupt FIFO Level Select\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum TX_A {
     #[doc = "0: TX FIFO &lt;= 1/8 full"]
-    TX1_8,
+    TX1_8 = 0,
     #[doc = "1: TX FIFO &lt;= 1/4 full"]
-    TX2_8,
+    TX2_8 = 1,
     #[doc = "2: TX FIFO &lt;= 1/2 full (default)"]
-    TX4_8,
+    TX4_8 = 2,
     #[doc = "3: TX FIFO &lt;= 3/4 full"]
-    TX6_8,
+    TX6_8 = 3,
     #[doc = "4: TX FIFO &lt;= 7/8 full"]
-    TX7_8,
+    TX7_8 = 4,
 }
 impl From<TX_A> for u8 {
     #[inline(always)]
     fn from(variant: TX_A) -> Self {
-        match variant {
-            TX_A::TX1_8 => 0,
-            TX_A::TX2_8 => 1,
-            TX_A::TX4_8 => 2,
-            TX_A::TX6_8 => 3,
-            TX_A::TX7_8 => 4,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `TX`"]
@@ -122,28 +117,23 @@ impl<'a> TX_W<'a> {
 }
 #[doc = "UART Receive Interrupt FIFO Level Select\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum RX_A {
     #[doc = "0: RX FIFO >= 1/8 full"]
-    RX1_8,
+    RX1_8 = 0,
     #[doc = "1: RX FIFO >= 1/4 full"]
-    RX2_8,
+    RX2_8 = 1,
     #[doc = "2: RX FIFO >= 1/2 full (default)"]
-    RX4_8,
+    RX4_8 = 2,
     #[doc = "3: RX FIFO >= 3/4 full"]
-    RX6_8,
+    RX6_8 = 3,
     #[doc = "4: RX FIFO >= 7/8 full"]
-    RX7_8,
+    RX7_8 = 4,
 }
 impl From<RX_A> for u8 {
     #[inline(always)]
     fn from(variant: RX_A) -> Self {
-        match variant {
-            RX_A::RX1_8 => 0,
-            RX_A::RX2_8 => 1,
-            RX_A::RX4_8 => 2,
-            RX_A::RX6_8 => 3,
-            RX_A::RX7_8 => 4,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `RX`"]

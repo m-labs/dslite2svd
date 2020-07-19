@@ -12,49 +12,37 @@ impl crate::ResetValue for super::EMUX {
 }
 #[doc = "SS0 Trigger Select\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum EM0_A {
     #[doc = "0: Processor (default)"]
-    PROCESSOR,
+    PROCESSOR = 0,
     #[doc = "1: Analog Comparator 0"]
-    COMP0,
+    COMP0 = 1,
     #[doc = "2: Analog Comparator 1"]
-    COMP1,
+    COMP1 = 2,
     #[doc = "3: Analog Comparator 2"]
-    COMP2,
+    COMP2 = 3,
     #[doc = "4: External (GPIO Pins)"]
-    EXTERNAL,
+    EXTERNAL = 4,
     #[doc = "5: Timer"]
-    TIMER,
+    TIMER = 5,
     #[doc = "6: PWM generator 0"]
-    PWM0,
+    PWM0 = 6,
     #[doc = "7: PWM generator 1"]
-    PWM1,
+    PWM1 = 7,
     #[doc = "8: PWM generator 2"]
-    PWM2,
+    PWM2 = 8,
     #[doc = "9: PWM generator 3"]
-    PWM3,
+    PWM3 = 9,
     #[doc = "14: Never Trigger"]
-    NEVER,
+    NEVER = 14,
     #[doc = "15: Always (continuously sample)"]
-    ALWAYS,
+    ALWAYS = 15,
 }
 impl From<EM0_A> for u8 {
     #[inline(always)]
     fn from(variant: EM0_A) -> Self {
-        match variant {
-            EM0_A::PROCESSOR => 0,
-            EM0_A::COMP0 => 1,
-            EM0_A::COMP1 => 2,
-            EM0_A::COMP2 => 3,
-            EM0_A::EXTERNAL => 4,
-            EM0_A::TIMER => 5,
-            EM0_A::PWM0 => 6,
-            EM0_A::PWM1 => 7,
-            EM0_A::PWM2 => 8,
-            EM0_A::PWM3 => 9,
-            EM0_A::NEVER => 14,
-            EM0_A::ALWAYS => 15,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `EM0`"]
@@ -220,49 +208,37 @@ impl<'a> EM0_W<'a> {
 }
 #[doc = "SS1 Trigger Select\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum EM1_A {
     #[doc = "0: Processor (default)"]
-    PROCESSOR,
+    PROCESSOR = 0,
     #[doc = "1: Analog Comparator 0"]
-    COMP0,
+    COMP0 = 1,
     #[doc = "2: Analog Comparator 1"]
-    COMP1,
+    COMP1 = 2,
     #[doc = "3: Analog Comparator 2"]
-    COMP2,
+    COMP2 = 3,
     #[doc = "4: External (GPIO Pins)"]
-    EXTERNAL,
+    EXTERNAL = 4,
     #[doc = "5: Timer"]
-    TIMER,
+    TIMER = 5,
     #[doc = "6: PWM generator 0"]
-    PWM0,
+    PWM0 = 6,
     #[doc = "7: PWM generator 1"]
-    PWM1,
+    PWM1 = 7,
     #[doc = "8: PWM generator 2"]
-    PWM2,
+    PWM2 = 8,
     #[doc = "9: PWM generator 3"]
-    PWM3,
+    PWM3 = 9,
     #[doc = "14: Never Trigger"]
-    NEVER,
+    NEVER = 14,
     #[doc = "15: Always (continuously sample)"]
-    ALWAYS,
+    ALWAYS = 15,
 }
 impl From<EM1_A> for u8 {
     #[inline(always)]
     fn from(variant: EM1_A) -> Self {
-        match variant {
-            EM1_A::PROCESSOR => 0,
-            EM1_A::COMP0 => 1,
-            EM1_A::COMP1 => 2,
-            EM1_A::COMP2 => 3,
-            EM1_A::EXTERNAL => 4,
-            EM1_A::TIMER => 5,
-            EM1_A::PWM0 => 6,
-            EM1_A::PWM1 => 7,
-            EM1_A::PWM2 => 8,
-            EM1_A::PWM3 => 9,
-            EM1_A::NEVER => 14,
-            EM1_A::ALWAYS => 15,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `EM1`"]
@@ -428,49 +404,37 @@ impl<'a> EM1_W<'a> {
 }
 #[doc = "SS2 Trigger Select\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum EM2_A {
     #[doc = "0: Processor (default)"]
-    PROCESSOR,
+    PROCESSOR = 0,
     #[doc = "1: Analog Comparator 0"]
-    COMP0,
+    COMP0 = 1,
     #[doc = "2: Analog Comparator 1"]
-    COMP1,
+    COMP1 = 2,
     #[doc = "3: Analog Comparator 2"]
-    COMP2,
+    COMP2 = 3,
     #[doc = "4: External (GPIO Pins)"]
-    EXTERNAL,
+    EXTERNAL = 4,
     #[doc = "5: Timer"]
-    TIMER,
+    TIMER = 5,
     #[doc = "6: PWM generator 0"]
-    PWM0,
+    PWM0 = 6,
     #[doc = "7: PWM generator 1"]
-    PWM1,
+    PWM1 = 7,
     #[doc = "8: PWM generator 2"]
-    PWM2,
+    PWM2 = 8,
     #[doc = "9: PWM generator 3"]
-    PWM3,
+    PWM3 = 9,
     #[doc = "14: Never Trigger"]
-    NEVER,
+    NEVER = 14,
     #[doc = "15: Always (continuously sample)"]
-    ALWAYS,
+    ALWAYS = 15,
 }
 impl From<EM2_A> for u8 {
     #[inline(always)]
     fn from(variant: EM2_A) -> Self {
-        match variant {
-            EM2_A::PROCESSOR => 0,
-            EM2_A::COMP0 => 1,
-            EM2_A::COMP1 => 2,
-            EM2_A::COMP2 => 3,
-            EM2_A::EXTERNAL => 4,
-            EM2_A::TIMER => 5,
-            EM2_A::PWM0 => 6,
-            EM2_A::PWM1 => 7,
-            EM2_A::PWM2 => 8,
-            EM2_A::PWM3 => 9,
-            EM2_A::NEVER => 14,
-            EM2_A::ALWAYS => 15,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `EM2`"]
@@ -636,49 +600,37 @@ impl<'a> EM2_W<'a> {
 }
 #[doc = "SS3 Trigger Select\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum EM3_A {
     #[doc = "0: Processor (default)"]
-    PROCESSOR,
+    PROCESSOR = 0,
     #[doc = "1: Analog Comparator 0"]
-    COMP0,
+    COMP0 = 1,
     #[doc = "2: Analog Comparator 1"]
-    COMP1,
+    COMP1 = 2,
     #[doc = "3: Analog Comparator 2"]
-    COMP2,
+    COMP2 = 3,
     #[doc = "4: External (GPIO Pins)"]
-    EXTERNAL,
+    EXTERNAL = 4,
     #[doc = "5: Timer"]
-    TIMER,
+    TIMER = 5,
     #[doc = "6: PWM generator 0"]
-    PWM0,
+    PWM0 = 6,
     #[doc = "7: PWM generator 1"]
-    PWM1,
+    PWM1 = 7,
     #[doc = "8: PWM generator 2"]
-    PWM2,
+    PWM2 = 8,
     #[doc = "9: PWM generator 3"]
-    PWM3,
+    PWM3 = 9,
     #[doc = "14: Never Trigger"]
-    NEVER,
+    NEVER = 14,
     #[doc = "15: Always (continuously sample)"]
-    ALWAYS,
+    ALWAYS = 15,
 }
 impl From<EM3_A> for u8 {
     #[inline(always)]
     fn from(variant: EM3_A) -> Self {
-        match variant {
-            EM3_A::PROCESSOR => 0,
-            EM3_A::COMP0 => 1,
-            EM3_A::COMP1 => 2,
-            EM3_A::COMP2 => 3,
-            EM3_A::EXTERNAL => 4,
-            EM3_A::TIMER => 5,
-            EM3_A::PWM0 => 6,
-            EM3_A::PWM1 => 7,
-            EM3_A::PWM2 => 8,
-            EM3_A::PWM3 => 9,
-            EM3_A::NEVER => 14,
-            EM3_A::ALWAYS => 15,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `EM3`"]

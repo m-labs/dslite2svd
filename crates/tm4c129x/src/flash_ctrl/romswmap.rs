@@ -2,19 +2,17 @@
 pub type R = crate::R<u32, super::ROMSWMAP>;
 #[doc = "ROM SW Region 0 Availability\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum SW0EN_A {
     #[doc = "0: Software region not available to the core"]
-    NOTVIS,
+    NOTVIS = 0,
     #[doc = "1: Region available to core"]
-    CORE,
+    CORE = 1,
 }
 impl From<SW0EN_A> for u8 {
     #[inline(always)]
     fn from(variant: SW0EN_A) -> Self {
-        match variant {
-            SW0EN_A::NOTVIS => 0,
-            SW0EN_A::CORE => 1,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `SW0EN`"]
@@ -43,19 +41,17 @@ impl SW0EN_R {
 }
 #[doc = "ROM SW Region 1 Availability\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum SW1EN_A {
     #[doc = "0: Software region not available to the core"]
-    NOTVIS,
+    NOTVIS = 0,
     #[doc = "1: Region available to core"]
-    CORE,
+    CORE = 1,
 }
 impl From<SW1EN_A> for u8 {
     #[inline(always)]
     fn from(variant: SW1EN_A) -> Self {
-        match variant {
-            SW1EN_A::NOTVIS => 0,
-            SW1EN_A::CORE => 1,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `SW1EN`"]
@@ -84,19 +80,17 @@ impl SW1EN_R {
 }
 #[doc = "ROM SW Region 2 Availability\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum SW2EN_A {
     #[doc = "0: Software region not available to the core"]
-    NOTVIS,
+    NOTVIS = 0,
     #[doc = "1: Region available to core"]
-    CORE,
+    CORE = 1,
 }
 impl From<SW2EN_A> for u8 {
     #[inline(always)]
     fn from(variant: SW2EN_A) -> Self {
-        match variant {
-            SW2EN_A::NOTVIS => 0,
-            SW2EN_A::CORE => 1,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `SW2EN`"]
@@ -125,19 +119,17 @@ impl SW2EN_R {
 }
 #[doc = "ROM SW Region 3 Availability\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum SW3EN_A {
     #[doc = "0: Software region not available to the core"]
-    NOTVIS,
+    NOTVIS = 0,
     #[doc = "1: Region available to core"]
-    CORE,
+    CORE = 1,
 }
 impl From<SW3EN_A> for u8 {
     #[inline(always)]
     fn from(variant: SW3EN_A) -> Self {
-        match variant {
-            SW3EN_A::NOTVIS => 0,
-            SW3EN_A::CORE => 1,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `SW3EN`"]
@@ -166,19 +158,17 @@ impl SW3EN_R {
 }
 #[doc = "ROM SW Region 4 Availability\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum SW4EN_A {
     #[doc = "0: Software region not available to the core"]
-    NOTVIS,
+    NOTVIS = 0,
     #[doc = "1: Region available to core"]
-    CORE,
+    CORE = 1,
 }
 impl From<SW4EN_A> for u8 {
     #[inline(always)]
     fn from(variant: SW4EN_A) -> Self {
-        match variant {
-            SW4EN_A::NOTVIS => 0,
-            SW4EN_A::CORE => 1,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `SW4EN`"]
@@ -207,19 +197,17 @@ impl SW4EN_R {
 }
 #[doc = "ROM SW Region 5 Availability\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum SW5EN_A {
     #[doc = "0: Software region not available to the core"]
-    NOTVIS,
+    NOTVIS = 0,
     #[doc = "1: Region available to core"]
-    CORE,
+    CORE = 1,
 }
 impl From<SW5EN_A> for u8 {
     #[inline(always)]
     fn from(variant: SW5EN_A) -> Self {
-        match variant {
-            SW5EN_A::NOTVIS => 0,
-            SW5EN_A::CORE => 1,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `SW5EN`"]
@@ -248,19 +236,17 @@ impl SW5EN_R {
 }
 #[doc = "ROM SW Region 6 Availability\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum SW6EN_A {
     #[doc = "0: Software region not available to the core"]
-    NOTVIS,
+    NOTVIS = 0,
     #[doc = "1: Region available to core"]
-    CORE,
+    CORE = 1,
 }
 impl From<SW6EN_A> for u8 {
     #[inline(always)]
     fn from(variant: SW6EN_A) -> Self {
-        match variant {
-            SW6EN_A::NOTVIS => 0,
-            SW6EN_A::CORE => 1,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `SW6EN`"]
@@ -289,19 +275,17 @@ impl SW6EN_R {
 }
 #[doc = "ROM SW Region 7 Availability\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum SW7EN_A {
     #[doc = "0: Software region not available to the core"]
-    NOTVIS,
+    NOTVIS = 0,
     #[doc = "1: Region available to core"]
-    CORE,
+    CORE = 1,
 }
 impl From<SW7EN_A> for u8 {
     #[inline(always)]
     fn from(variant: SW7EN_A) -> Self {
-        match variant {
-            SW7EN_A::NOTVIS => 0,
-            SW7EN_A::CORE => 1,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `SW7EN`"]

@@ -4,46 +4,35 @@ pub type R = crate::R<u32, super::STAT>;
 pub type MASTEN_R = crate::R<bool, bool>;
 #[doc = "Control State Machine Status\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum STATE_A {
     #[doc = "0: Idle"]
-    IDLE,
+    IDLE = 0,
     #[doc = "1: Reading channel controller data"]
-    RD_CTRL,
+    RD_CTRL = 1,
     #[doc = "2: Reading source end pointer"]
-    RD_SRCENDP,
+    RD_SRCENDP = 2,
     #[doc = "3: Reading destination end pointer"]
-    RD_DSTENDP,
+    RD_DSTENDP = 3,
     #[doc = "4: Reading source data"]
-    RD_SRCDAT,
+    RD_SRCDAT = 4,
     #[doc = "5: Writing destination data"]
-    WR_DSTDAT,
+    WR_DSTDAT = 5,
     #[doc = "6: Waiting for uDMA request to clear"]
-    WAIT,
+    WAIT = 6,
     #[doc = "7: Writing channel controller data"]
-    WR_CTRL,
+    WR_CTRL = 7,
     #[doc = "8: Stalled"]
-    STALL,
+    STALL = 8,
     #[doc = "9: Done"]
-    DONE,
+    DONE = 9,
     #[doc = "10: Undefined"]
-    UNDEF,
+    UNDEF = 10,
 }
 impl From<STATE_A> for u8 {
     #[inline(always)]
     fn from(variant: STATE_A) -> Self {
-        match variant {
-            STATE_A::IDLE => 0,
-            STATE_A::RD_CTRL => 1,
-            STATE_A::RD_SRCENDP => 2,
-            STATE_A::RD_DSTENDP => 3,
-            STATE_A::RD_SRCDAT => 4,
-            STATE_A::WR_DSTDAT => 5,
-            STATE_A::WAIT => 6,
-            STATE_A::WR_CTRL => 7,
-            STATE_A::STALL => 8,
-            STATE_A::DONE => 9,
-            STATE_A::UNDEF => 10,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `STATE`"]

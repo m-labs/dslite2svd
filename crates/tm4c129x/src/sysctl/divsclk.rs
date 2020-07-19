@@ -26,22 +26,19 @@ impl<'a> DIV_W<'a> {
 }
 #[doc = "Clock Source\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum SRC_A {
     #[doc = "0: System Clock"]
-    SYSCLK,
+    SYSCLK = 0,
     #[doc = "1: PIOSC"]
-    PIOSC,
+    PIOSC = 1,
     #[doc = "2: MOSC"]
-    MOSC,
+    MOSC = 2,
 }
 impl From<SRC_A> for u8 {
     #[inline(always)]
     fn from(variant: SRC_A) -> Self {
-        match variant {
-            SRC_A::SYSCLK => 0,
-            SRC_A::PIOSC => 1,
-            SRC_A::MOSC => 2,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `SRC`"]

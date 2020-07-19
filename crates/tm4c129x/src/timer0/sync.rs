@@ -12,25 +12,21 @@ impl crate::ResetValue for super::SYNC {
 }
 #[doc = "Synchronize GPTM Timer 0\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum SYNCT0_A {
     #[doc = "0: GPTM0 is not affected"]
-    NONE,
+    NONE = 0,
     #[doc = "1: A timeout event for Timer A of GPTM0 is triggered"]
-    TA,
+    TA = 1,
     #[doc = "2: A timeout event for Timer B of GPTM0 is triggered"]
-    TB,
+    TB = 2,
     #[doc = "3: A timeout event for both Timer A and Timer B of GPTM0 is triggered"]
-    TATB,
+    TATB = 3,
 }
 impl From<SYNCT0_A> for u8 {
     #[inline(always)]
     fn from(variant: SYNCT0_A) -> Self {
-        match variant {
-            SYNCT0_A::NONE => 0,
-            SYNCT0_A::TA => 1,
-            SYNCT0_A::TB => 2,
-            SYNCT0_A::TATB => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `SYNCT0`"]
@@ -109,25 +105,21 @@ impl<'a> SYNCT0_W<'a> {
 }
 #[doc = "Synchronize GPTM Timer 1\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum SYNCT1_A {
     #[doc = "0: GPTM1 is not affected"]
-    NONE,
+    NONE = 0,
     #[doc = "1: A timeout event for Timer A of GPTM1 is triggered"]
-    TA,
+    TA = 1,
     #[doc = "2: A timeout event for Timer B of GPTM1 is triggered"]
-    TB,
+    TB = 2,
     #[doc = "3: A timeout event for both Timer A and Timer B of GPTM1 is triggered"]
-    TATB,
+    TATB = 3,
 }
 impl From<SYNCT1_A> for u8 {
     #[inline(always)]
     fn from(variant: SYNCT1_A) -> Self {
-        match variant {
-            SYNCT1_A::NONE => 0,
-            SYNCT1_A::TA => 1,
-            SYNCT1_A::TB => 2,
-            SYNCT1_A::TATB => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `SYNCT1`"]
@@ -206,25 +198,21 @@ impl<'a> SYNCT1_W<'a> {
 }
 #[doc = "Synchronize GPTM Timer 2\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum SYNCT2_A {
     #[doc = "0: GPTM2 is not affected"]
-    NONE,
+    NONE = 0,
     #[doc = "1: A timeout event for Timer A of GPTM2 is triggered"]
-    TA,
+    TA = 1,
     #[doc = "2: A timeout event for Timer B of GPTM2 is triggered"]
-    TB,
+    TB = 2,
     #[doc = "3: A timeout event for both Timer A and Timer B of GPTM2 is triggered"]
-    TATB,
+    TATB = 3,
 }
 impl From<SYNCT2_A> for u8 {
     #[inline(always)]
     fn from(variant: SYNCT2_A) -> Self {
-        match variant {
-            SYNCT2_A::NONE => 0,
-            SYNCT2_A::TA => 1,
-            SYNCT2_A::TB => 2,
-            SYNCT2_A::TATB => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `SYNCT2`"]
@@ -303,25 +291,21 @@ impl<'a> SYNCT2_W<'a> {
 }
 #[doc = "Synchronize GPTM Timer 3\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum SYNCT3_A {
     #[doc = "0: GPTM3 is not affected"]
-    NONE,
+    NONE = 0,
     #[doc = "1: A timeout event for Timer A of GPTM3 is triggered"]
-    TA,
+    TA = 1,
     #[doc = "2: A timeout event for Timer B of GPTM3 is triggered"]
-    TB,
+    TB = 2,
     #[doc = "3: A timeout event for both Timer A and Timer B of GPTM3 is triggered"]
-    TATB,
+    TATB = 3,
 }
 impl From<SYNCT3_A> for u8 {
     #[inline(always)]
     fn from(variant: SYNCT3_A) -> Self {
-        match variant {
-            SYNCT3_A::NONE => 0,
-            SYNCT3_A::TA => 1,
-            SYNCT3_A::TB => 2,
-            SYNCT3_A::TATB => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `SYNCT3`"]
@@ -400,25 +384,21 @@ impl<'a> SYNCT3_W<'a> {
 }
 #[doc = "Synchronize GPTM Timer 4\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum SYNCT4_A {
     #[doc = "0: GPTM4 is not affected"]
-    NONE,
+    NONE = 0,
     #[doc = "1: A timeout event for Timer A of GPTM4 is triggered"]
-    TA,
+    TA = 1,
     #[doc = "2: A timeout event for Timer B of GPTM4 is triggered"]
-    TB,
+    TB = 2,
     #[doc = "3: A timeout event for both Timer A and Timer B of GPTM4 is triggered"]
-    TATB,
+    TATB = 3,
 }
 impl From<SYNCT4_A> for u8 {
     #[inline(always)]
     fn from(variant: SYNCT4_A) -> Self {
-        match variant {
-            SYNCT4_A::NONE => 0,
-            SYNCT4_A::TA => 1,
-            SYNCT4_A::TB => 2,
-            SYNCT4_A::TATB => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `SYNCT4`"]
@@ -497,25 +477,21 @@ impl<'a> SYNCT4_W<'a> {
 }
 #[doc = "Synchronize GPTM Timer 5\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum SYNCT5_A {
     #[doc = "0: GPTM5 is not affected"]
-    NONE,
+    NONE = 0,
     #[doc = "1: A timeout event for Timer A of GPTM5 is triggered"]
-    TA,
+    TA = 1,
     #[doc = "2: A timeout event for Timer B of GPTM5 is triggered"]
-    TB,
+    TB = 2,
     #[doc = "3: A timeout event for both Timer A and Timer B of GPTM5 is triggered"]
-    TATB,
+    TATB = 3,
 }
 impl From<SYNCT5_A> for u8 {
     #[inline(always)]
     fn from(variant: SYNCT5_A) -> Self {
-        match variant {
-            SYNCT5_A::NONE => 0,
-            SYNCT5_A::TA => 1,
-            SYNCT5_A::TB => 2,
-            SYNCT5_A::TATB => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `SYNCT5`"]
@@ -594,25 +570,21 @@ impl<'a> SYNCT5_W<'a> {
 }
 #[doc = "Synchronize GPTM Timer 6\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum SYNCT6_A {
     #[doc = "0: GPTM6 is not affected"]
-    NONE,
+    NONE = 0,
     #[doc = "1: A timeout event for Timer A of GPTM6 is triggered"]
-    TA,
+    TA = 1,
     #[doc = "2: A timeout event for Timer B of GPTM6 is triggered"]
-    TB,
+    TB = 2,
     #[doc = "3: A timeout event for both Timer A and Timer B of GPTM6 is triggered"]
-    TATB,
+    TATB = 3,
 }
 impl From<SYNCT6_A> for u8 {
     #[inline(always)]
     fn from(variant: SYNCT6_A) -> Self {
-        match variant {
-            SYNCT6_A::NONE => 0,
-            SYNCT6_A::TA => 1,
-            SYNCT6_A::TB => 2,
-            SYNCT6_A::TATB => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `SYNCT6`"]
@@ -691,25 +663,21 @@ impl<'a> SYNCT6_W<'a> {
 }
 #[doc = "Synchronize GPTM Timer 7\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum SYNCT7_A {
     #[doc = "0: GPT7 is not affected"]
-    NONE,
+    NONE = 0,
     #[doc = "1: A timeout event for Timer A of GPTM7 is triggered"]
-    TA,
+    TA = 1,
     #[doc = "2: A timeout event for Timer B of GPTM7 is triggered"]
-    TB,
+    TB = 2,
     #[doc = "3: A timeout event for both Timer A and Timer B of GPTM7 is triggered"]
-    TATB,
+    TATB = 3,
 }
 impl From<SYNCT7_A> for u8 {
     #[inline(always)]
     fn from(variant: SYNCT7_A) -> Self {
-        match variant {
-            SYNCT7_A::NONE => 0,
-            SYNCT7_A::TA => 1,
-            SYNCT7_A::TB => 2,
-            SYNCT7_A::TATB => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `SYNCT7`"]

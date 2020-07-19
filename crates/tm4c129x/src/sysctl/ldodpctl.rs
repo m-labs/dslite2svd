@@ -12,43 +12,33 @@ impl crate::ResetValue for super::LDODPCTL {
 }
 #[doc = "LDO Output Voltage\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum VLDO_A {
     #[doc = "18: 0.90 V"]
-    _0_90V,
+    _0_90V = 18,
     #[doc = "19: 0.95 V"]
-    _0_95V,
+    _0_95V = 19,
     #[doc = "20: 1.00 V"]
-    _1_00V,
+    _1_00V = 20,
     #[doc = "21: 1.05 V"]
-    _1_05V,
+    _1_05V = 21,
     #[doc = "22: 1.10 V"]
-    _1_10V,
+    _1_10V = 22,
     #[doc = "23: 1.15 V"]
-    _1_15V,
+    _1_15V = 23,
     #[doc = "24: 1.20 V"]
-    _1_20V,
+    _1_20V = 24,
     #[doc = "25: 1.25 V"]
-    _1_25V,
+    _1_25V = 25,
     #[doc = "26: 1.30 V"]
-    _1_30V,
+    _1_30V = 26,
     #[doc = "27: 1.35 V"]
-    _1_35V,
+    _1_35V = 27,
 }
 impl From<VLDO_A> for u8 {
     #[inline(always)]
     fn from(variant: VLDO_A) -> Self {
-        match variant {
-            VLDO_A::_0_90V => 18,
-            VLDO_A::_0_95V => 19,
-            VLDO_A::_1_00V => 20,
-            VLDO_A::_1_05V => 21,
-            VLDO_A::_1_10V => 22,
-            VLDO_A::_1_15V => 23,
-            VLDO_A::_1_20V => 24,
-            VLDO_A::_1_25V => 25,
-            VLDO_A::_1_30V => 26,
-            VLDO_A::_1_35V => 27,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `VLDO`"]

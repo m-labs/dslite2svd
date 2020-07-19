@@ -12,31 +12,25 @@ impl crate::ResetValue for super::FIFOLVL {
 }
 #[doc = "Read FIFO\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum RDFIFO_A {
     #[doc = "1: Trigger when there are 1 or more entries in the NBRFIFO"]
-    _1,
+    _1 = 1,
     #[doc = "2: Trigger when there are 2 or more entries in the NBRFIFO"]
-    _2,
+    _2 = 2,
     #[doc = "3: Trigger when there are 4 or more entries in the NBRFIFO"]
-    _4,
+    _4 = 3,
     #[doc = "4: Trigger when there are 6 or more entries in the NBRFIFO"]
-    _6,
+    _6 = 4,
     #[doc = "5: Trigger when there are 7 or more entries in the NBRFIFO"]
-    _7,
+    _7 = 5,
     #[doc = "6: Trigger when there are 8 entries in the NBRFIFO"]
-    _8,
+    _8 = 6,
 }
 impl From<RDFIFO_A> for u8 {
     #[inline(always)]
     fn from(variant: RDFIFO_A) -> Self {
-        match variant {
-            RDFIFO_A::_1 => 1,
-            RDFIFO_A::_2 => 2,
-            RDFIFO_A::_4 => 3,
-            RDFIFO_A::_6 => 4,
-            RDFIFO_A::_7 => 5,
-            RDFIFO_A::_8 => 6,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `RDFIFO`"]
@@ -136,25 +130,21 @@ impl<'a> RDFIFO_W<'a> {
 }
 #[doc = "Write FIFO\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum WRFIFO_A {
     #[doc = "0: Interrupt is triggered while WRFIFO is empty."]
-    EMPT,
+    EMPT = 0,
     #[doc = "2: Interrupt is triggered until there are only two slots available. Thus, trigger is deasserted when there are two WRFIFO entries present. This configuration is optimized for bursts of 2"]
-    _2,
+    _2 = 2,
     #[doc = "3: Interrupt is triggered until there is one WRFIFO entry available. This configuration expects only single writes"]
-    _1,
+    _1 = 3,
     #[doc = "4: Trigger interrupt when WRFIFO is not full, meaning trigger will continue to assert until there are four entries in the WRFIFO"]
-    NFULL,
+    NFULL = 4,
 }
 impl From<WRFIFO_A> for u8 {
     #[inline(always)]
     fn from(variant: WRFIFO_A) -> Self {
-        match variant {
-            WRFIFO_A::EMPT => 0,
-            WRFIFO_A::_2 => 2,
-            WRFIFO_A::_1 => 3,
-            WRFIFO_A::NFULL => 4,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `WRFIFO`"]

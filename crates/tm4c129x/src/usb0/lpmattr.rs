@@ -2,16 +2,15 @@
 pub type R = crate::R<u16, super::LPMATTR>;
 #[doc = "Link State\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum LS_A {
     #[doc = "1: Sleep State (L1)"]
-    L1,
+    L1 = 1,
 }
 impl From<LS_A> for u8 {
     #[inline(always)]
     fn from(variant: LS_A) -> Self {
-        match variant {
-            LS_A::L1 => 1,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `LS`"]

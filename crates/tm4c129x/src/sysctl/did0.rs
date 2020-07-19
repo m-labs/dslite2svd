@@ -2,22 +2,19 @@
 pub type R = crate::R<u32, super::DID0>;
 #[doc = "Minor Revision\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum MIN_A {
     #[doc = "0: Initial device, or a major revision update"]
-    _0,
+    _0 = 0,
     #[doc = "1: First metal layer change"]
-    _1,
+    _1 = 1,
     #[doc = "2: Second metal layer change"]
-    _2,
+    _2 = 2,
 }
 impl From<MIN_A> for u8 {
     #[inline(always)]
     fn from(variant: MIN_A) -> Self {
-        match variant {
-            MIN_A::_0 => 0,
-            MIN_A::_1 => 1,
-            MIN_A::_2 => 2,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `MIN`"]
@@ -52,22 +49,19 @@ impl MIN_R {
 }
 #[doc = "Major Revision\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum MAJ_A {
     #[doc = "0: Revision A (initial device)"]
-    REVA,
+    REVA = 0,
     #[doc = "1: Revision B (first base layer revision)"]
-    REVB,
+    REVB = 1,
     #[doc = "2: Revision C (second base layer revision)"]
-    REVC,
+    REVC = 2,
 }
 impl From<MAJ_A> for u8 {
     #[inline(always)]
     fn from(variant: MAJ_A) -> Self {
-        match variant {
-            MAJ_A::REVA => 0,
-            MAJ_A::REVB => 1,
-            MAJ_A::REVC => 2,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `MAJ`"]
@@ -102,16 +96,15 @@ impl MAJ_R {
 }
 #[doc = "Device Class\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum CLASS_A {
     #[doc = "10: Tiva(TM) TM4C129-class microcontrollers"]
-    TM4C129,
+    TM4C129 = 10,
 }
 impl From<CLASS_A> for u8 {
     #[inline(always)]
     fn from(variant: CLASS_A) -> Self {
-        match variant {
-            CLASS_A::TM4C129 => 10,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `CLASS`"]
@@ -134,16 +127,15 @@ impl CLASS_R {
 }
 #[doc = "DID0 Version\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum VER_A {
     #[doc = "1: Second version of the DID0 register format."]
-    _1,
+    _1 = 1,
 }
 impl From<VER_A> for u8 {
     #[inline(always)]
     fn from(variant: VER_A) -> Self {
-        match variant {
-            VER_A::_1 => 1,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `VER`"]

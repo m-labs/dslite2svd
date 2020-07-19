@@ -2,22 +2,19 @@
 pub type R = crate::R<u32, super::DC6>;
 #[doc = "USB Module 0 Present\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum USB0_A {
     #[doc = "1: USB0 is Device Only"]
-    DEV,
+    DEV = 1,
     #[doc = "2: USB is Device or Host"]
-    HOSTDEV,
+    HOSTDEV = 2,
     #[doc = "3: USB0 is OTG"]
-    OTG,
+    OTG = 3,
 }
 impl From<USB0_A> for u8 {
     #[inline(always)]
     fn from(variant: USB0_A) -> Self {
-        match variant {
-            USB0_A::DEV => 1,
-            USB0_A::HOSTDEV => 2,
-            USB0_A::OTG => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `USB0`"]

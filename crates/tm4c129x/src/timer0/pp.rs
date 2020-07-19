@@ -2,19 +2,17 @@
 pub type R = crate::R<u32, super::PP>;
 #[doc = "Count Size\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum SIZE_A {
     #[doc = "0: Timer A and Timer B counters are 16 bits each with an 8-bit prescale counter"]
-    _16,
+    _16 = 0,
     #[doc = "1: Timer A and Timer B counters are 32 bits each with a 16-bit prescale counter"]
-    _32,
+    _32 = 1,
 }
 impl From<SIZE_A> for u8 {
     #[inline(always)]
     fn from(variant: SIZE_A) -> Self {
-        match variant {
-            SIZE_A::_16 => 0,
-            SIZE_A::_32 => 1,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `SIZE`"]

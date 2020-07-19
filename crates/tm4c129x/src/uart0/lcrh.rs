@@ -132,25 +132,21 @@ impl<'a> FEN_W<'a> {
 }
 #[doc = "UART Word Length\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum WLEN_A {
     #[doc = "0: 5 bits (default)"]
-    _5,
+    _5 = 0,
     #[doc = "1: 6 bits"]
-    _6,
+    _6 = 1,
     #[doc = "2: 7 bits"]
-    _7,
+    _7 = 2,
     #[doc = "3: 8 bits"]
-    _8,
+    _8 = 3,
 }
 impl From<WLEN_A> for u8 {
     #[inline(always)]
     fn from(variant: WLEN_A) -> Self {
-        match variant {
-            WLEN_A::_5 => 0,
-            WLEN_A::_6 => 1,
-            WLEN_A::_7 => 2,
-            WLEN_A::_8 => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `WLEN`"]

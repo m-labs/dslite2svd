@@ -12,37 +12,29 @@ pub type EN_R = crate::R<bool, bool>;
 pub type POL_R = crate::R<bool, bool>;
 #[doc = "Boot GPIO Pin\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum PIN_A {
     #[doc = "0: Pin 0"]
-    _0,
+    _0 = 0,
     #[doc = "1: Pin 1"]
-    _1,
+    _1 = 1,
     #[doc = "2: Pin 2"]
-    _2,
+    _2 = 2,
     #[doc = "3: Pin 3"]
-    _3,
+    _3 = 3,
     #[doc = "4: Pin 4"]
-    _4,
+    _4 = 4,
     #[doc = "5: Pin 5"]
-    _5,
+    _5 = 5,
     #[doc = "6: Pin 6"]
-    _6,
+    _6 = 6,
     #[doc = "7: Pin 7"]
-    _7,
+    _7 = 7,
 }
 impl From<PIN_A> for u8 {
     #[inline(always)]
     fn from(variant: PIN_A) -> Self {
-        match variant {
-            PIN_A::_0 => 0,
-            PIN_A::_1 => 1,
-            PIN_A::_2 => 2,
-            PIN_A::_3 => 3,
-            PIN_A::_4 => 4,
-            PIN_A::_5 => 5,
-            PIN_A::_6 => 6,
-            PIN_A::_7 => 7,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `PIN`"]
@@ -106,37 +98,29 @@ impl PIN_R {
 }
 #[doc = "Boot GPIO Port\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum PORT_A {
     #[doc = "0: Port A"]
-    A,
+    A = 0,
     #[doc = "1: Port B"]
-    B,
+    B = 1,
     #[doc = "2: Port C"]
-    C,
+    C = 2,
     #[doc = "3: Port D"]
-    D,
+    D = 3,
     #[doc = "4: Port E"]
-    E,
+    E = 4,
     #[doc = "5: Port F"]
-    F,
+    F = 5,
     #[doc = "6: Port G"]
-    G,
+    G = 6,
     #[doc = "7: Port H"]
-    H,
+    H = 7,
 }
 impl From<PORT_A> for u8 {
     #[inline(always)]
     fn from(variant: PORT_A) -> Self {
-        match variant {
-            PORT_A::A => 0,
-            PORT_A::B => 1,
-            PORT_A::C => 2,
-            PORT_A::D => 3,
-            PORT_A::E => 4,
-            PORT_A::F => 5,
-            PORT_A::G => 6,
-            PORT_A::H => 7,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `PORT`"]

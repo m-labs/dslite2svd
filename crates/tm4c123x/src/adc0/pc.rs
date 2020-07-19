@@ -12,25 +12,21 @@ impl crate::ResetValue for super::PC {
 }
 #[doc = "ADC Sample Rate\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum SR_A {
     #[doc = "1: 125 ksps"]
-    _125K,
+    _125K = 1,
     #[doc = "3: 250 ksps"]
-    _250K,
+    _250K = 3,
     #[doc = "5: 500 ksps"]
-    _500K,
+    _500K = 5,
     #[doc = "7: 1 Msps"]
-    _1M,
+    _1M = 7,
 }
 impl From<SR_A> for u8 {
     #[inline(always)]
     fn from(variant: SR_A) -> Self {
-        match variant {
-            SR_A::_125K => 1,
-            SR_A::_250K => 3,
-            SR_A::_500K => 5,
-            SR_A::_1M => 7,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `SR`"]

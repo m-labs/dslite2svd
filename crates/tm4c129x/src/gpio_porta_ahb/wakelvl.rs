@@ -35,14 +35,16 @@ impl<'a> WAKELVL4_W<'a> {
     }
 }
 impl R {
-    #[doc = "Bit 4 - P\\[4\\] Wake Level"]
+    #[doc = "Bit 4 - P\\[4\\]
+Wake Level"]
     #[inline(always)]
     pub fn wakelvl4(&self) -> WAKELVL4_R {
         WAKELVL4_R::new(((self.bits >> 4) & 0x01) != 0)
     }
 }
 impl W {
-    #[doc = "Bit 4 - P\\[4\\] Wake Level"]
+    #[doc = "Bit 4 - P\\[4\\]
+Wake Level"]
     #[inline(always)]
     pub fn wakelvl4(&mut self) -> WAKELVL4_W {
         WAKELVL4_W { w: self }

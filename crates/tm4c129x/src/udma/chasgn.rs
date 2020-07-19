@@ -10,21 +10,20 @@ impl crate::ResetValue for super::CHASGN {
         0
     }
 }
-#[doc = "Channel \\[n\\] Assignment Select\n\nValue on reset: 0"]
+#[doc = "Channel \\[n\\]
+Assignment Select\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u32)]
 pub enum CHASGN_A {
     #[doc = "0: Use the primary channel assignment"]
-    PRIMARY,
+    PRIMARY = 0,
     #[doc = "1: Use the secondary channel assignment"]
-    SECONDARY,
+    SECONDARY = 1,
 }
 impl From<CHASGN_A> for u32 {
     #[inline(always)]
     fn from(variant: CHASGN_A) -> Self {
-        match variant {
-            CHASGN_A::PRIMARY => 0,
-            CHASGN_A::SECONDARY => 1,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `CHASGN`"]
@@ -79,14 +78,16 @@ impl<'a> CHASGN_W<'a> {
     }
 }
 impl R {
-    #[doc = "Bits 0:31 - Channel \\[n\\] Assignment Select"]
+    #[doc = "Bits 0:31 - Channel \\[n\\]
+Assignment Select"]
     #[inline(always)]
     pub fn chasgn(&self) -> CHASGN_R {
         CHASGN_R::new((self.bits & 0xffff_ffff) as u32)
     }
 }
 impl W {
-    #[doc = "Bits 0:31 - Channel \\[n\\] Assignment Select"]
+    #[doc = "Bits 0:31 - Channel \\[n\\]
+Assignment Select"]
     #[inline(always)]
     pub fn chasgn(&mut self) -> CHASGN_W {
         CHASGN_W { w: self }

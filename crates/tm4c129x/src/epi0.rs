@@ -268,7 +268,7 @@ impl crate::Readable for CFG {}
 impl crate::Writable for CFG {}
 #[doc = "EPI Configuration"]
 pub mod cfg;
-#[doc = "EPI Main Baud Rate\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [baud](baud) module"]
+#[doc = "EPI Main Baud Rate\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [baud](baud) module"]
 pub type BAUD = crate::Reg<u32, _BAUD>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -279,7 +279,7 @@ impl crate::Readable for BAUD {}
 impl crate::Writable for BAUD {}
 #[doc = "EPI Main Baud Rate"]
 pub mod baud;
-#[doc = "EPI Main Baud Rate\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [baud2](baud2) module"]
+#[doc = "EPI Main Baud Rate\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [baud2](baud2) module"]
 pub type BAUD2 = crate::Reg<u32, _BAUD2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -290,7 +290,7 @@ impl crate::Readable for BAUD2 {}
 impl crate::Writable for BAUD2 {}
 #[doc = "EPI Main Baud Rate"]
 pub mod baud2;
-#[doc = "EPI Host-Bus 16 Configuration\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [hb16cfg](hb16cfg) module"]
+#[doc = "EPI Host-Bus 16 Configuration\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [hb16cfg](hb16cfg) module"]
 pub type HB16CFG = crate::Reg<u32, _HB16CFG>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -301,7 +301,7 @@ impl crate::Readable for HB16CFG {}
 impl crate::Writable for HB16CFG {}
 #[doc = "EPI Host-Bus 16 Configuration"]
 pub mod hb16cfg;
-#[doc = "EPI General-Purpose Configuration\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [gpcfg](gpcfg) module"]
+#[doc = "EPI General-Purpose Configuration\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [gpcfg](gpcfg) module"]
 pub type GPCFG = crate::Reg<u32, _GPCFG>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -312,7 +312,7 @@ impl crate::Readable for GPCFG {}
 impl crate::Writable for GPCFG {}
 #[doc = "EPI General-Purpose Configuration"]
 pub mod gpcfg;
-#[doc = "EPI SDRAM Configuration\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [sdramcfg](sdramcfg) module"]
+#[doc = "EPI SDRAM Configuration\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [sdramcfg](sdramcfg) module"]
 pub type SDRAMCFG = crate::Reg<u32, _SDRAMCFG>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -323,7 +323,7 @@ impl crate::Readable for SDRAMCFG {}
 impl crate::Writable for SDRAMCFG {}
 #[doc = "EPI SDRAM Configuration"]
 pub mod sdramcfg;
-#[doc = "EPI Host-Bus 8 Configuration\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [hb8cfg](hb8cfg) module"]
+#[doc = "EPI Host-Bus 8 Configuration\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [hb8cfg](hb8cfg) module"]
 pub type HB8CFG = crate::Reg<u32, _HB8CFG>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -334,7 +334,7 @@ impl crate::Readable for HB8CFG {}
 impl crate::Writable for HB8CFG {}
 #[doc = "EPI Host-Bus 8 Configuration"]
 pub mod hb8cfg;
-#[doc = "EPI Host-Bus 8 Configuration 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [hb8cfg2](hb8cfg2) module"]
+#[doc = "EPI Host-Bus 8 Configuration 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [hb8cfg2](hb8cfg2) module"]
 pub type HB8CFG2 = crate::Reg<u32, _HB8CFG2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -345,7 +345,7 @@ impl crate::Readable for HB8CFG2 {}
 impl crate::Writable for HB8CFG2 {}
 #[doc = "EPI Host-Bus 8 Configuration 2"]
 pub mod hb8cfg2;
-#[doc = "EPI Host-Bus 16 Configuration 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [hb16cfg2](hb16cfg2) module"]
+#[doc = "EPI Host-Bus 16 Configuration 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [hb16cfg2](hb16cfg2) module"]
 pub type HB16CFG2 = crate::Reg<u32, _HB16CFG2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -356,7 +356,7 @@ impl crate::Readable for HB16CFG2 {}
 impl crate::Writable for HB16CFG2 {}
 #[doc = "EPI Host-Bus 16 Configuration 2"]
 pub mod hb16cfg2;
-#[doc = "EPI Address Map\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [addrmap](addrmap) module"]
+#[doc = "EPI Address Map\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [addrmap](addrmap) module"]
 pub type ADDRMAP = crate::Reg<u32, _ADDRMAP>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -367,7 +367,7 @@ impl crate::Readable for ADDRMAP {}
 impl crate::Writable for ADDRMAP {}
 #[doc = "EPI Address Map"]
 pub mod addrmap;
-#[doc = "EPI Read Size 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rsize0](rsize0) module"]
+#[doc = "EPI Read Size 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rsize0](rsize0) module"]
 pub type RSIZE0 = crate::Reg<u32, _RSIZE0>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -378,7 +378,7 @@ impl crate::Readable for RSIZE0 {}
 impl crate::Writable for RSIZE0 {}
 #[doc = "EPI Read Size 0"]
 pub mod rsize0;
-#[doc = "EPI Read Address 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [raddr0](raddr0) module"]
+#[doc = "EPI Read Address 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [raddr0](raddr0) module"]
 pub type RADDR0 = crate::Reg<u32, _RADDR0>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -389,7 +389,7 @@ impl crate::Readable for RADDR0 {}
 impl crate::Writable for RADDR0 {}
 #[doc = "EPI Read Address 0"]
 pub mod raddr0;
-#[doc = "EPI Non-Blocking Read Data 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rpstd0](rpstd0) module"]
+#[doc = "EPI Non-Blocking Read Data 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rpstd0](rpstd0) module"]
 pub type RPSTD0 = crate::Reg<u32, _RPSTD0>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -400,7 +400,7 @@ impl crate::Readable for RPSTD0 {}
 impl crate::Writable for RPSTD0 {}
 #[doc = "EPI Non-Blocking Read Data 0"]
 pub mod rpstd0;
-#[doc = "EPI Read Size 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rsize1](rsize1) module"]
+#[doc = "EPI Read Size 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rsize1](rsize1) module"]
 pub type RSIZE1 = crate::Reg<u32, _RSIZE1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -411,7 +411,7 @@ impl crate::Readable for RSIZE1 {}
 impl crate::Writable for RSIZE1 {}
 #[doc = "EPI Read Size 1"]
 pub mod rsize1;
-#[doc = "EPI Read Address 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [raddr1](raddr1) module"]
+#[doc = "EPI Read Address 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [raddr1](raddr1) module"]
 pub type RADDR1 = crate::Reg<u32, _RADDR1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -422,7 +422,7 @@ impl crate::Readable for RADDR1 {}
 impl crate::Writable for RADDR1 {}
 #[doc = "EPI Read Address 1"]
 pub mod raddr1;
-#[doc = "EPI Non-Blocking Read Data 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rpstd1](rpstd1) module"]
+#[doc = "EPI Non-Blocking Read Data 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rpstd1](rpstd1) module"]
 pub type RPSTD1 = crate::Reg<u32, _RPSTD1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -433,7 +433,7 @@ impl crate::Readable for RPSTD1 {}
 impl crate::Writable for RPSTD1 {}
 #[doc = "EPI Non-Blocking Read Data 1"]
 pub mod rpstd1;
-#[doc = "EPI Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [stat](stat) module"]
+#[doc = "EPI Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [stat](stat) module"]
 pub type STAT = crate::Reg<u32, _STAT>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -442,7 +442,7 @@ pub struct _STAT;
 impl crate::Readable for STAT {}
 #[doc = "EPI Status"]
 pub mod stat;
-#[doc = "EPI Read FIFO Count\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rfifocnt](rfifocnt) module"]
+#[doc = "EPI Read FIFO Count\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rfifocnt](rfifocnt) module"]
 pub type RFIFOCNT = crate::Reg<u32, _RFIFOCNT>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -451,7 +451,7 @@ pub struct _RFIFOCNT;
 impl crate::Readable for RFIFOCNT {}
 #[doc = "EPI Read FIFO Count"]
 pub mod rfifocnt;
-#[doc = "EPI Read FIFO\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [readfifo0](readfifo0) module"]
+#[doc = "EPI Read FIFO\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [readfifo0](readfifo0) module"]
 pub type READFIFO0 = crate::Reg<u32, _READFIFO0>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -460,7 +460,7 @@ pub struct _READFIFO0;
 impl crate::Readable for READFIFO0 {}
 #[doc = "EPI Read FIFO"]
 pub mod readfifo0;
-#[doc = "EPI Read FIFO Alias 1\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [readfifo1](readfifo1) module"]
+#[doc = "EPI Read FIFO Alias 1\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [readfifo1](readfifo1) module"]
 pub type READFIFO1 = crate::Reg<u32, _READFIFO1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -469,7 +469,7 @@ pub struct _READFIFO1;
 impl crate::Readable for READFIFO1 {}
 #[doc = "EPI Read FIFO Alias 1"]
 pub mod readfifo1;
-#[doc = "EPI Read FIFO Alias 2\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [readfifo2](readfifo2) module"]
+#[doc = "EPI Read FIFO Alias 2\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [readfifo2](readfifo2) module"]
 pub type READFIFO2 = crate::Reg<u32, _READFIFO2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -478,7 +478,7 @@ pub struct _READFIFO2;
 impl crate::Readable for READFIFO2 {}
 #[doc = "EPI Read FIFO Alias 2"]
 pub mod readfifo2;
-#[doc = "EPI Read FIFO Alias 3\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [readfifo3](readfifo3) module"]
+#[doc = "EPI Read FIFO Alias 3\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [readfifo3](readfifo3) module"]
 pub type READFIFO3 = crate::Reg<u32, _READFIFO3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -487,7 +487,7 @@ pub struct _READFIFO3;
 impl crate::Readable for READFIFO3 {}
 #[doc = "EPI Read FIFO Alias 3"]
 pub mod readfifo3;
-#[doc = "EPI Read FIFO Alias 4\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [readfifo4](readfifo4) module"]
+#[doc = "EPI Read FIFO Alias 4\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [readfifo4](readfifo4) module"]
 pub type READFIFO4 = crate::Reg<u32, _READFIFO4>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -496,7 +496,7 @@ pub struct _READFIFO4;
 impl crate::Readable for READFIFO4 {}
 #[doc = "EPI Read FIFO Alias 4"]
 pub mod readfifo4;
-#[doc = "EPI Read FIFO Alias 5\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [readfifo5](readfifo5) module"]
+#[doc = "EPI Read FIFO Alias 5\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [readfifo5](readfifo5) module"]
 pub type READFIFO5 = crate::Reg<u32, _READFIFO5>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -505,7 +505,7 @@ pub struct _READFIFO5;
 impl crate::Readable for READFIFO5 {}
 #[doc = "EPI Read FIFO Alias 5"]
 pub mod readfifo5;
-#[doc = "EPI Read FIFO Alias 6\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [readfifo6](readfifo6) module"]
+#[doc = "EPI Read FIFO Alias 6\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [readfifo6](readfifo6) module"]
 pub type READFIFO6 = crate::Reg<u32, _READFIFO6>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -514,7 +514,7 @@ pub struct _READFIFO6;
 impl crate::Readable for READFIFO6 {}
 #[doc = "EPI Read FIFO Alias 6"]
 pub mod readfifo6;
-#[doc = "EPI Read FIFO Alias 7\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [readfifo7](readfifo7) module"]
+#[doc = "EPI Read FIFO Alias 7\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [readfifo7](readfifo7) module"]
 pub type READFIFO7 = crate::Reg<u32, _READFIFO7>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -523,7 +523,7 @@ pub struct _READFIFO7;
 impl crate::Readable for READFIFO7 {}
 #[doc = "EPI Read FIFO Alias 7"]
 pub mod readfifo7;
-#[doc = "EPI FIFO Level Selects\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [fifolvl](fifolvl) module"]
+#[doc = "EPI FIFO Level Selects\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [fifolvl](fifolvl) module"]
 pub type FIFOLVL = crate::Reg<u32, _FIFOLVL>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -534,7 +534,7 @@ impl crate::Readable for FIFOLVL {}
 impl crate::Writable for FIFOLVL {}
 #[doc = "EPI FIFO Level Selects"]
 pub mod fifolvl;
-#[doc = "EPI Write FIFO Count\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [wfifocnt](wfifocnt) module"]
+#[doc = "EPI Write FIFO Count\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [wfifocnt](wfifocnt) module"]
 pub type WFIFOCNT = crate::Reg<u32, _WFIFOCNT>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -543,7 +543,7 @@ pub struct _WFIFOCNT;
 impl crate::Readable for WFIFOCNT {}
 #[doc = "EPI Write FIFO Count"]
 pub mod wfifocnt;
-#[doc = "EPI DMA Transmit Count\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dmatxcnt](dmatxcnt) module"]
+#[doc = "EPI DMA Transmit Count\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dmatxcnt](dmatxcnt) module"]
 pub type DMATXCNT = crate::Reg<u32, _DMATXCNT>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -554,7 +554,7 @@ impl crate::Readable for DMATXCNT {}
 impl crate::Writable for DMATXCNT {}
 #[doc = "EPI DMA Transmit Count"]
 pub mod dmatxcnt;
-#[doc = "EPI Interrupt Mask\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [im](im) module"]
+#[doc = "EPI Interrupt Mask\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [im](im) module"]
 pub type IM = crate::Reg<u32, _IM>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -565,7 +565,7 @@ impl crate::Readable for IM {}
 impl crate::Writable for IM {}
 #[doc = "EPI Interrupt Mask"]
 pub mod im;
-#[doc = "EPI Raw Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ris](ris) module"]
+#[doc = "EPI Raw Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ris](ris) module"]
 pub type RIS = crate::Reg<u32, _RIS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -574,7 +574,7 @@ pub struct _RIS;
 impl crate::Readable for RIS {}
 #[doc = "EPI Raw Interrupt Status"]
 pub mod ris;
-#[doc = "EPI Masked Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [mis](mis) module"]
+#[doc = "EPI Masked Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [mis](mis) module"]
 pub type MIS = crate::Reg<u32, _MIS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -583,7 +583,7 @@ pub struct _MIS;
 impl crate::Readable for MIS {}
 #[doc = "EPI Masked Interrupt Status"]
 pub mod mis;
-#[doc = "EPI Error and Interrupt Status and Clear\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [eisc](eisc) module"]
+#[doc = "EPI Error and Interrupt Status and Clear\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [eisc](eisc) module"]
 pub type EISC = crate::Reg<u32, _EISC>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -594,7 +594,7 @@ impl crate::Readable for EISC {}
 impl crate::Writable for EISC {}
 #[doc = "EPI Error and Interrupt Status and Clear"]
 pub mod eisc;
-#[doc = "EPI Host-Bus 8 Configuration 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [hb8cfg3](hb8cfg3) module"]
+#[doc = "EPI Host-Bus 8 Configuration 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [hb8cfg3](hb8cfg3) module"]
 pub type HB8CFG3 = crate::Reg<u32, _HB8CFG3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -605,7 +605,7 @@ impl crate::Readable for HB8CFG3 {}
 impl crate::Writable for HB8CFG3 {}
 #[doc = "EPI Host-Bus 8 Configuration 3"]
 pub mod hb8cfg3;
-#[doc = "EPI Host-Bus 16 Configuration 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [hb16cfg3](hb16cfg3) module"]
+#[doc = "EPI Host-Bus 16 Configuration 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [hb16cfg3](hb16cfg3) module"]
 pub type HB16CFG3 = crate::Reg<u32, _HB16CFG3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -616,7 +616,7 @@ impl crate::Readable for HB16CFG3 {}
 impl crate::Writable for HB16CFG3 {}
 #[doc = "EPI Host-Bus 16 Configuration 3"]
 pub mod hb16cfg3;
-#[doc = "EPI Host-Bus 16 Configuration 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [hb16cfg4](hb16cfg4) module"]
+#[doc = "EPI Host-Bus 16 Configuration 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [hb16cfg4](hb16cfg4) module"]
 pub type HB16CFG4 = crate::Reg<u32, _HB16CFG4>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -627,7 +627,7 @@ impl crate::Readable for HB16CFG4 {}
 impl crate::Writable for HB16CFG4 {}
 #[doc = "EPI Host-Bus 16 Configuration 4"]
 pub mod hb16cfg4;
-#[doc = "EPI Host-Bus 8 Configuration 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [hb8cfg4](hb8cfg4) module"]
+#[doc = "EPI Host-Bus 8 Configuration 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [hb8cfg4](hb8cfg4) module"]
 pub type HB8CFG4 = crate::Reg<u32, _HB8CFG4>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -638,7 +638,7 @@ impl crate::Readable for HB8CFG4 {}
 impl crate::Writable for HB8CFG4 {}
 #[doc = "EPI Host-Bus 8 Configuration 4"]
 pub mod hb8cfg4;
-#[doc = "EPI Host-Bus 8 Timing Extension\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [hb8time](hb8time) module"]
+#[doc = "EPI Host-Bus 8 Timing Extension\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [hb8time](hb8time) module"]
 pub type HB8TIME = crate::Reg<u32, _HB8TIME>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -649,7 +649,7 @@ impl crate::Readable for HB8TIME {}
 impl crate::Writable for HB8TIME {}
 #[doc = "EPI Host-Bus 8 Timing Extension"]
 pub mod hb8time;
-#[doc = "EPI Host-Bus 16 Timing Extension\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [hb16time](hb16time) module"]
+#[doc = "EPI Host-Bus 16 Timing Extension\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [hb16time](hb16time) module"]
 pub type HB16TIME = crate::Reg<u32, _HB16TIME>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -660,7 +660,7 @@ impl crate::Readable for HB16TIME {}
 impl crate::Writable for HB16TIME {}
 #[doc = "EPI Host-Bus 16 Timing Extension"]
 pub mod hb16time;
-#[doc = "EPI Host-Bus 8 Timing Extension\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [hb8time2](hb8time2) module"]
+#[doc = "EPI Host-Bus 8 Timing Extension\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [hb8time2](hb8time2) module"]
 pub type HB8TIME2 = crate::Reg<u32, _HB8TIME2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -671,7 +671,7 @@ impl crate::Readable for HB8TIME2 {}
 impl crate::Writable for HB8TIME2 {}
 #[doc = "EPI Host-Bus 8 Timing Extension"]
 pub mod hb8time2;
-#[doc = "EPI Host-Bus 16 Timing Extension\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [hb16time2](hb16time2) module"]
+#[doc = "EPI Host-Bus 16 Timing Extension\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [hb16time2](hb16time2) module"]
 pub type HB16TIME2 = crate::Reg<u32, _HB16TIME2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -682,7 +682,7 @@ impl crate::Readable for HB16TIME2 {}
 impl crate::Writable for HB16TIME2 {}
 #[doc = "EPI Host-Bus 16 Timing Extension"]
 pub mod hb16time2;
-#[doc = "EPI Host-Bus 16 Timing Extension\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [hb16time3](hb16time3) module"]
+#[doc = "EPI Host-Bus 16 Timing Extension\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [hb16time3](hb16time3) module"]
 pub type HB16TIME3 = crate::Reg<u32, _HB16TIME3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -693,7 +693,7 @@ impl crate::Readable for HB16TIME3 {}
 impl crate::Writable for HB16TIME3 {}
 #[doc = "EPI Host-Bus 16 Timing Extension"]
 pub mod hb16time3;
-#[doc = "EPI Host-Bus 8 Timing Extension\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [hb8time3](hb8time3) module"]
+#[doc = "EPI Host-Bus 8 Timing Extension\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [hb8time3](hb8time3) module"]
 pub type HB8TIME3 = crate::Reg<u32, _HB8TIME3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -704,7 +704,7 @@ impl crate::Readable for HB8TIME3 {}
 impl crate::Writable for HB8TIME3 {}
 #[doc = "EPI Host-Bus 8 Timing Extension"]
 pub mod hb8time3;
-#[doc = "EPI Host-Bus 8 Timing Extension\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [hb8time4](hb8time4) module"]
+#[doc = "EPI Host-Bus 8 Timing Extension\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [hb8time4](hb8time4) module"]
 pub type HB8TIME4 = crate::Reg<u32, _HB8TIME4>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -715,7 +715,7 @@ impl crate::Readable for HB8TIME4 {}
 impl crate::Writable for HB8TIME4 {}
 #[doc = "EPI Host-Bus 8 Timing Extension"]
 pub mod hb8time4;
-#[doc = "EPI Host-Bus 16 Timing Extension\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [hb16time4](hb16time4) module"]
+#[doc = "EPI Host-Bus 16 Timing Extension\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [hb16time4](hb16time4) module"]
 pub type HB16TIME4 = crate::Reg<u32, _HB16TIME4>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -726,7 +726,7 @@ impl crate::Readable for HB16TIME4 {}
 impl crate::Writable for HB16TIME4 {}
 #[doc = "EPI Host-Bus 16 Timing Extension"]
 pub mod hb16time4;
-#[doc = "EPI Host-Bus PSRAM\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [hbpsram](hbpsram) module"]
+#[doc = "EPI Host-Bus PSRAM\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [hbpsram](hbpsram) module"]
 pub type HBPSRAM = crate::Reg<u32, _HBPSRAM>;
 #[allow(missing_docs)]
 #[doc(hidden)]

@@ -50,22 +50,19 @@ impl<'a> PPSEN0_W<'a> {
 }
 #[doc = "Target Time Register Mode for PPS0 Output\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum TRGMODS0_A {
     #[doc = "0: Indicates that the Target Time registers are programmed only for generating the interrupt event"]
-    INTONLY,
+    INTONLY = 0,
     #[doc = "2: Indicates that the Target Time registers are programmed for generating the interrupt event and starting or stopping the generation of the EN0PPS output signal"]
-    INTPPS0,
+    INTPPS0 = 2,
     #[doc = "3: Indicates that the Target Time registers are programmed only for starting or stopping the generation of the EN0PPS output signal. No interrupt is asserted"]
-    PPS0ONLY,
+    PPS0ONLY = 3,
 }
 impl From<TRGMODS0_A> for u8 {
     #[inline(always)]
     fn from(variant: TRGMODS0_A) -> Self {
-        match variant {
-            TRGMODS0_A::INTONLY => 0,
-            TRGMODS0_A::INTPPS0 => 2,
-            TRGMODS0_A::PPS0ONLY => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `TRGMODS0`"]

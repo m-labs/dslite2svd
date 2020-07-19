@@ -12,52 +12,39 @@ impl crate::ResetValue for super::CR0 {
 }
 #[doc = "SSI Data Size Select\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum DSS_A {
     #[doc = "3: 4-bit data"]
-    _4,
+    _4 = 3,
     #[doc = "4: 5-bit data"]
-    _5,
+    _5 = 4,
     #[doc = "5: 6-bit data"]
-    _6,
+    _6 = 5,
     #[doc = "6: 7-bit data"]
-    _7,
+    _7 = 6,
     #[doc = "7: 8-bit data"]
-    _8,
+    _8 = 7,
     #[doc = "8: 9-bit data"]
-    _9,
+    _9 = 8,
     #[doc = "9: 10-bit data"]
-    _10,
+    _10 = 9,
     #[doc = "10: 11-bit data"]
-    _11,
+    _11 = 10,
     #[doc = "11: 12-bit data"]
-    _12,
+    _12 = 11,
     #[doc = "12: 13-bit data"]
-    _13,
+    _13 = 12,
     #[doc = "13: 14-bit data"]
-    _14,
+    _14 = 13,
     #[doc = "14: 15-bit data"]
-    _15,
+    _15 = 14,
     #[doc = "15: 16-bit data"]
-    _16,
+    _16 = 15,
 }
 impl From<DSS_A> for u8 {
     #[inline(always)]
     fn from(variant: DSS_A) -> Self {
-        match variant {
-            DSS_A::_4 => 3,
-            DSS_A::_5 => 4,
-            DSS_A::_6 => 5,
-            DSS_A::_7 => 6,
-            DSS_A::_8 => 7,
-            DSS_A::_9 => 8,
-            DSS_A::_10 => 9,
-            DSS_A::_11 => 10,
-            DSS_A::_12 => 11,
-            DSS_A::_13 => 12,
-            DSS_A::_14 => 13,
-            DSS_A::_15 => 14,
-            DSS_A::_16 => 15,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `DSS`"]
@@ -234,22 +221,19 @@ impl<'a> DSS_W<'a> {
 }
 #[doc = "SSI Frame Format Select\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum FRF_A {
     #[doc = "0: Freescale SPI Frame Format"]
-    MOTO,
+    MOTO = 0,
     #[doc = "1: Synchronous Serial Frame Format"]
-    TI,
+    TI = 1,
     #[doc = "2: MICROWIRE Frame Format"]
-    NMW,
+    NMW = 2,
 }
 impl From<FRF_A> for u8 {
     #[inline(always)]
     fn from(variant: FRF_A) -> Self {
-        match variant {
-            FRF_A::MOTO => 0,
-            FRF_A::TI => 1,
-            FRF_A::NMW => 2,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `FRF`"]

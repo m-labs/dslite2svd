@@ -12,61 +12,45 @@ impl crate::ResetValue for super::SPC {
 }
 #[doc = "Phase Difference\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum PHASE_A {
     #[doc = "0: ADC sample lags by 0.0"]
-    _0,
+    _0 = 0,
     #[doc = "1: ADC sample lags by 22.5"]
-    _22_5,
+    _22_5 = 1,
     #[doc = "2: ADC sample lags by 45.0"]
-    _45,
+    _45 = 2,
     #[doc = "3: ADC sample lags by 67.5"]
-    _67_5,
+    _67_5 = 3,
     #[doc = "4: ADC sample lags by 90.0"]
-    _90,
+    _90 = 4,
     #[doc = "5: ADC sample lags by 112.5"]
-    _112_5,
+    _112_5 = 5,
     #[doc = "6: ADC sample lags by 135.0"]
-    _135,
+    _135 = 6,
     #[doc = "7: ADC sample lags by 157.5"]
-    _157_5,
+    _157_5 = 7,
     #[doc = "8: ADC sample lags by 180.0"]
-    _180,
+    _180 = 8,
     #[doc = "9: ADC sample lags by 202.5"]
-    _202_5,
+    _202_5 = 9,
     #[doc = "10: ADC sample lags by 225.0"]
-    _225,
+    _225 = 10,
     #[doc = "11: ADC sample lags by 247.5"]
-    _247_5,
+    _247_5 = 11,
     #[doc = "12: ADC sample lags by 270.0"]
-    _270,
+    _270 = 12,
     #[doc = "13: ADC sample lags by 292.5"]
-    _292_5,
+    _292_5 = 13,
     #[doc = "14: ADC sample lags by 315.0"]
-    _315,
+    _315 = 14,
     #[doc = "15: ADC sample lags by 337.5"]
-    _337_5,
+    _337_5 = 15,
 }
 impl From<PHASE_A> for u8 {
     #[inline(always)]
     fn from(variant: PHASE_A) -> Self {
-        match variant {
-            PHASE_A::_0 => 0,
-            PHASE_A::_22_5 => 1,
-            PHASE_A::_45 => 2,
-            PHASE_A::_67_5 => 3,
-            PHASE_A::_90 => 4,
-            PHASE_A::_112_5 => 5,
-            PHASE_A::_135 => 6,
-            PHASE_A::_157_5 => 7,
-            PHASE_A::_180 => 8,
-            PHASE_A::_202_5 => 9,
-            PHASE_A::_225 => 10,
-            PHASE_A::_247_5 => 11,
-            PHASE_A::_270 => 12,
-            PHASE_A::_292_5 => 13,
-            PHASE_A::_315 => 14,
-            PHASE_A::_337_5 => 15,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `PHASE`"]

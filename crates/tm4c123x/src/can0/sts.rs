@@ -12,37 +12,29 @@ impl crate::ResetValue for super::STS {
 }
 #[doc = "Last Error Code\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum LEC_A {
     #[doc = "0: No Error"]
-    NONE,
+    NONE = 0,
     #[doc = "1: Stuff Error"]
-    STUFF,
+    STUFF = 1,
     #[doc = "2: Format Error"]
-    FORM,
+    FORM = 2,
     #[doc = "3: ACK Error"]
-    ACK,
+    ACK = 3,
     #[doc = "4: Bit 1 Error"]
-    BIT1,
+    BIT1 = 4,
     #[doc = "5: Bit 0 Error"]
-    BIT0,
+    BIT0 = 5,
     #[doc = "6: CRC Error"]
-    CRC,
+    CRC = 6,
     #[doc = "7: No Event"]
-    NOEVENT,
+    NOEVENT = 7,
 }
 impl From<LEC_A> for u8 {
     #[inline(always)]
     fn from(variant: LEC_A) -> Self {
-        match variant {
-            LEC_A::NONE => 0,
-            LEC_A::STUFF => 1,
-            LEC_A::FORM => 2,
-            LEC_A::ACK => 3,
-            LEC_A::BIT1 => 4,
-            LEC_A::BIT0 => 5,
-            LEC_A::CRC => 6,
-            LEC_A::NOEVENT => 7,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `LEC`"]

@@ -156,22 +156,19 @@ impl<'a> CMPBUPD_W<'a> {
 }
 #[doc = "PWMnGENA Update Mode\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum GENAUPD_A {
     #[doc = "0: Immediate"]
-    I,
+    I = 0,
     #[doc = "2: Locally Synchronized"]
-    LS,
+    LS = 2,
     #[doc = "3: Globally Synchronized"]
-    GS,
+    GS = 3,
 }
 impl From<GENAUPD_A> for u8 {
     #[inline(always)]
     fn from(variant: GENAUPD_A) -> Self {
-        match variant {
-            GENAUPD_A::I => 0,
-            GENAUPD_A::LS => 2,
-            GENAUPD_A::GS => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `GENAUPD`"]
@@ -238,22 +235,19 @@ impl<'a> GENAUPD_W<'a> {
 }
 #[doc = "PWMnGENB Update Mode\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum GENBUPD_A {
     #[doc = "0: Immediate"]
-    I,
+    I = 0,
     #[doc = "2: Locally Synchronized"]
-    LS,
+    LS = 2,
     #[doc = "3: Globally Synchronized"]
-    GS,
+    GS = 3,
 }
 impl From<GENBUPD_A> for u8 {
     #[inline(always)]
     fn from(variant: GENBUPD_A) -> Self {
-        match variant {
-            GENBUPD_A::I => 0,
-            GENBUPD_A::LS => 2,
-            GENBUPD_A::GS => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `GENBUPD`"]
@@ -320,22 +314,19 @@ impl<'a> GENBUPD_W<'a> {
 }
 #[doc = "PWMnDBCTL Update Mode\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum DBCTLUPD_A {
     #[doc = "0: Immediate"]
-    I,
+    I = 0,
     #[doc = "2: Locally Synchronized"]
-    LS,
+    LS = 2,
     #[doc = "3: Globally Synchronized"]
-    GS,
+    GS = 3,
 }
 impl From<DBCTLUPD_A> for u8 {
     #[inline(always)]
     fn from(variant: DBCTLUPD_A) -> Self {
-        match variant {
-            DBCTLUPD_A::I => 0,
-            DBCTLUPD_A::LS => 2,
-            DBCTLUPD_A::GS => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `DBCTLUPD`"]
@@ -402,22 +393,19 @@ impl<'a> DBCTLUPD_W<'a> {
 }
 #[doc = "PWMnDBRISE Update Mode\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum DBRISEUPD_A {
     #[doc = "0: Immediate"]
-    I,
+    I = 0,
     #[doc = "2: Locally Synchronized"]
-    LS,
+    LS = 2,
     #[doc = "3: Globally Synchronized"]
-    GS,
+    GS = 3,
 }
 impl From<DBRISEUPD_A> for u8 {
     #[inline(always)]
     fn from(variant: DBRISEUPD_A) -> Self {
-        match variant {
-            DBRISEUPD_A::I => 0,
-            DBRISEUPD_A::LS => 2,
-            DBRISEUPD_A::GS => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `DBRISEUPD`"]
@@ -484,22 +472,19 @@ impl<'a> DBRISEUPD_W<'a> {
 }
 #[doc = "PWMnDBFALL Update Mode\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum DBFALLUPD_A {
     #[doc = "0: Immediate"]
-    I,
+    I = 0,
     #[doc = "2: Locally Synchronized"]
-    LS,
+    LS = 2,
     #[doc = "3: Globally Synchronized"]
-    GS,
+    GS = 3,
 }
 impl From<DBFALLUPD_A> for u8 {
     #[inline(always)]
     fn from(variant: DBFALLUPD_A) -> Self {
-        match variant {
-            DBFALLUPD_A::I => 0,
-            DBFALLUPD_A::LS => 2,
-            DBFALLUPD_A::GS => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `DBFALLUPD`"]

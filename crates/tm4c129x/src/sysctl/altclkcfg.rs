@@ -12,22 +12,19 @@ impl crate::ResetValue for super::ALTCLKCFG {
 }
 #[doc = "Alternate Clock Source\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum ALTCLK_A {
     #[doc = "0: PIOSC"]
-    PIOSC,
+    PIOSC = 0,
     #[doc = "3: Hibernation Module Real-time clock output (RTCOSC)"]
-    RTCOSC,
+    RTCOSC = 3,
     #[doc = "4: Low-frequency internal oscillator (LFIOSC)"]
-    LFIOSC,
+    LFIOSC = 4,
 }
 impl From<ALTCLK_A> for u8 {
     #[inline(always)]
     fn from(variant: ALTCLK_A) -> Self {
-        match variant {
-            ALTCLK_A::PIOSC => 0,
-            ALTCLK_A::RTCOSC => 3,
-            ALTCLK_A::LFIOSC => 4,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `ALTCLK`"]

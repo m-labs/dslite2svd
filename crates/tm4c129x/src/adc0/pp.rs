@@ -2,16 +2,15 @@
 pub type R = crate::R<u32, super::PP>;
 #[doc = "Maximum Conversion Rate\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum MCR_A {
     #[doc = "7: Full conversion rate (FCONV) as defined by TADC and NSH"]
-    FULL,
+    FULL = 7,
 }
 impl From<MCR_A> for u8 {
     #[inline(always)]
     fn from(variant: MCR_A) -> Self {
-        match variant {
-            MCR_A::FULL => 7,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `MCR`"]
@@ -38,16 +37,15 @@ pub type CH_R = crate::R<u8, u8>;
 pub type DC_R = crate::R<u8, u8>;
 #[doc = "ADC Architecture\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum TYPE_A {
     #[doc = "0: SAR"]
-    SAR,
+    SAR = 0,
 }
 impl From<TYPE_A> for u8 {
     #[inline(always)]
     fn from(variant: TYPE_A) -> Self {
-        match variant {
-            TYPE_A::SAR => 0,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `TYPE`"]

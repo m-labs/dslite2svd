@@ -2,16 +2,15 @@
 pub type R = crate::R<u32, super::PP>;
 #[doc = "Flash Size\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u16)]
 pub enum SIZE_A {
     #[doc = "511: 1024 KB of Flash"]
-    _1MB,
+    _1MB = 511,
 }
 impl From<SIZE_A> for u16 {
     #[inline(always)]
     fn from(variant: SIZE_A) -> Self {
-        match variant {
-            SIZE_A::_1MB => 511,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `SIZE`"]
@@ -34,28 +33,23 @@ impl SIZE_R {
 }
 #[doc = "Flash Sector Size of the physical bank\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum MAINSS_A {
     #[doc = "0: 1 KB"]
-    _1KB,
+    _1KB = 0,
     #[doc = "1: 2 KB"]
-    _2KB,
+    _2KB = 1,
     #[doc = "2: 4 KB"]
-    _4KB,
+    _4KB = 2,
     #[doc = "3: 8 KB"]
-    _8KB,
+    _8KB = 3,
     #[doc = "4: 16 KB"]
-    _16KB,
+    _16KB = 4,
 }
 impl From<MAINSS_A> for u8 {
     #[inline(always)]
     fn from(variant: MAINSS_A) -> Self {
-        match variant {
-            MAINSS_A::_1KB => 0,
-            MAINSS_A::_2KB => 1,
-            MAINSS_A::_4KB => 2,
-            MAINSS_A::_8KB => 3,
-            MAINSS_A::_16KB => 4,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `MAINSS`"]
@@ -102,25 +96,21 @@ impl MAINSS_R {
 }
 #[doc = "EEPROM Sector Size of the physical bank\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum EESS_A {
     #[doc = "0: 1 KB"]
-    _1KB,
+    _1KB = 0,
     #[doc = "1: 2 KB"]
-    _2KB,
+    _2KB = 1,
     #[doc = "2: 4 KB"]
-    _4KB,
+    _4KB = 2,
     #[doc = "3: 8 KB"]
-    _8KB,
+    _8KB = 3,
 }
 impl From<EESS_A> for u8 {
     #[inline(always)]
     fn from(variant: EESS_A) -> Self {
-        match variant {
-            EESS_A::_1KB => 0,
-            EESS_A::_2KB => 1,
-            EESS_A::_4KB => 2,
-            EESS_A::_8KB => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `EESS`"]

@@ -12,28 +12,23 @@ impl crate::ResetValue for super::GPCS {
 }
 #[doc = "Device Mode\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum DEVMOD_A {
     #[doc = "0: Use USB0VBUS and USB0ID pin"]
-    OTG,
+    OTG = 0,
     #[doc = "2: Force USB0VBUS and USB0ID low"]
-    HOST,
+    HOST = 2,
     #[doc = "3: Force USB0VBUS and USB0ID high"]
-    DEV,
+    DEV = 3,
     #[doc = "4: Use USB0VBUS and force USB0ID low"]
-    HOSTVBUS,
+    HOSTVBUS = 4,
     #[doc = "5: Use USB0VBUS and force USB0ID high"]
-    DEVVBUS,
+    DEVVBUS = 5,
 }
 impl From<DEVMOD_A> for u8 {
     #[inline(always)]
     fn from(variant: DEVMOD_A) -> Self {
-        match variant {
-            DEVMOD_A::OTG => 0,
-            DEVMOD_A::HOST => 2,
-            DEVMOD_A::DEV => 3,
-            DEVMOD_A::HOSTVBUS => 4,
-            DEVMOD_A::DEVVBUS => 5,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `DEVMOD`"]

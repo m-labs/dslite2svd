@@ -228,25 +228,21 @@ impl<'a> BATCHK_W<'a> {
 }
 #[doc = "Select for Low-Battery Comparator\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum VBATSEL_A {
     #[doc = "0: 1.9 Volts"]
-    _1_9V,
+    _1_9V = 0,
     #[doc = "1: 2.1 Volts (default)"]
-    _2_1V,
+    _2_1V = 1,
     #[doc = "2: 2.3 Volts"]
-    _2_3V,
+    _2_3V = 2,
     #[doc = "3: 2.5 Volts"]
-    _2_5V,
+    _2_5V = 3,
 }
 impl From<VBATSEL_A> for u8 {
     #[inline(always)]
     fn from(variant: VBATSEL_A) -> Self {
-        match variant {
-            VBATSEL_A::_1_9V => 0,
-            VBATSEL_A::_2_1V => 1,
-            VBATSEL_A::_2_3V => 2,
-            VBATSEL_A::_2_5V => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `VBATSEL`"]

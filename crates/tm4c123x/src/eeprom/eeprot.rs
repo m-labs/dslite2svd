@@ -12,22 +12,19 @@ impl crate::ResetValue for super::EEPROT {
 }
 #[doc = "Protection Control\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum PROT_A {
     #[doc = "0: This setting is the default. If there is no password, the block is not protected and is readable and writable"]
-    RWNPW,
+    RWNPW = 0,
     #[doc = "1: If there is a password, the block is readable or writable only when unlocked"]
-    RWPW,
+    RWPW = 1,
     #[doc = "2: If there is no password, the block is readable, not writable"]
-    RONPW,
+    RONPW = 2,
 }
 impl From<PROT_A> for u8 {
     #[inline(always)]
     fn from(variant: PROT_A) -> Self {
-        match variant {
-            PROT_A::RWNPW => 0,
-            PROT_A::RWPW => 1,
-            PROT_A::RONPW => 2,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `PROT`"]

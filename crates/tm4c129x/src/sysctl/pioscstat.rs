@@ -4,22 +4,19 @@ pub type R = crate::R<u32, super::PIOSCSTAT>;
 pub type CT_R = crate::R<u8, u8>;
 #[doc = "Calibration Result\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum CR_A {
     #[doc = "0: Calibration has not been attempted"]
-    CRNONE,
+    CRNONE = 0,
     #[doc = "1: The last calibration operation completed to meet 1% accuracy"]
-    CRPASS,
+    CRPASS = 1,
     #[doc = "2: The last calibration operation failed to meet 1% accuracy"]
-    CRFAIL,
+    CRFAIL = 2,
 }
 impl From<CR_A> for u8 {
     #[inline(always)]
     fn from(variant: CR_A) -> Self {
-        match variant {
-            CR_A::CRNONE => 0,
-            CR_A::CRPASS => 1,
-            CR_A::CRFAIL => 2,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `CR`"]

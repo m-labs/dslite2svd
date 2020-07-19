@@ -36,25 +36,21 @@ impl<'a> PHYHOLD_W<'a> {
 }
 #[doc = "Auto Negotiation Mode\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum ANMODE_A {
     #[doc = "0: When ANEN = 0x0, the mode is 10Base-T, Half-Duplex"]
-    _10HD,
+    _10HD = 0,
     #[doc = "1: When ANEN = 0x0, the mode is 10Base-T, Full-Duplex"]
-    _10FD,
+    _10FD = 1,
     #[doc = "2: When ANEN = 0x0, the mode is 100Base-TX, Half-Duplex"]
-    _100HD,
+    _100HD = 2,
     #[doc = "3: When ANEN = 0x0, the mode is 100Base-TX, Full-Duplex"]
-    _100FD,
+    _100FD = 3,
 }
 impl From<ANMODE_A> for u8 {
     #[inline(always)]
     fn from(variant: ANMODE_A) -> Self {
-        match variant {
-            ANMODE_A::_10HD => 0,
-            ANMODE_A::_10FD => 1,
-            ANMODE_A::_100HD => 2,
-            ANMODE_A::_100FD => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `ANMODE`"]
@@ -545,19 +541,17 @@ impl<'a> DIGRESTART_W<'a> {
 }
 #[doc = "Ethernet Interface Select\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum PINTFS_A {
     #[doc = "0: MII (default) Used for internal PHY or external PHY connected via MII"]
-    IMII,
+    IMII = 0,
     #[doc = "4: RMII: Used for external PHY connected via RMII"]
-    RMII,
+    RMII = 4,
 }
 impl From<PINTFS_A> for u8 {
     #[inline(always)]
     fn from(variant: PINTFS_A) -> Self {
-        match variant {
-            PINTFS_A::IMII => 0,
-            PINTFS_A::RMII => 4,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `PINTFS`"]

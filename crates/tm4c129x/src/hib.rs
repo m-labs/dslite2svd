@@ -79,7 +79,7 @@ pub struct RegisterBlock {
     #[doc = "0xfc8 - Hibernation Clock Control"]
     pub cc: CC,
 }
-#[doc = "Hibernation RTC Counter\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rtcc](rtcc) module"]
+#[doc = "Hibernation RTC Counter\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rtcc](rtcc) module"]
 pub type RTCC = crate::Reg<u32, _RTCC>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -88,7 +88,7 @@ pub struct _RTCC;
 impl crate::Readable for RTCC {}
 #[doc = "Hibernation RTC Counter"]
 pub mod rtcc;
-#[doc = "Hibernation RTC Match 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rtcm0](rtcm0) module"]
+#[doc = "Hibernation RTC Match 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rtcm0](rtcm0) module"]
 pub type RTCM0 = crate::Reg<u32, _RTCM0>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -99,7 +99,7 @@ impl crate::Readable for RTCM0 {}
 impl crate::Writable for RTCM0 {}
 #[doc = "Hibernation RTC Match 0"]
 pub mod rtcm0;
-#[doc = "Hibernation RTC Load\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rtcld](rtcld) module"]
+#[doc = "Hibernation RTC Load\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rtcld](rtcld) module"]
 pub type RTCLD = crate::Reg<u32, _RTCLD>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -110,7 +110,7 @@ impl crate::Readable for RTCLD {}
 impl crate::Writable for RTCLD {}
 #[doc = "Hibernation RTC Load"]
 pub mod rtcld;
-#[doc = "Hibernation Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ctl](ctl) module"]
+#[doc = "Hibernation Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ctl](ctl) module"]
 pub type CTL = crate::Reg<u32, _CTL>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -121,7 +121,7 @@ impl crate::Readable for CTL {}
 impl crate::Writable for CTL {}
 #[doc = "Hibernation Control"]
 pub mod ctl;
-#[doc = "Hibernation Interrupt Mask\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [im](im) module"]
+#[doc = "Hibernation Interrupt Mask\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [im](im) module"]
 pub type IM = crate::Reg<u32, _IM>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -132,7 +132,7 @@ impl crate::Readable for IM {}
 impl crate::Writable for IM {}
 #[doc = "Hibernation Interrupt Mask"]
 pub mod im;
-#[doc = "Hibernation Raw Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ris](ris) module"]
+#[doc = "Hibernation Raw Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ris](ris) module"]
 pub type RIS = crate::Reg<u32, _RIS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -141,7 +141,7 @@ pub struct _RIS;
 impl crate::Readable for RIS {}
 #[doc = "Hibernation Raw Interrupt Status"]
 pub mod ris;
-#[doc = "Hibernation Masked Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [mis](mis) module"]
+#[doc = "Hibernation Masked Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [mis](mis) module"]
 pub type MIS = crate::Reg<u32, _MIS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -150,7 +150,7 @@ pub struct _MIS;
 impl crate::Readable for MIS {}
 #[doc = "Hibernation Masked Interrupt Status"]
 pub mod mis;
-#[doc = "Hibernation Interrupt Clear\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ic](ic) module"]
+#[doc = "Hibernation Interrupt Clear\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ic](ic) module"]
 pub type IC = crate::Reg<u32, _IC>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -161,7 +161,7 @@ impl crate::Readable for IC {}
 impl crate::Writable for IC {}
 #[doc = "Hibernation Interrupt Clear"]
 pub mod ic;
-#[doc = "Hibernation RTC Trim\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rtct](rtct) module"]
+#[doc = "Hibernation RTC Trim\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rtct](rtct) module"]
 pub type RTCT = crate::Reg<u32, _RTCT>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -172,7 +172,7 @@ impl crate::Readable for RTCT {}
 impl crate::Writable for RTCT {}
 #[doc = "Hibernation RTC Trim"]
 pub mod rtct;
-#[doc = "Hibernation RTC Sub Seconds\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [rtcss](rtcss) module"]
+#[doc = "Hibernation RTC Sub Seconds\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [rtcss](rtcss) module"]
 pub type RTCSS = crate::Reg<u32, _RTCSS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -183,7 +183,7 @@ impl crate::Readable for RTCSS {}
 impl crate::Writable for RTCSS {}
 #[doc = "Hibernation RTC Sub Seconds"]
 pub mod rtcss;
-#[doc = "Hibernation IO Configuration\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [io](io) module"]
+#[doc = "Hibernation IO Configuration\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [io](io) module"]
 pub type IO = crate::Reg<u32, _IO>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -194,7 +194,7 @@ impl crate::Readable for IO {}
 impl crate::Writable for IO {}
 #[doc = "Hibernation IO Configuration"]
 pub mod io;
-#[doc = "Hibernation Data\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [data](data) module"]
+#[doc = "Hibernation Data\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [data](data) module"]
 pub type DATA = crate::Reg<u32, _DATA>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -205,7 +205,7 @@ impl crate::Readable for DATA {}
 impl crate::Writable for DATA {}
 #[doc = "Hibernation Data"]
 pub mod data;
-#[doc = "Hibernation Calendar Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [calctl](calctl) module"]
+#[doc = "Hibernation Calendar Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [calctl](calctl) module"]
 pub type CALCTL = crate::Reg<u32, _CALCTL>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -216,7 +216,7 @@ impl crate::Readable for CALCTL {}
 impl crate::Writable for CALCTL {}
 #[doc = "Hibernation Calendar Control"]
 pub mod calctl;
-#[doc = "Hibernation Calendar 0\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [cal0](cal0) module"]
+#[doc = "Hibernation Calendar 0\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [cal0](cal0) module"]
 pub type CAL0 = crate::Reg<u32, _CAL0>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -225,7 +225,7 @@ pub struct _CAL0;
 impl crate::Readable for CAL0 {}
 #[doc = "Hibernation Calendar 0"]
 pub mod cal0;
-#[doc = "Hibernation Calendar 1\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [cal1](cal1) module"]
+#[doc = "Hibernation Calendar 1\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [cal1](cal1) module"]
 pub type CAL1 = crate::Reg<u32, _CAL1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -234,7 +234,7 @@ pub struct _CAL1;
 impl crate::Readable for CAL1 {}
 #[doc = "Hibernation Calendar 1"]
 pub mod cal1;
-#[doc = "Hibernation Calendar Load 0\n\nThis register you can [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [calld0](calld0) module"]
+#[doc = "Hibernation Calendar Load 0\n\nThis register you can [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [calld0](calld0) module"]
 pub type CALLD0 = crate::Reg<u32, _CALLD0>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -243,7 +243,7 @@ pub struct _CALLD0;
 impl crate::Writable for CALLD0 {}
 #[doc = "Hibernation Calendar Load 0"]
 pub mod calld0;
-#[doc = "Hibernation Calendar Load\n\nThis register you can [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [calld1](calld1) module"]
+#[doc = "Hibernation Calendar Load\n\nThis register you can [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [calld1](calld1) module"]
 pub type CALLD1 = crate::Reg<u32, _CALLD1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -252,7 +252,7 @@ pub struct _CALLD1;
 impl crate::Writable for CALLD1 {}
 #[doc = "Hibernation Calendar Load"]
 pub mod calld1;
-#[doc = "Hibernation Calendar Match 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [calm0](calm0) module"]
+#[doc = "Hibernation Calendar Match 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [calm0](calm0) module"]
 pub type CALM0 = crate::Reg<u32, _CALM0>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -263,7 +263,7 @@ impl crate::Readable for CALM0 {}
 impl crate::Writable for CALM0 {}
 #[doc = "Hibernation Calendar Match 0"]
 pub mod calm0;
-#[doc = "Hibernation Calendar Match 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [calm1](calm1) module"]
+#[doc = "Hibernation Calendar Match 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [calm1](calm1) module"]
 pub type CALM1 = crate::Reg<u32, _CALM1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -274,7 +274,7 @@ impl crate::Readable for CALM1 {}
 impl crate::Writable for CALM1 {}
 #[doc = "Hibernation Calendar Match 1"]
 pub mod calm1;
-#[doc = "Hibernation Lock\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [lock](lock) module"]
+#[doc = "Hibernation Lock\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [lock](lock) module"]
 pub type LOCK = crate::Reg<u32, _LOCK>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -285,7 +285,7 @@ impl crate::Readable for LOCK {}
 impl crate::Writable for LOCK {}
 #[doc = "Hibernation Lock"]
 pub mod lock;
-#[doc = "HIB Tamper Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [tpctl](tpctl) module"]
+#[doc = "HIB Tamper Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [tpctl](tpctl) module"]
 pub type TPCTL = crate::Reg<u32, _TPCTL>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -296,7 +296,7 @@ impl crate::Readable for TPCTL {}
 impl crate::Writable for TPCTL {}
 #[doc = "HIB Tamper Control"]
 pub mod tpctl;
-#[doc = "HIB Tamper Status\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [tpstat](tpstat) module"]
+#[doc = "HIB Tamper Status\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [tpstat](tpstat) module"]
 pub type TPSTAT = crate::Reg<u32, _TPSTAT>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -307,7 +307,7 @@ impl crate::Readable for TPSTAT {}
 impl crate::Writable for TPSTAT {}
 #[doc = "HIB Tamper Status"]
 pub mod tpstat;
-#[doc = "HIB Tamper I/O Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [tpio](tpio) module"]
+#[doc = "HIB Tamper I/O Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [tpio](tpio) module"]
 pub type TPIO = crate::Reg<u32, _TPIO>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -318,7 +318,7 @@ impl crate::Readable for TPIO {}
 impl crate::Writable for TPIO {}
 #[doc = "HIB Tamper I/O Control"]
 pub mod tpio;
-#[doc = "HIB Tamper Log 0\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [tplog0](tplog0) module"]
+#[doc = "HIB Tamper Log 0\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [tplog0](tplog0) module"]
 pub type TPLOG0 = crate::Reg<u32, _TPLOG0>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -327,7 +327,7 @@ pub struct _TPLOG0;
 impl crate::Readable for TPLOG0 {}
 #[doc = "HIB Tamper Log 0"]
 pub mod tplog0;
-#[doc = "HIB Tamper Log 1\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [tplog1](tplog1) module"]
+#[doc = "HIB Tamper Log 1\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [tplog1](tplog1) module"]
 pub type TPLOG1 = crate::Reg<u32, _TPLOG1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -336,7 +336,7 @@ pub struct _TPLOG1;
 impl crate::Readable for TPLOG1 {}
 #[doc = "HIB Tamper Log 1"]
 pub mod tplog1;
-#[doc = "HIB Tamper Log 2\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [tplog2](tplog2) module"]
+#[doc = "HIB Tamper Log 2\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [tplog2](tplog2) module"]
 pub type TPLOG2 = crate::Reg<u32, _TPLOG2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -345,7 +345,7 @@ pub struct _TPLOG2;
 impl crate::Readable for TPLOG2 {}
 #[doc = "HIB Tamper Log 2"]
 pub mod tplog2;
-#[doc = "HIB Tamper Log 3\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [tplog3](tplog3) module"]
+#[doc = "HIB Tamper Log 3\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [tplog3](tplog3) module"]
 pub type TPLOG3 = crate::Reg<u32, _TPLOG3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -354,7 +354,7 @@ pub struct _TPLOG3;
 impl crate::Readable for TPLOG3 {}
 #[doc = "HIB Tamper Log 3"]
 pub mod tplog3;
-#[doc = "HIB Tamper Log 4\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [tplog4](tplog4) module"]
+#[doc = "HIB Tamper Log 4\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [tplog4](tplog4) module"]
 pub type TPLOG4 = crate::Reg<u32, _TPLOG4>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -363,7 +363,7 @@ pub struct _TPLOG4;
 impl crate::Readable for TPLOG4 {}
 #[doc = "HIB Tamper Log 4"]
 pub mod tplog4;
-#[doc = "HIB Tamper Log 5\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [tplog5](tplog5) module"]
+#[doc = "HIB Tamper Log 5\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [tplog5](tplog5) module"]
 pub type TPLOG5 = crate::Reg<u32, _TPLOG5>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -372,7 +372,7 @@ pub struct _TPLOG5;
 impl crate::Readable for TPLOG5 {}
 #[doc = "HIB Tamper Log 5"]
 pub mod tplog5;
-#[doc = "HIB Tamper Log 6\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [tplog6](tplog6) module"]
+#[doc = "HIB Tamper Log 6\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [tplog6](tplog6) module"]
 pub type TPLOG6 = crate::Reg<u32, _TPLOG6>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -381,7 +381,7 @@ pub struct _TPLOG6;
 impl crate::Readable for TPLOG6 {}
 #[doc = "HIB Tamper Log 6"]
 pub mod tplog6;
-#[doc = "HIB Tamper Log 7\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [tplog7](tplog7) module"]
+#[doc = "HIB Tamper Log 7\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [tplog7](tplog7) module"]
 pub type TPLOG7 = crate::Reg<u32, _TPLOG7>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -390,7 +390,7 @@ pub struct _TPLOG7;
 impl crate::Readable for TPLOG7 {}
 #[doc = "HIB Tamper Log 7"]
 pub mod tplog7;
-#[doc = "Hibernation Peripheral Properties\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [pp](pp) module"]
+#[doc = "Hibernation Peripheral Properties\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [pp](pp) module"]
 pub type PP = crate::Reg<u32, _PP>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -399,7 +399,7 @@ pub struct _PP;
 impl crate::Readable for PP {}
 #[doc = "Hibernation Peripheral Properties"]
 pub mod pp;
-#[doc = "Hibernation Clock Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [cc](cc) module"]
+#[doc = "Hibernation Clock Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [cc](cc) module"]
 pub type CC = crate::Reg<u32, _CC>;
 #[allow(missing_docs)]
 #[doc(hidden)]

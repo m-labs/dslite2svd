@@ -24,7 +24,7 @@ pub struct RegisterBlock {
     #[doc = "0xfc0 - Analog Comparator Peripheral Properties"]
     pub pp: PP,
 }
-#[doc = "Analog Comparator Masked Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [acmis](acmis) module"]
+#[doc = "Analog Comparator Masked Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [acmis](acmis) module"]
 pub type ACMIS = crate::Reg<u32, _ACMIS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -35,7 +35,7 @@ impl crate::Readable for ACMIS {}
 impl crate::Writable for ACMIS {}
 #[doc = "Analog Comparator Masked Interrupt Status"]
 pub mod acmis;
-#[doc = "Analog Comparator Raw Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [acris](acris) module"]
+#[doc = "Analog Comparator Raw Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [acris](acris) module"]
 pub type ACRIS = crate::Reg<u32, _ACRIS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -44,7 +44,7 @@ pub struct _ACRIS;
 impl crate::Readable for ACRIS {}
 #[doc = "Analog Comparator Raw Interrupt Status"]
 pub mod acris;
-#[doc = "Analog Comparator Interrupt Enable\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [acinten](acinten) module"]
+#[doc = "Analog Comparator Interrupt Enable\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [acinten](acinten) module"]
 pub type ACINTEN = crate::Reg<u32, _ACINTEN>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -55,7 +55,7 @@ impl crate::Readable for ACINTEN {}
 impl crate::Writable for ACINTEN {}
 #[doc = "Analog Comparator Interrupt Enable"]
 pub mod acinten;
-#[doc = "Analog Comparator Reference Voltage Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [acrefctl](acrefctl) module"]
+#[doc = "Analog Comparator Reference Voltage Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [acrefctl](acrefctl) module"]
 pub type ACREFCTL = crate::Reg<u32, _ACREFCTL>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -66,7 +66,7 @@ impl crate::Readable for ACREFCTL {}
 impl crate::Writable for ACREFCTL {}
 #[doc = "Analog Comparator Reference Voltage Control"]
 pub mod acrefctl;
-#[doc = "Analog Comparator Status 0\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [acstat0](acstat0) module"]
+#[doc = "Analog Comparator Status 0\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [acstat0](acstat0) module"]
 pub type ACSTAT0 = crate::Reg<u32, _ACSTAT0>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -75,7 +75,7 @@ pub struct _ACSTAT0;
 impl crate::Readable for ACSTAT0 {}
 #[doc = "Analog Comparator Status 0"]
 pub mod acstat0;
-#[doc = "Analog Comparator Control 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [acctl0](acctl0) module"]
+#[doc = "Analog Comparator Control 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [acctl0](acctl0) module"]
 pub type ACCTL0 = crate::Reg<u32, _ACCTL0>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -86,7 +86,7 @@ impl crate::Readable for ACCTL0 {}
 impl crate::Writable for ACCTL0 {}
 #[doc = "Analog Comparator Control 0"]
 pub mod acctl0;
-#[doc = "Analog Comparator Status 1\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [acstat1](acstat1) module"]
+#[doc = "Analog Comparator Status 1\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [acstat1](acstat1) module"]
 pub type ACSTAT1 = crate::Reg<u32, _ACSTAT1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -95,7 +95,7 @@ pub struct _ACSTAT1;
 impl crate::Readable for ACSTAT1 {}
 #[doc = "Analog Comparator Status 1"]
 pub mod acstat1;
-#[doc = "Analog Comparator Control 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [acctl1](acctl1) module"]
+#[doc = "Analog Comparator Control 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [acctl1](acctl1) module"]
 pub type ACCTL1 = crate::Reg<u32, _ACCTL1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -106,7 +106,7 @@ impl crate::Readable for ACCTL1 {}
 impl crate::Writable for ACCTL1 {}
 #[doc = "Analog Comparator Control 1"]
 pub mod acctl1;
-#[doc = "Analog Comparator Peripheral Properties\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [pp](pp) module"]
+#[doc = "Analog Comparator Peripheral Properties\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [pp](pp) module"]
 pub type PP = crate::Reg<u32, _PP>;
 #[allow(missing_docs)]
 #[doc(hidden)]

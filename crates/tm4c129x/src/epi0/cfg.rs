@@ -12,25 +12,21 @@ impl crate::ResetValue for super::CFG {
 }
 #[doc = "Mode Select\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum MODE_A {
     #[doc = "0: General Purpose"]
-    NONE,
+    NONE = 0,
     #[doc = "1: SDRAM"]
-    SDRAM,
+    SDRAM = 1,
     #[doc = "2: 8-Bit Host-Bus (HB8)"]
-    HB8,
+    HB8 = 2,
     #[doc = "3: 16-Bit Host-Bus (HB16)"]
-    HB16,
+    HB16 = 3,
 }
 impl From<MODE_A> for u8 {
     #[inline(always)]
     fn from(variant: MODE_A) -> Self {
-        match variant {
-            MODE_A::NONE => 0,
-            MODE_A::SDRAM => 1,
-            MODE_A::HB8 => 2,
-            MODE_A::HB16 => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `MODE`"]

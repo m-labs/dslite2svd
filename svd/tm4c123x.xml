@@ -5,6 +5,15 @@
   <series>Tiva C Series</series>
   <version>1</version>
   <description>(no description)</description>
+  <cpu>
+    <name>CM4</name>
+    <revision>r0p0</revision>
+    <endian>little</endian>
+    <mpuPresent>true</mpuPresent>
+    <fpuPresent>true</fpuPresent>
+    <nvicPrioBits>3</nvicPrioBits>
+    <vendorSystickConfig>false</vendorSystickConfig>
+  </cpu>
   <addressUnitBits>8</addressUnitBits>
   <width>32</width>
   <resetValue>0x00000000</resetValue>

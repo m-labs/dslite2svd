@@ -8,25 +8,21 @@ pub type RFCFC_R = crate::R<u8, u8>;
 pub type RWC_R = crate::R<bool, bool>;
 #[doc = "TX/RX Controller Read Controller State\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum RRC_A {
     #[doc = "0: IDLE state"]
-    IDLE,
+    IDLE = 0,
     #[doc = "1: Reading frame data"]
-    STATUS,
+    STATUS = 1,
     #[doc = "2: Reading frame status (or timestamp)"]
-    DATA,
+    DATA = 2,
     #[doc = "3: Flushing the frame data and status"]
-    FLUSH,
+    FLUSH = 3,
 }
 impl From<RRC_A> for u8 {
     #[inline(always)]
     fn from(variant: RRC_A) -> Self {
-        match variant {
-            RRC_A::IDLE => 0,
-            RRC_A::STATUS => 1,
-            RRC_A::DATA => 2,
-            RRC_A::FLUSH => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `RRC`"]
@@ -66,25 +62,21 @@ impl RRC_R {
 }
 #[doc = "TX/RX Controller RX FIFO Fill-level Status\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum RXF_A {
     #[doc = "0: RX FIFO Empty"]
-    EMPTY,
+    EMPTY = 0,
     #[doc = "1: RX FIFO fill level is below the flow-control deactivate threshold"]
-    BELOW,
+    BELOW = 1,
     #[doc = "2: RX FIFO fill level is above the flow-control activate threshold"]
-    ABOVE,
+    ABOVE = 2,
     #[doc = "3: RX FIFO Full"]
-    FULL,
+    FULL = 3,
 }
 impl From<RXF_A> for u8 {
     #[inline(always)]
     fn from(variant: RXF_A) -> Self {
-        match variant {
-            RXF_A::EMPTY => 0,
-            RXF_A::BELOW => 1,
-            RXF_A::ABOVE => 2,
-            RXF_A::FULL => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `RXF`"]
@@ -126,25 +118,21 @@ impl RXF_R {
 pub type TPE_R = crate::R<bool, bool>;
 #[doc = "MAC Transmit Frame Controller Status\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum TFC_A {
     #[doc = "0: IDLE state"]
-    IDLE,
+    IDLE = 0,
     #[doc = "1: Waiting for status of previous frame or IFG or backoff period to be over"]
-    STATUS,
+    STATUS = 1,
     #[doc = "2: Generating and transmitting a PAUSE control frame (in the full-duplex mode)"]
-    PAUSE,
+    PAUSE = 2,
     #[doc = "3: Transferring input frame for transmission"]
-    INPUT,
+    INPUT = 3,
 }
 impl From<TFC_A> for u8 {
     #[inline(always)]
     fn from(variant: TFC_A) -> Self {
-        match variant {
-            TFC_A::IDLE => 0,
-            TFC_A::STATUS => 1,
-            TFC_A::PAUSE => 2,
-            TFC_A::INPUT => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `TFC`"]
@@ -186,25 +174,21 @@ impl TFC_R {
 pub type TXPAUSED_R = crate::R<bool, bool>;
 #[doc = "TX/RX Controller's TX FIFO Read Controller Status\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum TRC_A {
     #[doc = "0: IDLE state"]
-    IDLE,
+    IDLE = 0,
     #[doc = "1: READ state (transferring data to MAC transmitter)"]
-    READ,
+    READ = 1,
     #[doc = "2: Waiting for TX Status from MAC transmitter"]
-    WAIT,
+    WAIT = 2,
     #[doc = "3: Writing the received TX Status or flushing the TX FIFO"]
-    WRFLUSH,
+    WRFLUSH = 3,
 }
 impl From<TRC_A> for u8 {
     #[inline(always)]
     fn from(variant: TRC_A) -> Self {
-        match variant {
-            TRC_A::IDLE => 0,
-            TRC_A::READ => 1,
-            TRC_A::WAIT => 2,
-            TRC_A::WRFLUSH => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `TRC`"]

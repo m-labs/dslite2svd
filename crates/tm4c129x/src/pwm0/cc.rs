@@ -12,31 +12,25 @@ impl crate::ResetValue for super::CC {
 }
 #[doc = "PWM Clock Divider\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum PWMDIV_A {
     #[doc = "0: /2"]
-    _2,
+    _2 = 0,
     #[doc = "1: /4"]
-    _4,
+    _4 = 1,
     #[doc = "2: /8"]
-    _8,
+    _8 = 2,
     #[doc = "3: /16"]
-    _16,
+    _16 = 3,
     #[doc = "4: /32"]
-    _32,
+    _32 = 4,
     #[doc = "5: /64"]
-    _64,
+    _64 = 5,
 }
 impl From<PWMDIV_A> for u8 {
     #[inline(always)]
     fn from(variant: PWMDIV_A) -> Self {
-        match variant {
-            PWMDIV_A::_2 => 0,
-            PWMDIV_A::_4 => 1,
-            PWMDIV_A::_8 => 2,
-            PWMDIV_A::_16 => 3,
-            PWMDIV_A::_32 => 4,
-            PWMDIV_A::_64 => 5,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `PWMDIV`"]

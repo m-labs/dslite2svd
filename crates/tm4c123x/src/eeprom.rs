@@ -39,7 +39,7 @@ pub struct RegisterBlock {
     #[doc = "0xfc0 - EEPROM Peripheral Properties"]
     pub pp: PP,
 }
-#[doc = "EEPROM Size Information\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [eesize](eesize) module"]
+#[doc = "EEPROM Size Information\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [eesize](eesize) module"]
 pub type EESIZE = crate::Reg<u32, _EESIZE>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -48,7 +48,7 @@ pub struct _EESIZE;
 impl crate::Readable for EESIZE {}
 #[doc = "EEPROM Size Information"]
 pub mod eesize;
-#[doc = "EEPROM Current Block\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [eeblock](eeblock) module"]
+#[doc = "EEPROM Current Block\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [eeblock](eeblock) module"]
 pub type EEBLOCK = crate::Reg<u32, _EEBLOCK>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -59,7 +59,7 @@ impl crate::Readable for EEBLOCK {}
 impl crate::Writable for EEBLOCK {}
 #[doc = "EEPROM Current Block"]
 pub mod eeblock;
-#[doc = "EEPROM Current Offset\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [eeoffset](eeoffset) module"]
+#[doc = "EEPROM Current Offset\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [eeoffset](eeoffset) module"]
 pub type EEOFFSET = crate::Reg<u32, _EEOFFSET>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -70,7 +70,7 @@ impl crate::Readable for EEOFFSET {}
 impl crate::Writable for EEOFFSET {}
 #[doc = "EEPROM Current Offset"]
 pub mod eeoffset;
-#[doc = "EEPROM Read-Write\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [eerdwr](eerdwr) module"]
+#[doc = "EEPROM Read-Write\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [eerdwr](eerdwr) module"]
 pub type EERDWR = crate::Reg<u32, _EERDWR>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -81,7 +81,7 @@ impl crate::Readable for EERDWR {}
 impl crate::Writable for EERDWR {}
 #[doc = "EEPROM Read-Write"]
 pub mod eerdwr;
-#[doc = "EEPROM Read-Write with Increment\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [eerdwrinc](eerdwrinc) module"]
+#[doc = "EEPROM Read-Write with Increment\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [eerdwrinc](eerdwrinc) module"]
 pub type EERDWRINC = crate::Reg<u32, _EERDWRINC>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -92,7 +92,7 @@ impl crate::Readable for EERDWRINC {}
 impl crate::Writable for EERDWRINC {}
 #[doc = "EEPROM Read-Write with Increment"]
 pub mod eerdwrinc;
-#[doc = "EEPROM Done Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [eedone](eedone) module"]
+#[doc = "EEPROM Done Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [eedone](eedone) module"]
 pub type EEDONE = crate::Reg<u32, _EEDONE>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -101,7 +101,7 @@ pub struct _EEDONE;
 impl crate::Readable for EEDONE {}
 #[doc = "EEPROM Done Status"]
 pub mod eedone;
-#[doc = "EEPROM Support Control and Status\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [eesupp](eesupp) module"]
+#[doc = "EEPROM Support Control and Status\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [eesupp](eesupp) module"]
 pub type EESUPP = crate::Reg<u32, _EESUPP>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -112,7 +112,7 @@ impl crate::Readable for EESUPP {}
 impl crate::Writable for EESUPP {}
 #[doc = "EEPROM Support Control and Status"]
 pub mod eesupp;
-#[doc = "EEPROM Unlock\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [eeunlock](eeunlock) module"]
+#[doc = "EEPROM Unlock\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [eeunlock](eeunlock) module"]
 pub type EEUNLOCK = crate::Reg<u32, _EEUNLOCK>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -123,7 +123,7 @@ impl crate::Readable for EEUNLOCK {}
 impl crate::Writable for EEUNLOCK {}
 #[doc = "EEPROM Unlock"]
 pub mod eeunlock;
-#[doc = "EEPROM Protection\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [eeprot](eeprot) module"]
+#[doc = "EEPROM Protection\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [eeprot](eeprot) module"]
 pub type EEPROT = crate::Reg<u32, _EEPROT>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -134,7 +134,7 @@ impl crate::Readable for EEPROT {}
 impl crate::Writable for EEPROT {}
 #[doc = "EEPROM Protection"]
 pub mod eeprot;
-#[doc = "EEPROM Password\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [eepass0](eepass0) module"]
+#[doc = "EEPROM Password\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [eepass0](eepass0) module"]
 pub type EEPASS0 = crate::Reg<u32, _EEPASS0>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -145,7 +145,7 @@ impl crate::Readable for EEPASS0 {}
 impl crate::Writable for EEPASS0 {}
 #[doc = "EEPROM Password"]
 pub mod eepass0;
-#[doc = "EEPROM Password\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [eepass1](eepass1) module"]
+#[doc = "EEPROM Password\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [eepass1](eepass1) module"]
 pub type EEPASS1 = crate::Reg<u32, _EEPASS1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -156,7 +156,7 @@ impl crate::Readable for EEPASS1 {}
 impl crate::Writable for EEPASS1 {}
 #[doc = "EEPROM Password"]
 pub mod eepass1;
-#[doc = "EEPROM Password\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [eepass2](eepass2) module"]
+#[doc = "EEPROM Password\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [eepass2](eepass2) module"]
 pub type EEPASS2 = crate::Reg<u32, _EEPASS2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -167,7 +167,7 @@ impl crate::Readable for EEPASS2 {}
 impl crate::Writable for EEPASS2 {}
 #[doc = "EEPROM Password"]
 pub mod eepass2;
-#[doc = "EEPROM Interrupt\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [eeint](eeint) module"]
+#[doc = "EEPROM Interrupt\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [eeint](eeint) module"]
 pub type EEINT = crate::Reg<u32, _EEINT>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -178,7 +178,7 @@ impl crate::Readable for EEINT {}
 impl crate::Writable for EEINT {}
 #[doc = "EEPROM Interrupt"]
 pub mod eeint;
-#[doc = "EEPROM Block Hide\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [eehide](eehide) module"]
+#[doc = "EEPROM Block Hide\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [eehide](eehide) module"]
 pub type EEHIDE = crate::Reg<u32, _EEHIDE>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -189,7 +189,7 @@ impl crate::Readable for EEHIDE {}
 impl crate::Writable for EEHIDE {}
 #[doc = "EEPROM Block Hide"]
 pub mod eehide;
-#[doc = "EEPROM Debug Mass Erase\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [eedbgme](eedbgme) module"]
+#[doc = "EEPROM Debug Mass Erase\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [eedbgme](eedbgme) module"]
 pub type EEDBGME = crate::Reg<u32, _EEDBGME>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -200,7 +200,7 @@ impl crate::Readable for EEDBGME {}
 impl crate::Writable for EEDBGME {}
 #[doc = "EEPROM Debug Mass Erase"]
 pub mod eedbgme;
-#[doc = "EEPROM Peripheral Properties\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [pp](pp) module"]
+#[doc = "EEPROM Peripheral Properties\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [pp](pp) module"]
 pub type PP = crate::Reg<u32, _PP>;
 #[allow(missing_docs)]
 #[doc(hidden)]

@@ -12,40 +12,31 @@ impl crate::ResetValue for super::RXFIFOSZ {
 }
 #[doc = "Max Packet Size\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum SIZE_A {
     #[doc = "0: 8"]
-    _8,
+    _8 = 0,
     #[doc = "1: 16"]
-    _16,
+    _16 = 1,
     #[doc = "2: 32"]
-    _32,
+    _32 = 2,
     #[doc = "3: 64"]
-    _64,
+    _64 = 3,
     #[doc = "4: 128"]
-    _128,
+    _128 = 4,
     #[doc = "5: 256"]
-    _256,
+    _256 = 5,
     #[doc = "6: 512"]
-    _512,
+    _512 = 6,
     #[doc = "7: 1024"]
-    _1024,
+    _1024 = 7,
     #[doc = "8: 2048"]
-    _2048,
+    _2048 = 8,
 }
 impl From<SIZE_A> for u8 {
     #[inline(always)]
     fn from(variant: SIZE_A) -> Self {
-        match variant {
-            SIZE_A::_8 => 0,
-            SIZE_A::_16 => 1,
-            SIZE_A::_32 => 2,
-            SIZE_A::_64 => 3,
-            SIZE_A::_128 => 4,
-            SIZE_A::_256 => 5,
-            SIZE_A::_512 => 6,
-            SIZE_A::_1024 => 7,
-            SIZE_A::_2048 => 8,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `SIZE`"]

@@ -140,7 +140,7 @@ pub struct RegisterBlock {
     #[doc = "0xfc8 - ADC Clock Configuration"]
     pub cc: CC,
 }
-#[doc = "ADC Active Sample Sequencer\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [actss](actss) module"]
+#[doc = "ADC Active Sample Sequencer\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [actss](actss) module"]
 pub type ACTSS = crate::Reg<u32, _ACTSS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -151,7 +151,7 @@ impl crate::Readable for ACTSS {}
 impl crate::Writable for ACTSS {}
 #[doc = "ADC Active Sample Sequencer"]
 pub mod actss;
-#[doc = "ADC Raw Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ris](ris) module"]
+#[doc = "ADC Raw Interrupt Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ris](ris) module"]
 pub type RIS = crate::Reg<u32, _RIS>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -160,7 +160,7 @@ pub struct _RIS;
 impl crate::Readable for RIS {}
 #[doc = "ADC Raw Interrupt Status"]
 pub mod ris;
-#[doc = "ADC Interrupt Mask\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [im](im) module"]
+#[doc = "ADC Interrupt Mask\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [im](im) module"]
 pub type IM = crate::Reg<u32, _IM>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -171,7 +171,7 @@ impl crate::Readable for IM {}
 impl crate::Writable for IM {}
 #[doc = "ADC Interrupt Mask"]
 pub mod im;
-#[doc = "ADC Interrupt Status and Clear\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [isc](isc) module"]
+#[doc = "ADC Interrupt Status and Clear\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [isc](isc) module"]
 pub type ISC = crate::Reg<u32, _ISC>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -182,7 +182,7 @@ impl crate::Readable for ISC {}
 impl crate::Writable for ISC {}
 #[doc = "ADC Interrupt Status and Clear"]
 pub mod isc;
-#[doc = "ADC Overflow Status\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ostat](ostat) module"]
+#[doc = "ADC Overflow Status\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ostat](ostat) module"]
 pub type OSTAT = crate::Reg<u32, _OSTAT>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -193,7 +193,7 @@ impl crate::Readable for OSTAT {}
 impl crate::Writable for OSTAT {}
 #[doc = "ADC Overflow Status"]
 pub mod ostat;
-#[doc = "ADC Event Multiplexer Select\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [emux](emux) module"]
+#[doc = "ADC Event Multiplexer Select\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [emux](emux) module"]
 pub type EMUX = crate::Reg<u32, _EMUX>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -204,7 +204,7 @@ impl crate::Readable for EMUX {}
 impl crate::Writable for EMUX {}
 #[doc = "ADC Event Multiplexer Select"]
 pub mod emux;
-#[doc = "ADC Underflow Status\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ustat](ustat) module"]
+#[doc = "ADC Underflow Status\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ustat](ustat) module"]
 pub type USTAT = crate::Reg<u32, _USTAT>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -215,7 +215,7 @@ impl crate::Readable for USTAT {}
 impl crate::Writable for USTAT {}
 #[doc = "ADC Underflow Status"]
 pub mod ustat;
-#[doc = "ADC Trigger Source Select\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [tssel](tssel) module"]
+#[doc = "ADC Trigger Source Select\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [tssel](tssel) module"]
 pub type TSSEL = crate::Reg<u32, _TSSEL>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -226,7 +226,7 @@ impl crate::Readable for TSSEL {}
 impl crate::Writable for TSSEL {}
 #[doc = "ADC Trigger Source Select"]
 pub mod tssel;
-#[doc = "ADC Sample Sequencer Priority\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [sspri](sspri) module"]
+#[doc = "ADC Sample Sequencer Priority\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [sspri](sspri) module"]
 pub type SSPRI = crate::Reg<u32, _SSPRI>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -237,7 +237,7 @@ impl crate::Readable for SSPRI {}
 impl crate::Writable for SSPRI {}
 #[doc = "ADC Sample Sequencer Priority"]
 pub mod sspri;
-#[doc = "ADC Sample Phase Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [spc](spc) module"]
+#[doc = "ADC Sample Phase Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [spc](spc) module"]
 pub type SPC = crate::Reg<u32, _SPC>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -248,7 +248,7 @@ impl crate::Readable for SPC {}
 impl crate::Writable for SPC {}
 #[doc = "ADC Sample Phase Control"]
 pub mod spc;
-#[doc = "ADC Processor Sample Sequence Initiate\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [pssi](pssi) module"]
+#[doc = "ADC Processor Sample Sequence Initiate\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [pssi](pssi) module"]
 pub type PSSI = crate::Reg<u32, _PSSI>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -259,7 +259,7 @@ impl crate::Readable for PSSI {}
 impl crate::Writable for PSSI {}
 #[doc = "ADC Processor Sample Sequence Initiate"]
 pub mod pssi;
-#[doc = "ADC Sample Averaging Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [sac](sac) module"]
+#[doc = "ADC Sample Averaging Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [sac](sac) module"]
 pub type SAC = crate::Reg<u32, _SAC>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -270,7 +270,7 @@ impl crate::Readable for SAC {}
 impl crate::Writable for SAC {}
 #[doc = "ADC Sample Averaging Control"]
 pub mod sac;
-#[doc = "ADC Digital Comparator Interrupt Status and Clear\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dcisc](dcisc) module"]
+#[doc = "ADC Digital Comparator Interrupt Status and Clear\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dcisc](dcisc) module"]
 pub type DCISC = crate::Reg<u32, _DCISC>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -281,7 +281,7 @@ impl crate::Readable for DCISC {}
 impl crate::Writable for DCISC {}
 #[doc = "ADC Digital Comparator Interrupt Status and Clear"]
 pub mod dcisc;
-#[doc = "ADC Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ctl](ctl) module"]
+#[doc = "ADC Control\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ctl](ctl) module"]
 pub type CTL = crate::Reg<u32, _CTL>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -292,7 +292,7 @@ impl crate::Readable for CTL {}
 impl crate::Writable for CTL {}
 #[doc = "ADC Control"]
 pub mod ctl;
-#[doc = "ADC Sample Sequence Input Multiplexer Select 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ssmux0](ssmux0) module"]
+#[doc = "ADC Sample Sequence Input Multiplexer Select 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ssmux0](ssmux0) module"]
 pub type SSMUX0 = crate::Reg<u32, _SSMUX0>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -303,7 +303,7 @@ impl crate::Readable for SSMUX0 {}
 impl crate::Writable for SSMUX0 {}
 #[doc = "ADC Sample Sequence Input Multiplexer Select 0"]
 pub mod ssmux0;
-#[doc = "ADC Sample Sequence Control 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ssctl0](ssctl0) module"]
+#[doc = "ADC Sample Sequence Control 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ssctl0](ssctl0) module"]
 pub type SSCTL0 = crate::Reg<u32, _SSCTL0>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -314,7 +314,7 @@ impl crate::Readable for SSCTL0 {}
 impl crate::Writable for SSCTL0 {}
 #[doc = "ADC Sample Sequence Control 0"]
 pub mod ssctl0;
-#[doc = "ADC Sample Sequence Result FIFO 0\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ssfifo0](ssfifo0) module"]
+#[doc = "ADC Sample Sequence Result FIFO 0\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ssfifo0](ssfifo0) module"]
 pub type SSFIFO0 = crate::Reg<u32, _SSFIFO0>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -323,7 +323,7 @@ pub struct _SSFIFO0;
 impl crate::Readable for SSFIFO0 {}
 #[doc = "ADC Sample Sequence Result FIFO 0"]
 pub mod ssfifo0;
-#[doc = "ADC Sample Sequence FIFO 0 Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ssfstat0](ssfstat0) module"]
+#[doc = "ADC Sample Sequence FIFO 0 Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ssfstat0](ssfstat0) module"]
 pub type SSFSTAT0 = crate::Reg<u32, _SSFSTAT0>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -332,7 +332,7 @@ pub struct _SSFSTAT0;
 impl crate::Readable for SSFSTAT0 {}
 #[doc = "ADC Sample Sequence FIFO 0 Status"]
 pub mod ssfstat0;
-#[doc = "ADC Sample Sequence 0 Operation\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ssop0](ssop0) module"]
+#[doc = "ADC Sample Sequence 0 Operation\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ssop0](ssop0) module"]
 pub type SSOP0 = crate::Reg<u32, _SSOP0>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -343,7 +343,7 @@ impl crate::Readable for SSOP0 {}
 impl crate::Writable for SSOP0 {}
 #[doc = "ADC Sample Sequence 0 Operation"]
 pub mod ssop0;
-#[doc = "ADC Sample Sequence 0 Digital Comparator Select\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ssdc0](ssdc0) module"]
+#[doc = "ADC Sample Sequence 0 Digital Comparator Select\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ssdc0](ssdc0) module"]
 pub type SSDC0 = crate::Reg<u32, _SSDC0>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -354,7 +354,7 @@ impl crate::Readable for SSDC0 {}
 impl crate::Writable for SSDC0 {}
 #[doc = "ADC Sample Sequence 0 Digital Comparator Select"]
 pub mod ssdc0;
-#[doc = "ADC Sample Sequence Extended Input Multiplexer Select 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ssemux0](ssemux0) module"]
+#[doc = "ADC Sample Sequence Extended Input Multiplexer Select 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ssemux0](ssemux0) module"]
 pub type SSEMUX0 = crate::Reg<u32, _SSEMUX0>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -365,7 +365,7 @@ impl crate::Readable for SSEMUX0 {}
 impl crate::Writable for SSEMUX0 {}
 #[doc = "ADC Sample Sequence Extended Input Multiplexer Select 0"]
 pub mod ssemux0;
-#[doc = "ADC Sample Sequence 0 Sample and Hold Time\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [sstsh0](sstsh0) module"]
+#[doc = "ADC Sample Sequence 0 Sample and Hold Time\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [sstsh0](sstsh0) module"]
 pub type SSTSH0 = crate::Reg<u32, _SSTSH0>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -376,7 +376,7 @@ impl crate::Readable for SSTSH0 {}
 impl crate::Writable for SSTSH0 {}
 #[doc = "ADC Sample Sequence 0 Sample and Hold Time"]
 pub mod sstsh0;
-#[doc = "ADC Sample Sequence Input Multiplexer Select 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ssmux1](ssmux1) module"]
+#[doc = "ADC Sample Sequence Input Multiplexer Select 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ssmux1](ssmux1) module"]
 pub type SSMUX1 = crate::Reg<u32, _SSMUX1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -387,7 +387,7 @@ impl crate::Readable for SSMUX1 {}
 impl crate::Writable for SSMUX1 {}
 #[doc = "ADC Sample Sequence Input Multiplexer Select 1"]
 pub mod ssmux1;
-#[doc = "ADC Sample Sequence Control 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ssctl1](ssctl1) module"]
+#[doc = "ADC Sample Sequence Control 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ssctl1](ssctl1) module"]
 pub type SSCTL1 = crate::Reg<u32, _SSCTL1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -398,7 +398,7 @@ impl crate::Readable for SSCTL1 {}
 impl crate::Writable for SSCTL1 {}
 #[doc = "ADC Sample Sequence Control 1"]
 pub mod ssctl1;
-#[doc = "ADC Sample Sequence Result FIFO 1\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ssfifo1](ssfifo1) module"]
+#[doc = "ADC Sample Sequence Result FIFO 1\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ssfifo1](ssfifo1) module"]
 pub type SSFIFO1 = crate::Reg<u32, _SSFIFO1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -407,7 +407,7 @@ pub struct _SSFIFO1;
 impl crate::Readable for SSFIFO1 {}
 #[doc = "ADC Sample Sequence Result FIFO 1"]
 pub mod ssfifo1;
-#[doc = "ADC Sample Sequence FIFO 1 Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ssfstat1](ssfstat1) module"]
+#[doc = "ADC Sample Sequence FIFO 1 Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ssfstat1](ssfstat1) module"]
 pub type SSFSTAT1 = crate::Reg<u32, _SSFSTAT1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -416,7 +416,7 @@ pub struct _SSFSTAT1;
 impl crate::Readable for SSFSTAT1 {}
 #[doc = "ADC Sample Sequence FIFO 1 Status"]
 pub mod ssfstat1;
-#[doc = "ADC Sample Sequence 1 Operation\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ssop1](ssop1) module"]
+#[doc = "ADC Sample Sequence 1 Operation\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ssop1](ssop1) module"]
 pub type SSOP1 = crate::Reg<u32, _SSOP1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -427,7 +427,7 @@ impl crate::Readable for SSOP1 {}
 impl crate::Writable for SSOP1 {}
 #[doc = "ADC Sample Sequence 1 Operation"]
 pub mod ssop1;
-#[doc = "ADC Sample Sequence 1 Digital Comparator Select\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ssdc1](ssdc1) module"]
+#[doc = "ADC Sample Sequence 1 Digital Comparator Select\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ssdc1](ssdc1) module"]
 pub type SSDC1 = crate::Reg<u32, _SSDC1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -438,7 +438,7 @@ impl crate::Readable for SSDC1 {}
 impl crate::Writable for SSDC1 {}
 #[doc = "ADC Sample Sequence 1 Digital Comparator Select"]
 pub mod ssdc1;
-#[doc = "ADC Sample Sequence Extended Input Multiplexer Select 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ssemux1](ssemux1) module"]
+#[doc = "ADC Sample Sequence Extended Input Multiplexer Select 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ssemux1](ssemux1) module"]
 pub type SSEMUX1 = crate::Reg<u32, _SSEMUX1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -449,7 +449,7 @@ impl crate::Readable for SSEMUX1 {}
 impl crate::Writable for SSEMUX1 {}
 #[doc = "ADC Sample Sequence Extended Input Multiplexer Select 1"]
 pub mod ssemux1;
-#[doc = "ADC Sample Sequence 1 Sample and Hold Time\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [sstsh1](sstsh1) module"]
+#[doc = "ADC Sample Sequence 1 Sample and Hold Time\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [sstsh1](sstsh1) module"]
 pub type SSTSH1 = crate::Reg<u32, _SSTSH1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -460,7 +460,7 @@ impl crate::Readable for SSTSH1 {}
 impl crate::Writable for SSTSH1 {}
 #[doc = "ADC Sample Sequence 1 Sample and Hold Time"]
 pub mod sstsh1;
-#[doc = "ADC Sample Sequence Input Multiplexer Select 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ssmux2](ssmux2) module"]
+#[doc = "ADC Sample Sequence Input Multiplexer Select 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ssmux2](ssmux2) module"]
 pub type SSMUX2 = crate::Reg<u32, _SSMUX2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -471,7 +471,7 @@ impl crate::Readable for SSMUX2 {}
 impl crate::Writable for SSMUX2 {}
 #[doc = "ADC Sample Sequence Input Multiplexer Select 2"]
 pub mod ssmux2;
-#[doc = "ADC Sample Sequence Control 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ssctl2](ssctl2) module"]
+#[doc = "ADC Sample Sequence Control 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ssctl2](ssctl2) module"]
 pub type SSCTL2 = crate::Reg<u32, _SSCTL2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -482,7 +482,7 @@ impl crate::Readable for SSCTL2 {}
 impl crate::Writable for SSCTL2 {}
 #[doc = "ADC Sample Sequence Control 2"]
 pub mod ssctl2;
-#[doc = "ADC Sample Sequence Result FIFO 2\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ssfifo2](ssfifo2) module"]
+#[doc = "ADC Sample Sequence Result FIFO 2\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ssfifo2](ssfifo2) module"]
 pub type SSFIFO2 = crate::Reg<u32, _SSFIFO2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -491,7 +491,7 @@ pub struct _SSFIFO2;
 impl crate::Readable for SSFIFO2 {}
 #[doc = "ADC Sample Sequence Result FIFO 2"]
 pub mod ssfifo2;
-#[doc = "ADC Sample Sequence FIFO 2 Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ssfstat2](ssfstat2) module"]
+#[doc = "ADC Sample Sequence FIFO 2 Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ssfstat2](ssfstat2) module"]
 pub type SSFSTAT2 = crate::Reg<u32, _SSFSTAT2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -500,7 +500,7 @@ pub struct _SSFSTAT2;
 impl crate::Readable for SSFSTAT2 {}
 #[doc = "ADC Sample Sequence FIFO 2 Status"]
 pub mod ssfstat2;
-#[doc = "ADC Sample Sequence 2 Operation\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ssop2](ssop2) module"]
+#[doc = "ADC Sample Sequence 2 Operation\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ssop2](ssop2) module"]
 pub type SSOP2 = crate::Reg<u32, _SSOP2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -511,7 +511,7 @@ impl crate::Readable for SSOP2 {}
 impl crate::Writable for SSOP2 {}
 #[doc = "ADC Sample Sequence 2 Operation"]
 pub mod ssop2;
-#[doc = "ADC Sample Sequence 2 Digital Comparator Select\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ssdc2](ssdc2) module"]
+#[doc = "ADC Sample Sequence 2 Digital Comparator Select\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ssdc2](ssdc2) module"]
 pub type SSDC2 = crate::Reg<u32, _SSDC2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -522,7 +522,7 @@ impl crate::Readable for SSDC2 {}
 impl crate::Writable for SSDC2 {}
 #[doc = "ADC Sample Sequence 2 Digital Comparator Select"]
 pub mod ssdc2;
-#[doc = "ADC Sample Sequence Extended Input Multiplexer Select 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ssemux2](ssemux2) module"]
+#[doc = "ADC Sample Sequence Extended Input Multiplexer Select 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ssemux2](ssemux2) module"]
 pub type SSEMUX2 = crate::Reg<u32, _SSEMUX2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -533,7 +533,7 @@ impl crate::Readable for SSEMUX2 {}
 impl crate::Writable for SSEMUX2 {}
 #[doc = "ADC Sample Sequence Extended Input Multiplexer Select 2"]
 pub mod ssemux2;
-#[doc = "ADC Sample Sequence 2 Sample and Hold Time\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [sstsh2](sstsh2) module"]
+#[doc = "ADC Sample Sequence 2 Sample and Hold Time\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [sstsh2](sstsh2) module"]
 pub type SSTSH2 = crate::Reg<u32, _SSTSH2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -544,7 +544,7 @@ impl crate::Readable for SSTSH2 {}
 impl crate::Writable for SSTSH2 {}
 #[doc = "ADC Sample Sequence 2 Sample and Hold Time"]
 pub mod sstsh2;
-#[doc = "ADC Sample Sequence Input Multiplexer Select 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ssmux3](ssmux3) module"]
+#[doc = "ADC Sample Sequence Input Multiplexer Select 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ssmux3](ssmux3) module"]
 pub type SSMUX3 = crate::Reg<u32, _SSMUX3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -555,7 +555,7 @@ impl crate::Readable for SSMUX3 {}
 impl crate::Writable for SSMUX3 {}
 #[doc = "ADC Sample Sequence Input Multiplexer Select 3"]
 pub mod ssmux3;
-#[doc = "ADC Sample Sequence Control 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ssctl3](ssctl3) module"]
+#[doc = "ADC Sample Sequence Control 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ssctl3](ssctl3) module"]
 pub type SSCTL3 = crate::Reg<u32, _SSCTL3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -566,7 +566,7 @@ impl crate::Readable for SSCTL3 {}
 impl crate::Writable for SSCTL3 {}
 #[doc = "ADC Sample Sequence Control 3"]
 pub mod ssctl3;
-#[doc = "ADC Sample Sequence Result FIFO 3\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ssfifo3](ssfifo3) module"]
+#[doc = "ADC Sample Sequence Result FIFO 3\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ssfifo3](ssfifo3) module"]
 pub type SSFIFO3 = crate::Reg<u32, _SSFIFO3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -575,7 +575,7 @@ pub struct _SSFIFO3;
 impl crate::Readable for SSFIFO3 {}
 #[doc = "ADC Sample Sequence Result FIFO 3"]
 pub mod ssfifo3;
-#[doc = "ADC Sample Sequence FIFO 3 Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ssfstat3](ssfstat3) module"]
+#[doc = "ADC Sample Sequence FIFO 3 Status\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ssfstat3](ssfstat3) module"]
 pub type SSFSTAT3 = crate::Reg<u32, _SSFSTAT3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -584,7 +584,7 @@ pub struct _SSFSTAT3;
 impl crate::Readable for SSFSTAT3 {}
 #[doc = "ADC Sample Sequence FIFO 3 Status"]
 pub mod ssfstat3;
-#[doc = "ADC Sample Sequence 3 Operation\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ssop3](ssop3) module"]
+#[doc = "ADC Sample Sequence 3 Operation\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ssop3](ssop3) module"]
 pub type SSOP3 = crate::Reg<u32, _SSOP3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -595,7 +595,7 @@ impl crate::Readable for SSOP3 {}
 impl crate::Writable for SSOP3 {}
 #[doc = "ADC Sample Sequence 3 Operation"]
 pub mod ssop3;
-#[doc = "ADC Sample Sequence 3 Digital Comparator Select\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ssdc3](ssdc3) module"]
+#[doc = "ADC Sample Sequence 3 Digital Comparator Select\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ssdc3](ssdc3) module"]
 pub type SSDC3 = crate::Reg<u32, _SSDC3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -606,7 +606,7 @@ impl crate::Readable for SSDC3 {}
 impl crate::Writable for SSDC3 {}
 #[doc = "ADC Sample Sequence 3 Digital Comparator Select"]
 pub mod ssdc3;
-#[doc = "ADC Sample Sequence Extended Input Multiplexer Select 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [ssemux3](ssemux3) module"]
+#[doc = "ADC Sample Sequence Extended Input Multiplexer Select 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ssemux3](ssemux3) module"]
 pub type SSEMUX3 = crate::Reg<u32, _SSEMUX3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -617,7 +617,7 @@ impl crate::Readable for SSEMUX3 {}
 impl crate::Writable for SSEMUX3 {}
 #[doc = "ADC Sample Sequence Extended Input Multiplexer Select 3"]
 pub mod ssemux3;
-#[doc = "ADC Sample Sequence 3 Sample and Hold Time\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [sstsh3](sstsh3) module"]
+#[doc = "ADC Sample Sequence 3 Sample and Hold Time\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [sstsh3](sstsh3) module"]
 pub type SSTSH3 = crate::Reg<u32, _SSTSH3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -628,7 +628,7 @@ impl crate::Readable for SSTSH3 {}
 impl crate::Writable for SSTSH3 {}
 #[doc = "ADC Sample Sequence 3 Sample and Hold Time"]
 pub mod sstsh3;
-#[doc = "ADC Digital Comparator Reset Initial Conditions\n\nThis register you can [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dcric](dcric) module"]
+#[doc = "ADC Digital Comparator Reset Initial Conditions\n\nThis register you can [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dcric](dcric) module"]
 pub type DCRIC = crate::Reg<u32, _DCRIC>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -637,7 +637,7 @@ pub struct _DCRIC;
 impl crate::Writable for DCRIC {}
 #[doc = "ADC Digital Comparator Reset Initial Conditions"]
 pub mod dcric;
-#[doc = "ADC Digital Comparator Control 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dcctl0](dcctl0) module"]
+#[doc = "ADC Digital Comparator Control 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dcctl0](dcctl0) module"]
 pub type DCCTL0 = crate::Reg<u32, _DCCTL0>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -648,7 +648,7 @@ impl crate::Readable for DCCTL0 {}
 impl crate::Writable for DCCTL0 {}
 #[doc = "ADC Digital Comparator Control 0"]
 pub mod dcctl0;
-#[doc = "ADC Digital Comparator Control 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dcctl1](dcctl1) module"]
+#[doc = "ADC Digital Comparator Control 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dcctl1](dcctl1) module"]
 pub type DCCTL1 = crate::Reg<u32, _DCCTL1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -659,7 +659,7 @@ impl crate::Readable for DCCTL1 {}
 impl crate::Writable for DCCTL1 {}
 #[doc = "ADC Digital Comparator Control 1"]
 pub mod dcctl1;
-#[doc = "ADC Digital Comparator Control 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dcctl2](dcctl2) module"]
+#[doc = "ADC Digital Comparator Control 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dcctl2](dcctl2) module"]
 pub type DCCTL2 = crate::Reg<u32, _DCCTL2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -670,7 +670,7 @@ impl crate::Readable for DCCTL2 {}
 impl crate::Writable for DCCTL2 {}
 #[doc = "ADC Digital Comparator Control 2"]
 pub mod dcctl2;
-#[doc = "ADC Digital Comparator Control 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dcctl3](dcctl3) module"]
+#[doc = "ADC Digital Comparator Control 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dcctl3](dcctl3) module"]
 pub type DCCTL3 = crate::Reg<u32, _DCCTL3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -681,7 +681,7 @@ impl crate::Readable for DCCTL3 {}
 impl crate::Writable for DCCTL3 {}
 #[doc = "ADC Digital Comparator Control 3"]
 pub mod dcctl3;
-#[doc = "ADC Digital Comparator Control 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dcctl4](dcctl4) module"]
+#[doc = "ADC Digital Comparator Control 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dcctl4](dcctl4) module"]
 pub type DCCTL4 = crate::Reg<u32, _DCCTL4>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -692,7 +692,7 @@ impl crate::Readable for DCCTL4 {}
 impl crate::Writable for DCCTL4 {}
 #[doc = "ADC Digital Comparator Control 4"]
 pub mod dcctl4;
-#[doc = "ADC Digital Comparator Control 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dcctl5](dcctl5) module"]
+#[doc = "ADC Digital Comparator Control 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dcctl5](dcctl5) module"]
 pub type DCCTL5 = crate::Reg<u32, _DCCTL5>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -703,7 +703,7 @@ impl crate::Readable for DCCTL5 {}
 impl crate::Writable for DCCTL5 {}
 #[doc = "ADC Digital Comparator Control 5"]
 pub mod dcctl5;
-#[doc = "ADC Digital Comparator Control 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dcctl6](dcctl6) module"]
+#[doc = "ADC Digital Comparator Control 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dcctl6](dcctl6) module"]
 pub type DCCTL6 = crate::Reg<u32, _DCCTL6>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -714,7 +714,7 @@ impl crate::Readable for DCCTL6 {}
 impl crate::Writable for DCCTL6 {}
 #[doc = "ADC Digital Comparator Control 6"]
 pub mod dcctl6;
-#[doc = "ADC Digital Comparator Control 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dcctl7](dcctl7) module"]
+#[doc = "ADC Digital Comparator Control 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dcctl7](dcctl7) module"]
 pub type DCCTL7 = crate::Reg<u32, _DCCTL7>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -725,7 +725,7 @@ impl crate::Readable for DCCTL7 {}
 impl crate::Writable for DCCTL7 {}
 #[doc = "ADC Digital Comparator Control 7"]
 pub mod dcctl7;
-#[doc = "ADC Digital Comparator Range 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dccmp0](dccmp0) module"]
+#[doc = "ADC Digital Comparator Range 0\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dccmp0](dccmp0) module"]
 pub type DCCMP0 = crate::Reg<u32, _DCCMP0>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -736,7 +736,7 @@ impl crate::Readable for DCCMP0 {}
 impl crate::Writable for DCCMP0 {}
 #[doc = "ADC Digital Comparator Range 0"]
 pub mod dccmp0;
-#[doc = "ADC Digital Comparator Range 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dccmp1](dccmp1) module"]
+#[doc = "ADC Digital Comparator Range 1\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dccmp1](dccmp1) module"]
 pub type DCCMP1 = crate::Reg<u32, _DCCMP1>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -747,7 +747,7 @@ impl crate::Readable for DCCMP1 {}
 impl crate::Writable for DCCMP1 {}
 #[doc = "ADC Digital Comparator Range 1"]
 pub mod dccmp1;
-#[doc = "ADC Digital Comparator Range 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dccmp2](dccmp2) module"]
+#[doc = "ADC Digital Comparator Range 2\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dccmp2](dccmp2) module"]
 pub type DCCMP2 = crate::Reg<u32, _DCCMP2>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -758,7 +758,7 @@ impl crate::Readable for DCCMP2 {}
 impl crate::Writable for DCCMP2 {}
 #[doc = "ADC Digital Comparator Range 2"]
 pub mod dccmp2;
-#[doc = "ADC Digital Comparator Range 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dccmp3](dccmp3) module"]
+#[doc = "ADC Digital Comparator Range 3\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dccmp3](dccmp3) module"]
 pub type DCCMP3 = crate::Reg<u32, _DCCMP3>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -769,7 +769,7 @@ impl crate::Readable for DCCMP3 {}
 impl crate::Writable for DCCMP3 {}
 #[doc = "ADC Digital Comparator Range 3"]
 pub mod dccmp3;
-#[doc = "ADC Digital Comparator Range 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dccmp4](dccmp4) module"]
+#[doc = "ADC Digital Comparator Range 4\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dccmp4](dccmp4) module"]
 pub type DCCMP4 = crate::Reg<u32, _DCCMP4>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -780,7 +780,7 @@ impl crate::Readable for DCCMP4 {}
 impl crate::Writable for DCCMP4 {}
 #[doc = "ADC Digital Comparator Range 4"]
 pub mod dccmp4;
-#[doc = "ADC Digital Comparator Range 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dccmp5](dccmp5) module"]
+#[doc = "ADC Digital Comparator Range 5\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dccmp5](dccmp5) module"]
 pub type DCCMP5 = crate::Reg<u32, _DCCMP5>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -791,7 +791,7 @@ impl crate::Readable for DCCMP5 {}
 impl crate::Writable for DCCMP5 {}
 #[doc = "ADC Digital Comparator Range 5"]
 pub mod dccmp5;
-#[doc = "ADC Digital Comparator Range 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dccmp6](dccmp6) module"]
+#[doc = "ADC Digital Comparator Range 6\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dccmp6](dccmp6) module"]
 pub type DCCMP6 = crate::Reg<u32, _DCCMP6>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -802,7 +802,7 @@ impl crate::Readable for DCCMP6 {}
 impl crate::Writable for DCCMP6 {}
 #[doc = "ADC Digital Comparator Range 6"]
 pub mod dccmp6;
-#[doc = "ADC Digital Comparator Range 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [dccmp7](dccmp7) module"]
+#[doc = "ADC Digital Comparator Range 7\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dccmp7](dccmp7) module"]
 pub type DCCMP7 = crate::Reg<u32, _DCCMP7>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -813,7 +813,7 @@ impl crate::Readable for DCCMP7 {}
 impl crate::Writable for DCCMP7 {}
 #[doc = "ADC Digital Comparator Range 7"]
 pub mod dccmp7;
-#[doc = "ADC Peripheral Properties\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [pp](pp) module"]
+#[doc = "ADC Peripheral Properties\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [pp](pp) module"]
 pub type PP = crate::Reg<u32, _PP>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -822,7 +822,7 @@ pub struct _PP;
 impl crate::Readable for PP {}
 #[doc = "ADC Peripheral Properties"]
 pub mod pp;
-#[doc = "ADC Peripheral Configuration\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [pc](pc) module"]
+#[doc = "ADC Peripheral Configuration\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [pc](pc) module"]
 pub type PC = crate::Reg<u32, _PC>;
 #[allow(missing_docs)]
 #[doc(hidden)]
@@ -833,7 +833,7 @@ impl crate::Readable for PC {}
 impl crate::Writable for PC {}
 #[doc = "ADC Peripheral Configuration"]
 pub mod pc;
-#[doc = "ADC Clock Configuration\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about avaliable fields see [cc](cc) module"]
+#[doc = "ADC Clock Configuration\n\nThis register you can [`read`](crate::generic::Reg::read), [`reset`](crate::generic::Reg::reset), [`write`](crate::generic::Reg::write), [`write_with_zero`](crate::generic::Reg::write_with_zero), [`modify`](crate::generic::Reg::modify). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [cc](cc) module"]
 pub type CC = crate::Reg<u32, _CC>;
 #[allow(missing_docs)]
 #[doc(hidden)]

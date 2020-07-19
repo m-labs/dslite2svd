@@ -2,37 +2,29 @@
 pub type R = crate::R<u32, super::DC0>;
 #[doc = "Flash Size\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u16)]
 pub enum FLASHSZ_A {
     #[doc = "3: 8 KB of Flash"]
-    _8KB,
+    _8KB = 3,
     #[doc = "7: 16 KB of Flash"]
-    _16KB,
+    _16KB = 7,
     #[doc = "15: 32 KB of Flash"]
-    _32KB,
+    _32KB = 15,
     #[doc = "31: 64 KB of Flash"]
-    _64KB,
+    _64KB = 31,
     #[doc = "47: 96 KB of Flash"]
-    _96KB,
+    _96KB = 47,
     #[doc = "63: 128 KB of Flash"]
-    _128K,
+    _128K = 63,
     #[doc = "95: 192 KB of Flash"]
-    _192K,
+    _192K = 95,
     #[doc = "127: 256 KB of Flash"]
-    _256K,
+    _256K = 127,
 }
 impl From<FLASHSZ_A> for u16 {
     #[inline(always)]
     fn from(variant: FLASHSZ_A) -> Self {
-        match variant {
-            FLASHSZ_A::_8KB => 3,
-            FLASHSZ_A::_16KB => 7,
-            FLASHSZ_A::_32KB => 15,
-            FLASHSZ_A::_64KB => 31,
-            FLASHSZ_A::_96KB => 47,
-            FLASHSZ_A::_128K => 63,
-            FLASHSZ_A::_192K => 95,
-            FLASHSZ_A::_256K => 127,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `FLASHSZ`"]
@@ -97,40 +89,31 @@ impl FLASHSZ_R {
 }
 #[doc = "SRAM Size\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u16)]
 pub enum SRAMSZ_A {
     #[doc = "7: 2 KB of SRAM"]
-    _2KB,
+    _2KB = 7,
     #[doc = "15: 4 KB of SRAM"]
-    _4KB,
+    _4KB = 15,
     #[doc = "23: 6 KB of SRAM"]
-    _6KB,
+    _6KB = 23,
     #[doc = "31: 8 KB of SRAM"]
-    _8KB,
+    _8KB = 31,
     #[doc = "47: 12 KB of SRAM"]
-    _12KB,
+    _12KB = 47,
     #[doc = "63: 16 KB of SRAM"]
-    _16KB,
+    _16KB = 63,
     #[doc = "79: 20 KB of SRAM"]
-    _20KB,
+    _20KB = 79,
     #[doc = "95: 24 KB of SRAM"]
-    _24KB,
+    _24KB = 95,
     #[doc = "127: 32 KB of SRAM"]
-    _32KB,
+    _32KB = 127,
 }
 impl From<SRAMSZ_A> for u16 {
     #[inline(always)]
     fn from(variant: SRAMSZ_A) -> Self {
-        match variant {
-            SRAMSZ_A::_2KB => 7,
-            SRAMSZ_A::_4KB => 15,
-            SRAMSZ_A::_6KB => 23,
-            SRAMSZ_A::_8KB => 31,
-            SRAMSZ_A::_12KB => 47,
-            SRAMSZ_A::_16KB => 63,
-            SRAMSZ_A::_20KB => 79,
-            SRAMSZ_A::_24KB => 95,
-            SRAMSZ_A::_32KB => 127,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `SRAMSZ`"]

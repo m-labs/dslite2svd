@@ -12,25 +12,21 @@ impl crate::ResetValue for super::DCCTL7 {
 }
 #[doc = "Comparison Interrupt Mode\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum CIM_A {
     #[doc = "0: Always"]
-    ALWAYS,
+    ALWAYS = 0,
     #[doc = "1: Once"]
-    ONCE,
+    ONCE = 1,
     #[doc = "2: Hysteresis Always"]
-    HALWAYS,
+    HALWAYS = 2,
     #[doc = "3: Hysteresis Once"]
-    HONCE,
+    HONCE = 3,
 }
 impl From<CIM_A> for u8 {
     #[inline(always)]
     fn from(variant: CIM_A) -> Self {
-        match variant {
-            CIM_A::ALWAYS => 0,
-            CIM_A::ONCE => 1,
-            CIM_A::HALWAYS => 2,
-            CIM_A::HONCE => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `CIM`"]
@@ -109,22 +105,19 @@ impl<'a> CIM_W<'a> {
 }
 #[doc = "Comparison Interrupt Condition\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum CIC_A {
     #[doc = "0: Low Band"]
-    LOW,
+    LOW = 0,
     #[doc = "1: Mid Band"]
-    MID,
+    MID = 1,
     #[doc = "3: High Band"]
-    HIGH,
+    HIGH = 3,
 }
 impl From<CIC_A> for u8 {
     #[inline(always)]
     fn from(variant: CIC_A) -> Self {
-        match variant {
-            CIC_A::LOW => 0,
-            CIC_A::MID => 1,
-            CIC_A::HIGH => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `CIC`"]
@@ -215,25 +208,21 @@ impl<'a> CIE_W<'a> {
 }
 #[doc = "Comparison Trigger Mode\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum CTM_A {
     #[doc = "0: Always"]
-    ALWAYS,
+    ALWAYS = 0,
     #[doc = "1: Once"]
-    ONCE,
+    ONCE = 1,
     #[doc = "2: Hysteresis Always"]
-    HALWAYS,
+    HALWAYS = 2,
     #[doc = "3: Hysteresis Once"]
-    HONCE,
+    HONCE = 3,
 }
 impl From<CTM_A> for u8 {
     #[inline(always)]
     fn from(variant: CTM_A) -> Self {
-        match variant {
-            CTM_A::ALWAYS => 0,
-            CTM_A::ONCE => 1,
-            CTM_A::HALWAYS => 2,
-            CTM_A::HONCE => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `CTM`"]
@@ -312,22 +301,19 @@ impl<'a> CTM_W<'a> {
 }
 #[doc = "Comparison Trigger Condition\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum CTC_A {
     #[doc = "0: Low Band"]
-    LOW,
+    LOW = 0,
     #[doc = "1: Mid Band"]
-    MID,
+    MID = 1,
     #[doc = "3: High Band"]
-    HIGH,
+    HIGH = 3,
 }
 impl From<CTC_A> for u8 {
     #[inline(always)]
     fn from(variant: CTC_A) -> Self {
-        match variant {
-            CTC_A::LOW => 0,
-            CTC_A::MID => 1,
-            CTC_A::HIGH => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `CTC`"]

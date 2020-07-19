@@ -2,19 +2,17 @@
 pub type R = crate::R<u32, super::USBPDS>;
 #[doc = "Power Domain Status\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum PWRSTAT_A {
     #[doc = "0: OFF"]
-    OFF,
+    OFF = 0,
     #[doc = "3: ON"]
-    ON,
+    ON = 3,
 }
 impl From<PWRSTAT_A> for u8 {
     #[inline(always)]
     fn from(variant: PWRSTAT_A) -> Self {
-        match variant {
-            PWRSTAT_A::OFF => 0,
-            PWRSTAT_A::ON => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `PWRSTAT`"]
@@ -43,22 +41,19 @@ impl PWRSTAT_R {
 }
 #[doc = "Memory Array Power Status\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum MEMSTAT_A {
     #[doc = "0: Array OFF"]
-    OFF,
+    OFF = 0,
     #[doc = "1: SRAM Retention"]
-    RETAIN,
+    RETAIN = 1,
     #[doc = "3: Array On"]
-    ON,
+    ON = 3,
 }
 impl From<MEMSTAT_A> for u8 {
     #[inline(always)]
     fn from(variant: MEMSTAT_A) -> Self {
-        match variant {
-            MEMSTAT_A::OFF => 0,
-            MEMSTAT_A::RETAIN => 1,
-            MEMSTAT_A::ON => 3,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `MEMSTAT`"]

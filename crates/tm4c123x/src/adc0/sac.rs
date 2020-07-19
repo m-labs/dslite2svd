@@ -12,34 +12,27 @@ impl crate::ResetValue for super::SAC {
 }
 #[doc = "Hardware Averaging Control\n\nValue on reset: 0"]
 #[derive(Clone, Copy, Debug, PartialEq)]
+#[repr(u8)]
 pub enum AVG_A {
     #[doc = "0: No hardware oversampling"]
-    OFF,
+    OFF = 0,
     #[doc = "1: 2x hardware oversampling"]
-    _2X,
+    _2X = 1,
     #[doc = "2: 4x hardware oversampling"]
-    _4X,
+    _4X = 2,
     #[doc = "3: 8x hardware oversampling"]
-    _8X,
+    _8X = 3,
     #[doc = "4: 16x hardware oversampling"]
-    _16X,
+    _16X = 4,
     #[doc = "5: 32x hardware oversampling"]
-    _32X,
+    _32X = 5,
     #[doc = "6: 64x hardware oversampling"]
-    _64X,
+    _64X = 6,
 }
 impl From<AVG_A> for u8 {
     #[inline(always)]
     fn from(variant: AVG_A) -> Self {
-        match variant {
-            AVG_A::OFF => 0,
-            AVG_A::_2X => 1,
-            AVG_A::_4X => 2,
-            AVG_A::_8X => 3,
-            AVG_A::_16X => 4,
-            AVG_A::_32X => 5,
-            AVG_A::_64X => 6,
-        }
+        variant as _
     }
 }
 #[doc = "Reader of field `AVG`"]
