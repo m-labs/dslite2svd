@@ -21,7 +21,6 @@
 #![allow(non_camel_case_types)]
 #![allow(non_snake_case)]
 #![no_std]
-extern crate bare_metal;
 extern crate cortex_m;
 #[cfg(feature = "rt")]
 extern crate cortex_m_rt;
@@ -422,10 +421,10 @@ pub enum Interrupt {
     #[doc = "138 - PWM1 Fault"]
     PWM1_FAULT = 138,
 }
-unsafe impl bare_metal::Nr for Interrupt {
+unsafe impl cortex_m::interrupt::InterruptNumber for Interrupt {
     #[inline(always)]
-    fn nr(&self) -> u8 {
-        *self as u8
+    fn number(self) -> u16 {
+        self as u16
     }
 }
 #[cfg(feature = "rt")]
