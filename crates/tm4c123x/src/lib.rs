@@ -1700,6 +1700,16 @@ pub struct Peripherals {
     #[doc = "UDMA"]
     pub UDMA: UDMA,
 }
+
+#[macro_export]
+macro_rules! borrow_registers {
+    (
+        $PERIPHERAL:ident
+    ) => {
+        &*$PERIPHERAL::ptr()
+    }
+}
+
 impl Peripherals {
     #[doc = r"Returns all the peripherals *once*"]
     #[inline]
