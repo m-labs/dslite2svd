@@ -1700,6 +1700,7 @@ pub struct Peripherals {
     pub UDMA: UDMA,
 }
 
+/// Allows for easier, unsafe access of Peripheral Registers
 #[macro_export]
 macro_rules! borrow_registers {
     (
